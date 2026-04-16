@@ -1,4 +1,6 @@
-## Small Readme for Sensor Selection
+## README
+
+This project makes use of the bpepi library from https://github.com/SPOC-group/bpepi.
 
 ## Content
 - `sim_pipeline.py`: Main script to run the simulation pipeline for sensor selection. It generates synthetic data, applies different sensor selection methods, evaluates their performance, and saves the results.
