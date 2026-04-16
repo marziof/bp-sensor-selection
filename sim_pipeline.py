@@ -20,6 +20,11 @@ def full_sim(params, Gfixed = False, results_df = None, save=True):
     if results_df is None:
         results_df = pd.DataFrame(columns=["method", "graph", "rho", "delta", "lambda", "sim", "O", "MO", "O_tilde", "MO_tilde", "SE", "MSE", "rank", "precision", "recall", "f1"])
 
+    if params["track_sensor"]:
+        sensors_df = pd.DataFrame(columns=["sim", "method", "graph_kind", "N", "d", "delta", "lam", "rho", "k", "subset_size", "mean_pairwise_distance", "boundary_size", "density", "mean_degree", "degree_bias"])
+    else:
+        sensors_df = None
+        
     for method in params["methods"]:
         # find correct pipeline for given method, and add results to results_df
         print(f"Running method {method}...")
@@ -27,20 +32,19 @@ def full_sim(params, Gfixed = False, results_df = None, save=True):
             static_bp_sim_pipeline(params["param_list"], params["Nsim"], params["T_max"], params["N"], params["d"], results_df, method, Gfixed=Gfixed, kind=params["graph_kind"])
 
         elif method in ["greedyOV", "greedyMOV"]:
-            greedy_bp_sim_pipeline(params["param_list"], params["Nsim"], params["T_max"], params["N"], params["d"], results_df, method, Gfixed=Gfixed, kind=params["graph_kind"])
+            greedy_bp_sim_pipeline(params["param_list"], params["Nsim"], params["T_max"], params["N"], params["d"], results_df, method, Gfixed=Gfixed, kind=params["graph_kind"], sensors_df=sensors_df)
 
         elif method in ["greedySubsetOV", "greedySubsetMOV", "greedySampleReplaceOV", "greedySampleReplaceMOV"]:
             lam = params["param_list"][0][1] # assuming lambda is fixed across param_list
             delta = params["param_list"][0][0] # assuming delta is fixed across param_list
             rho_list = sorted(set([rho for _, _, rho in params["param_list"]])) # get unique rho values from param_list
-            greedy_subset_bp_sim_pipeline(lam, delta, rho_list, params["Nsim"], params["T_max"], params["N"], params["d"], results_df, method, kind=params["graph_kind"])
+            greedy_subset_bp_sim_pipeline(lam, delta, rho_list, params["Nsim"], params["T_max"], params["N"], params["d"], results_df, method, kind=params["graph_kind"], sensors_df=sensors_df)
         
         elif method in ["RL"]:
             lam = params["param_list"][0][1] # assuming lambda is fixed across param_list
             delta = params["param_list"][0][0] # assuming delta is fixed across param_list
             rho_list = sorted(set([rho for _, _, rho in params["param_list"]])) # get unique rho values from param_list
             reinforce_bp_sim_pipeline(lam, delta, rho_list, params["Nsim"], params["T_max"], params["N"], params["d"], results_df, method, kind = params["graph_kind"], Gfixed=Gfixed, baseline_decay=0.95, lr=0.1, entropy_coef=0.01)
-
 
         else: 
             raise ValueError(f"Unknown method(s) {params['method']}")
@@ -50,8 +54,8 @@ def full_sim(params, Gfixed = False, results_df = None, save=True):
     sim_name = f"methods_{methods_str}_N{params['N']}_d{params['d']}_T{params['T_max']}_Nsim{params['Nsim']}"
     results_df.to_csv(f"results/{sim_name}.csv", index=False)
     print(f"Results saved to results/{sim_name}.csv")
-
-    return results_df
+    sensors_df.to_csv(f"results/sensors_{sim_name}.csv", index=False)
+    return results_df, sensors_df
 
 
 
@@ -124,7 +128,26 @@ def greedy_bp_sim_pipeline(param_list, Nsim, T_max, N, d, results_df, method, ki
             #bp_fg, current_obs, selected_nodes_history, ov_history =  run_bp_entropy([], G, rho_max=1.0, N=N, T=T_max, contacts=contacts, delta=delta, status_nodes=status_nodes,
             #       max_iter=200, tol=1e-6, damp=0.5, gt=None, beta0=1, new=True)
             if sensors_df is not None:
-                update_sensor_df(sensors_df, G=G, sim_id=sim, selected_nodes_history=selected_nodes_history, OV_values=None)
+                #update_sensor_df(sensors_df, G=G, sim_id=sim, selected_nodes_history=selected_nodes_history, OV_values=None)
+                for rho_eval in rho_list:
+                    k = int(rho_eval * N)
+                    subset = selected_nodes_history[:k]
+
+                    features = compute_subset_features(G, subset)
+
+                    row = {
+                        "sim": sim,
+                        "method": method,
+                        "graph_kind": kind,
+                        "N": N,
+                        "d": d,
+                        "delta": delta,
+                        "lam": lam,
+                        "rho": rho_eval,
+                        "k": k
+                    }
+                    row.update(features)
+                    sensors_df.loc[len(sensors_df)] = row
 
             # 3) Random baseline BP (no observations)
             bp_fg_rnd = fg.FactorGraph(N, T_max, contacts, [], delta)
@@ -172,7 +195,7 @@ def greedy_bp_sim_pipeline(param_list, Nsim, T_max, N, d, results_df, method, ki
 ###---------------------- BO: Greedy sensor subset selection ----------------------###
 
 
-def greedy_subset_bp_sim_pipeline(lam, delta, rho_list, Nsim, T_max, N, d, results_df, method, kind="rrg", Gfixed = False, print_progress=False):
+def greedy_subset_bp_sim_pipeline(lam, delta, rho_list, Nsim, T_max, N, d, results_df, method, kind="rrg", Gfixed = False, print_progress=False, sensors_df=None):
     if method == "greedySubsetOV" or method == "greedySampleReplaceOV":
         gt = True
     else:        
@@ -203,18 +226,36 @@ def greedy_subset_bp_sim_pipeline(lam, delta, rho_list, Nsim, T_max, N, d, resul
                     rho=rho, max_iter=20, tol=1e-6, damp=0.5, gt=gt, m=int(0.1*(1-rho)*N)
                 )
 
-                if sim == 5:
-                    # plot all overlaps
-                    sns.lineplot(x=range(len(all_overlaps)), y=all_overlaps)
-                    plt.xlabel("Iteration")
-                    plt.ylabel("Reward (OV or MOV)")
-                    plt.title("Reward Progression during Sample & Replace")
-                    plt.show()
+                # if sim == 5:
+                #     # plot all overlaps
+                #     sns.lineplot(x=range(len(all_overlaps)), y=all_overlaps)
+                #     plt.xlabel("Iteration")
+                #     plt.ylabel("Reward (OV or MOV)")
+                #     plt.title("Reward Progression during Sample & Replace")
+                #     plt.show()
             else:
                 best_subset, _ = bayes_optimal_subset(
                     N=N, T=T_max, contacts=contacts, delta=delta, status_nodes=status_nodes,
                     rho=rho, max_iter=20, tol=1e-6, damp=0.5, gt=(method == "greedySubsetOV")
                 )
+
+            if sensors_df is not None:
+                features = compute_subset_features(G, best_subset)
+
+                row = {
+                    "sim": sim,
+                    "method": method,
+                    "graph_kind": kind,
+                    "N": N,
+                    "d": d,
+                    "delta": delta,
+                    "lam": lam,
+                    "rho": rho,
+                    "k": int(rho * N)
+                }
+                row.update(features)
+
+                sensors_df.loc[len(sensors_df)] = row
 
             # --- build observations from selected subset ---
             obs_rows = []

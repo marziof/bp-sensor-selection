@@ -150,7 +150,7 @@ def sampleReplaceSubset(N, T, contacts, delta, status_nodes, rho, max_iter=50, t
     improved = True
     while improved:
         improved = False
-        for sensor in tqdm(list(best_subset), desc="Iterating through sensors"):  # iterate over copy since we may modify best_subset
+        for sensor in list(best_subset): # tqdm(list(best_subset), desc="Iterating through sensors"):  # iterate over copy since we may modify best_subset
             candidate_subset = set(nodes) - best_subset
             best_candidate = None
             best_candidate_reward = best_reward
@@ -199,6 +199,81 @@ def compute_mean_dist(G, node, selected_set):
             dists.append(np.inf)
     
     return float(np.mean(dists))
+
+
+def compute_subset_features(G, subset):
+    """
+    Structural features of a selected sensor subset for BP + epidemic inference.
+
+    Keeps only features that are meaningful for:
+    - redundancy
+    - spread in graph
+    - observability of epidemic process
+    - ER vs RRG comparison
+    """
+
+    subset = list(subset)
+    N = G.number_of_nodes()
+
+    # ---------------- EMPTY CASE ----------------
+    if len(subset) == 0:
+        return {
+            "subset_size": 0,
+            "mean_pairwise_distance": np.nan,
+            "boundary_size": 0,
+            "density": 0.0,
+            "mean_degree": np.nan,
+            "degree_bias": np.nan
+        }
+
+    subset_set = set(subset)
+
+    # ---------------- NODE DEGREE ----------------
+    degrees = np.array([G.degree(n) for n in subset])
+    mean_degree = float(np.mean(degrees))
+
+    # ---------------- GLOBAL GRAPH DEGREE (for ER bias) ----------------
+    global_mean_degree = np.mean([d for _, d in G.degree()])
+    degree_bias = mean_degree / global_mean_degree if global_mean_degree > 0 else np.nan
+
+    # ---------------- DENSITY (redundancy proxy) ----------------
+    G_sub = G.subgraph(subset)
+    density = nx.density(G_sub)
+
+    # ---------------- BOUNDARY SIZE (epidemic observability) ----------------
+    boundary = set()
+    for n in subset:
+        for nb in G.neighbors(n):
+            if nb not in subset_set:
+                boundary.add(nb)
+
+    boundary_size = len(boundary)
+
+    # ---------------- PAIRWISE DISTANCE (redundancy) ----------------
+    if len(subset) > 1:
+        dist_sum = 0.0
+        count = 0
+
+        for i in subset:
+            lengths = nx.single_source_shortest_path_length(G, i)
+            for j in subset:
+                if i < j:
+                    dist_sum += lengths.get(j, np.inf)
+                    count += 1
+
+        mean_pairwise_distance = dist_sum / count if count > 0 else np.nan
+    else:
+        mean_pairwise_distance = np.nan
+
+    # ---------------- RETURN ----------------
+    return {
+        "subset_size": len(subset),
+        "mean_pairwise_distance": float(mean_pairwise_distance),
+        "boundary_size": int(boundary_size),
+        "density": float(density),
+        "mean_degree": float(mean_degree),
+        "degree_bias": float(degree_bias)
+    }
 
 
 def update_sensor_df(sensors_df, G, sim_id, selected_nodes_history, OV_values=None):
