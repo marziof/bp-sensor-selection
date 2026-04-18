@@ -20,7 +20,7 @@ track_sensor=True
 param_list = [(delta, lam, rho) for delta in deltas for lam in lambdas for rho in rho_list]
 # sensor selection method
 
-methods = ["random", "greedyOV", "greedyMOV"]# ["random", "page_rank", "betweenness", "degree"] # ["random", "greedyOV", "greedySampleReplaceOV"] # ["random", "betweenness"] # ["random", "greedyOV"] #["random", "page_rank", "betweenness", "degree"] # greedyOV, greedyMOV, random, RL...
+methods = ["random", "greedyOV"]#, "greedyMOV"] #["random", "page_rank", "betweenness", "degree"] # ["random", "greedyOV", "greedySampleReplaceOV"] # ["random", "betweenness"] # ["random", "greedyOV"] #["random", "page_rank", "betweenness", "degree"] # greedyOV, greedyMOV, random, RL...
 params = {"N": N, "d": d, "T_max": T_max, "Nsim": Nsim, "methods": methods, "param_list": param_list, "graph_kind": graph_kind, "track_sensor": track_sensor}
 
 results_df = full_sim(params, Gfixed=False)

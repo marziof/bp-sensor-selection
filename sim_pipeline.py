@@ -123,7 +123,7 @@ def greedy_bp_sim_pipeline(param_list, Nsim, T_max, N, d, results_df, method, ki
             gt = s0 if method == "greedyOV" else None
             bp_fg, full_obs, selected_nodes_history, ov_history = run_bp_greedy(
                 [], rho_max=1.0, N=N, T=T_max,contacts=contacts, delta=delta,
-                status_nodes=status_nodes, max_iter=200, tol=1e-6, damp=0.5, gt=gt
+                status_nodes=status_nodes, max_iter=200, tol=1e-6, damp=0.5, gt=gt, m = int(0.1 * N)
             )
             #bp_fg, current_obs, selected_nodes_history, ov_history =  run_bp_entropy([], G, rho_max=1.0, N=N, T=T_max, contacts=contacts, delta=delta, status_nodes=status_nodes,
             #       max_iter=200, tol=1e-6, damp=0.5, gt=None, beta0=1, new=True)
