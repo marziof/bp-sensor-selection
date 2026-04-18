@@ -5,7 +5,7 @@ from bpepi.Modules import fg_torch as fg #pytorch version
 from metrics import *
 
 ###------------------- GREEDY SENSOR SELECTION ALGORITHM: 1 sensor at a time chosen greedily ----------------------###
-def run_bp_greedy(initial_obs, rho_max, N, T, contacts, delta, status_nodes, max_iter=200, tol=1e-6, damp=0.5, gt=None, print_progress=False):
+def run_bp_greedy(initial_obs, rho_max, N, T, contacts, delta, status_nodes, max_iter=200, tol=1e-6, damp=0.5, gt=None, print_progress=False, m=None):
     """ Greedy sensor selection based on OV or MOV gain.
         If gt is provided, we compute OV and select the node that maximizes OV gain.
         If gt is None, we compute MOV and select the node that maximizes MOV gain.
@@ -29,6 +29,7 @@ def run_bp_greedy(initial_obs, rho_max, N, T, contacts, delta, status_nodes, max
 
     # 3) Compute one at a time until target sensor density is reached
     while len(already_selected) < target_n:
+        print(f"Selected {len(already_selected)}/{target_n} sensors so far.")
         if len(already_selected) >= N:
             break
 
@@ -38,7 +39,13 @@ def run_bp_greedy(initial_obs, rho_max, N, T, contacts, delta, status_nodes, max
         best_gain = -np.inf
 
         # try each node as candidate and compute gain in MO or OV compared to current_obs
-        for candidate in range(N):
+        remaining = list(set(range(N)) - already_selected)
+        if m is None or m >= len(remaining):
+            candidates = remaining
+        else:
+            candidates = np.random.choice(remaining, size=m, replace=False)
+
+        for candidate in candidates:
             if candidate in already_selected:
                 continue
             candidate_rows = [(candidate, int(status_nodes[t, candidate]), t) for t in range(status_nodes.shape[0])]
