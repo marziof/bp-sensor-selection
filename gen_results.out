@@ -1,3 +1,1479 @@
-Running method random...
-Running method greedyOV...
-Results saved to results/methods_random_greedyOV_N42_d3_T10_Nsim5.csv
+Running in: /home/formica/bp-sensor-selection
+Running method: random
+
+=== Sim 0 ===
+Initial infection fraction (delta): 0.050, lambda: 0.3
+Random baseline overlap: 0.9500
+Initial infection fraction (delta): 0.223, lambda: 0.3
+Random baseline overlap: 0.7767
+Initial infection fraction (delta): 0.377, lambda: 0.3
+Random baseline overlap: 0.6233
+
+=== Sim 1 ===
+Initial infection fraction (delta): 0.053, lambda: 0.3
+Random baseline overlap: 0.9467
+Initial infection fraction (delta): 0.210, lambda: 0.3
+Random baseline overlap: 0.7900
+Initial infection fraction (delta): 0.437, lambda: 0.3
+Random baseline overlap: 0.5633
+
+=== Sim 2 ===
+Initial infection fraction (delta): 0.067, lambda: 0.3
+Random baseline overlap: 0.9333
+Initial infection fraction (delta): 0.223, lambda: 0.3
+Random baseline overlap: 0.7767
+Initial infection fraction (delta): 0.423, lambda: 0.3
+Random baseline overlap: 0.5767
+
+=== Sim 3 ===
+Initial infection fraction (delta): 0.027, lambda: 0.3
+Random baseline overlap: 0.9733
+Initial infection fraction (delta): 0.183, lambda: 0.3
+Random baseline overlap: 0.8167
+Initial infection fraction (delta): 0.450, lambda: 0.3
+Random baseline overlap: 0.5500
+
+=== Sim 4 ===
+Initial infection fraction (delta): 0.043, lambda: 0.3
+Random baseline overlap: 0.9567
+Initial infection fraction (delta): 0.170, lambda: 0.3
+Random baseline overlap: 0.8300
+Initial infection fraction (delta): 0.417, lambda: 0.3
+Random baseline overlap: 0.5833
+Running method: sequential
+
+=== Sim 0 ===
+Initial infection fraction (delta): 0.043, lambda: 0.3
+Random baseline overlap: 0.9567
+  Running metric: ov
+Baseline metric with no sensors: 0.9567, overlap: 0.9567
+Selected candidate: 36
+[Step 1/300] selected sensor 36, metric=0.9600, overlap=0.9600, rho=0.003
+Selected candidate: 66
+[Step 2/300] selected sensor 66, metric=0.9600, overlap=0.9600, rho=0.007
+Selected candidate: 110
+[Step 3/300] selected sensor 110, metric=0.9600, overlap=0.9600, rho=0.010
+Selected candidate: 82
+[Step 4/300] selected sensor 82, metric=0.9567, overlap=0.9567, rho=0.013
+Selected candidate: 245
+[Step 20/300] selected sensor 48, metric=0.9567, overlap=0.9567, rho=0.067
+[Step 40/300] selected sensor 193, metric=0.9500, overlap=0.9500, rho=0.133
+Selected candidate: 98
+[Step 60/300] selected sensor 15, metric=0.9467, overlap=0.9467, rho=0.200
+[Step 80/300] selected sensor 76, metric=0.9500, overlap=0.9500, rho=0.267
+[Step 100/300] selected sensor 124, metric=0.9600, overlap=0.9600, rho=0.333
+Selected candidate: 283
+[Step 120/300] selected sensor 288, metric=0.9700, overlap=0.9700, rho=0.400
+[Step 140/300] selected sensor 51, metric=0.9733, overlap=0.9733, rho=0.467
+Selected candidate: 131
+[Step 160/300] selected sensor 0, metric=0.9800, overlap=0.9800, rho=0.533
+[Step 180/300] selected sensor 293, metric=0.9800, overlap=0.9800, rho=0.600
+[Step 200/300] selected sensor 111, metric=0.9867, overlap=0.9867, rho=0.667
+Selected candidate: 166
+[Step 220/300] selected sensor 201, metric=0.9867, overlap=0.9867, rho=0.733
+[Step 240/300] selected sensor 70, metric=0.9833, overlap=0.9833, rho=0.800
+Selected candidate: 275
+[Step 260/300] selected sensor 40, metric=0.9900, overlap=0.9900, rho=0.867
+[Step 280/300] selected sensor 215, metric=0.9933, overlap=0.9933, rho=0.933
+[Step 300/300] selected sensor 126, metric=0.9933, overlap=0.9933, rho=1.000
+  Running metric: mov
+Baseline metric with no sensors: 0.9500, overlap: 0.9567
+Selected candidate: 135
+[Step 1/300] selected sensor 135, metric=0.9506, overlap=0.9567, rho=0.003
+Selected candidate: 116
+[Step 2/300] selected sensor 116, metric=0.9511, overlap=0.9567, rho=0.007
+Selected candidate: 127
+[Step 3/300] selected sensor 127, metric=0.9519, overlap=0.9567, rho=0.010
+Selected candidate: 96
+[Step 4/300] selected sensor 96, metric=0.9522, overlap=0.9567, rho=0.013
+Selected candidate: 145
+[Step 20/300] selected sensor 89, metric=0.9592, overlap=0.9567, rho=0.067
+[Step 40/300] selected sensor 75, metric=0.9638, overlap=0.9567, rho=0.133
+Selected candidate: 117
+[Step 60/300] selected sensor 134, metric=0.9666, overlap=0.9600, rho=0.200
+[Step 80/300] selected sensor 17, metric=0.9666, overlap=0.9600, rho=0.267
+[Step 100/300] selected sensor 289, metric=0.9702, overlap=0.9600, rho=0.333
+Selected candidate: 246
+[Step 120/300] selected sensor 87, metric=0.9744, overlap=0.9633, rho=0.400
+[Step 140/300] selected sensor 256, metric=0.9800, overlap=0.9667, rho=0.467
+Selected candidate: 201
+[Step 160/300] selected sensor 249, metric=0.9821, overlap=0.9667, rho=0.533
+[Step 180/300] selected sensor 168, metric=0.9865, overlap=0.9667, rho=0.600
+[Step 200/300] selected sensor 217, metric=0.9870, overlap=0.9733, rho=0.667
+Selected candidate: 239
+[Step 220/300] selected sensor 271, metric=0.9891, overlap=0.9733, rho=0.733
+[Step 240/300] selected sensor 216, metric=0.9896, overlap=0.9800, rho=0.800
+Selected candidate: 166
+[Step 260/300] selected sensor 32, metric=0.9896, overlap=0.9800, rho=0.867
+[Step 280/300] selected sensor 93, metric=0.9883, overlap=0.9800, rho=0.933
+[Step 300/300] selected sensor 210, metric=0.9867, overlap=0.9933, rho=1.000
+  Running metric: c_mov
+Baseline metric with no sensors: 0.9050, overlap: 0.9567
+Selected candidate: 91
+[Step 1/300] selected sensor 91, metric=0.9076, overlap=0.9567, rho=0.003
+Selected candidate: 270
+[Step 2/300] selected sensor 270, metric=0.9111, overlap=0.9600, rho=0.007
+Selected candidate: 47
+[Step 3/300] selected sensor 47, metric=0.9143, overlap=0.9633, rho=0.010
+Selected candidate: 55
+[Step 4/300] selected sensor 55, metric=0.9174, overlap=0.9667, rho=0.013
+Selected candidate: 84
+[Step 20/300] selected sensor 209, metric=0.9519, overlap=0.9833, rho=0.067
+[Step 40/300] selected sensor 102, metric=0.9617, overlap=0.9867, rho=0.133
+Selected candidate: 34
+[Step 60/300] selected sensor 78, metric=0.9685, overlap=0.9867, rho=0.200
+[Step 80/300] selected sensor 44, metric=0.9759, overlap=0.9867, rho=0.267
+[Step 100/300] selected sensor 277, metric=0.9795, overlap=0.9867, rho=0.333
+Selected candidate: 294
+[Step 120/300] selected sensor 141, metric=0.9833, overlap=0.9867, rho=0.400
+[Step 140/300] selected sensor 27, metric=0.9853, overlap=0.9933, rho=0.467
+Selected candidate: 295
+[Step 160/300] selected sensor 25, metric=0.9840, overlap=0.9900, rho=0.533
+[Step 180/300] selected sensor 188, metric=0.9882, overlap=0.9933, rho=0.600
+[Step 200/300] selected sensor 230, metric=0.9909, overlap=0.9900, rho=0.667
+Selected candidate: 257
+[Step 220/300] selected sensor 241, metric=0.9916, overlap=0.9900, rho=0.733
+[Step 240/300] selected sensor 187, metric=0.9907, overlap=0.9900, rho=0.800
+Selected candidate: 166
+[Step 260/300] selected sensor 158, metric=0.9914, overlap=0.9900, rho=0.867
+[Step 280/300] selected sensor 260, metric=0.9900, overlap=0.9900, rho=0.933
+[Step 300/300] selected sensor 210, metric=0.9867, overlap=0.9933, rho=1.000
+Initial infection fraction (delta): 0.217, lambda: 0.3
+Random baseline overlap: 0.7833
+  Running metric: ov
+Baseline metric with no sensors: 0.7833, overlap: 0.7833
+Selected candidate: 287
+[Step 1/300] selected sensor 287, metric=0.7867, overlap=0.7867, rho=0.003
+Selected candidate: 186
+[Step 2/300] selected sensor 186, metric=0.7900, overlap=0.7900, rho=0.007
+Selected candidate: 39
+[Step 3/300] selected sensor 39, metric=0.7933, overlap=0.7933, rho=0.010
+Selected candidate: 32
+[Step 4/300] selected sensor 32, metric=0.7967, overlap=0.7967, rho=0.013
+Selected candidate: 50
+[Step 20/300] selected sensor 101, metric=0.8233, overlap=0.8233, rho=0.067
+[Step 40/300] selected sensor 181, metric=0.8333, overlap=0.8333, rho=0.133
+Selected candidate: 105
+[Step 60/300] selected sensor 154, metric=0.8533, overlap=0.8533, rho=0.200
+[Step 80/300] selected sensor 240, metric=0.8667, overlap=0.8667, rho=0.267
+[Step 100/300] selected sensor 195, metric=0.8767, overlap=0.8767, rho=0.333
+Selected candidate: 179
+[Step 120/300] selected sensor 236, metric=0.8933, overlap=0.8933, rho=0.400
+[Step 140/300] selected sensor 134, metric=0.9067, overlap=0.9067, rho=0.467
+Selected candidate: 144
+[Step 160/300] selected sensor 289, metric=0.9200, overlap=0.9200, rho=0.533
+[Step 180/300] selected sensor 168, metric=0.9200, overlap=0.9200, rho=0.600
+[Step 200/300] selected sensor 250, metric=0.9400, overlap=0.9400, rho=0.667
+Selected candidate: 44
+[Step 220/300] selected sensor 260, metric=0.9367, overlap=0.9367, rho=0.733
+[Step 240/300] selected sensor 145, metric=0.9467, overlap=0.9467, rho=0.800
+Selected candidate: 274
+[Step 260/300] selected sensor 288, metric=0.9533, overlap=0.9533, rho=0.867
+[Step 280/300] selected sensor 212, metric=0.9733, overlap=0.9733, rho=0.933
+[Step 300/300] selected sensor 255, metric=0.9833, overlap=0.9833, rho=1.000
+  Running metric: mov
+Baseline metric with no sensors: 0.8002, overlap: 0.7833
+Selected candidate: 179
+[Step 1/300] selected sensor 179, metric=0.8000, overlap=0.7867, rho=0.003
+Selected candidate: 100
+[Step 2/300] selected sensor 100, metric=0.8011, overlap=0.7867, rho=0.007
+Selected candidate: 169
+[Step 3/300] selected sensor 169, metric=0.8015, overlap=0.7867, rho=0.010
+Selected candidate: 36
+[Step 4/300] selected sensor 36, metric=0.8019, overlap=0.7867, rho=0.013
+Selected candidate: 160
+[Step 20/300] selected sensor 64, metric=0.8118, overlap=0.7867, rho=0.067
+[Step 40/300] selected sensor 19, metric=0.8204, overlap=0.7833, rho=0.133
+Selected candidate: 43
+[Step 60/300] selected sensor 53, metric=0.8302, overlap=0.7867, rho=0.200
+[Step 80/300] selected sensor 239, metric=0.8472, overlap=0.7967, rho=0.267
+[Step 100/300] selected sensor 109, metric=0.8568, overlap=0.8000, rho=0.333
+Selected candidate: 210
+[Step 120/300] selected sensor 288, metric=0.8662, overlap=0.8100, rho=0.400
+[Step 140/300] selected sensor 290, metric=0.8799, overlap=0.8167, rho=0.467
+Selected candidate: 240
+[Step 160/300] selected sensor 143, metric=0.8964, overlap=0.8300, rho=0.533
+[Step 180/300] selected sensor 234, metric=0.9080, overlap=0.8367, rho=0.600
+[Step 200/300] selected sensor 254, metric=0.9223, overlap=0.8433, rho=0.667
+Selected candidate: 260
+[Step 220/300] selected sensor 137, metric=0.9352, overlap=0.8467, rho=0.733
+[Step 240/300] selected sensor 168, metric=0.9422, overlap=0.8500, rho=0.800
+Selected candidate: 103
+[Step 260/300] selected sensor 167, metric=0.9535, overlap=0.8700, rho=0.867
+[Step 280/300] selected sensor 299, metric=0.9678, overlap=0.9267, rho=0.933
+[Step 300/300] selected sensor 162, metric=0.9782, overlap=0.9833, rho=1.000
+  Running metric: c_mov
+Baseline metric with no sensors: 0.6801, overlap: 0.7833
+Selected candidate: 159
+[Step 1/300] selected sensor 159, metric=0.6835, overlap=0.7800, rho=0.003
+Selected candidate: 82
+[Step 2/300] selected sensor 82, metric=0.6868, overlap=0.7833, rho=0.007
+Selected candidate: 287
+[Step 3/300] selected sensor 287, metric=0.6895, overlap=0.7867, rho=0.010
+Selected candidate: 8
+[Step 4/300] selected sensor 8, metric=0.6928, overlap=0.7833, rho=0.013
+Selected candidate: 147
+[Step 20/300] selected sensor 263, metric=0.7427, overlap=0.7967, rho=0.067
+[Step 40/300] selected sensor 113, metric=0.7959, overlap=0.8633, rho=0.133
+Selected candidate: 208
+[Step 60/300] selected sensor 230, metric=0.8491, overlap=0.9300, rho=0.200
+[Step 80/300] selected sensor 91, metric=0.8580, overlap=0.9300, rho=0.267
+[Step 100/300] selected sensor 64, metric=0.8669, overlap=0.9300, rho=0.333
+Selected candidate: 76
+[Step 120/300] selected sensor 95, metric=0.8754, overlap=0.9300, rho=0.400
+[Step 140/300] selected sensor 181, metric=0.8872, overlap=0.9300, rho=0.467
+Selected candidate: 40
+[Step 160/300] selected sensor 16, metric=0.9007, overlap=0.9300, rho=0.533
+[Step 180/300] selected sensor 140, metric=0.9134, overlap=0.9300, rho=0.600
+[Step 200/300] selected sensor 155, metric=0.9252, overlap=0.9333, rho=0.667
+Selected candidate: 130
+[Step 220/300] selected sensor 298, metric=0.9387, overlap=0.9333, rho=0.733
+[Step 240/300] selected sensor 105, metric=0.9526, overlap=0.9333, rho=0.800
+Selected candidate: 119
+[Step 260/300] selected sensor 163, metric=0.9624, overlap=0.9267, rho=0.867
+[Step 280/300] selected sensor 228, metric=0.9680, overlap=0.9300, rho=0.933
+[Step 300/300] selected sensor 31, metric=0.9451, overlap=0.9833, rho=1.000
+Initial infection fraction (delta): 0.387, lambda: 0.3
+Random baseline overlap: 0.6133
+  Running metric: ov
+Baseline metric with no sensors: 0.6133, overlap: 0.6133
+Selected candidate: 18
+[Step 1/300] selected sensor 18, metric=0.6167, overlap=0.6167, rho=0.003
+Selected candidate: 82
+[Step 2/300] selected sensor 82, metric=0.6200, overlap=0.6200, rho=0.007
+Selected candidate: 258
+[Step 3/300] selected sensor 258, metric=0.6233, overlap=0.6233, rho=0.010
+Selected candidate: 133
+[Step 4/300] selected sensor 133, metric=0.6267, overlap=0.6267, rho=0.013
+Selected candidate: 260
+[Step 20/300] selected sensor 132, metric=0.6833, overlap=0.6833, rho=0.067
+[Step 40/300] selected sensor 207, metric=0.7500, overlap=0.7500, rho=0.133
+Selected candidate: 255
+[Step 60/300] selected sensor 252, metric=0.8200, overlap=0.8200, rho=0.200
+[Step 80/300] selected sensor 244, metric=0.8867, overlap=0.8867, rho=0.267
+[Step 100/300] selected sensor 104, metric=0.9533, overlap=0.9533, rho=0.333
+Selected candidate: 144
+[Step 120/300] selected sensor 60, metric=1.0000, overlap=1.0000, rho=0.400
+[Step 140/300] selected sensor 105, metric=0.9967, overlap=0.9967, rho=0.467
+Selected candidate: 16
+[Step 160/300] selected sensor 229, metric=0.9933, overlap=0.9933, rho=0.533
+[Step 180/300] selected sensor 93, metric=0.9967, overlap=0.9967, rho=0.600
+[Step 200/300] selected sensor 30, metric=0.9933, overlap=0.9933, rho=0.667
+Selected candidate: 3
+[Step 220/300] selected sensor 120, metric=0.9900, overlap=0.9900, rho=0.733
+[Step 240/300] selected sensor 294, metric=0.9900, overlap=0.9900, rho=0.800
+Selected candidate: 77
+[Step 260/300] selected sensor 278, metric=0.9900, overlap=0.9900, rho=0.867
+[Step 280/300] selected sensor 196, metric=0.9867, overlap=0.9867, rho=0.933
+[Step 300/300] selected sensor 95, metric=0.9867, overlap=0.9867, rho=1.000
+  Running metric: mov
+Baseline metric with no sensors: 0.6012, overlap: 0.6133
+Selected candidate: 131
+[Step 1/300] selected sensor 131, metric=0.6039, overlap=0.6167, rho=0.003
+Selected candidate: 39
+[Step 2/300] selected sensor 39, metric=0.6066, overlap=0.6133, rho=0.007
+Selected candidate: 41
+[Step 3/300] selected sensor 41, metric=0.6092, overlap=0.6167, rho=0.010
+Selected candidate: 185
+[Step 4/300] selected sensor 185, metric=0.6118, overlap=0.6133, rho=0.013
+Selected candidate: 156
+[Step 20/300] selected sensor 10, metric=0.6524, overlap=0.6233, rho=0.067
+[Step 40/300] selected sensor 23, metric=0.6735, overlap=0.6233, rho=0.133
+Selected candidate: 49
+[Step 60/300] selected sensor 27, metric=0.6947, overlap=0.6233, rho=0.200
+[Step 80/300] selected sensor 216, metric=0.7199, overlap=0.6233, rho=0.267
+[Step 100/300] selected sensor 164, metric=0.7514, overlap=0.6933, rho=0.333
+Selected candidate: 271
+[Step 120/300] selected sensor 63, metric=0.7796, overlap=0.6900, rho=0.400
+[Step 140/300] selected sensor 280, metric=0.8104, overlap=0.7100, rho=0.467
+Selected candidate: 224
+[Step 160/300] selected sensor 148, metric=0.8436, overlap=0.7367, rho=0.533
+[Step 180/300] selected sensor 116, metric=0.8697, overlap=0.7433, rho=0.600
+[Step 200/300] selected sensor 166, metric=0.8966, overlap=0.7667, rho=0.667
+Selected candidate: 269
+[Step 220/300] selected sensor 127, metric=0.9132, overlap=0.7900, rho=0.733
+[Step 240/300] selected sensor 90, metric=0.9184, overlap=0.7967, rho=0.800
+Selected candidate: 125
+[Step 260/300] selected sensor 145, metric=0.9444, overlap=0.8600, rho=0.867
+[Step 280/300] selected sensor 136, metric=0.9708, overlap=0.9267, rho=0.933
+[Step 300/300] selected sensor 15, metric=0.9777, overlap=0.9867, rho=1.000
+  Running metric: c_mov
+Baseline metric with no sensors: 0.5202, overlap: 0.6133
+Selected candidate: 69
+[Step 1/300] selected sensor 69, metric=0.5236, overlap=0.6167, rho=0.003
+Selected candidate: 172
+[Step 2/300] selected sensor 172, metric=0.5269, overlap=0.6133, rho=0.007
+Selected candidate: 17
+[Step 3/300] selected sensor 17, metric=0.5279, overlap=0.6133, rho=0.010
+Selected candidate: 39
+[Step 4/300] selected sensor 39, metric=0.5313, overlap=0.6100, rho=0.013
+Selected candidate: 81
+[Step 20/300] selected sensor 109, metric=0.5793, overlap=0.5967, rho=0.067
+[Step 40/300] selected sensor 214, metric=0.6206, overlap=0.6300, rho=0.133
+Selected candidate: 77
+[Step 60/300] selected sensor 155, metric=0.6480, overlap=0.6333, rho=0.200
+[Step 80/300] selected sensor 271, metric=0.6818, overlap=0.6500, rho=0.267
+[Step 100/300] selected sensor 97, metric=0.7223, overlap=0.7133, rho=0.333
+Selected candidate: 205
+[Step 120/300] selected sensor 181, metric=0.7616, overlap=0.7767, rho=0.400
+[Step 140/300] selected sensor 91, metric=0.8011, overlap=0.8367, rho=0.467
+Selected candidate: 122
+[Step 160/300] selected sensor 13, metric=0.8380, overlap=0.9000, rho=0.533
+[Step 180/300] selected sensor 162, metric=0.8675, overlap=0.9133, rho=0.600
+[Step 200/300] selected sensor 296, metric=0.8932, overlap=0.9133, rho=0.667
+Selected candidate: 140
+[Step 220/300] selected sensor 292, metric=0.9194, overlap=0.9133, rho=0.733
+[Step 240/300] selected sensor 274, metric=0.9484, overlap=0.9133, rho=0.800
+Selected candidate: 228
+[Step 260/300] selected sensor 101, metric=0.9701, overlap=0.9233, rho=0.867
+[Step 280/300] selected sensor 33, metric=0.9750, overlap=0.9267, rho=0.933
+[Step 300/300] selected sensor 12, metric=0.9777, overlap=0.9867, rho=1.000
+
+=== Sim 1 ===
+Initial infection fraction (delta): 0.047, lambda: 0.3
+Random baseline overlap: 0.9533
+  Running metric: ov
+Baseline metric with no sensors: 0.9533, overlap: 0.9533
+Selected candidate: 222
+[Step 1/300] selected sensor 222, metric=0.9567, overlap=0.9567, rho=0.003
+Selected candidate: 206
+[Step 2/300] selected sensor 206, metric=0.9533, overlap=0.9533, rho=0.007
+Selected candidate: 9
+[Step 3/300] selected sensor 9, metric=0.9567, overlap=0.9567, rho=0.010
+Selected candidate: 249
+[Step 4/300] selected sensor 249, metric=0.9567, overlap=0.9567, rho=0.013
+Selected candidate: 96
+[Step 20/300] selected sensor 132, metric=0.9633, overlap=0.9633, rho=0.067
+[Step 40/300] selected sensor 90, metric=0.9633, overlap=0.9633, rho=0.133
+Selected candidate: 143
+[Step 60/300] selected sensor 230, metric=0.9567, overlap=0.9567, rho=0.200
+[Step 80/300] selected sensor 218, metric=0.9633, overlap=0.9633, rho=0.267
+[Step 100/300] selected sensor 173, metric=0.9667, overlap=0.9667, rho=0.333
+Selected candidate: 94
+[Step 120/300] selected sensor 34, metric=0.9633, overlap=0.9633, rho=0.400
+[Step 140/300] selected sensor 124, metric=0.9433, overlap=0.9433, rho=0.467
+Selected candidate: 43
+[Step 160/300] selected sensor 79, metric=0.9433, overlap=0.9433, rho=0.533
+[Step 180/300] selected sensor 215, metric=0.9467, overlap=0.9467, rho=0.600
+[Step 200/300] selected sensor 187, metric=0.9700, overlap=0.9700, rho=0.667
+Selected candidate: 268
+[Step 220/300] selected sensor 155, metric=0.9733, overlap=0.9733, rho=0.733
+[Step 240/300] selected sensor 154, metric=0.9800, overlap=0.9800, rho=0.800
+Selected candidate: 146
+[Step 260/300] selected sensor 290, metric=0.9900, overlap=0.9900, rho=0.867
+[Step 280/300] selected sensor 200, metric=0.9900, overlap=0.9900, rho=0.933
+[Step 300/300] selected sensor 127, metric=1.0000, overlap=1.0000, rho=1.000
+  Running metric: mov
+Baseline metric with no sensors: 0.9500, overlap: 0.9533
+Selected candidate: 69
+[Step 1/300] selected sensor 69, metric=0.9505, overlap=0.9533, rho=0.003
+Selected candidate: 123
+[Step 2/300] selected sensor 123, metric=0.9509, overlap=0.9533, rho=0.007
+Selected candidate: 175
+[Step 3/300] selected sensor 175, metric=0.9514, overlap=0.9533, rho=0.010
+Selected candidate: 103
+[Step 4/300] selected sensor 103, metric=0.9522, overlap=0.9533, rho=0.013
+Selected candidate: 88
+[Step 20/300] selected sensor 205, metric=0.9588, overlap=0.9533, rho=0.067
+[Step 40/300] selected sensor 276, metric=0.9671, overlap=0.9533, rho=0.133
+Selected candidate: 25
+[Step 60/300] selected sensor 67, metric=0.9677, overlap=0.9600, rho=0.200
+[Step 80/300] selected sensor 270, metric=0.9749, overlap=0.9600, rho=0.267
+[Step 100/300] selected sensor 71, metric=0.9796, overlap=0.9567, rho=0.333
+Selected candidate: 5
+[Step 120/300] selected sensor 296, metric=0.9830, overlap=0.9500, rho=0.400
+[Step 140/300] selected sensor 46, metric=0.9837, overlap=0.9567, rho=0.467
+Selected candidate: 249
+[Step 160/300] selected sensor 117, metric=0.9861, overlap=0.9533, rho=0.533
+[Step 180/300] selected sensor 50, metric=0.9884, overlap=0.9600, rho=0.600
+[Step 200/300] selected sensor 108, metric=0.9894, overlap=0.9600, rho=0.667
+Selected candidate: 37
+[Step 220/300] selected sensor 173, metric=0.9901, overlap=0.9600, rho=0.733
+[Step 240/300] selected sensor 68, metric=0.9899, overlap=0.9600, rho=0.800
+Selected candidate: 140
+[Step 260/300] selected sensor 66, metric=0.9897, overlap=0.9600, rho=0.867
+[Step 280/300] selected sensor 224, metric=0.9880, overlap=0.9600, rho=0.933
+[Step 300/300] selected sensor 122, metric=0.9870, overlap=1.0000, rho=1.000
+  Running metric: c_mov
+Baseline metric with no sensors: 0.9050, overlap: 0.9533
+Selected candidate: 84
+[Step 1/300] selected sensor 84, metric=0.9081, overlap=0.9567, rho=0.003
+Selected candidate: 189
+[Step 2/300] selected sensor 189, metric=0.9113, overlap=0.9600, rho=0.007
+Selected candidate: 107
+[Step 3/300] selected sensor 107, metric=0.9145, overlap=0.9633, rho=0.010
+Selected candidate: 222
+[Step 4/300] selected sensor 222, metric=0.9176, overlap=0.9667, rho=0.013
+Selected candidate: 97
+[Step 20/300] selected sensor 69, metric=0.9517, overlap=1.0000, rho=0.067
+[Step 40/300] selected sensor 211, metric=0.9621, overlap=0.9967, rho=0.133
+Selected candidate: 289
+[Step 60/300] selected sensor 267, metric=0.9710, overlap=0.9967, rho=0.200
+[Step 80/300] selected sensor 206, metric=0.9757, overlap=0.9967, rho=0.267
+[Step 100/300] selected sensor 73, metric=0.9795, overlap=0.9967, rho=0.333
+Selected candidate: 298
+[Step 120/300] selected sensor 221, metric=0.9821, overlap=0.9967, rho=0.400
+[Step 140/300] selected sensor 141, metric=0.9841, overlap=0.9967, rho=0.467
+Selected candidate: 238
+[Step 160/300] selected sensor 225, metric=0.9860, overlap=0.9967, rho=0.533
+[Step 180/300] selected sensor 19, metric=0.9874, overlap=0.9967, rho=0.600
+[Step 200/300] selected sensor 18, metric=0.9885, overlap=0.9967, rho=0.667
+Selected candidate: 22
+[Step 220/300] selected sensor 136, metric=0.9896, overlap=0.9967, rho=0.733
+[Step 240/300] selected sensor 134, metric=0.9890, overlap=0.9967, rho=0.800
+Selected candidate: 43
+[Step 260/300] selected sensor 83, metric=0.9904, overlap=0.9967, rho=0.867
+[Step 280/300] selected sensor 101, metric=0.9884, overlap=0.9967, rho=0.933
+[Step 300/300] selected sensor 106, metric=0.9864, overlap=1.0000, rho=1.000
+Initial infection fraction (delta): 0.200, lambda: 0.3
+Random baseline overlap: 0.8000
+  Running metric: ov
+Baseline metric with no sensors: 0.8000, overlap: 0.8000
+Selected candidate: 176
+[Step 1/300] selected sensor 176, metric=0.8033, overlap=0.8033, rho=0.003
+Selected candidate: 265
+[Step 2/300] selected sensor 265, metric=0.8067, overlap=0.8067, rho=0.007
+Selected candidate: 95
+[Step 3/300] selected sensor 95, metric=0.8033, overlap=0.8033, rho=0.010
+Selected candidate: 48
+[Step 4/300] selected sensor 48, metric=0.8067, overlap=0.8067, rho=0.013
+Selected candidate: 49
+[Step 20/300] selected sensor 55, metric=0.8300, overlap=0.8300, rho=0.067
+[Step 40/300] selected sensor 46, metric=0.8333, overlap=0.8333, rho=0.133
+Selected candidate: 150
+[Step 60/300] selected sensor 6, metric=0.8533, overlap=0.8533, rho=0.200
+[Step 80/300] selected sensor 223, metric=0.8667, overlap=0.8667, rho=0.267
+[Step 100/300] selected sensor 134, metric=0.8767, overlap=0.8767, rho=0.333
+Selected candidate: 50
+[Step 120/300] selected sensor 210, metric=0.8833, overlap=0.8833, rho=0.400
+[Step 140/300] selected sensor 216, metric=0.9000, overlap=0.9000, rho=0.467
+Selected candidate: 243
+[Step 160/300] selected sensor 200, metric=0.9067, overlap=0.9067, rho=0.533
+[Step 180/300] selected sensor 171, metric=0.9233, overlap=0.9233, rho=0.600
+[Step 200/300] selected sensor 158, metric=0.9333, overlap=0.9333, rho=0.667
+Selected candidate: 183
+[Step 220/300] selected sensor 68, metric=0.9567, overlap=0.9567, rho=0.733
+[Step 240/300] selected sensor 259, metric=0.9633, overlap=0.9633, rho=0.800
+Selected candidate: 18
+[Step 260/300] selected sensor 31, metric=0.9733, overlap=0.9733, rho=0.867
+[Step 280/300] selected sensor 208, metric=0.9833, overlap=0.9833, rho=0.933
+[Step 300/300] selected sensor 222, metric=0.9900, overlap=0.9900, rho=1.000
+  Running metric: mov
+Baseline metric with no sensors: 0.8002, overlap: 0.8000
+Selected candidate: 161
+[Step 1/300] selected sensor 161, metric=0.8015, overlap=0.7967, rho=0.003
+Selected candidate: 226
+[Step 2/300] selected sensor 226, metric=0.8028, overlap=0.7933, rho=0.007
+Selected candidate: 127
+[Step 3/300] selected sensor 127, metric=0.8041, overlap=0.7967, rho=0.010
+Selected candidate: 16
+[Step 4/300] selected sensor 16, metric=0.8045, overlap=0.7967, rho=0.013
+Selected candidate: 18
+[Step 20/300] selected sensor 23, metric=0.8146, overlap=0.7900, rho=0.067
+[Step 40/300] selected sensor 100, metric=0.8233, overlap=0.7933, rho=0.133
+Selected candidate: 9
+[Step 60/300] selected sensor 115, metric=0.8315, overlap=0.7933, rho=0.200
+[Step 80/300] selected sensor 187, metric=0.8432, overlap=0.8000, rho=0.267
+[Step 100/300] selected sensor 176, metric=0.8529, overlap=0.8000, rho=0.333
+Selected candidate: 122
+[Step 120/300] selected sensor 204, metric=0.8688, overlap=0.8100, rho=0.400
+[Step 140/300] selected sensor 250, metric=0.8845, overlap=0.8133, rho=0.467
+Selected candidate: 199
+[Step 160/300] selected sensor 157, metric=0.9008, overlap=0.8267, rho=0.533
+[Step 180/300] selected sensor 214, metric=0.9160, overlap=0.8300, rho=0.600
+[Step 200/300] selected sensor 80, metric=0.9326, overlap=0.8367, rho=0.667
+Selected candidate: 192
+[Step 220/300] selected sensor 140, metric=0.9461, overlap=0.8400, rho=0.733
+[Step 240/300] selected sensor 82, metric=0.9519, overlap=0.8533, rho=0.800
+Selected candidate: 27
+[Step 260/300] selected sensor 72, metric=0.9597, overlap=0.8700, rho=0.867
+[Step 280/300] selected sensor 202, metric=0.9728, overlap=0.9233, rho=0.933
+[Step 300/300] selected sensor 85, metric=0.9753, overlap=0.9900, rho=1.000
+  Running metric: c_mov
+Baseline metric with no sensors: 0.6801, overlap: 0.8000
+Selected candidate: 59
+[Step 1/300] selected sensor 59, metric=0.6835, overlap=0.7967, rho=0.003
+Selected candidate: 78
+[Step 2/300] selected sensor 78, metric=0.6861, overlap=0.8000, rho=0.007
+Selected candidate: 48
+[Step 3/300] selected sensor 48, metric=0.6895, overlap=0.8033, rho=0.010
+Selected candidate: 27
+[Step 4/300] selected sensor 27, metric=0.6928, overlap=0.8000, rho=0.013
+Selected candidate: 166
+[Step 20/300] selected sensor 158, metric=0.7406, overlap=0.8167, rho=0.067
+[Step 40/300] selected sensor 270, metric=0.7938, overlap=0.8833, rho=0.133
+Selected candidate: 290
+[Step 60/300] selected sensor 97, metric=0.8457, overlap=0.9400, rho=0.200
+[Step 80/300] selected sensor 37, metric=0.8565, overlap=0.9433, rho=0.267
+[Step 100/300] selected sensor 209, metric=0.8652, overlap=0.9433, rho=0.333
+Selected candidate: 100
+[Step 120/300] selected sensor 40, metric=0.8732, overlap=0.9433, rho=0.400
+[Step 140/300] selected sensor 104, metric=0.8852, overlap=0.9400, rho=0.467
+Selected candidate: 119
+[Step 160/300] selected sensor 73, metric=0.8980, overlap=0.9467, rho=0.533
+[Step 180/300] selected sensor 178, metric=0.9120, overlap=0.9467, rho=0.600
+[Step 200/300] selected sensor 258, metric=0.9264, overlap=0.9533, rho=0.667
+Selected candidate: 105
+[Step 220/300] selected sensor 274, metric=0.9403, overlap=0.9500, rho=0.733
+[Step 240/300] selected sensor 167, metric=0.9551, overlap=0.9500, rho=0.800
+Selected candidate: 107
+[Step 260/300] selected sensor 144, metric=0.9653, overlap=0.9567, rho=0.867
+[Step 280/300] selected sensor 11, metric=0.9718, overlap=0.9633, rho=0.933
+[Step 300/300] selected sensor 131, metric=0.9655, overlap=0.9900, rho=1.000
+Initial infection fraction (delta): 0.393, lambda: 0.3
+Random baseline overlap: 0.6067
+  Running metric: ov
+Baseline metric with no sensors: 0.6067, overlap: 0.6067
+Selected candidate: 201
+[Step 1/300] selected sensor 201, metric=0.6100, overlap=0.6100, rho=0.003
+Selected candidate: 12
+[Step 2/300] selected sensor 12, metric=0.6133, overlap=0.6133, rho=0.007
+Selected candidate: 145
+[Step 3/300] selected sensor 145, metric=0.6167, overlap=0.6167, rho=0.010
+Selected candidate: 102
+[Step 4/300] selected sensor 102, metric=0.6200, overlap=0.6200, rho=0.013
+Selected candidate: 28
+[Step 20/300] selected sensor 295, metric=0.6733, overlap=0.6733, rho=0.067
+[Step 40/300] selected sensor 253, metric=0.7400, overlap=0.7400, rho=0.133
+Selected candidate: 15
+[Step 60/300] selected sensor 2, metric=0.8067, overlap=0.8067, rho=0.200
+[Step 80/300] selected sensor 122, metric=0.8733, overlap=0.8733, rho=0.267
+[Step 100/300] selected sensor 9, metric=0.9400, overlap=0.9400, rho=0.333
+Selected candidate: 251
+[Step 120/300] selected sensor 232, metric=0.9967, overlap=0.9967, rho=0.400
+[Step 140/300] selected sensor 223, metric=0.9933, overlap=0.9933, rho=0.467
+Selected candidate: 55
+[Step 160/300] selected sensor 60, metric=1.0000, overlap=1.0000, rho=0.533
+[Step 180/300] selected sensor 252, metric=1.0000, overlap=1.0000, rho=0.600
+[Step 200/300] selected sensor 257, metric=0.9967, overlap=0.9967, rho=0.667
+Selected candidate: 129
+[Step 220/300] selected sensor 221, metric=0.9967, overlap=0.9967, rho=0.733
+[Step 240/300] selected sensor 290, metric=0.9933, overlap=0.9933, rho=0.800
+Selected candidate: 23
+[Step 260/300] selected sensor 76, metric=0.9900, overlap=0.9900, rho=0.867
+[Step 280/300] selected sensor 211, metric=0.9867, overlap=0.9867, rho=0.933
+[Step 300/300] selected sensor 254, metric=0.9900, overlap=0.9900, rho=1.000
+  Running metric: mov
+Baseline metric with no sensors: 0.6012, overlap: 0.6067
+Selected candidate: 252
+[Step 1/300] selected sensor 252, metric=0.6039, overlap=0.6033, rho=0.003
+Selected candidate: 63
+[Step 2/300] selected sensor 63, metric=0.6065, overlap=0.6000, rho=0.007
+Selected candidate: 243
+[Step 3/300] selected sensor 243, metric=0.6091, overlap=0.5967, rho=0.010
+Selected candidate: 17
+[Step 4/300] selected sensor 17, metric=0.6118, overlap=0.5933, rho=0.013
+Selected candidate: 134
+[Step 20/300] selected sensor 159, metric=0.6450, overlap=0.6067, rho=0.067
+[Step 40/300] selected sensor 277, metric=0.6707, overlap=0.6167, rho=0.133
+Selected candidate: 117
+[Step 60/300] selected sensor 22, metric=0.6918, overlap=0.6167, rho=0.200
+[Step 80/300] selected sensor 106, metric=0.7239, overlap=0.6400, rho=0.267
+[Step 100/300] selected sensor 144, metric=0.7555, overlap=0.6567, rho=0.333
+Selected candidate: 223
+[Step 120/300] selected sensor 258, metric=0.7860, overlap=0.6633, rho=0.400
+[Step 140/300] selected sensor 276, metric=0.8146, overlap=0.6733, rho=0.467
+Selected candidate: 150
+[Step 160/300] selected sensor 183, metric=0.8431, overlap=0.6800, rho=0.533
+[Step 180/300] selected sensor 257, metric=0.8694, overlap=0.7000, rho=0.600
+[Step 200/300] selected sensor 225, metric=0.8909, overlap=0.7267, rho=0.667
+Selected candidate: 10
+[Step 220/300] selected sensor 21, metric=0.8985, overlap=0.7433, rho=0.733
+[Step 240/300] selected sensor 186, metric=0.9207, overlap=0.7967, rho=0.800
+Selected candidate: 274
+[Step 260/300] selected sensor 189, metric=0.9472, overlap=0.8633, rho=0.867
+[Step 280/300] selected sensor 193, metric=0.9724, overlap=0.9300, rho=0.933
+[Step 300/300] selected sensor 151, metric=0.9815, overlap=0.9900, rho=1.000
+  Running metric: c_mov
+Baseline metric with no sensors: 0.5202, overlap: 0.6067
+Selected candidate: 34
+[Step 1/300] selected sensor 34, metric=0.5236, overlap=0.6100, rho=0.003
+Selected candidate: 100
+[Step 2/300] selected sensor 100, metric=0.5265, overlap=0.6167, rho=0.007
+Selected candidate: 156
+[Step 3/300] selected sensor 156, metric=0.5299, overlap=0.6133, rho=0.010
+Selected candidate: 116
+[Step 4/300] selected sensor 116, metric=0.5309, overlap=0.6133, rho=0.013
+Selected candidate: 127
+[Step 20/300] selected sensor 53, metric=0.5665, overlap=0.6133, rho=0.067
+[Step 40/300] selected sensor 125, metric=0.5968, overlap=0.6100, rho=0.133
+Selected candidate: 112
+[Step 60/300] selected sensor 7, metric=0.6297, overlap=0.6200, rho=0.200
+[Step 80/300] selected sensor 161, metric=0.6642, overlap=0.6367, rho=0.267
+[Step 100/300] selected sensor 18, metric=0.7048, overlap=0.6967, rho=0.333
+Selected candidate: 25
+[Step 120/300] selected sensor 153, metric=0.7442, overlap=0.7600, rho=0.400
+[Step 140/300] selected sensor 226, metric=0.7831, overlap=0.8233, rho=0.467
+Selected candidate: 10
+[Step 160/300] selected sensor 269, metric=0.8230, overlap=0.8900, rho=0.533
+[Step 180/300] selected sensor 124, metric=0.8553, overlap=0.9100, rho=0.600
+[Step 200/300] selected sensor 184, metric=0.8845, overlap=0.9167, rho=0.667
+Selected candidate: 198
+[Step 220/300] selected sensor 288, metric=0.9139, overlap=0.9200, rho=0.733
+[Step 240/300] selected sensor 219, metric=0.9426, overlap=0.9200, rho=0.800
+Selected candidate: 128
+[Step 260/300] selected sensor 108, metric=0.9638, overlap=0.9200, rho=0.867
+[Step 280/300] selected sensor 207, metric=0.9690, overlap=0.9267, rho=0.933
+[Step 300/300] selected sensor 278, metric=0.9783, overlap=0.9900, rho=1.000
+
+=== Sim 2 ===
+Initial infection fraction (delta): 0.023, lambda: 0.3
+Random baseline overlap: 0.9767
+  Running metric: ov
+Baseline metric with no sensors: 0.9767, overlap: 0.9767
+Selected candidate: 212
+[Step 1/300] selected sensor 212, metric=0.9767, overlap=0.9767, rho=0.003
+Selected candidate: 152
+[Step 2/300] selected sensor 152, metric=0.9767, overlap=0.9767, rho=0.007
+Selected candidate: 0
+[Step 3/300] selected sensor 0, metric=0.9767, overlap=0.9767, rho=0.010
+Selected candidate: 286
+[Step 4/300] selected sensor 286, metric=0.9767, overlap=0.9767, rho=0.013
+Selected candidate: 62
+[Step 20/300] selected sensor 117, metric=0.9800, overlap=0.9800, rho=0.067
+[Step 40/300] selected sensor 184, metric=0.9833, overlap=0.9833, rho=0.133
+Selected candidate: 101
+[Step 60/300] selected sensor 284, metric=0.9900, overlap=0.9900, rho=0.200
+[Step 80/300] selected sensor 66, metric=0.9900, overlap=0.9900, rho=0.267
+[Step 100/300] selected sensor 283, metric=0.9900, overlap=0.9900, rho=0.333
+Selected candidate: 22
+[Step 120/300] selected sensor 281, metric=0.9933, overlap=0.9933, rho=0.400
+[Step 140/300] selected sensor 106, metric=0.9900, overlap=0.9900, rho=0.467
+Selected candidate: 80
+[Step 160/300] selected sensor 54, metric=0.9900, overlap=0.9900, rho=0.533
+[Step 180/300] selected sensor 137, metric=0.9900, overlap=0.9900, rho=0.600
+[Step 200/300] selected sensor 298, metric=0.9933, overlap=0.9933, rho=0.667
+Selected candidate: 277
+[Step 220/300] selected sensor 252, metric=0.9933, overlap=0.9933, rho=0.733
+[Step 240/300] selected sensor 14, metric=0.9967, overlap=0.9967, rho=0.800
+Selected candidate: 140
+[Step 260/300] selected sensor 167, metric=0.9967, overlap=0.9967, rho=0.867
+[Step 280/300] selected sensor 91, metric=1.0000, overlap=1.0000, rho=0.933
+[Step 300/300] selected sensor 95, metric=1.0000, overlap=1.0000, rho=1.000
+  Running metric: mov
+Baseline metric with no sensors: 0.9500, overlap: 0.9767
+Selected candidate: 68
+[Step 1/300] selected sensor 68, metric=0.9503, overlap=0.9767, rho=0.003
+Selected candidate: 146
+[Step 2/300] selected sensor 146, metric=0.9508, overlap=0.9767, rho=0.007
+Selected candidate: 55
+[Step 3/300] selected sensor 55, metric=0.9514, overlap=0.9767, rho=0.010
+Selected candidate: 137
+[Step 4/300] selected sensor 137, metric=0.9518, overlap=0.9767, rho=0.013
+Selected candidate: 195
+[Step 20/300] selected sensor 233, metric=0.9578, overlap=0.9767, rho=0.067
+[Step 40/300] selected sensor 279, metric=0.9674, overlap=0.9767, rho=0.133
+Selected candidate: 248
+[Step 60/300] selected sensor 191, metric=0.9743, overlap=0.9767, rho=0.200
+[Step 80/300] selected sensor 226, metric=0.9784, overlap=0.9767, rho=0.267
+[Step 100/300] selected sensor 243, metric=0.9834, overlap=0.9767, rho=0.333
+Selected candidate: 271
+[Step 120/300] selected sensor 112, metric=0.9865, overlap=0.9800, rho=0.400
+[Step 140/300] selected sensor 294, metric=0.9884, overlap=0.9800, rho=0.467
+Selected candidate: 79
+[Step 160/300] selected sensor 207, metric=0.9895, overlap=0.9833, rho=0.533
+[Step 180/300] selected sensor 186, metric=0.9919, overlap=0.9833, rho=0.600
+[Step 200/300] selected sensor 197, metric=0.9914, overlap=0.9833, rho=0.667
+Selected candidate: 9
+[Step 220/300] selected sensor 210, metric=0.9941, overlap=0.9867, rho=0.733
+[Step 240/300] selected sensor 221, metric=0.9943, overlap=0.9867, rho=0.800
+Selected candidate: 5
+[Step 260/300] selected sensor 50, metric=0.9943, overlap=0.9867, rho=0.867
+[Step 280/300] selected sensor 78, metric=0.9934, overlap=0.9867, rho=0.933
+[Step 300/300] selected sensor 168, metric=0.9915, overlap=1.0000, rho=1.000
+  Running metric: c_mov
+Baseline metric with no sensors: 0.9050, overlap: 0.9767
+Selected candidate: 173
+[Step 1/300] selected sensor 173, metric=0.9082, overlap=0.9800, rho=0.003
+Selected candidate: 168
+[Step 2/300] selected sensor 168, metric=0.9113, overlap=0.9833, rho=0.007
+Selected candidate: 62
+[Step 3/300] selected sensor 62, metric=0.9118, overlap=0.9833, rho=0.010
+Selected candidate: 170
+[Step 4/300] selected sensor 170, metric=0.9123, overlap=0.9833, rho=0.013
+Selected candidate: 99
+[Step 20/300] selected sensor 137, metric=0.9329, overlap=0.9933, rho=0.067
+[Step 40/300] selected sensor 299, metric=0.9444, overlap=0.9967, rho=0.133
+Selected candidate: 245
+[Step 60/300] selected sensor 75, metric=0.9517, overlap=0.9967, rho=0.200
+[Step 80/300] selected sensor 178, metric=0.9571, overlap=0.9967, rho=0.267
+[Step 100/300] selected sensor 288, metric=0.9631, overlap=0.9967, rho=0.333
+Selected candidate: 215
+[Step 120/300] selected sensor 65, metric=0.9660, overlap=0.9967, rho=0.400
+[Step 140/300] selected sensor 56, metric=0.9738, overlap=0.9933, rho=0.467
+Selected candidate: 196
+[Step 160/300] selected sensor 269, metric=0.9742, overlap=0.9933, rho=0.533
+[Step 180/300] selected sensor 24, metric=0.9790, overlap=0.9867, rho=0.600
+[Step 200/300] selected sensor 21, metric=0.9834, overlap=0.9867, rho=0.667
+Selected candidate: 46
+[Step 220/300] selected sensor 129, metric=0.9844, overlap=0.9867, rho=0.733
+[Step 240/300] selected sensor 117, metric=0.9850, overlap=0.9867, rho=0.800
+Selected candidate: 190
+[Step 260/300] selected sensor 11, metric=0.9851, overlap=0.9867, rho=0.867
+[Step 280/300] selected sensor 148, metric=0.9845, overlap=0.9867, rho=0.933
+[Step 300/300] selected sensor 4, metric=0.9688, overlap=1.0000, rho=1.000
+Initial infection fraction (delta): 0.183, lambda: 0.3
+Random baseline overlap: 0.8167
+  Running metric: ov
+Baseline metric with no sensors: 0.8167, overlap: 0.8167
+Selected candidate: 204
+[Step 1/300] selected sensor 204, metric=0.8200, overlap=0.8200, rho=0.003
+Selected candidate: 158
+[Step 2/300] selected sensor 158, metric=0.8200, overlap=0.8200, rho=0.007
+Selected candidate: 120
+[Step 3/300] selected sensor 120, metric=0.8200, overlap=0.8200, rho=0.010
+Selected candidate: 34
+[Step 4/300] selected sensor 34, metric=0.8200, overlap=0.8200, rho=0.013
+Selected candidate: 130
+[Step 20/300] selected sensor 0, metric=0.8267, overlap=0.8267, rho=0.067
+[Step 40/300] selected sensor 146, metric=0.8533, overlap=0.8533, rho=0.133
+Selected candidate: 135
+[Step 60/300] selected sensor 219, metric=0.8633, overlap=0.8633, rho=0.200
+[Step 80/300] selected sensor 266, metric=0.8767, overlap=0.8767, rho=0.267
+[Step 100/300] selected sensor 202, metric=0.8933, overlap=0.8933, rho=0.333
+Selected candidate: 1
+[Step 120/300] selected sensor 151, metric=0.8967, overlap=0.8967, rho=0.400
+[Step 140/300] selected sensor 64, metric=0.9167, overlap=0.9167, rho=0.467
+Selected candidate: 262
+[Step 160/300] selected sensor 203, metric=0.9267, overlap=0.9267, rho=0.533
+[Step 180/300] selected sensor 132, metric=0.9333, overlap=0.9333, rho=0.600
+[Step 200/300] selected sensor 291, metric=0.9467, overlap=0.9467, rho=0.667
+Selected candidate: 154
+[Step 220/300] selected sensor 101, metric=0.9600, overlap=0.9600, rho=0.733
+[Step 240/300] selected sensor 187, metric=0.9600, overlap=0.9600, rho=0.800
+Selected candidate: 286
+[Step 260/300] selected sensor 46, metric=0.9667, overlap=0.9667, rho=0.867
+[Step 280/300] selected sensor 212, metric=0.9767, overlap=0.9767, rho=0.933
+[Step 300/300] selected sensor 223, metric=0.9833, overlap=0.9833, rho=1.000
+  Running metric: mov
+Baseline metric with no sensors: 0.8002, overlap: 0.8167
+Selected candidate: 242
+[Step 1/300] selected sensor 242, metric=0.8015, overlap=0.8133, rho=0.003
+Selected candidate: 134
+[Step 2/300] selected sensor 134, metric=0.8028, overlap=0.8167, rho=0.007
+Selected candidate: 72
+[Step 3/300] selected sensor 72, metric=0.8032, overlap=0.8167, rho=0.010
+Selected candidate: 144
+[Step 4/300] selected sensor 144, metric=0.8036, overlap=0.8167, rho=0.013
+Selected candidate: 14
+[Step 20/300] selected sensor 65, metric=0.8139, overlap=0.8133, rho=0.067
+[Step 40/300] selected sensor 32, metric=0.8232, overlap=0.8133, rho=0.133
+Selected candidate: 147
+[Step 60/300] selected sensor 138, metric=0.8324, overlap=0.8133, rho=0.200
+[Step 80/300] selected sensor 145, metric=0.8409, overlap=0.8067, rho=0.267
+[Step 100/300] selected sensor 174, metric=0.8550, overlap=0.8233, rho=0.333
+Selected candidate: 142
+[Step 120/300] selected sensor 285, metric=0.8686, overlap=0.8200, rho=0.400
+[Step 140/300] selected sensor 292, metric=0.8834, overlap=0.8300, rho=0.467
+Selected candidate: 128
+[Step 160/300] selected sensor 265, metric=0.8989, overlap=0.8367, rho=0.533
+[Step 180/300] selected sensor 162, metric=0.9116, overlap=0.8433, rho=0.600
+[Step 200/300] selected sensor 272, metric=0.9279, overlap=0.8533, rho=0.667
+Selected candidate: 97
+[Step 220/300] selected sensor 238, metric=0.9371, overlap=0.8600, rho=0.733
+[Step 240/300] selected sensor 91, metric=0.9472, overlap=0.8667, rho=0.800
+Selected candidate: 49
+[Step 260/300] selected sensor 76, metric=0.9549, overlap=0.8800, rho=0.867
+[Step 280/300] selected sensor 297, metric=0.9709, overlap=0.9200, rho=0.933
+[Step 300/300] selected sensor 38, metric=0.9778, overlap=0.9833, rho=1.000
+  Running metric: c_mov
+Baseline metric with no sensors: 0.6801, overlap: 0.8167
+Selected candidate: 19
+[Step 1/300] selected sensor 19, metric=0.6835, overlap=0.8200, rho=0.003
+Selected candidate: 76
+[Step 2/300] selected sensor 76, metric=0.6868, overlap=0.8167, rho=0.007
+Selected candidate: 38
+[Step 3/300] selected sensor 38, metric=0.6901, overlap=0.8133, rho=0.010
+Selected candidate: 21
+[Step 4/300] selected sensor 21, metric=0.6935, overlap=0.8100, rho=0.013
+Selected candidate: 89
+[Step 20/300] selected sensor 96, metric=0.7412, overlap=0.8200, rho=0.067
+[Step 40/300] selected sensor 289, metric=0.7925, overlap=0.8867, rho=0.133
+Selected candidate: 206
+[Step 60/300] selected sensor 274, metric=0.8397, overlap=0.9400, rho=0.200
+[Step 80/300] selected sensor 8, metric=0.8554, overlap=0.9433, rho=0.267
+[Step 100/300] selected sensor 108, metric=0.8654, overlap=0.9433, rho=0.333
+Selected candidate: 6
+[Step 120/300] selected sensor 195, metric=0.8751, overlap=0.9433, rho=0.400
+[Step 140/300] selected sensor 84, metric=0.8922, overlap=0.9367, rho=0.467
+Selected candidate: 213
+[Step 160/300] selected sensor 132, metric=0.9067, overlap=0.9400, rho=0.533
+[Step 180/300] selected sensor 85, metric=0.9210, overlap=0.9400, rho=0.600
+[Step 200/300] selected sensor 11, metric=0.9309, overlap=0.9433, rho=0.667
+Selected candidate: 227
+[Step 220/300] selected sensor 295, metric=0.9446, overlap=0.9433, rho=0.733
+[Step 240/300] selected sensor 50, metric=0.9559, overlap=0.9433, rho=0.800
+Selected candidate: 243
+[Step 260/300] selected sensor 238, metric=0.9663, overlap=0.9500, rho=0.867
+[Step 280/300] selected sensor 16, metric=0.9746, overlap=0.9533, rho=0.933
+[Step 300/300] selected sensor 220, metric=0.9778, overlap=0.9833, rho=1.000
+Initial infection fraction (delta): 0.393, lambda: 0.3
+Random baseline overlap: 0.6067
+  Running metric: ov
+Baseline metric with no sensors: 0.6067, overlap: 0.6067
+Selected candidate: 27
+[Step 1/300] selected sensor 27, metric=0.6100, overlap=0.6100, rho=0.003
+Selected candidate: 149
+[Step 2/300] selected sensor 149, metric=0.6133, overlap=0.6133, rho=0.007
+Selected candidate: 227
+[Step 3/300] selected sensor 227, metric=0.6167, overlap=0.6167, rho=0.010
+Selected candidate: 275
+[Step 4/300] selected sensor 275, metric=0.6200, overlap=0.6200, rho=0.013
+Selected candidate: 216
+[Step 20/300] selected sensor 250, metric=0.6700, overlap=0.6700, rho=0.067
+[Step 40/300] selected sensor 239, metric=0.7367, overlap=0.7367, rho=0.133
+Selected candidate: 175
+[Step 60/300] selected sensor 109, metric=0.8033, overlap=0.8033, rho=0.200
+[Step 80/300] selected sensor 116, metric=0.8700, overlap=0.8700, rho=0.267
+[Step 100/300] selected sensor 156, metric=0.9367, overlap=0.9367, rho=0.333
+Selected candidate: 190
+[Step 120/300] selected sensor 158, metric=0.9933, overlap=0.9933, rho=0.400
+[Step 140/300] selected sensor 164, metric=1.0000, overlap=1.0000, rho=0.467
+Selected candidate: 141
+[Step 160/300] selected sensor 7, metric=0.9967, overlap=0.9967, rho=0.533
+[Step 180/300] selected sensor 87, metric=0.9933, overlap=0.9933, rho=0.600
+[Step 200/300] selected sensor 126, metric=1.0000, overlap=1.0000, rho=0.667
+Selected candidate: 165
+[Step 220/300] selected sensor 2, metric=1.0000, overlap=1.0000, rho=0.733
+[Step 240/300] selected sensor 288, metric=0.9933, overlap=0.9933, rho=0.800
+Selected candidate: 270
+[Step 260/300] selected sensor 166, metric=0.9967, overlap=0.9967, rho=0.867
+[Step 280/300] selected sensor 208, metric=0.9967, overlap=0.9967, rho=0.933
+[Step 300/300] selected sensor 95, metric=1.0000, overlap=1.0000, rho=1.000
+  Running metric: mov
+Baseline metric with no sensors: 0.6012, overlap: 0.6067
+Selected candidate: 49
+[Step 1/300] selected sensor 49, metric=0.6039, overlap=0.6100, rho=0.003
+Selected candidate: 219
+[Step 2/300] selected sensor 219, metric=0.6066, overlap=0.6133, rho=0.007
+Selected candidate: 214
+[Step 3/300] selected sensor 214, metric=0.6092, overlap=0.6100, rho=0.010
+Selected candidate: 157
+[Step 4/300] selected sensor 157, metric=0.6118, overlap=0.6067, rho=0.013
+Selected candidate: 171
+[Step 20/300] selected sensor 11, metric=0.6466, overlap=0.6233, rho=0.067
+[Step 40/300] selected sensor 18, metric=0.6721, overlap=0.6267, rho=0.133
+Selected candidate: 122
+[Step 60/300] selected sensor 235, metric=0.6954, overlap=0.6367, rho=0.200
+[Step 80/300] selected sensor 258, metric=0.7248, overlap=0.6400, rho=0.267
+[Step 100/300] selected sensor 240, metric=0.7576, overlap=0.6633, rho=0.333
+Selected candidate: 45
+[Step 120/300] selected sensor 297, metric=0.7861, overlap=0.6767, rho=0.400
+[Step 140/300] selected sensor 137, metric=0.8152, overlap=0.6833, rho=0.467
+Selected candidate: 169
+[Step 160/300] selected sensor 276, metric=0.8450, overlap=0.7033, rho=0.533
+[Step 180/300] selected sensor 197, metric=0.8729, overlap=0.7300, rho=0.600
+[Step 200/300] selected sensor 86, metric=0.8958, overlap=0.7400, rho=0.667
+Selected candidate: 210
+[Step 220/300] selected sensor 50, metric=0.9064, overlap=0.7533, rho=0.733
+[Step 240/300] selected sensor 147, metric=0.9251, overlap=0.8000, rho=0.800
+Selected candidate: 27
+[Step 260/300] selected sensor 290, metric=0.9516, overlap=0.8667, rho=0.867
+[Step 280/300] selected sensor 144, metric=0.9768, overlap=0.9333, rho=0.933
+[Step 300/300] selected sensor 56, metric=0.9820, overlap=1.0000, rho=1.000
+  Running metric: c_mov
+Baseline metric with no sensors: 0.5202, overlap: 0.6067
+Selected candidate: 219
+[Step 1/300] selected sensor 219, metric=0.5236, overlap=0.6100, rho=0.003
+Selected candidate: 49
+[Step 2/300] selected sensor 49, metric=0.5269, overlap=0.6133, rho=0.007
+Selected candidate: 35
+[Step 3/300] selected sensor 35, metric=0.5302, overlap=0.6167, rho=0.010
+Selected candidate: 83
+[Step 4/300] selected sensor 83, metric=0.5335, overlap=0.6167, rho=0.013
+Selected candidate: 90
+[Step 20/300] selected sensor 100, metric=0.5759, overlap=0.6200, rho=0.067
+[Step 40/300] selected sensor 179, metric=0.6129, overlap=0.6200, rho=0.133
+Selected candidate: 93
+[Step 60/300] selected sensor 11, metric=0.6393, overlap=0.6267, rho=0.200
+[Step 80/300] selected sensor 223, metric=0.6772, overlap=0.6633, rho=0.267
+[Step 100/300] selected sensor 118, metric=0.7193, overlap=0.7000, rho=0.333
+Selected candidate: 267
+[Step 120/300] selected sensor 167, metric=0.7586, overlap=0.7633, rho=0.400
+[Step 140/300] selected sensor 277, metric=0.7985, overlap=0.8300, rho=0.467
+Selected candidate: 144
+[Step 160/300] selected sensor 274, metric=0.8377, overlap=0.8933, rho=0.533
+[Step 180/300] selected sensor 51, metric=0.8661, overlap=0.8967, rho=0.600
+[Step 200/300] selected sensor 264, metric=0.8962, overlap=0.8967, rho=0.667
+Selected candidate: 172
+[Step 220/300] selected sensor 205, metric=0.9256, overlap=0.8933, rho=0.733
+[Step 240/300] selected sensor 148, metric=0.9534, overlap=0.9133, rho=0.800
+Selected candidate: 197
+[Step 260/300] selected sensor 287, metric=0.9719, overlap=0.9267, rho=0.867
+[Step 280/300] selected sensor 293, metric=0.9751, overlap=0.9333, rho=0.933
+[Step 300/300] selected sensor 95, metric=0.9808, overlap=1.0000, rho=1.000
+
+=== Sim 3 ===
+Initial infection fraction (delta): 0.043, lambda: 0.3
+Random baseline overlap: 0.9567
+  Running metric: ov
+Baseline metric with no sensors: 0.9567, overlap: 0.9567
+Selected candidate: 231
+[Step 1/300] selected sensor 231, metric=0.9600, overlap=0.9600, rho=0.003
+Selected candidate: 233
+[Step 2/300] selected sensor 233, metric=0.9600, overlap=0.9600, rho=0.007
+Selected candidate: 68
+[Step 3/300] selected sensor 68, metric=0.9600, overlap=0.9600, rho=0.010
+Selected candidate: 152
+[Step 4/300] selected sensor 152, metric=0.9567, overlap=0.9567, rho=0.013
+Selected candidate: 139
+[Step 20/300] selected sensor 292, metric=0.9600, overlap=0.9600, rho=0.067
+[Step 40/300] selected sensor 61, metric=0.9600, overlap=0.9600, rho=0.133
+Selected candidate: 78
+[Step 60/300] selected sensor 75, metric=0.9700, overlap=0.9700, rho=0.200
+[Step 80/300] selected sensor 252, metric=0.9700, overlap=0.9700, rho=0.267
+[Step 100/300] selected sensor 84, metric=0.9800, overlap=0.9800, rho=0.333
+Selected candidate: 54
+[Step 120/300] selected sensor 74, metric=0.9800, overlap=0.9800, rho=0.400
+[Step 140/300] selected sensor 198, metric=0.9800, overlap=0.9800, rho=0.467
+Selected candidate: 222
+[Step 160/300] selected sensor 128, metric=0.9767, overlap=0.9767, rho=0.533
+[Step 180/300] selected sensor 291, metric=0.9800, overlap=0.9800, rho=0.600
+[Step 200/300] selected sensor 95, metric=0.9867, overlap=0.9867, rho=0.667
+Selected candidate: 210
+[Step 220/300] selected sensor 181, metric=0.9933, overlap=0.9933, rho=0.733
+[Step 240/300] selected sensor 125, metric=0.9933, overlap=0.9933, rho=0.800
+Selected candidate: 144
+[Step 260/300] selected sensor 32, metric=0.9933, overlap=0.9933, rho=0.867
+[Step 280/300] selected sensor 66, metric=1.0000, overlap=1.0000, rho=0.933
+[Step 300/300] selected sensor 253, metric=1.0000, overlap=1.0000, rho=1.000
+  Running metric: mov
+Baseline metric with no sensors: 0.9500, overlap: 0.9567
+Selected candidate: 90
+[Step 1/300] selected sensor 90, metric=0.9503, overlap=0.9567, rho=0.003
+Selected candidate: 158
+[Step 2/300] selected sensor 158, metric=0.9511, overlap=0.9567, rho=0.007
+Selected candidate: 108
+[Step 3/300] selected sensor 108, metric=0.9514, overlap=0.9567, rho=0.010
+Selected candidate: 79
+[Step 4/300] selected sensor 79, metric=0.9519, overlap=0.9567, rho=0.013
+Selected candidate: 220
+[Step 20/300] selected sensor 272, metric=0.9590, overlap=0.9567, rho=0.067
+[Step 40/300] selected sensor 190, metric=0.9639, overlap=0.9533, rho=0.133
+Selected candidate: 261
+[Step 60/300] selected sensor 289, metric=0.9691, overlap=0.9567, rho=0.200
+[Step 80/300] selected sensor 230, metric=0.9714, overlap=0.9567, rho=0.267
+[Step 100/300] selected sensor 250, metric=0.9739, overlap=0.9533, rho=0.333
+Selected candidate: 163
+[Step 120/300] selected sensor 10, metric=0.9746, overlap=0.9500, rho=0.400
+[Step 140/300] selected sensor 144, metric=0.9741, overlap=0.9533, rho=0.467
+Selected candidate: 104
+[Step 160/300] selected sensor 184, metric=0.9796, overlap=0.9533, rho=0.533
+[Step 180/300] selected sensor 188, metric=0.9831, overlap=0.9533, rho=0.600
+[Step 200/300] selected sensor 203, metric=0.9860, overlap=0.9600, rho=0.667
+Selected candidate: 110
+[Step 220/300] selected sensor 282, metric=0.9871, overlap=0.9600, rho=0.733
+[Step 240/300] selected sensor 266, metric=0.9887, overlap=0.9633, rho=0.800
+Selected candidate: 152
+[Step 260/300] selected sensor 20, metric=0.9879, overlap=0.9633, rho=0.867
+[Step 280/300] selected sensor 97, metric=0.9861, overlap=0.9633, rho=0.933
+[Step 300/300] selected sensor 231, metric=0.9846, overlap=1.0000, rho=1.000
+  Running metric: c_mov
+Baseline metric with no sensors: 0.9050, overlap: 0.9567
+Selected candidate: 258
+[Step 1/300] selected sensor 258, metric=0.9081, overlap=0.9600, rho=0.003
+Selected candidate: 227
+[Step 2/300] selected sensor 227, metric=0.9113, overlap=0.9633, rho=0.007
+Selected candidate: 299
+[Step 3/300] selected sensor 299, metric=0.9145, overlap=0.9667, rho=0.010
+Selected candidate: 107
+[Step 4/300] selected sensor 107, metric=0.9176, overlap=0.9700, rho=0.013
+Selected candidate: 254
+[Step 20/300] selected sensor 69, metric=0.9497, overlap=0.9867, rho=0.067
+[Step 40/300] selected sensor 233, metric=0.9622, overlap=0.9933, rho=0.133
+Selected candidate: 235
+[Step 60/300] selected sensor 63, metric=0.9692, overlap=0.9933, rho=0.200
+[Step 80/300] selected sensor 167, metric=0.9742, overlap=0.9933, rho=0.267
+[Step 100/300] selected sensor 250, metric=0.9763, overlap=0.9933, rho=0.333
+Selected candidate: 53
+[Step 120/300] selected sensor 224, metric=0.9783, overlap=0.9933, rho=0.400
+[Step 140/300] selected sensor 232, metric=0.9795, overlap=0.9933, rho=0.467
+Selected candidate: 150
+[Step 160/300] selected sensor 86, metric=0.9818, overlap=0.9933, rho=0.533
+[Step 180/300] selected sensor 175, metric=0.9833, overlap=0.9933, rho=0.600
+[Step 200/300] selected sensor 110, metric=0.9849, overlap=0.9933, rho=0.667
+Selected candidate: 28
+[Step 220/300] selected sensor 213, metric=0.9860, overlap=0.9933, rho=0.733
+[Step 240/300] selected sensor 130, metric=0.9877, overlap=0.9933, rho=0.800
+Selected candidate: 161
+[Step 260/300] selected sensor 9, metric=0.9879, overlap=0.9933, rho=0.867
+[Step 280/300] selected sensor 98, metric=0.9875, overlap=0.9933, rho=0.933
+[Step 300/300] selected sensor 4, metric=0.9834, overlap=1.0000, rho=1.000
+Initial infection fraction (delta): 0.217, lambda: 0.3
+Random baseline overlap: 0.7833
+  Running metric: ov
+Baseline metric with no sensors: 0.7833, overlap: 0.7833
+Selected candidate: 248
+[Step 1/300] selected sensor 248, metric=0.7867, overlap=0.7867, rho=0.003
+Selected candidate: 7
+[Step 2/300] selected sensor 7, metric=0.7867, overlap=0.7867, rho=0.007
+Selected candidate: 63
+[Step 3/300] selected sensor 63, metric=0.7900, overlap=0.7900, rho=0.010
+Selected candidate: 52
+[Step 4/300] selected sensor 52, metric=0.7900, overlap=0.7900, rho=0.013
+Selected candidate: 244
+[Step 20/300] selected sensor 28, metric=0.8000, overlap=0.8000, rho=0.067
+[Step 40/300] selected sensor 68, metric=0.8200, overlap=0.8200, rho=0.133
+Selected candidate: 42
+[Step 60/300] selected sensor 255, metric=0.8300, overlap=0.8300, rho=0.200
+[Step 80/300] selected sensor 25, metric=0.8500, overlap=0.8500, rho=0.267
+[Step 100/300] selected sensor 77, metric=0.8633, overlap=0.8633, rho=0.333
+Selected candidate: 208
+[Step 120/300] selected sensor 61, metric=0.8767, overlap=0.8767, rho=0.400
+[Step 140/300] selected sensor 86, metric=0.8867, overlap=0.8867, rho=0.467
+Selected candidate: 240
+[Step 160/300] selected sensor 203, metric=0.8767, overlap=0.8767, rho=0.533
+[Step 180/300] selected sensor 217, metric=0.8933, overlap=0.8933, rho=0.600
+[Step 200/300] selected sensor 233, metric=0.9167, overlap=0.9167, rho=0.667
+Selected candidate: 242
+[Step 220/300] selected sensor 48, metric=0.9433, overlap=0.9433, rho=0.733
+[Step 240/300] selected sensor 229, metric=0.9633, overlap=0.9633, rho=0.800
+Selected candidate: 269
+[Step 260/300] selected sensor 39, metric=0.9733, overlap=0.9733, rho=0.867
+[Step 280/300] selected sensor 78, metric=0.9833, overlap=0.9833, rho=0.933
+[Step 300/300] selected sensor 94, metric=0.9933, overlap=0.9933, rho=1.000
+  Running metric: mov
+Baseline metric with no sensors: 0.8002, overlap: 0.7833
+Selected candidate: 135
+[Step 1/300] selected sensor 135, metric=0.8017, overlap=0.7833, rho=0.003
+Selected candidate: 181
+[Step 2/300] selected sensor 181, metric=0.8030, overlap=0.7800, rho=0.007
+Selected candidate: 122
+[Step 3/300] selected sensor 122, metric=0.8043, overlap=0.7767, rho=0.010
+Selected candidate: 157
+[Step 4/300] selected sensor 157, metric=0.8064, overlap=0.7767, rho=0.013
+Selected candidate: 97
+[Step 20/300] selected sensor 104, metric=0.8146, overlap=0.7833, rho=0.067
+[Step 40/300] selected sensor 151, metric=0.8235, overlap=0.7833, rho=0.133
+Selected candidate: 152
+[Step 60/300] selected sensor 210, metric=0.8313, overlap=0.7833, rho=0.200
+[Step 80/300] selected sensor 137, metric=0.8400, overlap=0.7833, rho=0.267
+[Step 100/300] selected sensor 45, metric=0.8542, overlap=0.7900, rho=0.333
+Selected candidate: 61
+[Step 120/300] selected sensor 92, metric=0.8692, overlap=0.8033, rho=0.400
+[Step 140/300] selected sensor 158, metric=0.8826, overlap=0.8033, rho=0.467
+Selected candidate: 260
+[Step 160/300] selected sensor 224, metric=0.8978, overlap=0.8033, rho=0.533
+[Step 180/300] selected sensor 59, metric=0.9110, overlap=0.8033, rho=0.600
+[Step 200/300] selected sensor 65, metric=0.9252, overlap=0.8033, rho=0.667
+Selected candidate: 174
+[Step 220/300] selected sensor 221, metric=0.9343, overlap=0.8100, rho=0.733
+[Step 240/300] selected sensor 91, metric=0.9400, overlap=0.8233, rho=0.800
+Selected candidate: 55
+[Step 260/300] selected sensor 144, metric=0.9515, overlap=0.8600, rho=0.867
+[Step 280/300] selected sensor 233, metric=0.9647, overlap=0.9267, rho=0.933
+[Step 300/300] selected sensor 105, metric=0.9711, overlap=0.9933, rho=1.000
+  Running metric: c_mov
+Baseline metric with no sensors: 0.6801, overlap: 0.7833
+Selected candidate: 15
+[Step 1/300] selected sensor 15, metric=0.6835, overlap=0.7800, rho=0.003
+Selected candidate: 178
+[Step 2/300] selected sensor 178, metric=0.6868, overlap=0.7767, rho=0.007
+Selected candidate: 281
+[Step 3/300] selected sensor 281, metric=0.6894, overlap=0.7800, rho=0.010
+Selected candidate: 261
+[Step 4/300] selected sensor 261, metric=0.6921, overlap=0.7833, rho=0.013
+Selected candidate: 81
+[Step 20/300] selected sensor 114, metric=0.7371, overlap=0.8300, rho=0.067
+[Step 40/300] selected sensor 144, metric=0.7909, overlap=0.8900, rho=0.133
+Selected candidate: 188
+[Step 60/300] selected sensor 105, metric=0.8397, overlap=0.9500, rho=0.200
+[Step 80/300] selected sensor 56, metric=0.8575, overlap=0.9433, rho=0.267
+[Step 100/300] selected sensor 10, metric=0.8675, overlap=0.9433, rho=0.333
+Selected candidate: 110
+[Step 120/300] selected sensor 165, metric=0.8753, overlap=0.9433, rho=0.400
+[Step 140/300] selected sensor 59, metric=0.8854, overlap=0.9433, rho=0.467
+Selected candidate: 167
+[Step 160/300] selected sensor 264, metric=0.9032, overlap=0.9433, rho=0.533
+[Step 180/300] selected sensor 117, metric=0.9148, overlap=0.9433, rho=0.600
+[Step 200/300] selected sensor 250, metric=0.9290, overlap=0.9433, rho=0.667
+Selected candidate: 123
+[Step 220/300] selected sensor 260, metric=0.9423, overlap=0.9433, rho=0.733
+[Step 240/300] selected sensor 282, metric=0.9549, overlap=0.9433, rho=0.800
+Selected candidate: 243
+[Step 260/300] selected sensor 102, metric=0.9643, overlap=0.9433, rho=0.867
+[Step 280/300] selected sensor 143, metric=0.9665, overlap=0.9433, rho=0.933
+[Step 300/300] selected sensor 93, metric=0.9480, overlap=0.9933, rho=1.000
+Initial infection fraction (delta): 0.403, lambda: 0.3
+Random baseline overlap: 0.5967
+  Running metric: ov
+Baseline metric with no sensors: 0.5967, overlap: 0.5967
+Selected candidate: 251
+[Step 1/300] selected sensor 251, metric=0.6000, overlap=0.6000, rho=0.003
+Selected candidate: 138
+[Step 2/300] selected sensor 138, metric=0.6033, overlap=0.6033, rho=0.007
+Selected candidate: 3
+[Step 3/300] selected sensor 3, metric=0.6067, overlap=0.6067, rho=0.010
+Selected candidate: 257
+[Step 4/300] selected sensor 257, metric=0.6100, overlap=0.6100, rho=0.013
+Selected candidate: 176
+[Step 20/300] selected sensor 150, metric=0.6600, overlap=0.6600, rho=0.067
+[Step 40/300] selected sensor 280, metric=0.7267, overlap=0.7267, rho=0.133
+Selected candidate: 244
+[Step 60/300] selected sensor 194, metric=0.7933, overlap=0.7933, rho=0.200
+[Step 80/300] selected sensor 288, metric=0.8567, overlap=0.8567, rho=0.267
+[Step 100/300] selected sensor 158, metric=0.9233, overlap=0.9233, rho=0.333
+Selected candidate: 268
+[Step 120/300] selected sensor 166, metric=0.9900, overlap=0.9900, rho=0.400
+[Step 140/300] selected sensor 75, metric=0.9933, overlap=0.9933, rho=0.467
+Selected candidate: 76
+[Step 160/300] selected sensor 25, metric=0.9967, overlap=0.9967, rho=0.533
+[Step 180/300] selected sensor 68, metric=0.9900, overlap=0.9900, rho=0.600
+[Step 200/300] selected sensor 6, metric=0.9867, overlap=0.9867, rho=0.667
+Selected candidate: 281
+[Step 220/300] selected sensor 219, metric=0.9867, overlap=0.9867, rho=0.733
+[Step 240/300] selected sensor 224, metric=0.9967, overlap=0.9967, rho=0.800
+Selected candidate: 19
+[Step 260/300] selected sensor 162, metric=0.9933, overlap=0.9933, rho=0.867
+[Step 280/300] selected sensor 196, metric=0.9933, overlap=0.9933, rho=0.933
+[Step 300/300] selected sensor 127, metric=0.9933, overlap=0.9933, rho=1.000
+  Running metric: mov
+Baseline metric with no sensors: 0.6012, overlap: 0.5967
+Selected candidate: 70
+[Step 1/300] selected sensor 70, metric=0.6039, overlap=0.6000, rho=0.003
+Selected candidate: 252
+[Step 2/300] selected sensor 252, metric=0.6065, overlap=0.6033, rho=0.007
+Selected candidate: 77
+[Step 3/300] selected sensor 77, metric=0.6092, overlap=0.6000, rho=0.010
+Selected candidate: 135
+[Step 4/300] selected sensor 135, metric=0.6118, overlap=0.5967, rho=0.013
+Selected candidate: 127
+[Step 20/300] selected sensor 142, metric=0.6495, overlap=0.5867, rho=0.067
+[Step 40/300] selected sensor 91, metric=0.6766, overlap=0.5867, rho=0.133
+Selected candidate: 97
+[Step 60/300] selected sensor 38, metric=0.7004, overlap=0.5933, rho=0.200
+[Step 80/300] selected sensor 207, metric=0.7340, overlap=0.6233, rho=0.267
+[Step 100/300] selected sensor 83, metric=0.7612, overlap=0.6267, rho=0.333
+Selected candidate: 47
+[Step 120/300] selected sensor 297, metric=0.7902, overlap=0.6400, rho=0.400
+[Step 140/300] selected sensor 292, metric=0.8217, overlap=0.6633, rho=0.467
+Selected candidate: 253
+[Step 160/300] selected sensor 259, metric=0.8500, overlap=0.6733, rho=0.533
+[Step 180/300] selected sensor 188, metric=0.8773, overlap=0.6867, rho=0.600
+[Step 200/300] selected sensor 50, metric=0.8888, overlap=0.6967, rho=0.667
+Selected candidate: 6
+[Step 220/300] selected sensor 197, metric=0.9017, overlap=0.7333, rho=0.733
+[Step 240/300] selected sensor 27, metric=0.9282, overlap=0.8000, rho=0.800
+Selected candidate: 180
+[Step 260/300] selected sensor 211, metric=0.9547, overlap=0.8667, rho=0.867
+[Step 280/300] selected sensor 35, metric=0.9776, overlap=0.9267, rho=0.933
+[Step 300/300] selected sensor 84, metric=0.9797, overlap=0.9933, rho=1.000
+  Running metric: c_mov
+Baseline metric with no sensors: 0.5202, overlap: 0.5967
+Selected candidate: 252
+[Step 1/300] selected sensor 252, metric=0.5236, overlap=0.6000, rho=0.003
+Selected candidate: 135
+[Step 2/300] selected sensor 135, metric=0.5269, overlap=0.5967, rho=0.007
+Selected candidate: 70
+[Step 3/300] selected sensor 70, metric=0.5302, overlap=0.6000, rho=0.010
+Selected candidate: 101
+[Step 4/300] selected sensor 101, metric=0.5336, overlap=0.6033, rho=0.013
+Selected candidate: 20
+[Step 20/300] selected sensor 54, metric=0.5711, overlap=0.5933, rho=0.067
+[Step 40/300] selected sensor 88, metric=0.6098, overlap=0.5967, rho=0.133
+Selected candidate: 91
+[Step 60/300] selected sensor 242, metric=0.6465, overlap=0.6033, rho=0.200
+[Step 80/300] selected sensor 93, metric=0.6808, overlap=0.6333, rho=0.267
+[Step 100/300] selected sensor 48, metric=0.7205, overlap=0.6867, rho=0.333
+Selected candidate: 95
+[Step 120/300] selected sensor 247, metric=0.7599, overlap=0.7500, rho=0.400
+[Step 140/300] selected sensor 133, metric=0.7998, overlap=0.8167, rho=0.467
+Selected candidate: 86
+[Step 160/300] selected sensor 103, metric=0.8397, overlap=0.8833, rho=0.533
+[Step 180/300] selected sensor 140, metric=0.8682, overlap=0.8833, rho=0.600
+[Step 200/300] selected sensor 299, metric=0.8948, overlap=0.8833, rho=0.667
+Selected candidate: 281
+[Step 220/300] selected sensor 179, metric=0.9208, overlap=0.8800, rho=0.733
+[Step 240/300] selected sensor 21, metric=0.9453, overlap=0.8833, rho=0.800
+Selected candidate: 68
+[Step 260/300] selected sensor 98, metric=0.9584, overlap=0.8867, rho=0.867
+[Step 280/300] selected sensor 156, metric=0.9703, overlap=0.9267, rho=0.933
+[Step 300/300] selected sensor 35, metric=0.9700, overlap=0.9933, rho=1.000
+
+=== Sim 4 ===
+Initial infection fraction (delta): 0.030, lambda: 0.3
+Random baseline overlap: 0.9700
+  Running metric: ov
+Baseline metric with no sensors: 0.9700, overlap: 0.9700
+Selected candidate: 17
+[Step 1/300] selected sensor 17, metric=0.9733, overlap=0.9733, rho=0.003
+Selected candidate: 113
+[Step 2/300] selected sensor 113, metric=0.9733, overlap=0.9733, rho=0.007
+Selected candidate: 48
+[Step 3/300] selected sensor 48, metric=0.9733, overlap=0.9733, rho=0.010
+Selected candidate: 29
+[Step 4/300] selected sensor 29, metric=0.9733, overlap=0.9733, rho=0.013
+Selected candidate: 275
+[Step 20/300] selected sensor 292, metric=0.9667, overlap=0.9667, rho=0.067
+[Step 40/300] selected sensor 252, metric=0.9700, overlap=0.9700, rho=0.133
+Selected candidate: 37
+[Step 60/300] selected sensor 38, metric=0.9767, overlap=0.9767, rho=0.200
+[Step 80/300] selected sensor 150, metric=0.9833, overlap=0.9833, rho=0.267
+[Step 100/300] selected sensor 102, metric=0.9867, overlap=0.9867, rho=0.333
+Selected candidate: 86
+[Step 120/300] selected sensor 183, metric=0.9867, overlap=0.9867, rho=0.400
+[Step 140/300] selected sensor 39, metric=0.9800, overlap=0.9800, rho=0.467
+Selected candidate: 248
+[Step 160/300] selected sensor 92, metric=0.9900, overlap=0.9900, rho=0.533
+[Step 180/300] selected sensor 180, metric=0.9833, overlap=0.9833, rho=0.600
+[Step 200/300] selected sensor 88, metric=0.9933, overlap=0.9933, rho=0.667
+Selected candidate: 274
+[Step 220/300] selected sensor 219, metric=0.9933, overlap=0.9933, rho=0.733
+[Step 240/300] selected sensor 189, metric=0.9933, overlap=0.9933, rho=0.800
+Selected candidate: 268
+[Step 260/300] selected sensor 27, metric=0.9967, overlap=0.9967, rho=0.867
+[Step 280/300] selected sensor 217, metric=1.0000, overlap=1.0000, rho=0.933
+[Step 300/300] selected sensor 119, metric=1.0000, overlap=1.0000, rho=1.000
+  Running metric: mov
+Baseline metric with no sensors: 0.9500, overlap: 0.9700
+Selected candidate: 42
+[Step 1/300] selected sensor 42, metric=0.9506, overlap=0.9700, rho=0.003
+Selected candidate: 72
+[Step 2/300] selected sensor 72, metric=0.9509, overlap=0.9700, rho=0.007
+Selected candidate: 169
+[Step 3/300] selected sensor 169, metric=0.9513, overlap=0.9700, rho=0.010
+Selected candidate: 195
+[Step 4/300] selected sensor 195, metric=0.9516, overlap=0.9700, rho=0.013
+Selected candidate: 174
+[Step 20/300] selected sensor 140, metric=0.9575, overlap=0.9700, rho=0.067
+[Step 40/300] selected sensor 162, metric=0.9646, overlap=0.9700, rho=0.133
+Selected candidate: 97
+[Step 60/300] selected sensor 105, metric=0.9722, overlap=0.9700, rho=0.200
+[Step 80/300] selected sensor 10, metric=0.9764, overlap=0.9600, rho=0.267
+[Step 100/300] selected sensor 37, metric=0.9808, overlap=0.9633, rho=0.333
+Selected candidate: 51
+[Step 120/300] selected sensor 119, metric=0.9829, overlap=0.9633, rho=0.400
+[Step 140/300] selected sensor 294, metric=0.9885, overlap=0.9700, rho=0.467
+Selected candidate: 242
+[Step 160/300] selected sensor 281, metric=0.9899, overlap=0.9733, rho=0.533
+[Step 180/300] selected sensor 189, metric=0.9906, overlap=0.9767, rho=0.600
+[Step 200/300] selected sensor 158, metric=0.9911, overlap=0.9767, rho=0.667
+Selected candidate: 104
+[Step 220/300] selected sensor 253, metric=0.9919, overlap=0.9767, rho=0.733
+[Step 240/300] selected sensor 78, metric=0.9909, overlap=0.9767, rho=0.800
+Selected candidate: 229
+[Step 260/300] selected sensor 48, metric=0.9910, overlap=0.9767, rho=0.867
+[Step 280/300] selected sensor 98, metric=0.9905, overlap=0.9767, rho=0.933
+[Step 300/300] selected sensor 81, metric=0.9922, overlap=1.0000, rho=1.000
+  Running metric: c_mov
+Baseline metric with no sensors: 0.9050, overlap: 0.9700
+Selected candidate: 86
+[Step 1/300] selected sensor 86, metric=0.9083, overlap=0.9667, rho=0.003
+Selected candidate: 230
+[Step 2/300] selected sensor 230, metric=0.9114, overlap=0.9700, rho=0.007
+Selected candidate: 240
+[Step 3/300] selected sensor 240, metric=0.9146, overlap=0.9733, rho=0.010
+Selected candidate: 17
+[Step 4/300] selected sensor 17, metric=0.9178, overlap=0.9767, rho=0.013
+Selected candidate: 248
+[Step 20/300] selected sensor 82, metric=0.9409, overlap=0.9967, rho=0.067
+[Step 40/300] selected sensor 61, metric=0.9474, overlap=0.9967, rho=0.133
+Selected candidate: 295
+[Step 60/300] selected sensor 268, metric=0.9540, overlap=0.9967, rho=0.200
+[Step 80/300] selected sensor 258, metric=0.9606, overlap=0.9967, rho=0.267
+[Step 100/300] selected sensor 271, metric=0.9670, overlap=0.9967, rho=0.333
+Selected candidate: 251
+[Step 120/300] selected sensor 222, metric=0.9724, overlap=0.9967, rho=0.400
+[Step 140/300] selected sensor 239, metric=0.9783, overlap=0.9933, rho=0.467
+Selected candidate: 189
+[Step 160/300] selected sensor 6, metric=0.9858, overlap=0.9867, rho=0.533
+[Step 180/300] selected sensor 225, metric=0.9882, overlap=0.9867, rho=0.600
+[Step 200/300] selected sensor 66, metric=0.9895, overlap=0.9833, rho=0.667
+Selected candidate: 125
+[Step 220/300] selected sensor 160, metric=0.9904, overlap=0.9833, rho=0.733
+[Step 240/300] selected sensor 288, metric=0.9905, overlap=0.9833, rho=0.800
+Selected candidate: 90
+[Step 260/300] selected sensor 235, metric=0.9906, overlap=0.9833, rho=0.867
+[Step 280/300] selected sensor 75, metric=0.9906, overlap=0.9833, rho=0.933
+[Step 300/300] selected sensor 53, metric=0.9782, overlap=1.0000, rho=1.000
+Initial infection fraction (delta): 0.213, lambda: 0.3
+Random baseline overlap: 0.7867
+  Running metric: ov
+Baseline metric with no sensors: 0.7867, overlap: 0.7867
+Selected candidate: 1
+[Step 1/300] selected sensor 1, metric=0.7900, overlap=0.7900, rho=0.003
+Selected candidate: 203
+[Step 2/300] selected sensor 203, metric=0.7900, overlap=0.7900, rho=0.007
+Selected candidate: 106
+[Step 3/300] selected sensor 106, metric=0.7933, overlap=0.7933, rho=0.010
+Selected candidate: 284
+[Step 4/300] selected sensor 284, metric=0.7933, overlap=0.7933, rho=0.013
+Selected candidate: 144
+[Step 20/300] selected sensor 278, metric=0.8033, overlap=0.8033, rho=0.067
+[Step 40/300] selected sensor 108, metric=0.8233, overlap=0.8233, rho=0.133
+Selected candidate: 271
+[Step 60/300] selected sensor 52, metric=0.8500, overlap=0.8500, rho=0.200
+[Step 80/300] selected sensor 270, metric=0.8800, overlap=0.8800, rho=0.267
+[Step 100/300] selected sensor 130, metric=0.8867, overlap=0.8867, rho=0.333
+Selected candidate: 219
+[Step 120/300] selected sensor 22, metric=0.8700, overlap=0.8700, rho=0.400
+[Step 140/300] selected sensor 116, metric=0.8867, overlap=0.8867, rho=0.467
+Selected candidate: 37
+[Step 160/300] selected sensor 287, metric=0.9133, overlap=0.9133, rho=0.533
+[Step 180/300] selected sensor 286, metric=0.9200, overlap=0.9200, rho=0.600
+[Step 200/300] selected sensor 26, metric=0.9233, overlap=0.9233, rho=0.667
+Selected candidate: 264
+[Step 220/300] selected sensor 194, metric=0.9367, overlap=0.9367, rho=0.733
+[Step 240/300] selected sensor 210, metric=0.9433, overlap=0.9433, rho=0.800
+Selected candidate: 153
+[Step 260/300] selected sensor 294, metric=0.9567, overlap=0.9567, rho=0.867
+[Step 280/300] selected sensor 205, metric=0.9667, overlap=0.9667, rho=0.933
+[Step 300/300] selected sensor 255, metric=0.9800, overlap=0.9800, rho=1.000
+  Running metric: mov
+Baseline metric with no sensors: 0.8002, overlap: 0.7867
+Selected candidate: 288
+[Step 1/300] selected sensor 288, metric=0.7983, overlap=0.7867, rho=0.003
+Selected candidate: 147
+[Step 2/300] selected sensor 147, metric=0.7996, overlap=0.7833, rho=0.007
+Selected candidate: 186
+[Step 3/300] selected sensor 186, metric=0.8009, overlap=0.7800, rho=0.010
+Selected candidate: 11
+[Step 4/300] selected sensor 11, metric=0.8013, overlap=0.7800, rho=0.013
+Selected candidate: 180
+[Step 20/300] selected sensor 27, metric=0.8144, overlap=0.7900, rho=0.067
+[Step 40/300] selected sensor 63, metric=0.8223, overlap=0.7900, rho=0.133
+Selected candidate: 20
+[Step 60/300] selected sensor 56, metric=0.8300, overlap=0.7900, rho=0.200
+[Step 80/300] selected sensor 185, metric=0.8420, overlap=0.8000, rho=0.267
+[Step 100/300] selected sensor 238, metric=0.8573, overlap=0.8067, rho=0.333
+Selected candidate: 244
+[Step 120/300] selected sensor 219, metric=0.8716, overlap=0.8033, rho=0.400
+[Step 140/300] selected sensor 134, metric=0.8881, overlap=0.8067, rho=0.467
+Selected candidate: 243
+[Step 160/300] selected sensor 294, metric=0.9034, overlap=0.8100, rho=0.533
+[Step 180/300] selected sensor 228, metric=0.9182, overlap=0.8233, rho=0.600
+[Step 200/300] selected sensor 131, metric=0.9319, overlap=0.8367, rho=0.667
+Selected candidate: 299
+[Step 220/300] selected sensor 81, metric=0.9425, overlap=0.8433, rho=0.733
+[Step 240/300] selected sensor 201, metric=0.9490, overlap=0.8500, rho=0.800
+Selected candidate: 150
+[Step 260/300] selected sensor 91, metric=0.9564, overlap=0.8767, rho=0.867
+[Step 280/300] selected sensor 171, metric=0.9714, overlap=0.9233, rho=0.933
+[Step 300/300] selected sensor 125, metric=0.9800, overlap=0.9800, rho=1.000
+  Running metric: c_mov
+Baseline metric with no sensors: 0.6801, overlap: 0.7867
+Selected candidate: 30
+[Step 1/300] selected sensor 30, metric=0.6835, overlap=0.7900, rho=0.003
+Selected candidate: 87
+[Step 2/300] selected sensor 87, metric=0.6868, overlap=0.7867, rho=0.007
+Selected candidate: 122
+[Step 3/300] selected sensor 122, metric=0.6901, overlap=0.7833, rho=0.010
+Selected candidate: 106
+[Step 4/300] selected sensor 106, metric=0.6935, overlap=0.7867, rho=0.013
+Selected candidate: 120
+[Step 20/300] selected sensor 45, metric=0.7418, overlap=0.7900, rho=0.067
+[Step 40/300] selected sensor 164, metric=0.7950, overlap=0.8567, rho=0.133
+Selected candidate: 127
+[Step 60/300] selected sensor 194, metric=0.8463, overlap=0.9200, rho=0.200
+[Step 80/300] selected sensor 58, metric=0.8579, overlap=0.9200, rho=0.267
+[Step 100/300] selected sensor 213, metric=0.8657, overlap=0.9200, rho=0.333
+Selected candidate: 37
+[Step 120/300] selected sensor 147, metric=0.8749, overlap=0.9167, rho=0.400
+[Step 140/300] selected sensor 182, metric=0.8883, overlap=0.9200, rho=0.467
+Selected candidate: 289
+[Step 160/300] selected sensor 232, metric=0.9063, overlap=0.9200, rho=0.533
+[Step 180/300] selected sensor 83, metric=0.9143, overlap=0.9333, rho=0.600
+[Step 200/300] selected sensor 285, metric=0.9270, overlap=0.9333, rho=0.667
+Selected candidate: 249
+[Step 220/300] selected sensor 287, metric=0.9417, overlap=0.9333, rho=0.733
+[Step 240/300] selected sensor 295, metric=0.9565, overlap=0.9333, rho=0.800
+Selected candidate: 277
+[Step 260/300] selected sensor 265, metric=0.9671, overlap=0.9333, rho=0.867
+[Step 280/300] selected sensor 118, metric=0.9692, overlap=0.9333, rho=0.933
+[Step 300/300] selected sensor 124, metric=0.9470, overlap=0.9800, rho=1.000
+Initial infection fraction (delta): 0.393, lambda: 0.3
+Random baseline overlap: 0.6067
+  Running metric: ov
+Baseline metric with no sensors: 0.6067, overlap: 0.6067
+Selected candidate: 163
+[Step 1/300] selected sensor 163, metric=0.6133, overlap=0.6133, rho=0.003
+Selected candidate: 105
+[Step 2/300] selected sensor 105, metric=0.6167, overlap=0.6167, rho=0.007
+Selected candidate: 140
+[Step 3/300] selected sensor 140, metric=0.6200, overlap=0.6200, rho=0.010
+Selected candidate: 50
+[Step 4/300] selected sensor 50, metric=0.6233, overlap=0.6233, rho=0.013
+Selected candidate: 46
+[Step 20/300] selected sensor 219, metric=0.6833, overlap=0.6833, rho=0.067
+[Step 40/300] selected sensor 3, metric=0.7500, overlap=0.7500, rho=0.133
+Selected candidate: 89
+[Step 60/300] selected sensor 230, metric=0.8133, overlap=0.8133, rho=0.200
+[Step 80/300] selected sensor 95, metric=0.8800, overlap=0.8800, rho=0.267
+[Step 100/300] selected sensor 244, metric=0.9467, overlap=0.9467, rho=0.333
+Selected candidate: 97
+[Step 120/300] selected sensor 293, metric=0.9967, overlap=0.9967, rho=0.400
+[Step 140/300] selected sensor 17, metric=0.9933, overlap=0.9933, rho=0.467
+Selected candidate: 274
+[Step 160/300] selected sensor 21, metric=0.9933, overlap=0.9933, rho=0.533
+[Step 180/300] selected sensor 217, metric=0.9900, overlap=0.9900, rho=0.600
+[Step 200/300] selected sensor 44, metric=0.9867, overlap=0.9867, rho=0.667
+Selected candidate: 257
+[Step 220/300] selected sensor 198, metric=0.9933, overlap=0.9933, rho=0.733
+[Step 240/300] selected sensor 120, metric=0.9933, overlap=0.9933, rho=0.800
+Selected candidate: 142
+[Step 260/300] selected sensor 31, metric=1.0000, overlap=1.0000, rho=0.867
+[Step 280/300] selected sensor 77, metric=1.0000, overlap=1.0000, rho=0.933
+[Step 300/300] selected sensor 223, metric=1.0000, overlap=1.0000, rho=1.000
+  Running metric: mov
+Baseline metric with no sensors: 0.6012, overlap: 0.6067
+Selected candidate: 51
+[Step 1/300] selected sensor 51, metric=0.6039, overlap=0.6100, rho=0.003
+Selected candidate: 12
+[Step 2/300] selected sensor 12, metric=0.6065, overlap=0.6133, rho=0.007
+Selected candidate: 100
+[Step 3/300] selected sensor 100, metric=0.6076, overlap=0.6133, rho=0.010
+Selected candidate: 167
+[Step 4/300] selected sensor 167, metric=0.6102, overlap=0.6100, rho=0.013
+Selected candidate: 205
+[Step 20/300] selected sensor 139, metric=0.6464, overlap=0.6233, rho=0.067
+[Step 40/300] selected sensor 84, metric=0.6737, overlap=0.6300, rho=0.133
+Selected candidate: 36
+[Step 60/300] selected sensor 169, metric=0.6967, overlap=0.6300, rho=0.200
+[Step 80/300] selected sensor 293, metric=0.7262, overlap=0.6567, rho=0.267
+[Step 100/300] selected sensor 76, metric=0.7579, overlap=0.6600, rho=0.333
+Selected candidate: 254
+[Step 120/300] selected sensor 156, metric=0.7864, overlap=0.6833, rho=0.400
+[Step 140/300] selected sensor 118, metric=0.8149, overlap=0.7033, rho=0.467
+Selected candidate: 284
+[Step 160/300] selected sensor 42, metric=0.8440, overlap=0.7067, rho=0.533
+[Step 180/300] selected sensor 226, metric=0.8747, overlap=0.7233, rho=0.600
+[Step 200/300] selected sensor 153, metric=0.8976, overlap=0.7433, rho=0.667
+Selected candidate: 149
+[Step 220/300] selected sensor 53, metric=0.9100, overlap=0.7633, rho=0.733
+[Step 240/300] selected sensor 275, metric=0.9247, overlap=0.8000, rho=0.800
+Selected candidate: 261
+[Step 260/300] selected sensor 282, metric=0.9512, overlap=0.8667, rho=0.867
+[Step 280/300] selected sensor 165, metric=0.9753, overlap=0.9333, rho=0.933
+[Step 300/300] selected sensor 120, metric=0.9829, overlap=1.0000, rho=1.000
+  Running metric: c_mov
+Baseline metric with no sensors: 0.5202, overlap: 0.6067
+Selected candidate: 81
+[Step 1/300] selected sensor 81, metric=0.5236, overlap=0.6100, rho=0.003
+Selected candidate: 45
+[Step 2/300] selected sensor 45, metric=0.5269, overlap=0.6133, rho=0.007
+Selected candidate: 12
+[Step 3/300] selected sensor 12, metric=0.5302, overlap=0.6167, rho=0.010
+Selected candidate: 143
+[Step 4/300] selected sensor 143, metric=0.5336, overlap=0.6133, rho=0.013
+Selected candidate: 51
+[Step 20/300] selected sensor 56, metric=0.5773, overlap=0.6400, rho=0.067
+[Step 40/300] selected sensor 217, metric=0.6064, overlap=0.6467, rho=0.133
+Selected candidate: 128
+[Step 60/300] selected sensor 4, metric=0.6408, overlap=0.6500, rho=0.200
+[Step 80/300] selected sensor 211, metric=0.6813, overlap=0.6867, rho=0.267
+[Step 100/300] selected sensor 265, metric=0.7212, overlap=0.7533, rho=0.333
+Selected candidate: 282
+[Step 120/300] selected sensor 110, metric=0.7583, overlap=0.8067, rho=0.400
+[Step 140/300] selected sensor 262, metric=0.7978, overlap=0.8700, rho=0.467
+Selected candidate: 43
+[Step 160/300] selected sensor 162, metric=0.8371, overlap=0.9200, rho=0.533
+[Step 180/300] selected sensor 156, metric=0.8673, overlap=0.9267, rho=0.600
+[Step 200/300] selected sensor 201, metric=0.8948, overlap=0.9300, rho=0.667
+Selected candidate: 189
+[Step 220/300] selected sensor 195, metric=0.9213, overlap=0.9300, rho=0.733
+[Step 240/300] selected sensor 273, metric=0.9498, overlap=0.9367, rho=0.800
+Selected candidate: 226
+[Step 260/300] selected sensor 73, metric=0.9688, overlap=0.9367, rho=0.867
+[Step 280/300] selected sensor 127, metric=0.9751, overlap=0.9467, rho=0.933
+[Step 300/300] selected sensor 126, metric=0.9817, overlap=1.0000, rho=1.000
+Saved results_new/full_sweep_rnd_seq_ov_mov_c_mov_rrg_N300_T10_d3_Nsim5_del0.05_0.2_0.4.csv
