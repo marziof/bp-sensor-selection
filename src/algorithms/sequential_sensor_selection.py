@@ -4,6 +4,7 @@ from tqdm import tqdm
 import torch
 from bpepi.Modules import fg_torch as fg #pytorch version
 from src.utils.metrics import *
+from src.utils.sensor_logger import SensorLogger
 
 def get_candidates(remaining, m):
     if len(remaining) <= m:
@@ -11,7 +12,7 @@ def get_candidates(remaining, m):
     else:
         return np.random.choice(remaining, size=m, replace=False)
 
-def sequential_sensor_selection(metric, bp_base, status_nodes, rho_max, m, max_iter, tol, damp, delta):
+def sequential_sensor_selection(metric, bp_base, status_nodes, rho_max, m, max_iter, tol, damp, delta, logger=None, G=None):
     target = int(rho_max * bp_base.size)
     sensor_set = set()
     sensor_order = []
@@ -46,6 +47,9 @@ def sequential_sensor_selection(metric, bp_base, status_nodes, rho_max, m, max_i
                 f"No sensor added this iteration. Size stayed {len(sensor_set)}"
             )
         sensor_order.append(best_candidate)
+        if logger is not None:
+            #print(f"Logging stats for selected sensor {best_candidate} at rho={(k+1)/bp_base.size:.3f}")
+            logger.log_sensor_stats(selected_sensor=best_candidate, candidates=candidates, marginals=bp_base.marginals(), status_nodes=status_nodes, graph=G, rho=k/bp_base.size)  # log stats before updating BP with new sensor
 
         # add best candidate's full trajectory to observations
         current_obs = build_obs(sensor_set, status_nodes)

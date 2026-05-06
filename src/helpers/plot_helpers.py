@@ -41,18 +41,94 @@ def plot_comparison(results, eval_metric="O", delta=0.1, save=False, title=None,
     results["method_metric"] = results["method"].astype(str) + "_" + results["metric"].astype(str)
     # set nan to rnd for method_metric where method is rnd 
     results.loc[(results["method"] == "random") & (results["method_metric"].isna()), "method_metric"] = "rnd"
+    results.loc[(results["method"] == "entropy") & (results["method_metric"].isna()), "method_metric"] = "entropy"
     print("List of method_metric combinations: ", results["method_metric"].unique())
     plt.figure(figsize=(8, 6))
+    font_size = 14
     # hue on method and metric (selection method)
     sns.lineplot(data=results[results["delta"] == delta], x="rho", y=eval_metric, hue="method_metric", palette="Set2")
-    plt.title("Comparison of {} for Random vs Selected Sensors (delta={})".format(eval_metric, delta))
-    plt.xlabel("$\\rho$") 
-    plt.ylabel("{}".format(eval_metric))
-    plt.legend(title="Sensor Type")
+    if title:
+        plt.title("Comparison of {} for Random vs Selected Sensors (delta={})".format(eval_metric, delta))
+    plt.xlabel("$\\rho$", fontsize=font_size) 
+    if eval_metric == "O_tilde":
+        plt.ylabel("$\\tilde{O}$", fontsize=font_size)
+    else:
+        plt.ylabel("{}".format(eval_metric), fontsize=font_size)
+    plt.legend(title="Sensor Type", fontsize=font_size-2, title_fontsize=font_size-2)
     plt.tight_layout()
     if save_path:
         os.makedirs(os.path.dirname(save_path), exist_ok=True)
         plt.savefig(save_path, dpi=300, bbox_inches='tight')
+    plt.show()
+    plt.close()
+
+
+def plot_delta_comparison(results, eval_metric="O", method_metric="random", save=False, title=None, save_path=None):
+    """ 
+    Plots the given metric for both random and selected sensor results on the same plot for comparison.
+    Metrics: "O" (overlap), "O_tilde" (rescaled overlap), "rank", "precision", "recall", "f1"
+    """
+    results = results.copy()
+    results["method_metric"] = results["method"].astype(str) + "_" + results["metric"].astype(str)
+    # set nan to rnd for method_metric where method is rnd 
+    results.loc[(results["method"] == "random") & (results["method_metric"].isna()), "method_metric"] = "rnd"
+    results.loc[(results["method"] == "entropy") & (results["method_metric"].isna()), "method_metric"] = "entropy"
+    print("List of method_metric combinations: ", results["method_metric"].unique())
+    plt.figure(figsize=(8, 6))
+    font_size = 14
+    # hue on method and metric (selection method)
+    sns.lineplot(data=results[results["method_metric"] == method_metric], x="rho", y=eval_metric, hue="delta", palette="Set2")
+    if title:
+        plt.title("Comparison of {} for Random vs Selected Sensors (delta={})".format(eval_metric, delta))
+    plt.xlabel("$\\rho$", fontsize=font_size) 
+    if eval_metric == "O_tilde":
+        plt.ylabel("$\\tilde{O}$", fontsize=font_size)
+    else:
+        plt.ylabel("{}".format(eval_metric), fontsize=font_size)
+    plt.legend(title="$\\delta$", fontsize=font_size-2, title_fontsize=font_size-2)
+    plt.tight_layout()
+    if save_path:
+        os.makedirs(os.path.dirname(save_path), exist_ok=True)
+        plt.savefig(save_path, dpi=300, bbox_inches='tight')
+    plt.show()
+    plt.close()
+
+
+def plot_metrics_comparison(results, metric1="MO_tilde", metric2="O_tilde", delta=None, save=False, title=None, save_path=None):
+    """ 
+    Plots the given metric for both random and selected sensor results on the same plot for comparison.
+    Metrics: "O" (overlap), "O_tilde" (rescaled overlap), or SE vs MSE 
+    """
+    results = results.copy()
+    if delta is not None:
+        results = results[results["delta"] == delta]
+    results["method_metric"] = results["method"].astype(str) + "_" + results["metric"].astype(str)
+    # set nan to rnd for method_metric where method is rnd 
+    results.loc[(results["method"] == "random") & (results["method_metric"].isna()), "method_metric"] = "rnd"
+    # add metric1 - metric2 column for better visualization
+    results["metric_diff"] = results[metric1] - results[metric2]
+    plt.figure(figsize=(8, 6)) 
+    font_size = 14
+    # plot two metrics with rho on x-axis on the same plot, with hue on method and metric (selection method)
+    sns.lineplot(data=results, x="rho", y="metric_diff", hue="method_metric", palette="Set2")
+    #sns.lineplot(data=results, x="rho", y=metric2, hue="method_metric", palette="Set2")
+    if title:
+        plt.title("Comparison of {} vs {} for Random vs Selected Sensors (delta={})".format(metric1, metric2, delta))
+    plt.xlabel("$\\rho$", fontsize=font_size)
+    if metric1 == "SE" and metric2 == "MSE":
+        plt.ylabel("$\\text{SE} - \\text{MSE}$", fontsize=font_size)
+    if metric1 == "O_tilde" and metric2 == "MO_tilde":
+        plt.ylabel("$\\tilde{O} - \\tilde{MO}$", fontsize=font_size)
+    plt.legend(title="Selection Strategy", fontsize=font_size-2, title_fontsize=font_size-2)
+    plt.tight_layout()
+    if save_path:
+        os.makedirs(os.path.dirname(save_path), exist_ok=True)
+        plt.savefig(save_path, dpi=300, bbox_inches='tight')
+    plt.show()
+    plt.close()
+
+
+    
 
 
 def plot_comparison_old(results, metric="O", delta=0.1, save=False, title=None, save_path=None):
