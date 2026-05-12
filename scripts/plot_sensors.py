@@ -7,7 +7,7 @@ from src.helpers.plot_helpers import *
 from src.helpers.plot_sensor_stats import *
 
 FILE_DIR = "results_new"
-SENSOR_FILE_NAME = "sensor_stats_full_sweep_logger_rnd_seq_ov_mov_c_mov_rrg_N300_T10_d3_Nsim5_del01_02_03.csv" #"sensor_stats_full_sweep_logger_test_rnd_seq_ov_mov_c_mov_rrg_N30_T10_d3_Nsim3_del0.3.csv"
+SENSOR_FILE_NAME = "full_sweep_log_dist_rnd_seq_ov_rrg_N100_T10_d3_Nsim5_del03.csv" #"sensor_stats_full_sweep_logger_test_rnd_seq_ov_mov_c_mov_rrg_N30_T10_d3_Nsim3_del0.3.csv"
 
 
 SAVE_DIR = "results_new/plots"
@@ -15,7 +15,7 @@ SAVE_DIR = "results_new/plots"
 SENSOR_PATH = f"{FILE_DIR}/{SENSOR_FILE_NAME}"
 sensor_df = pd.read_csv(SENSOR_PATH)
 
-delta = 0.2
+delta = 0.3
 # print(sensor_df.head())
 # # check how many methods
 # print(sensor_df["method"].unique())

@@ -1,109 +1,3284 @@
 Running in: /home/formica/bp-sensor-selection
-Model loaded and set to eval mode.
-Random baseline computed for sim=0, delta=0.3, lam=0.3
-[GNN] k=1/50, overlap=0.7800
-[GNN] k=2/50, overlap=0.8000
-[GNN] k=3/50, overlap=0.8200
-[GNN] k=4/50, overlap=0.8400
-[GNN] k=5/50, overlap=0.8200
-[GNN] k=11/50, overlap=0.8200
-[GNN] k=21/50, overlap=0.8200
-[GNN] k=31/50, overlap=0.8800
-[GNN] k=41/50, overlap=0.9200
-GNN selection completed for sim=0, delta=0.3, lam=0.3
-Random baseline computed for sim=1, delta=0.3, lam=0.3
-[GNN] k=1/50, overlap=0.7400
-[GNN] k=2/50, overlap=0.7200
-[GNN] k=3/50, overlap=0.7000
-[GNN] k=4/50, overlap=0.7200
-[GNN] k=5/50, overlap=0.7400
-[GNN] k=11/50, overlap=0.7400
-[GNN] k=21/50, overlap=0.8400
-[GNN] k=31/50, overlap=0.8600
-[GNN] k=41/50, overlap=0.9000
-GNN selection completed for sim=1, delta=0.3, lam=0.3
-Random baseline computed for sim=2, delta=0.3, lam=0.3
-[GNN] k=1/50, overlap=0.6400
-[GNN] k=2/50, overlap=0.6600
-[GNN] k=3/50, overlap=0.6800
-[GNN] k=4/50, overlap=0.6600
-[GNN] k=5/50, overlap=0.6800
-[GNN] k=11/50, overlap=0.6800
-[GNN] k=21/50, overlap=0.7800
-[GNN] k=31/50, overlap=0.8800
-[GNN] k=41/50, overlap=0.9400
-GNN selection completed for sim=2, delta=0.3, lam=0.3
-Random baseline computed for sim=3, delta=0.3, lam=0.3
-[GNN] k=1/50, overlap=0.8000
-[GNN] k=2/50, overlap=0.7800
-[GNN] k=3/50, overlap=0.7600
-[GNN] k=4/50, overlap=0.7800
-[GNN] k=5/50, overlap=0.7800
-[GNN] k=11/50, overlap=0.8000
-[GNN] k=21/50, overlap=0.8400
-[GNN] k=31/50, overlap=0.9000
-[GNN] k=41/50, overlap=0.9200
-GNN selection completed for sim=3, delta=0.3, lam=0.3
-Random baseline computed for sim=4, delta=0.3, lam=0.3
-[GNN] k=1/50, overlap=0.6800
-[GNN] k=2/50, overlap=0.6600
-[GNN] k=3/50, overlap=0.6400
-[GNN] k=4/50, overlap=0.6200
-[GNN] k=5/50, overlap=0.6000
-[GNN] k=11/50, overlap=0.6400
-[GNN] k=21/50, overlap=0.7800
-[GNN] k=31/50, overlap=0.8400
-[GNN] k=41/50, overlap=0.9200
-GNN selection completed for sim=4, delta=0.3, lam=0.3
-method    gnn  random
-rho                  
-0.02    0.728   0.732
-0.04    0.724   0.736
-0.06    0.720   0.744
-0.08    0.724   0.736
-0.10    0.724   0.740
-0.12    0.712   0.748
-0.14    0.712   0.752
-0.16    0.716   0.760
-0.18    0.724   0.764
-0.20    0.732   0.768
-0.22    0.736   0.788
-0.24    0.740   0.768
-0.26    0.748   0.784
-0.28    0.760   0.780
-0.30    0.772   0.780
-0.32    0.780   0.776
-0.34    0.784   0.788
-0.36    0.792   0.792
-0.38    0.800   0.796
-0.40    0.804   0.788
-0.42    0.808   0.800
-0.44    0.812   0.804
-0.46    0.808   0.812
-0.48    0.812   0.824
-0.50    0.816   0.832
-0.52    0.832   0.852
-0.54    0.840   0.860
-0.56    0.848   0.868
-0.58    0.844   0.872
-0.60    0.860   0.876
-0.62    0.868   0.880
-0.64    0.872   0.876
-0.66    0.876   0.876
-0.68    0.884   0.880
-0.70    0.884   0.888
-0.72    0.896   0.896
-0.74    0.908   0.904
-0.76    0.916   0.920
-0.78    0.920   0.928
-0.80    0.920   0.936
-0.82    0.920   0.940
-0.84    0.928   0.952
-0.86    0.928   0.956
-0.88    0.928   0.964
-0.90    0.936   0.972
-0.92    0.952   0.976
-0.94    0.968   0.980
-0.96    0.984   0.984
-0.98    0.996   0.988
-1.00    0.996   0.996
+Running method: entropy
+
+=== Sim 0 ===
+Initial infection fraction (delta): 0.430, lambda: 0.3
+Random baseline overlap: 0.5700
+Added candidate: 0 , true initial state is: 0
+Overlap after adding candidate: 0.5700, error: 0.0000, BP iters: 5, rho =0.00
+Added candidate: 299 , true initial state is: 0
+Overlap after adding candidate: 0.5700, error: 0.0000, BP iters: 6, rho =0.01
+Added candidate: 161 , true initial state is: 0
+Overlap after adding candidate: 0.5733, error: 0.0000, BP iters: 7, rho =0.01
+Added candidate: 66 , true initial state is: 1
+Overlap after adding candidate: 0.5733, error: 0.0000, BP iters: 3, rho =0.01
+Added candidate: 294 , true initial state is: 1
+Overlap after adding candidate: 0.5767, error: 0.0000, BP iters: 3, rho =0.02
+Added candidate: 282 , true initial state is: 1
+Added candidate: 46 , true initial state is: 0
+Added candidate: 10 , true initial state is: 1
+Added candidate: 24 , true initial state is: 1
+Added candidate: 93 , true initial state is: 0
+Added candidate: 9 , true initial state is: 1
+Added candidate: 117 , true initial state is: 1
+Added candidate: 202 , true initial state is: 0
+Added candidate: 191 , true initial state is: 0
+Added candidate: 157 , true initial state is: 1
+Added candidate: 277 , true initial state is: 0
+Added candidate: 242 , true initial state is: 0
+Added candidate: 260 , true initial state is: 1
+Added candidate: 225 , true initial state is: 0
+Added candidate: 151 , true initial state is: 1
+Added candidate: 18 , true initial state is: 1
+Overlap after adding candidate: 0.6100, error: 0.0000, BP iters: 5, rho =0.07
+Added candidate: 158 , true initial state is: 1
+Added candidate: 71 , true initial state is: 0
+Added candidate: 219 , true initial state is: 0
+Added candidate: 17 , true initial state is: 0
+Added candidate: 3 , true initial state is: 0
+Added candidate: 145 , true initial state is: 0
+Added candidate: 159 , true initial state is: 0
+Added candidate: 226 , true initial state is: 0
+Added candidate: 95 , true initial state is: 1
+Added candidate: 108 , true initial state is: 0
+Added candidate: 246 , true initial state is: 0
+Added candidate: 89 , true initial state is: 1
+Added candidate: 193 , true initial state is: 1
+Added candidate: 171 , true initial state is: 1
+Added candidate: 70 , true initial state is: 1
+Added candidate: 248 , true initial state is: 0
+Added candidate: 43 , true initial state is: 0
+Added candidate: 5 , true initial state is: 1
+Added candidate: 236 , true initial state is: 0
+Added candidate: 152 , true initial state is: 1
+Overlap after adding candidate: 0.6400, error: 0.0000, BP iters: 4, rho =0.14
+Added candidate: 21 , true initial state is: 0
+Added candidate: 222 , true initial state is: 0
+Added candidate: 200 , true initial state is: 0
+Added candidate: 166 , true initial state is: 0
+Added candidate: 60 , true initial state is: 1
+Added candidate: 237 , true initial state is: 0
+Added candidate: 138 , true initial state is: 0
+Added candidate: 150 , true initial state is: 0
+Added candidate: 84 , true initial state is: 0
+Added candidate: 23 , true initial state is: 1
+Added candidate: 273 , true initial state is: 1
+Added candidate: 278 , true initial state is: 0
+Added candidate: 20 , true initial state is: 0
+Added candidate: 233 , true initial state is: 1
+Added candidate: 85 , true initial state is: 1
+Added candidate: 81 , true initial state is: 0
+Added candidate: 13 , true initial state is: 0
+Added candidate: 288 , true initial state is: 0
+Added candidate: 59 , true initial state is: 1
+Added candidate: 156 , true initial state is: 0
+Overlap after adding candidate: 0.6533, error: 0.0000, BP iters: 16, rho =0.20
+Added candidate: 199 , true initial state is: 0
+Added candidate: 164 , true initial state is: 1
+Added candidate: 259 , true initial state is: 1
+Added candidate: 253 , true initial state is: 0
+Added candidate: 45 , true initial state is: 0
+Added candidate: 249 , true initial state is: 1
+Added candidate: 228 , true initial state is: 1
+Added candidate: 35 , true initial state is: 1
+Added candidate: 287 , true initial state is: 0
+Added candidate: 6 , true initial state is: 0
+Added candidate: 140 , true initial state is: 0
+Added candidate: 109 , true initial state is: 1
+Added candidate: 203 , true initial state is: 1
+Added candidate: 99 , true initial state is: 0
+Added candidate: 155 , true initial state is: 0
+Added candidate: 129 , true initial state is: 1
+Added candidate: 94 , true initial state is: 1
+Added candidate: 263 , true initial state is: 1
+Added candidate: 264 , true initial state is: 1
+Added candidate: 168 , true initial state is: 1
+Overlap after adding candidate: 0.6933, error: 0.0000, BP iters: 3, rho =0.27
+Added candidate: 223 , true initial state is: 1
+Added candidate: 250 , true initial state is: 0
+Added candidate: 245 , true initial state is: 0
+Added candidate: 119 , true initial state is: 0
+Added candidate: 192 , true initial state is: 0
+Added candidate: 68 , true initial state is: 0
+Added candidate: 230 , true initial state is: 1
+Added candidate: 14 , true initial state is: 0
+Added candidate: 218 , true initial state is: 1
+Added candidate: 283 , true initial state is: 1
+Added candidate: 165 , true initial state is: 0
+Added candidate: 295 , true initial state is: 1
+Added candidate: 149 , true initial state is: 0
+Added candidate: 289 , true initial state is: 0
+Added candidate: 55 , true initial state is: 1
+Added candidate: 292 , true initial state is: 1
+Added candidate: 120 , true initial state is: 0
+Added candidate: 54 , true initial state is: 0
+Added candidate: 31 , true initial state is: 0
+Added candidate: 75 , true initial state is: 0
+Overlap after adding candidate: 0.7167, error: 0.0000, BP iters: 8, rho =0.34
+Added candidate: 224 , true initial state is: 0
+Added candidate: 215 , true initial state is: 0
+Added candidate: 121 , true initial state is: 0
+Added candidate: 188 , true initial state is: 0
+Added candidate: 197 , true initial state is: 0
+Added candidate: 26 , true initial state is: 0
+Added candidate: 139 , true initial state is: 1
+Added candidate: 178 , true initial state is: 0
+Added candidate: 221 , true initial state is: 1
+Added candidate: 136 , true initial state is: 1
+Added candidate: 130 , true initial state is: 0
+Added candidate: 49 , true initial state is: 0
+Added candidate: 65 , true initial state is: 1
+Added candidate: 113 , true initial state is: 0
+Added candidate: 176 , true initial state is: 0
+Added candidate: 67 , true initial state is: 1
+Added candidate: 50 , true initial state is: 1
+Added candidate: 189 , true initial state is: 0
+Added candidate: 135 , true initial state is: 0
+Added candidate: 281 , true initial state is: 0
+Overlap after adding candidate: 0.7433, error: 0.0000, BP iters: 4, rho =0.40
+Reached delta=0.40 at k=120, current overlap: 0.7433, proportion of true sources in selected set: 0.4132
+Added candidate: 104 , true initial state is: 1
+Added candidate: 190 , true initial state is: 1
+Added candidate: 298 , true initial state is: 0
+Added candidate: 123 , true initial state is: 0
+Added candidate: 115 , true initial state is: 1
+Added candidate: 162 , true initial state is: 1
+Added candidate: 57 , true initial state is: 0
+Added candidate: 69 , true initial state is: 1
+Added candidate: 271 , true initial state is: 1
+Added candidate: 80 , true initial state is: 1
+Added candidate: 210 , true initial state is: 0
+Added candidate: 172 , true initial state is: 0
+Added candidate: 290 , true initial state is: 1
+Added candidate: 153 , true initial state is: 1
+Added candidate: 36 , true initial state is: 0
+Added candidate: 47 , true initial state is: 1
+Added candidate: 275 , true initial state is: 1
+Added candidate: 291 , true initial state is: 0
+Added candidate: 133 , true initial state is: 0
+Added candidate: 238 , true initial state is: 0
+Overlap after adding candidate: 0.7833, error: 0.0000, BP iters: 6, rho =0.47
+Added candidate: 146 , true initial state is: 1
+Added candidate: 96 , true initial state is: 1
+Added candidate: 198 , true initial state is: 1
+Added candidate: 83 , true initial state is: 0
+Added candidate: 16 , true initial state is: 0
+Added candidate: 268 , true initial state is: 0
+Added candidate: 44 , true initial state is: 0
+Added candidate: 296 , true initial state is: 1
+Added candidate: 177 , true initial state is: 0
+Added candidate: 91 , true initial state is: 1
+Added candidate: 196 , true initial state is: 1
+Added candidate: 220 , true initial state is: 1
+Added candidate: 78 , true initial state is: 0
+Added candidate: 204 , true initial state is: 0
+Added candidate: 53 , true initial state is: 0
+Added candidate: 232 , true initial state is: 1
+Added candidate: 229 , true initial state is: 0
+Added candidate: 116 , true initial state is: 0
+Added candidate: 213 , true initial state is: 1
+Added candidate: 97 , true initial state is: 1
+Overlap after adding candidate: 0.8067, error: 0.0000, BP iters: 6, rho =0.54
+Added candidate: 8 , true initial state is: 0
+Added candidate: 110 , true initial state is: 0
+Added candidate: 258 , true initial state is: 1
+Added candidate: 127 , true initial state is: 0
+Added candidate: 33 , true initial state is: 0
+Added candidate: 252 , true initial state is: 0
+Added candidate: 240 , true initial state is: 0
+Added candidate: 103 , true initial state is: 0
+Added candidate: 169 , true initial state is: 1
+Added candidate: 216 , true initial state is: 1
+Added candidate: 41 , true initial state is: 1
+Added candidate: 111 , true initial state is: 1
+Added candidate: 72 , true initial state is: 0
+Added candidate: 272 , true initial state is: 0
+Added candidate: 37 , true initial state is: 1
+Added candidate: 212 , true initial state is: 1
+Added candidate: 243 , true initial state is: 1
+Added candidate: 241 , true initial state is: 0
+Added candidate: 293 , true initial state is: 0
+Added candidate: 227 , true initial state is: 1
+Overlap after adding candidate: 0.8367, error: 0.0000, BP iters: 3, rho =0.60
+Added candidate: 186 , true initial state is: 0
+Added candidate: 90 , true initial state is: 0
+Added candidate: 234 , true initial state is: 1
+Added candidate: 39 , true initial state is: 1
+Added candidate: 42 , true initial state is: 0
+Added candidate: 15 , true initial state is: 0
+Added candidate: 206 , true initial state is: 1
+Added candidate: 175 , true initial state is: 1
+Added candidate: 141 , true initial state is: 0
+Added candidate: 76 , true initial state is: 1
+Added candidate: 261 , true initial state is: 0
+Added candidate: 77 , true initial state is: 0
+Added candidate: 142 , true initial state is: 0
+Added candidate: 160 , true initial state is: 1
+Added candidate: 147 , true initial state is: 1
+Added candidate: 34 , true initial state is: 0
+Added candidate: 12 , true initial state is: 1
+Added candidate: 251 , true initial state is: 1
+Added candidate: 173 , true initial state is: 1
+Added candidate: 131 , true initial state is: 0
+Overlap after adding candidate: 0.8600, error: 0.0000, BP iters: 7, rho =0.67
+Added candidate: 52 , true initial state is: 0
+Added candidate: 28 , true initial state is: 0
+Added candidate: 88 , true initial state is: 0
+Added candidate: 48 , true initial state is: 0
+Added candidate: 98 , true initial state is: 0
+Added candidate: 74 , true initial state is: 1
+Added candidate: 257 , true initial state is: 0
+Added candidate: 279 , true initial state is: 1
+Added candidate: 170 , true initial state is: 0
+Added candidate: 217 , true initial state is: 0
+Added candidate: 124 , true initial state is: 0
+Added candidate: 7 , true initial state is: 1
+Added candidate: 285 , true initial state is: 0
+Added candidate: 270 , true initial state is: 1
+Added candidate: 86 , true initial state is: 1
+Added candidate: 1 , true initial state is: 0
+Added candidate: 134 , true initial state is: 1
+Added candidate: 195 , true initial state is: 0
+Added candidate: 73 , true initial state is: 1
+Added candidate: 22 , true initial state is: 0
+Overlap after adding candidate: 0.8867, error: 0.0000, BP iters: 5, rho =0.74
+Added candidate: 185 , true initial state is: 1
+Added candidate: 280 , true initial state is: 1
+Added candidate: 148 , true initial state is: 1
+Added candidate: 265 , true initial state is: 0
+Added candidate: 267 , true initial state is: 1
+Added candidate: 255 , true initial state is: 0
+Added candidate: 87 , true initial state is: 1
+Added candidate: 25 , true initial state is: 0
+Added candidate: 132 , true initial state is: 1
+Added candidate: 30 , true initial state is: 0
+Added candidate: 211 , true initial state is: 1
+Added candidate: 184 , true initial state is: 0
+Added candidate: 262 , true initial state is: 0
+Added candidate: 286 , true initial state is: 0
+Added candidate: 167 , true initial state is: 1
+Added candidate: 106 , true initial state is: 0
+Added candidate: 231 , true initial state is: 0
+Added candidate: 247 , true initial state is: 0
+Added candidate: 144 , true initial state is: 0
+Added candidate: 61 , true initial state is: 1
+Overlap after adding candidate: 0.9167, error: 0.0000, BP iters: 6, rho =0.80
+Added candidate: 122 , true initial state is: 0
+Added candidate: 126 , true initial state is: 0
+Added candidate: 125 , true initial state is: 1
+Added candidate: 2 , true initial state is: 0
+Added candidate: 40 , true initial state is: 0
+Added candidate: 56 , true initial state is: 1
+Added candidate: 114 , true initial state is: 1
+Added candidate: 82 , true initial state is: 0
+Added candidate: 32 , true initial state is: 0
+Added candidate: 112 , true initial state is: 1
+Added candidate: 182 , true initial state is: 0
+Added candidate: 102 , true initial state is: 0
+Added candidate: 205 , true initial state is: 0
+Added candidate: 276 , true initial state is: 0
+Added candidate: 143 , true initial state is: 1
+Added candidate: 269 , true initial state is: 0
+Added candidate: 207 , true initial state is: 1
+Added candidate: 180 , true initial state is: 1
+Added candidate: 128 , true initial state is: 0
+Added candidate: 100 , true initial state is: 0
+Overlap after adding candidate: 0.9467, error: 0.0000, BP iters: 4, rho =0.87
+Added candidate: 11 , true initial state is: 1
+Added candidate: 163 , true initial state is: 1
+Added candidate: 187 , true initial state is: 1
+Added candidate: 137 , true initial state is: 0
+Added candidate: 297 , true initial state is: 0
+Added candidate: 101 , true initial state is: 1
+Added candidate: 235 , true initial state is: 0
+Added candidate: 19 , true initial state is: 1
+Added candidate: 256 , true initial state is: 1
+Added candidate: 208 , true initial state is: 1
+Added candidate: 274 , true initial state is: 0
+Added candidate: 79 , true initial state is: 1
+Added candidate: 64 , true initial state is: 1
+Added candidate: 183 , true initial state is: 0
+Added candidate: 181 , true initial state is: 0
+Added candidate: 194 , true initial state is: 1
+Added candidate: 209 , true initial state is: 0
+Added candidate: 105 , true initial state is: 1
+Added candidate: 29 , true initial state is: 0
+Added candidate: 266 , true initial state is: 0
+Overlap after adding candidate: 0.9767, error: 0.0000, BP iters: 4, rho =0.94
+Added candidate: 244 , true initial state is: 1
+Added candidate: 284 , true initial state is: 0
+Added candidate: 254 , true initial state is: 1
+Added candidate: 51 , true initial state is: 0
+Added candidate: 239 , true initial state is: 0
+Added candidate: 201 , true initial state is: 0
+Added candidate: 214 , true initial state is: 0
+Added candidate: 27 , true initial state is: 0
+Added candidate: 179 , true initial state is: 0
+Added candidate: 38 , true initial state is: 0
+Added candidate: 63 , true initial state is: 0
+Added candidate: 118 , true initial state is: 1
+Added candidate: 4 , true initial state is: 1
+Added candidate: 154 , true initial state is: 0
+Added candidate: 92 , true initial state is: 0
+Added candidate: 174 , true initial state is: 0
+Added candidate: 62 , true initial state is: 0
+Added candidate: 107 , true initial state is: 1
+Added candidate: 58 , true initial state is: 0
+
+=== Sim 1 ===
+Initial infection fraction (delta): 0.420, lambda: 0.3
+Random baseline overlap: 0.5800
+Added candidate: 0 , true initial state is: 0
+Overlap after adding candidate: 0.5800, error: 0.0000, BP iters: 5, rho =0.00
+Added candidate: 193 , true initial state is: 1
+Overlap after adding candidate: 0.5833, error: 0.0000, BP iters: 3, rho =0.01
+Added candidate: 263 , true initial state is: 0
+Overlap after adding candidate: 0.5833, error: 0.0000, BP iters: 6, rho =0.01
+Added candidate: 16 , true initial state is: 0
+Overlap after adding candidate: 0.5800, error: 0.0000, BP iters: 5, rho =0.01
+Added candidate: 222 , true initial state is: 0
+Overlap after adding candidate: 0.5833, error: 0.0000, BP iters: 6, rho =0.02
+Added candidate: 166 , true initial state is: 1
+Added candidate: 141 , true initial state is: 1
+Added candidate: 261 , true initial state is: 0
+Added candidate: 91 , true initial state is: 1
+Added candidate: 101 , true initial state is: 1
+Added candidate: 33 , true initial state is: 0
+Added candidate: 147 , true initial state is: 0
+Added candidate: 7 , true initial state is: 0
+Added candidate: 199 , true initial state is: 1
+Added candidate: 148 , true initial state is: 0
+Added candidate: 292 , true initial state is: 0
+Added candidate: 244 , true initial state is: 0
+Added candidate: 39 , true initial state is: 1
+Added candidate: 139 , true initial state is: 0
+Added candidate: 180 , true initial state is: 0
+Added candidate: 117 , true initial state is: 0
+Overlap after adding candidate: 0.6000, error: 0.0000, BP iters: 5, rho =0.07
+Added candidate: 225 , true initial state is: 0
+Added candidate: 100 , true initial state is: 0
+Added candidate: 65 , true initial state is: 0
+Added candidate: 279 , true initial state is: 1
+Added candidate: 258 , true initial state is: 1
+Added candidate: 170 , true initial state is: 0
+Added candidate: 95 , true initial state is: 0
+Added candidate: 210 , true initial state is: 0
+Added candidate: 174 , true initial state is: 1
+Added candidate: 35 , true initial state is: 0
+Added candidate: 34 , true initial state is: 1
+Added candidate: 88 , true initial state is: 0
+Added candidate: 67 , true initial state is: 1
+Added candidate: 128 , true initial state is: 0
+Added candidate: 202 , true initial state is: 1
+Added candidate: 165 , true initial state is: 1
+Added candidate: 158 , true initial state is: 1
+Added candidate: 241 , true initial state is: 0
+Added candidate: 228 , true initial state is: 1
+Added candidate: 288 , true initial state is: 1
+Overlap after adding candidate: 0.6333, error: 0.0000, BP iters: 3, rho =0.14
+Added candidate: 66 , true initial state is: 1
+Added candidate: 140 , true initial state is: 0
+Added candidate: 37 , true initial state is: 0
+Added candidate: 184 , true initial state is: 1
+Added candidate: 80 , true initial state is: 1
+Added candidate: 108 , true initial state is: 1
+Added candidate: 289 , true initial state is: 0
+Added candidate: 85 , true initial state is: 1
+Added candidate: 293 , true initial state is: 0
+Added candidate: 259 , true initial state is: 0
+Added candidate: 15 , true initial state is: 0
+Added candidate: 163 , true initial state is: 1
+Added candidate: 268 , true initial state is: 0
+Added candidate: 197 , true initial state is: 1
+Added candidate: 98 , true initial state is: 1
+Added candidate: 282 , true initial state is: 1
+Added candidate: 74 , true initial state is: 0
+Added candidate: 207 , true initial state is: 1
+Added candidate: 232 , true initial state is: 0
+Added candidate: 296 , true initial state is: 0
+Overlap after adding candidate: 0.6700, error: 0.0000, BP iters: 5, rho =0.20
+Added candidate: 12 , true initial state is: 1
+Added candidate: 235 , true initial state is: 1
+Added candidate: 84 , true initial state is: 1
+Added candidate: 41 , true initial state is: 0
+Added candidate: 40 , true initial state is: 1
+Added candidate: 188 , true initial state is: 0
+Added candidate: 6 , true initial state is: 1
+Added candidate: 204 , true initial state is: 1
+Added candidate: 200 , true initial state is: 0
+Added candidate: 175 , true initial state is: 0
+Added candidate: 145 , true initial state is: 0
+Added candidate: 28 , true initial state is: 0
+Added candidate: 245 , true initial state is: 0
+Added candidate: 209 , true initial state is: 1
+Added candidate: 221 , true initial state is: 0
+Added candidate: 77 , true initial state is: 0
+Added candidate: 86 , true initial state is: 0
+Added candidate: 63 , true initial state is: 1
+Added candidate: 23 , true initial state is: 0
+Added candidate: 239 , true initial state is: 0
+Overlap after adding candidate: 0.6900, error: 0.0000, BP iters: 5, rho =0.27
+Added candidate: 265 , true initial state is: 0
+Added candidate: 143 , true initial state is: 0
+Added candidate: 1 , true initial state is: 0
+Added candidate: 69 , true initial state is: 0
+Added candidate: 29 , true initial state is: 1
+Added candidate: 185 , true initial state is: 0
+Added candidate: 72 , true initial state is: 1
+Added candidate: 127 , true initial state is: 0
+Added candidate: 122 , true initial state is: 0
+Added candidate: 219 , true initial state is: 0
+Added candidate: 32 , true initial state is: 0
+Added candidate: 194 , true initial state is: 1
+Added candidate: 167 , true initial state is: 1
+Added candidate: 229 , true initial state is: 0
+Added candidate: 284 , true initial state is: 1
+Added candidate: 133 , true initial state is: 0
+Added candidate: 280 , true initial state is: 0
+Added candidate: 154 , true initial state is: 0
+Added candidate: 112 , true initial state is: 1
+Added candidate: 124 , true initial state is: 0
+Overlap after adding candidate: 0.7033, error: 0.0000, BP iters: 8, rho =0.34
+Added candidate: 4 , true initial state is: 0
+Added candidate: 109 , true initial state is: 1
+Added candidate: 26 , true initial state is: 0
+Added candidate: 233 , true initial state is: 0
+Added candidate: 59 , true initial state is: 0
+Added candidate: 126 , true initial state is: 0
+Added candidate: 247 , true initial state is: 1
+Added candidate: 256 , true initial state is: 1
+Added candidate: 157 , true initial state is: 0
+Added candidate: 104 , true initial state is: 1
+Added candidate: 281 , true initial state is: 1
+Added candidate: 298 , true initial state is: 1
+Added candidate: 290 , true initial state is: 1
+Added candidate: 134 , true initial state is: 1
+Added candidate: 208 , true initial state is: 1
+Added candidate: 249 , true initial state is: 1
+Added candidate: 187 , true initial state is: 0
+Added candidate: 3 , true initial state is: 1
+Added candidate: 181 , true initial state is: 1
+Added candidate: 248 , true initial state is: 1
+Overlap after adding candidate: 0.7533, error: 0.0000, BP iters: 3, rho =0.40
+Reached delta=0.40 at k=120, current overlap: 0.7533, proportion of true sources in selected set: 0.4463
+Added candidate: 270 , true initial state is: 0
+Added candidate: 227 , true initial state is: 0
+Added candidate: 42 , true initial state is: 1
+Added candidate: 11 , true initial state is: 1
+Added candidate: 294 , true initial state is: 0
+Added candidate: 176 , true initial state is: 0
+Added candidate: 20 , true initial state is: 0
+Added candidate: 159 , true initial state is: 1
+Added candidate: 78 , true initial state is: 0
+Added candidate: 190 , true initial state is: 1
+Added candidate: 137 , true initial state is: 0
+Added candidate: 205 , true initial state is: 0
+Added candidate: 192 , true initial state is: 1
+Added candidate: 224 , true initial state is: 1
+Added candidate: 45 , true initial state is: 0
+Added candidate: 178 , true initial state is: 1
+Added candidate: 186 , true initial state is: 0
+Added candidate: 168 , true initial state is: 0
+Added candidate: 299 , true initial state is: 0
+Added candidate: 53 , true initial state is: 1
+Overlap after adding candidate: 0.7800, error: 0.0000, BP iters: 6, rho =0.47
+Added candidate: 285 , true initial state is: 0
+Added candidate: 113 , true initial state is: 0
+Added candidate: 217 , true initial state is: 1
+Added candidate: 57 , true initial state is: 0
+Added candidate: 10 , true initial state is: 0
+Added candidate: 152 , true initial state is: 0
+Added candidate: 156 , true initial state is: 0
+Added candidate: 58 , true initial state is: 0
+Added candidate: 36 , true initial state is: 1
+Added candidate: 60 , true initial state is: 1
+Added candidate: 136 , true initial state is: 0
+Added candidate: 19 , true initial state is: 0
+Added candidate: 283 , true initial state is: 1
+Added candidate: 48 , true initial state is: 1
+Added candidate: 9 , true initial state is: 1
+Added candidate: 82 , true initial state is: 0
+Added candidate: 257 , true initial state is: 0
+Added candidate: 155 , true initial state is: 1
+Added candidate: 271 , true initial state is: 1
+Added candidate: 266 , true initial state is: 0
+Overlap after adding candidate: 0.8067, error: 0.0000, BP iters: 5, rho =0.54
+Added candidate: 191 , true initial state is: 1
+Added candidate: 102 , true initial state is: 1
+Added candidate: 252 , true initial state is: 0
+Added candidate: 43 , true initial state is: 1
+Added candidate: 21 , true initial state is: 0
+Added candidate: 260 , true initial state is: 1
+Added candidate: 38 , true initial state is: 0
+Added candidate: 13 , true initial state is: 1
+Added candidate: 130 , true initial state is: 0
+Added candidate: 123 , true initial state is: 1
+Added candidate: 179 , true initial state is: 0
+Added candidate: 297 , true initial state is: 0
+Added candidate: 264 , true initial state is: 0
+Added candidate: 119 , true initial state is: 1
+Added candidate: 169 , true initial state is: 1
+Added candidate: 93 , true initial state is: 0
+Added candidate: 172 , true initial state is: 0
+Added candidate: 73 , true initial state is: 0
+Added candidate: 240 , true initial state is: 1
+Added candidate: 182 , true initial state is: 0
+Overlap after adding candidate: 0.8333, error: 0.0000, BP iters: 4, rho =0.60
+Added candidate: 56 , true initial state is: 1
+Added candidate: 50 , true initial state is: 1
+Added candidate: 150 , true initial state is: 0
+Added candidate: 196 , true initial state is: 1
+Added candidate: 83 , true initial state is: 1
+Added candidate: 237 , true initial state is: 0
+Added candidate: 146 , true initial state is: 1
+Added candidate: 138 , true initial state is: 0
+Added candidate: 144 , true initial state is: 1
+Added candidate: 151 , true initial state is: 0
+Added candidate: 92 , true initial state is: 0
+Added candidate: 76 , true initial state is: 1
+Added candidate: 195 , true initial state is: 1
+Added candidate: 107 , true initial state is: 0
+Added candidate: 54 , true initial state is: 0
+Added candidate: 18 , true initial state is: 0
+Added candidate: 234 , true initial state is: 0
+Added candidate: 8 , true initial state is: 1
+Added candidate: 135 , true initial state is: 1
+Added candidate: 68 , true initial state is: 0
+Overlap after adding candidate: 0.8667, error: 0.0000, BP iters: 4, rho =0.67
+Added candidate: 44 , true initial state is: 1
+Added candidate: 116 , true initial state is: 1
+Added candidate: 46 , true initial state is: 0
+Added candidate: 14 , true initial state is: 0
+Added candidate: 287 , true initial state is: 0
+Added candidate: 110 , true initial state is: 0
+Added candidate: 242 , true initial state is: 1
+Added candidate: 171 , true initial state is: 0
+Added candidate: 161 , true initial state is: 0
+Added candidate: 131 , true initial state is: 0
+Added candidate: 94 , true initial state is: 1
+Added candidate: 120 , true initial state is: 1
+Added candidate: 25 , true initial state is: 0
+Added candidate: 226 , true initial state is: 0
+Added candidate: 31 , true initial state is: 1
+Added candidate: 51 , true initial state is: 0
+Added candidate: 62 , true initial state is: 0
+Added candidate: 272 , true initial state is: 1
+Added candidate: 218 , true initial state is: 0
+Added candidate: 87 , true initial state is: 0
+Overlap after adding candidate: 0.8867, error: 0.0000, BP iters: 9, rho =0.74
+Added candidate: 55 , true initial state is: 0
+Added candidate: 267 , true initial state is: 0
+Added candidate: 255 , true initial state is: 0
+Added candidate: 291 , true initial state is: 0
+Added candidate: 230 , true initial state is: 0
+Added candidate: 64 , true initial state is: 1
+Added candidate: 277 , true initial state is: 0
+Added candidate: 99 , true initial state is: 1
+Added candidate: 96 , true initial state is: 1
+Added candidate: 254 , true initial state is: 0
+Added candidate: 75 , true initial state is: 1
+Added candidate: 189 , true initial state is: 0
+Added candidate: 27 , true initial state is: 1
+Added candidate: 5 , true initial state is: 0
+Added candidate: 238 , true initial state is: 1
+Added candidate: 24 , true initial state is: 1
+Added candidate: 216 , true initial state is: 1
+Added candidate: 89 , true initial state is: 0
+Added candidate: 162 , true initial state is: 0
+Added candidate: 105 , true initial state is: 1
+Overlap after adding candidate: 0.9200, error: 0.0000, BP iters: 4, rho =0.80
+Added candidate: 114 , true initial state is: 1
+Added candidate: 201 , true initial state is: 1
+Added candidate: 47 , true initial state is: 0
+Added candidate: 30 , true initial state is: 0
+Added candidate: 173 , true initial state is: 1
+Added candidate: 106 , true initial state is: 0
+Added candidate: 132 , true initial state is: 0
+Added candidate: 97 , true initial state is: 0
+Added candidate: 236 , true initial state is: 1
+Added candidate: 286 , true initial state is: 0
+Added candidate: 49 , true initial state is: 0
+Added candidate: 250 , true initial state is: 0
+Added candidate: 160 , true initial state is: 0
+Added candidate: 70 , true initial state is: 1
+Added candidate: 253 , true initial state is: 1
+Added candidate: 211 , true initial state is: 1
+Added candidate: 118 , true initial state is: 1
+Added candidate: 262 , true initial state is: 0
+Added candidate: 61 , true initial state is: 0
+Added candidate: 71 , true initial state is: 1
+Overlap after adding candidate: 0.9433, error: 0.0000, BP iters: 4, rho =0.87
+Added candidate: 295 , true initial state is: 0
+Added candidate: 142 , true initial state is: 0
+Added candidate: 212 , true initial state is: 0
+Added candidate: 125 , true initial state is: 0
+Added candidate: 223 , true initial state is: 0
+Added candidate: 164 , true initial state is: 0
+Added candidate: 149 , true initial state is: 1
+Added candidate: 81 , true initial state is: 1
+Added candidate: 206 , true initial state is: 0
+Added candidate: 215 , true initial state is: 1
+Added candidate: 177 , true initial state is: 0
+Added candidate: 246 , true initial state is: 0
+Added candidate: 243 , true initial state is: 0
+Added candidate: 153 , true initial state is: 0
+Added candidate: 251 , true initial state is: 0
+Added candidate: 220 , true initial state is: 0
+Added candidate: 111 , true initial state is: 1
+Added candidate: 52 , true initial state is: 0
+Added candidate: 273 , true initial state is: 0
+Added candidate: 213 , true initial state is: 0
+Overlap after adding candidate: 0.9567, error: 0.0000, BP iters: 6, rho =0.94
+Added candidate: 22 , true initial state is: 0
+Added candidate: 203 , true initial state is: 1
+Added candidate: 214 , true initial state is: 0
+Added candidate: 17 , true initial state is: 1
+Added candidate: 278 , true initial state is: 0
+Added candidate: 275 , true initial state is: 1
+Added candidate: 129 , true initial state is: 0
+Added candidate: 121 , true initial state is: 1
+Added candidate: 276 , true initial state is: 0
+Added candidate: 90 , true initial state is: 0
+Added candidate: 231 , true initial state is: 1
+Added candidate: 79 , true initial state is: 1
+Added candidate: 2 , true initial state is: 0
+Added candidate: 269 , true initial state is: 0
+Added candidate: 103 , true initial state is: 1
+Added candidate: 183 , true initial state is: 1
+Added candidate: 198 , true initial state is: 0
+Added candidate: 115 , true initial state is: 0
+Added candidate: 274 , true initial state is: 0
+
+=== Sim 2 ===
+Initial infection fraction (delta): 0.417, lambda: 0.3
+Random baseline overlap: 0.5833
+Added candidate: 0 , true initial state is: 1
+Overlap after adding candidate: 0.5867, error: 0.0000, BP iters: 7, rho =0.00
+Added candidate: 1 , true initial state is: 1
+Overlap after adding candidate: 0.5900, error: 0.0000, BP iters: 7, rho =0.01
+Added candidate: 2 , true initial state is: 0
+Overlap after adding candidate: 0.5900, error: 0.0000, BP iters: 5, rho =0.01
+Added candidate: 106 , true initial state is: 0
+Overlap after adding candidate: 0.5867, error: 0.0000, BP iters: 7, rho =0.01
+Added candidate: 68 , true initial state is: 0
+Overlap after adding candidate: 0.5900, error: 0.0000, BP iters: 5, rho =0.02
+Added candidate: 128 , true initial state is: 0
+Added candidate: 160 , true initial state is: 0
+Added candidate: 96 , true initial state is: 0
+Added candidate: 221 , true initial state is: 0
+Added candidate: 155 , true initial state is: 1
+Added candidate: 223 , true initial state is: 1
+Added candidate: 114 , true initial state is: 1
+Added candidate: 16 , true initial state is: 1
+Added candidate: 34 , true initial state is: 0
+Added candidate: 26 , true initial state is: 0
+Added candidate: 6 , true initial state is: 1
+Added candidate: 39 , true initial state is: 0
+Added candidate: 228 , true initial state is: 0
+Added candidate: 170 , true initial state is: 0
+Added candidate: 253 , true initial state is: 1
+Added candidate: 47 , true initial state is: 1
+Overlap after adding candidate: 0.6133, error: 0.0000, BP iters: 5, rho =0.07
+Added candidate: 67 , true initial state is: 0
+Added candidate: 30 , true initial state is: 1
+Added candidate: 254 , true initial state is: 0
+Added candidate: 261 , true initial state is: 1
+Added candidate: 63 , true initial state is: 1
+Added candidate: 70 , true initial state is: 0
+Added candidate: 236 , true initial state is: 1
+Added candidate: 178 , true initial state is: 1
+Added candidate: 232 , true initial state is: 1
+Added candidate: 177 , true initial state is: 1
+Added candidate: 175 , true initial state is: 0
+Added candidate: 85 , true initial state is: 0
+Added candidate: 132 , true initial state is: 0
+Added candidate: 158 , true initial state is: 0
+Added candidate: 9 , true initial state is: 0
+Added candidate: 220 , true initial state is: 0
+Added candidate: 122 , true initial state is: 1
+Added candidate: 193 , true initial state is: 0
+Added candidate: 189 , true initial state is: 0
+Added candidate: 146 , true initial state is: 0
+Overlap after adding candidate: 0.6333, error: 0.0000, BP iters: 7, rho =0.14
+Added candidate: 154 , true initial state is: 1
+Added candidate: 291 , true initial state is: 1
+Added candidate: 237 , true initial state is: 0
+Added candidate: 265 , true initial state is: 1
+Added candidate: 98 , true initial state is: 1
+Added candidate: 216 , true initial state is: 1
+Added candidate: 140 , true initial state is: 1
+Added candidate: 46 , true initial state is: 1
+Added candidate: 99 , true initial state is: 0
+Added candidate: 19 , true initial state is: 0
+Added candidate: 58 , true initial state is: 1
+Added candidate: 102 , true initial state is: 1
+Added candidate: 139 , true initial state is: 0
+Added candidate: 87 , true initial state is: 0
+Added candidate: 41 , true initial state is: 0
+Added candidate: 245 , true initial state is: 0
+Added candidate: 89 , true initial state is: 0
+Added candidate: 21 , true initial state is: 0
+Added candidate: 290 , true initial state is: 0
+Added candidate: 182 , true initial state is: 1
+Overlap after adding candidate: 0.6700, error: 0.0000, BP iters: 4, rho =0.20
+Added candidate: 76 , true initial state is: 0
+Added candidate: 258 , true initial state is: 0
+Added candidate: 212 , true initial state is: 1
+Added candidate: 206 , true initial state is: 1
+Added candidate: 186 , true initial state is: 1
+Added candidate: 203 , true initial state is: 1
+Added candidate: 145 , true initial state is: 0
+Added candidate: 219 , true initial state is: 0
+Added candidate: 10 , true initial state is: 0
+Added candidate: 229 , true initial state is: 0
+Added candidate: 163 , true initial state is: 1
+Added candidate: 288 , true initial state is: 1
+Added candidate: 215 , true initial state is: 1
+Added candidate: 129 , true initial state is: 0
+Added candidate: 204 , true initial state is: 0
+Added candidate: 53 , true initial state is: 1
+Added candidate: 272 , true initial state is: 1
+Added candidate: 280 , true initial state is: 0
+Added candidate: 282 , true initial state is: 0
+Added candidate: 117 , true initial state is: 0
+Overlap after adding candidate: 0.7000, error: 0.0000, BP iters: 5, rho =0.27
+Added candidate: 51 , true initial state is: 0
+Added candidate: 209 , true initial state is: 1
+Added candidate: 185 , true initial state is: 1
+Added candidate: 249 , true initial state is: 1
+Added candidate: 135 , true initial state is: 0
+Added candidate: 111 , true initial state is: 1
+Added candidate: 112 , true initial state is: 0
+Added candidate: 110 , true initial state is: 1
+Added candidate: 181 , true initial state is: 1
+Added candidate: 233 , true initial state is: 0
+Added candidate: 275 , true initial state is: 0
+Added candidate: 77 , true initial state is: 0
+Added candidate: 153 , true initial state is: 1
+Added candidate: 78 , true initial state is: 1
+Added candidate: 251 , true initial state is: 0
+Added candidate: 244 , true initial state is: 1
+Added candidate: 298 , true initial state is: 1
+Added candidate: 7 , true initial state is: 1
+Added candidate: 180 , true initial state is: 1
+Added candidate: 84 , true initial state is: 0
+Overlap after adding candidate: 0.7467, error: 0.0000, BP iters: 6, rho =0.34
+Added candidate: 28 , true initial state is: 1
+Added candidate: 210 , true initial state is: 0
+Added candidate: 239 , true initial state is: 1
+Added candidate: 198 , true initial state is: 0
+Added candidate: 22 , true initial state is: 1
+Added candidate: 11 , true initial state is: 0
+Added candidate: 270 , true initial state is: 0
+Added candidate: 59 , true initial state is: 0
+Added candidate: 55 , true initial state is: 1
+Added candidate: 296 , true initial state is: 0
+Added candidate: 222 , true initial state is: 1
+Added candidate: 176 , true initial state is: 0
+Added candidate: 75 , true initial state is: 1
+Added candidate: 283 , true initial state is: 0
+Added candidate: 49 , true initial state is: 0
+Added candidate: 214 , true initial state is: 0
+Added candidate: 108 , true initial state is: 0
+Added candidate: 74 , true initial state is: 1
+Added candidate: 62 , true initial state is: 0
+Added candidate: 81 , true initial state is: 1
+Overlap after adding candidate: 0.7733, error: 0.0000, BP iters: 5, rho =0.40
+Reached delta=0.40 at k=120, current overlap: 0.7733, proportion of true sources in selected set: 0.4628
+Added candidate: 184 , true initial state is: 0
+Added candidate: 173 , true initial state is: 0
+Added candidate: 118 , true initial state is: 0
+Added candidate: 279 , true initial state is: 0
+Added candidate: 72 , true initial state is: 1
+Added candidate: 31 , true initial state is: 1
+Added candidate: 157 , true initial state is: 1
+Added candidate: 101 , true initial state is: 1
+Added candidate: 284 , true initial state is: 0
+Added candidate: 262 , true initial state is: 0
+Added candidate: 18 , true initial state is: 0
+Added candidate: 250 , true initial state is: 0
+Added candidate: 156 , true initial state is: 0
+Added candidate: 126 , true initial state is: 0
+Added candidate: 260 , true initial state is: 0
+Added candidate: 82 , true initial state is: 1
+Added candidate: 120 , true initial state is: 1
+Added candidate: 143 , true initial state is: 1
+Added candidate: 43 , true initial state is: 1
+Added candidate: 195 , true initial state is: 0
+Overlap after adding candidate: 0.8033, error: 0.0000, BP iters: 6, rho =0.47
+Added candidate: 107 , true initial state is: 0
+Added candidate: 66 , true initial state is: 1
+Added candidate: 141 , true initial state is: 1
+Added candidate: 263 , true initial state is: 0
+Added candidate: 152 , true initial state is: 0
+Added candidate: 127 , true initial state is: 0
+Added candidate: 36 , true initial state is: 1
+Added candidate: 276 , true initial state is: 0
+Added candidate: 48 , true initial state is: 1
+Added candidate: 44 , true initial state is: 0
+Added candidate: 91 , true initial state is: 0
+Added candidate: 27 , true initial state is: 0
+Added candidate: 3 , true initial state is: 0
+Added candidate: 124 , true initial state is: 1
+Added candidate: 225 , true initial state is: 0
+Added candidate: 14 , true initial state is: 1
+Added candidate: 256 , true initial state is: 0
+Added candidate: 267 , true initial state is: 1
+Added candidate: 207 , true initial state is: 0
+Added candidate: 287 , true initial state is: 0
+Overlap after adding candidate: 0.8200, error: 0.0000, BP iters: 4, rho =0.54
+Added candidate: 69 , true initial state is: 0
+Added candidate: 159 , true initial state is: 0
+Added candidate: 293 , true initial state is: 0
+Added candidate: 242 , true initial state is: 0
+Added candidate: 191 , true initial state is: 0
+Added candidate: 54 , true initial state is: 1
+Added candidate: 196 , true initial state is: 0
+Added candidate: 149 , true initial state is: 0
+Added candidate: 17 , true initial state is: 1
+Added candidate: 115 , true initial state is: 0
+Added candidate: 123 , true initial state is: 1
+Added candidate: 188 , true initial state is: 1
+Added candidate: 116 , true initial state is: 0
+Added candidate: 88 , true initial state is: 0
+Added candidate: 199 , true initial state is: 1
+Added candidate: 165 , true initial state is: 0
+Added candidate: 40 , true initial state is: 0
+Added candidate: 246 , true initial state is: 0
+Added candidate: 80 , true initial state is: 0
+Added candidate: 90 , true initial state is: 1
+Overlap after adding candidate: 0.8433, error: 0.0000, BP iters: 4, rho =0.60
+Added candidate: 150 , true initial state is: 0
+Added candidate: 164 , true initial state is: 0
+Added candidate: 33 , true initial state is: 1
+Added candidate: 104 , true initial state is: 1
+Added candidate: 289 , true initial state is: 0
+Added candidate: 227 , true initial state is: 0
+Added candidate: 50 , true initial state is: 0
+Added candidate: 71 , true initial state is: 0
+Added candidate: 83 , true initial state is: 1
+Added candidate: 266 , true initial state is: 0
+Added candidate: 285 , true initial state is: 1
+Added candidate: 125 , true initial state is: 0
+Added candidate: 29 , true initial state is: 1
+Added candidate: 208 , true initial state is: 0
+Added candidate: 172 , true initial state is: 1
+Added candidate: 137 , true initial state is: 1
+Added candidate: 295 , true initial state is: 0
+Added candidate: 92 , true initial state is: 0
+Added candidate: 218 , true initial state is: 0
+Added candidate: 259 , true initial state is: 0
+Overlap after adding candidate: 0.8667, error: 0.0000, BP iters: 4, rho =0.67
+Added candidate: 238 , true initial state is: 0
+Added candidate: 230 , true initial state is: 0
+Added candidate: 299 , true initial state is: 1
+Added candidate: 133 , true initial state is: 1
+Added candidate: 65 , true initial state is: 0
+Added candidate: 8 , true initial state is: 1
+Added candidate: 226 , true initial state is: 0
+Added candidate: 235 , true initial state is: 0
+Added candidate: 194 , true initial state is: 1
+Added candidate: 138 , true initial state is: 0
+Added candidate: 95 , true initial state is: 1
+Added candidate: 23 , true initial state is: 0
+Added candidate: 38 , true initial state is: 1
+Added candidate: 168 , true initial state is: 1
+Added candidate: 264 , true initial state is: 1
+Added candidate: 190 , true initial state is: 0
+Added candidate: 103 , true initial state is: 0
+Added candidate: 151 , true initial state is: 0
+Added candidate: 211 , true initial state is: 1
+Added candidate: 183 , true initial state is: 0
+Overlap after adding candidate: 0.8967, error: 0.0000, BP iters: 5, rho =0.74
+Added candidate: 32 , true initial state is: 1
+Added candidate: 286 , true initial state is: 0
+Added candidate: 213 , true initial state is: 1
+Added candidate: 97 , true initial state is: 0
+Added candidate: 147 , true initial state is: 1
+Added candidate: 134 , true initial state is: 0
+Added candidate: 202 , true initial state is: 0
+Added candidate: 162 , true initial state is: 0
+Added candidate: 192 , true initial state is: 0
+Added candidate: 294 , true initial state is: 0
+Added candidate: 179 , true initial state is: 0
+Added candidate: 171 , true initial state is: 0
+Added candidate: 35 , true initial state is: 0
+Added candidate: 174 , true initial state is: 1
+Added candidate: 13 , true initial state is: 1
+Added candidate: 167 , true initial state is: 0
+Added candidate: 52 , true initial state is: 0
+Added candidate: 268 , true initial state is: 0
+Added candidate: 93 , true initial state is: 1
+Added candidate: 37 , true initial state is: 0
+Overlap after adding candidate: 0.9133, error: 0.0000, BP iters: 10, rho =0.80
+Added candidate: 274 , true initial state is: 0
+Added candidate: 292 , true initial state is: 0
+Added candidate: 231 , true initial state is: 0
+Added candidate: 201 , true initial state is: 1
+Added candidate: 281 , true initial state is: 1
+Added candidate: 240 , true initial state is: 1
+Added candidate: 277 , true initial state is: 0
+Added candidate: 86 , true initial state is: 0
+Added candidate: 20 , true initial state is: 1
+Added candidate: 217 , true initial state is: 1
+Added candidate: 243 , true initial state is: 0
+Added candidate: 121 , true initial state is: 1
+Added candidate: 271 , true initial state is: 1
+Added candidate: 247 , true initial state is: 0
+Added candidate: 24 , true initial state is: 1
+Added candidate: 297 , true initial state is: 1
+Added candidate: 234 , true initial state is: 0
+Added candidate: 169 , true initial state is: 0
+Added candidate: 73 , true initial state is: 1
+Added candidate: 105 , true initial state is: 0
+Overlap after adding candidate: 0.9500, error: 0.0000, BP iters: 7, rho =0.87
+Added candidate: 79 , true initial state is: 1
+Added candidate: 42 , true initial state is: 0
+Added candidate: 131 , true initial state is: 1
+Added candidate: 113 , true initial state is: 0
+Added candidate: 45 , true initial state is: 0
+Added candidate: 57 , true initial state is: 1
+Added candidate: 197 , true initial state is: 1
+Added candidate: 15 , true initial state is: 1
+Added candidate: 241 , true initial state is: 0
+Added candidate: 161 , true initial state is: 0
+Added candidate: 257 , true initial state is: 1
+Added candidate: 94 , true initial state is: 0
+Added candidate: 130 , true initial state is: 1
+Added candidate: 109 , true initial state is: 1
+Added candidate: 224 , true initial state is: 1
+Added candidate: 148 , true initial state is: 0
+Added candidate: 5 , true initial state is: 0
+Added candidate: 269 , true initial state is: 1
+Added candidate: 119 , true initial state is: 0
+Added candidate: 144 , true initial state is: 1
+Overlap after adding candidate: 0.9833, error: 0.0000, BP iters: 3, rho =0.94
+Added candidate: 278 , true initial state is: 0
+Added candidate: 252 , true initial state is: 1
+Added candidate: 166 , true initial state is: 0
+Added candidate: 205 , true initial state is: 0
+Added candidate: 61 , true initial state is: 0
+Added candidate: 4 , true initial state is: 0
+Added candidate: 187 , true initial state is: 1
+Added candidate: 142 , true initial state is: 1
+Added candidate: 25 , true initial state is: 0
+Added candidate: 12 , true initial state is: 0
+Added candidate: 136 , true initial state is: 0
+Added candidate: 60 , true initial state is: 0
+Added candidate: 248 , true initial state is: 0
+Added candidate: 200 , true initial state is: 1
+Added candidate: 273 , true initial state is: 0
+Added candidate: 100 , true initial state is: 0
+Added candidate: 56 , true initial state is: 0
+Added candidate: 64 , true initial state is: 1
+Added candidate: 255 , true initial state is: 0
+
+=== Sim 3 ===
+Initial infection fraction (delta): 0.347, lambda: 0.3
+Random baseline overlap: 0.6533
+Added candidate: 0 , true initial state is: 1
+Overlap after adding candidate: 0.6567, error: 0.0000, BP iters: 6, rho =0.00
+Added candidate: 1 , true initial state is: 0
+Overlap after adding candidate: 0.6567, error: 0.0000, BP iters: 5, rho =0.01
+Added candidate: 125 , true initial state is: 0
+Overlap after adding candidate: 0.6567, error: 0.0000, BP iters: 6, rho =0.01
+Added candidate: 213 , true initial state is: 1
+Overlap after adding candidate: 0.6600, error: 0.0000, BP iters: 3, rho =0.01
+Added candidate: 278 , true initial state is: 1
+Overlap after adding candidate: 0.6633, error: 0.0000, BP iters: 3, rho =0.02
+Added candidate: 110 , true initial state is: 0
+Added candidate: 73 , true initial state is: 1
+Added candidate: 191 , true initial state is: 0
+Added candidate: 281 , true initial state is: 0
+Added candidate: 112 , true initial state is: 0
+Added candidate: 96 , true initial state is: 1
+Added candidate: 16 , true initial state is: 1
+Added candidate: 199 , true initial state is: 1
+Added candidate: 28 , true initial state is: 0
+Added candidate: 76 , true initial state is: 0
+Added candidate: 17 , true initial state is: 1
+Added candidate: 82 , true initial state is: 0
+Added candidate: 197 , true initial state is: 1
+Added candidate: 126 , true initial state is: 0
+Added candidate: 260 , true initial state is: 1
+Added candidate: 33 , true initial state is: 1
+Overlap after adding candidate: 0.6900, error: 0.0000, BP iters: 5, rho =0.07
+Added candidate: 80 , true initial state is: 0
+Added candidate: 219 , true initial state is: 0
+Added candidate: 153 , true initial state is: 0
+Added candidate: 218 , true initial state is: 1
+Added candidate: 177 , true initial state is: 0
+Added candidate: 121 , true initial state is: 0
+Added candidate: 77 , true initial state is: 1
+Added candidate: 7 , true initial state is: 1
+Added candidate: 242 , true initial state is: 0
+Added candidate: 50 , true initial state is: 0
+Added candidate: 200 , true initial state is: 1
+Added candidate: 147 , true initial state is: 0
+Added candidate: 6 , true initial state is: 1
+Added candidate: 140 , true initial state is: 0
+Added candidate: 100 , true initial state is: 1
+Added candidate: 286 , true initial state is: 0
+Added candidate: 228 , true initial state is: 0
+Added candidate: 211 , true initial state is: 0
+Added candidate: 232 , true initial state is: 1
+Added candidate: 256 , true initial state is: 0
+Overlap after adding candidate: 0.7167, error: 0.0000, BP iters: 6, rho =0.14
+Added candidate: 224 , true initial state is: 0
+Added candidate: 79 , true initial state is: 1
+Added candidate: 160 , true initial state is: 1
+Added candidate: 258 , true initial state is: 0
+Added candidate: 204 , true initial state is: 0
+Added candidate: 36 , true initial state is: 0
+Added candidate: 237 , true initial state is: 1
+Added candidate: 138 , true initial state is: 1
+Added candidate: 66 , true initial state is: 0
+Added candidate: 5 , true initial state is: 1
+Added candidate: 241 , true initial state is: 1
+Added candidate: 274 , true initial state is: 0
+Added candidate: 10 , true initial state is: 1
+Added candidate: 19 , true initial state is: 1
+Added candidate: 276 , true initial state is: 0
+Added candidate: 59 , true initial state is: 1
+Added candidate: 44 , true initial state is: 0
+Added candidate: 155 , true initial state is: 0
+Added candidate: 57 , true initial state is: 0
+Added candidate: 146 , true initial state is: 0
+Overlap after adding candidate: 0.7400, error: 0.0000, BP iters: 5, rho =0.20
+Added candidate: 108 , true initial state is: 0
+Added candidate: 68 , true initial state is: 1
+Added candidate: 226 , true initial state is: 1
+Added candidate: 180 , true initial state is: 1
+Added candidate: 259 , true initial state is: 0
+Added candidate: 174 , true initial state is: 0
+Added candidate: 3 , true initial state is: 0
+Added candidate: 231 , true initial state is: 1
+Added candidate: 94 , true initial state is: 0
+Added candidate: 9 , true initial state is: 0
+Added candidate: 127 , true initial state is: 0
+Added candidate: 104 , true initial state is: 1
+Added candidate: 280 , true initial state is: 0
+Added candidate: 196 , true initial state is: 0
+Added candidate: 265 , true initial state is: 1
+Added candidate: 21 , true initial state is: 0
+Added candidate: 51 , true initial state is: 0
+Added candidate: 102 , true initial state is: 0
+Added candidate: 58 , true initial state is: 1
+Added candidate: 294 , true initial state is: 0
+Overlap after adding candidate: 0.7567, error: 0.0000, BP iters: 6, rho =0.27
+Added candidate: 83 , true initial state is: 0
+Added candidate: 186 , true initial state is: 1
+Added candidate: 248 , true initial state is: 0
+Added candidate: 152 , true initial state is: 0
+Added candidate: 207 , true initial state is: 0
+Added candidate: 13 , true initial state is: 0
+Added candidate: 234 , true initial state is: 1
+Added candidate: 230 , true initial state is: 0
+Added candidate: 223 , true initial state is: 1
+Added candidate: 299 , true initial state is: 0
+Added candidate: 120 , true initial state is: 0
+Added candidate: 69 , true initial state is: 1
+Added candidate: 53 , true initial state is: 0
+Added candidate: 288 , true initial state is: 0
+Added candidate: 282 , true initial state is: 1
+Added candidate: 2 , true initial state is: 0
+Added candidate: 105 , true initial state is: 0
+Added candidate: 254 , true initial state is: 0
+Added candidate: 262 , true initial state is: 0
+Added candidate: 235 , true initial state is: 0
+Overlap after adding candidate: 0.7733, error: 0.0000, BP iters: 5, rho =0.34
+Added candidate: 74 , true initial state is: 0
+Added candidate: 249 , true initial state is: 1
+Added candidate: 49 , true initial state is: 0
+Added candidate: 181 , true initial state is: 0
+Added candidate: 14 , true initial state is: 0
+Added candidate: 43 , true initial state is: 0
+Added candidate: 26 , true initial state is: 1
+Added candidate: 55 , true initial state is: 1
+Added candidate: 27 , true initial state is: 0
+Added candidate: 35 , true initial state is: 1
+Added candidate: 32 , true initial state is: 0
+Added candidate: 143 , true initial state is: 1
+Added candidate: 85 , true initial state is: 0
+Added candidate: 97 , true initial state is: 0
+Added candidate: 34 , true initial state is: 0
+Added candidate: 246 , true initial state is: 0
+Added candidate: 229 , true initial state is: 1
+Added candidate: 162 , true initial state is: 0
+Added candidate: 157 , true initial state is: 0
+Added candidate: 87 , true initial state is: 0
+Overlap after adding candidate: 0.7967, error: 0.0000, BP iters: 5, rho =0.40
+Reached delta=0.40 at k=120, current overlap: 0.7967, proportion of true sources in selected set: 0.3719
+Added candidate: 287 , true initial state is: 0
+Added candidate: 145 , true initial state is: 0
+Added candidate: 64 , true initial state is: 1
+Added candidate: 268 , true initial state is: 0
+Added candidate: 150 , true initial state is: 0
+Added candidate: 75 , true initial state is: 0
+Added candidate: 113 , true initial state is: 0
+Added candidate: 89 , true initial state is: 0
+Added candidate: 187 , true initial state is: 1
+Added candidate: 141 , true initial state is: 0
+Added candidate: 198 , true initial state is: 1
+Added candidate: 240 , true initial state is: 0
+Added candidate: 95 , true initial state is: 0
+Added candidate: 103 , true initial state is: 1
+Added candidate: 165 , true initial state is: 1
+Added candidate: 135 , true initial state is: 0
+Added candidate: 167 , true initial state is: 0
+Added candidate: 171 , true initial state is: 0
+Added candidate: 236 , true initial state is: 0
+Added candidate: 205 , true initial state is: 0
+Overlap after adding candidate: 0.8100, error: 0.0000, BP iters: 5, rho =0.47
+Added candidate: 38 , true initial state is: 1
+Added candidate: 129 , true initial state is: 1
+Added candidate: 252 , true initial state is: 1
+Added candidate: 270 , true initial state is: 1
+Added candidate: 52 , true initial state is: 1
+Added candidate: 220 , true initial state is: 0
+Added candidate: 65 , true initial state is: 0
+Added candidate: 215 , true initial state is: 0
+Added candidate: 275 , true initial state is: 1
+Added candidate: 182 , true initial state is: 1
+Added candidate: 263 , true initial state is: 0
+Added candidate: 107 , true initial state is: 0
+Added candidate: 298 , true initial state is: 0
+Added candidate: 130 , true initial state is: 0
+Added candidate: 39 , true initial state is: 1
+Added candidate: 245 , true initial state is: 0
+Added candidate: 222 , true initial state is: 0
+Added candidate: 243 , true initial state is: 0
+Added candidate: 70 , true initial state is: 0
+Added candidate: 225 , true initial state is: 1
+Overlap after adding candidate: 0.8400, error: 0.0000, BP iters: 3, rho =0.54
+Added candidate: 84 , true initial state is: 1
+Added candidate: 178 , true initial state is: 0
+Added candidate: 253 , true initial state is: 0
+Added candidate: 122 , true initial state is: 0
+Added candidate: 168 , true initial state is: 0
+Added candidate: 20 , true initial state is: 0
+Added candidate: 267 , true initial state is: 0
+Added candidate: 109 , true initial state is: 1
+Added candidate: 269 , true initial state is: 0
+Added candidate: 91 , true initial state is: 0
+Added candidate: 257 , true initial state is: 0
+Added candidate: 111 , true initial state is: 0
+Added candidate: 212 , true initial state is: 1
+Added candidate: 284 , true initial state is: 0
+Added candidate: 12 , true initial state is: 1
+Added candidate: 233 , true initial state is: 0
+Added candidate: 128 , true initial state is: 1
+Added candidate: 244 , true initial state is: 1
+Added candidate: 172 , true initial state is: 1
+Added candidate: 297 , true initial state is: 0
+Overlap after adding candidate: 0.8600, error: 0.0000, BP iters: 5, rho =0.60
+Added candidate: 144 , true initial state is: 0
+Added candidate: 56 , true initial state is: 0
+Added candidate: 195 , true initial state is: 1
+Added candidate: 296 , true initial state is: 0
+Added candidate: 295 , true initial state is: 1
+Added candidate: 210 , true initial state is: 0
+Added candidate: 271 , true initial state is: 0
+Added candidate: 4 , true initial state is: 1
+Added candidate: 227 , true initial state is: 0
+Added candidate: 208 , true initial state is: 0
+Added candidate: 40 , true initial state is: 1
+Added candidate: 93 , true initial state is: 0
+Added candidate: 41 , true initial state is: 0
+Added candidate: 164 , true initial state is: 0
+Added candidate: 277 , true initial state is: 1
+Added candidate: 159 , true initial state is: 1
+Added candidate: 166 , true initial state is: 1
+Added candidate: 24 , true initial state is: 1
+Added candidate: 8 , true initial state is: 0
+Added candidate: 203 , true initial state is: 0
+Overlap after adding candidate: 0.8900, error: 0.0000, BP iters: 4, rho =0.67
+Added candidate: 115 , true initial state is: 0
+Added candidate: 183 , true initial state is: 1
+Added candidate: 114 , true initial state is: 0
+Added candidate: 63 , true initial state is: 0
+Added candidate: 285 , true initial state is: 0
+Added candidate: 185 , true initial state is: 0
+Added candidate: 71 , true initial state is: 0
+Added candidate: 170 , true initial state is: 1
+Added candidate: 161 , true initial state is: 0
+Added candidate: 30 , true initial state is: 0
+Added candidate: 188 , true initial state is: 0
+Added candidate: 67 , true initial state is: 0
+Added candidate: 289 , true initial state is: 1
+Added candidate: 98 , true initial state is: 0
+Added candidate: 47 , true initial state is: 0
+Added candidate: 151 , true initial state is: 1
+Added candidate: 154 , true initial state is: 1
+Added candidate: 133 , true initial state is: 1
+Added candidate: 193 , true initial state is: 0
+Added candidate: 202 , true initial state is: 0
+Overlap after adding candidate: 0.9067, error: 0.0000, BP iters: 6, rho =0.74
+Added candidate: 292 , true initial state is: 0
+Added candidate: 217 , true initial state is: 0
+Added candidate: 156 , true initial state is: 1
+Added candidate: 169 , true initial state is: 1
+Added candidate: 149 , true initial state is: 1
+Added candidate: 142 , true initial state is: 1
+Added candidate: 272 , true initial state is: 0
+Added candidate: 134 , true initial state is: 1
+Added candidate: 106 , true initial state is: 0
+Added candidate: 118 , true initial state is: 0
+Added candidate: 136 , true initial state is: 1
+Added candidate: 266 , true initial state is: 0
+Added candidate: 18 , true initial state is: 0
+Added candidate: 132 , true initial state is: 0
+Added candidate: 31 , true initial state is: 1
+Added candidate: 15 , true initial state is: 1
+Added candidate: 216 , true initial state is: 0
+Added candidate: 139 , true initial state is: 1
+Added candidate: 283 , true initial state is: 1
+Added candidate: 293 , true initial state is: 0
+Overlap after adding candidate: 0.9400, error: 0.0000, BP iters: 4, rho =0.80
+Added candidate: 175 , true initial state is: 1
+Added candidate: 192 , true initial state is: 0
+Added candidate: 247 , true initial state is: 0
+Added candidate: 22 , true initial state is: 1
+Added candidate: 291 , true initial state is: 0
+Added candidate: 173 , true initial state is: 0
+Added candidate: 78 , true initial state is: 0
+Added candidate: 54 , true initial state is: 0
+Added candidate: 117 , true initial state is: 1
+Added candidate: 221 , true initial state is: 0
+Added candidate: 190 , true initial state is: 1
+Added candidate: 137 , true initial state is: 0
+Added candidate: 116 , true initial state is: 1
+Added candidate: 214 , true initial state is: 1
+Added candidate: 45 , true initial state is: 0
+Added candidate: 264 , true initial state is: 0
+Added candidate: 279 , true initial state is: 0
+Added candidate: 250 , true initial state is: 0
+Added candidate: 92 , true initial state is: 0
+Added candidate: 23 , true initial state is: 0
+Overlap after adding candidate: 0.9500, error: 0.0000, BP iters: 5, rho =0.87
+Added candidate: 261 , true initial state is: 0
+Added candidate: 201 , true initial state is: 1
+Added candidate: 189 , true initial state is: 1
+Added candidate: 179 , true initial state is: 0
+Added candidate: 158 , true initial state is: 0
+Added candidate: 29 , true initial state is: 0
+Added candidate: 37 , true initial state is: 0
+Added candidate: 206 , true initial state is: 1
+Added candidate: 48 , true initial state is: 0
+Added candidate: 163 , true initial state is: 0
+Added candidate: 184 , true initial state is: 0
+Added candidate: 99 , true initial state is: 1
+Added candidate: 238 , true initial state is: 0
+Added candidate: 194 , true initial state is: 0
+Added candidate: 11 , true initial state is: 0
+Added candidate: 101 , true initial state is: 1
+Added candidate: 90 , true initial state is: 0
+Added candidate: 131 , true initial state is: 0
+Added candidate: 255 , true initial state is: 0
+Added candidate: 88 , true initial state is: 0
+Overlap after adding candidate: 0.9700, error: 0.0000, BP iters: 5, rho =0.94
+Added candidate: 209 , true initial state is: 0
+Added candidate: 239 , true initial state is: 0
+Added candidate: 273 , true initial state is: 1
+Added candidate: 251 , true initial state is: 0
+Added candidate: 62 , true initial state is: 0
+Added candidate: 42 , true initial state is: 0
+Added candidate: 290 , true initial state is: 0
+Added candidate: 176 , true initial state is: 0
+Added candidate: 119 , true initial state is: 0
+Added candidate: 72 , true initial state is: 0
+Added candidate: 46 , true initial state is: 1
+Added candidate: 86 , true initial state is: 1
+Added candidate: 25 , true initial state is: 0
+Added candidate: 60 , true initial state is: 0
+Added candidate: 148 , true initial state is: 0
+Added candidate: 124 , true initial state is: 0
+Added candidate: 81 , true initial state is: 0
+Added candidate: 61 , true initial state is: 0
+Added candidate: 123 , true initial state is: 0
+
+=== Sim 4 ===
+Initial infection fraction (delta): 0.380, lambda: 0.3
+Random baseline overlap: 0.6200
+Added candidate: 0 , true initial state is: 0
+Overlap after adding candidate: 0.6200, error: 0.0000, BP iters: 5, rho =0.00
+Added candidate: 156 , true initial state is: 0
+Overlap after adding candidate: 0.6233, error: 0.0000, BP iters: 5, rho =0.01
+Added candidate: 117 , true initial state is: 1
+Overlap after adding candidate: 0.6233, error: 0.0000, BP iters: 3, rho =0.01
+Added candidate: 288 , true initial state is: 1
+Overlap after adding candidate: 0.6267, error: 0.0000, BP iters: 3, rho =0.01
+Added candidate: 289 , true initial state is: 1
+Overlap after adding candidate: 0.6300, error: 0.0000, BP iters: 3, rho =0.02
+Added candidate: 1 , true initial state is: 1
+Added candidate: 2 , true initial state is: 0
+Added candidate: 217 , true initial state is: 0
+Added candidate: 126 , true initial state is: 0
+Added candidate: 283 , true initial state is: 0
+Added candidate: 225 , true initial state is: 0
+Added candidate: 40 , true initial state is: 1
+Added candidate: 260 , true initial state is: 0
+Added candidate: 200 , true initial state is: 1
+Added candidate: 175 , true initial state is: 1
+Added candidate: 145 , true initial state is: 1
+Added candidate: 180 , true initial state is: 1
+Added candidate: 101 , true initial state is: 1
+Added candidate: 61 , true initial state is: 0
+Added candidate: 68 , true initial state is: 1
+Added candidate: 78 , true initial state is: 0
+Overlap after adding candidate: 0.6533, error: 0.0000, BP iters: 5, rho =0.07
+Added candidate: 293 , true initial state is: 1
+Added candidate: 227 , true initial state is: 0
+Added candidate: 138 , true initial state is: 0
+Added candidate: 34 , true initial state is: 1
+Added candidate: 139 , true initial state is: 1
+Added candidate: 7 , true initial state is: 1
+Added candidate: 10 , true initial state is: 1
+Added candidate: 213 , true initial state is: 1
+Added candidate: 51 , true initial state is: 0
+Added candidate: 285 , true initial state is: 0
+Added candidate: 214 , true initial state is: 0
+Added candidate: 148 , true initial state is: 0
+Added candidate: 63 , true initial state is: 0
+Added candidate: 52 , true initial state is: 0
+Added candidate: 266 , true initial state is: 0
+Added candidate: 170 , true initial state is: 0
+Added candidate: 279 , true initial state is: 0
+Added candidate: 268 , true initial state is: 1
+Added candidate: 14 , true initial state is: 0
+Added candidate: 239 , true initial state is: 1
+Overlap after adding candidate: 0.6800, error: 0.0000, BP iters: 5, rho =0.14
+Added candidate: 183 , true initial state is: 1
+Added candidate: 186 , true initial state is: 0
+Added candidate: 82 , true initial state is: 1
+Added candidate: 110 , true initial state is: 0
+Added candidate: 136 , true initial state is: 0
+Added candidate: 250 , true initial state is: 0
+Added candidate: 109 , true initial state is: 1
+Added candidate: 69 , true initial state is: 1
+Added candidate: 135 , true initial state is: 0
+Added candidate: 281 , true initial state is: 0
+Added candidate: 59 , true initial state is: 0
+Added candidate: 190 , true initial state is: 1
+Added candidate: 37 , true initial state is: 0
+Added candidate: 19 , true initial state is: 1
+Added candidate: 262 , true initial state is: 0
+Added candidate: 277 , true initial state is: 0
+Added candidate: 292 , true initial state is: 1
+Added candidate: 88 , true initial state is: 0
+Added candidate: 24 , true initial state is: 1
+Added candidate: 55 , true initial state is: 0
+Overlap after adding candidate: 0.7100, error: 0.0000, BP iters: 5, rho =0.20
+Added candidate: 140 , true initial state is: 0
+Added candidate: 252 , true initial state is: 1
+Added candidate: 244 , true initial state is: 1
+Added candidate: 77 , true initial state is: 1
+Added candidate: 53 , true initial state is: 0
+Added candidate: 133 , true initial state is: 0
+Added candidate: 67 , true initial state is: 1
+Added candidate: 168 , true initial state is: 1
+Added candidate: 106 , true initial state is: 0
+Added candidate: 297 , true initial state is: 1
+Added candidate: 215 , true initial state is: 0
+Added candidate: 255 , true initial state is: 0
+Added candidate: 229 , true initial state is: 1
+Added candidate: 3 , true initial state is: 0
+Added candidate: 163 , true initial state is: 0
+Added candidate: 151 , true initial state is: 0
+Added candidate: 235 , true initial state is: 0
+Added candidate: 118 , true initial state is: 1
+Added candidate: 224 , true initial state is: 1
+Added candidate: 234 , true initial state is: 0
+Overlap after adding candidate: 0.7400, error: 0.0000, BP iters: 4, rho =0.27
+Added candidate: 35 , true initial state is: 0
+Added candidate: 122 , true initial state is: 0
+Added candidate: 238 , true initial state is: 1
+Added candidate: 169 , true initial state is: 0
+Added candidate: 85 , true initial state is: 0
+Added candidate: 295 , true initial state is: 1
+Added candidate: 176 , true initial state is: 0
+Added candidate: 116 , true initial state is: 1
+Added candidate: 99 , true initial state is: 1
+Added candidate: 127 , true initial state is: 0
+Added candidate: 198 , true initial state is: 0
+Added candidate: 282 , true initial state is: 0
+Added candidate: 74 , true initial state is: 1
+Added candidate: 166 , true initial state is: 0
+Added candidate: 212 , true initial state is: 0
+Added candidate: 254 , true initial state is: 0
+Added candidate: 263 , true initial state is: 0
+Added candidate: 154 , true initial state is: 0
+Added candidate: 233 , true initial state is: 0
+Added candidate: 94 , true initial state is: 0
+Overlap after adding candidate: 0.7500, error: 0.0000, BP iters: 7, rho =0.34
+Added candidate: 42 , true initial state is: 0
+Added candidate: 130 , true initial state is: 1
+Added candidate: 189 , true initial state is: 1
+Added candidate: 32 , true initial state is: 0
+Added candidate: 174 , true initial state is: 1
+Added candidate: 257 , true initial state is: 0
+Added candidate: 20 , true initial state is: 0
+Added candidate: 253 , true initial state is: 0
+Added candidate: 91 , true initial state is: 0
+Added candidate: 49 , true initial state is: 1
+Added candidate: 280 , true initial state is: 1
+Added candidate: 97 , true initial state is: 0
+Added candidate: 275 , true initial state is: 1
+Added candidate: 27 , true initial state is: 1
+Added candidate: 123 , true initial state is: 1
+Added candidate: 205 , true initial state is: 1
+Added candidate: 276 , true initial state is: 0
+Added candidate: 188 , true initial state is: 1
+Added candidate: 150 , true initial state is: 0
+Added candidate: 95 , true initial state is: 1
+Overlap after adding candidate: 0.7867, error: 0.0000, BP iters: 4, rho =0.40
+Reached delta=0.40 at k=120, current overlap: 0.7867, proportion of true sources in selected set: 0.4298
+Added candidate: 258 , true initial state is: 0
+Added candidate: 220 , true initial state is: 1
+Added candidate: 218 , true initial state is: 0
+Added candidate: 181 , true initial state is: 0
+Added candidate: 182 , true initial state is: 1
+Added candidate: 87 , true initial state is: 0
+Added candidate: 30 , true initial state is: 0
+Added candidate: 144 , true initial state is: 1
+Added candidate: 54 , true initial state is: 0
+Added candidate: 137 , true initial state is: 0
+Added candidate: 204 , true initial state is: 0
+Added candidate: 290 , true initial state is: 0
+Added candidate: 131 , true initial state is: 1
+Added candidate: 113 , true initial state is: 0
+Added candidate: 158 , true initial state is: 0
+Added candidate: 141 , true initial state is: 0
+Added candidate: 112 , true initial state is: 0
+Added candidate: 147 , true initial state is: 0
+Added candidate: 125 , true initial state is: 1
+Added candidate: 256 , true initial state is: 0
+Overlap after adding candidate: 0.7967, error: 0.0000, BP iters: 6, rho =0.47
+Added candidate: 299 , true initial state is: 1
+Added candidate: 119 , true initial state is: 1
+Added candidate: 17 , true initial state is: 0
+Added candidate: 43 , true initial state is: 0
+Added candidate: 66 , true initial state is: 0
+Added candidate: 39 , true initial state is: 1
+Added candidate: 219 , true initial state is: 0
+Added candidate: 265 , true initial state is: 0
+Added candidate: 193 , true initial state is: 1
+Added candidate: 211 , true initial state is: 0
+Added candidate: 73 , true initial state is: 0
+Added candidate: 21 , true initial state is: 0
+Added candidate: 23 , true initial state is: 0
+Added candidate: 286 , true initial state is: 1
+Added candidate: 29 , true initial state is: 0
+Added candidate: 9 , true initial state is: 0
+Added candidate: 179 , true initial state is: 0
+Added candidate: 4 , true initial state is: 0
+Added candidate: 167 , true initial state is: 0
+Added candidate: 236 , true initial state is: 0
+Overlap after adding candidate: 0.8100, error: 0.0000, BP iters: 7, rho =0.54
+Added candidate: 149 , true initial state is: 0
+Added candidate: 47 , true initial state is: 0
+Added candidate: 143 , true initial state is: 1
+Added candidate: 38 , true initial state is: 0
+Added candidate: 76 , true initial state is: 0
+Added candidate: 121 , true initial state is: 0
+Added candidate: 129 , true initial state is: 0
+Added candidate: 65 , true initial state is: 0
+Added candidate: 228 , true initial state is: 1
+Added candidate: 56 , true initial state is: 1
+Added candidate: 197 , true initial state is: 0
+Added candidate: 50 , true initial state is: 0
+Added candidate: 230 , true initial state is: 1
+Added candidate: 60 , true initial state is: 0
+Added candidate: 284 , true initial state is: 0
+Added candidate: 178 , true initial state is: 1
+Added candidate: 216 , true initial state is: 0
+Added candidate: 92 , true initial state is: 0
+Added candidate: 271 , true initial state is: 0
+Added candidate: 247 , true initial state is: 0
+Overlap after adding candidate: 0.8433, error: 0.0000, BP iters: 4, rho =0.60
+Added candidate: 44 , true initial state is: 1
+Added candidate: 221 , true initial state is: 0
+Added candidate: 33 , true initial state is: 1
+Added candidate: 162 , true initial state is: 0
+Added candidate: 57 , true initial state is: 1
+Added candidate: 185 , true initial state is: 0
+Added candidate: 8 , true initial state is: 1
+Added candidate: 86 , true initial state is: 0
+Added candidate: 223 , true initial state is: 0
+Added candidate: 192 , true initial state is: 0
+Added candidate: 208 , true initial state is: 1
+Added candidate: 232 , true initial state is: 1
+Added candidate: 237 , true initial state is: 1
+Added candidate: 207 , true initial state is: 1
+Added candidate: 115 , true initial state is: 1
+Added candidate: 90 , true initial state is: 1
+Added candidate: 187 , true initial state is: 0
+Added candidate: 274 , true initial state is: 1
+Added candidate: 114 , true initial state is: 0
+Added candidate: 28 , true initial state is: 0
+Overlap after adding candidate: 0.8767, error: 0.0000, BP iters: 4, rho =0.67
+Added candidate: 107 , true initial state is: 1
+Added candidate: 246 , true initial state is: 0
+Added candidate: 165 , true initial state is: 0
+Added candidate: 100 , true initial state is: 1
+Added candidate: 124 , true initial state is: 1
+Added candidate: 273 , true initial state is: 0
+Added candidate: 294 , true initial state is: 1
+Added candidate: 161 , true initial state is: 0
+Added candidate: 36 , true initial state is: 0
+Added candidate: 89 , true initial state is: 0
+Added candidate: 226 , true initial state is: 0
+Added candidate: 46 , true initial state is: 1
+Added candidate: 104 , true initial state is: 1
+Added candidate: 264 , true initial state is: 1
+Added candidate: 231 , true initial state is: 0
+Added candidate: 108 , true initial state is: 0
+Added candidate: 202 , true initial state is: 0
+Added candidate: 15 , true initial state is: 0
+Added candidate: 251 , true initial state is: 0
+Added candidate: 70 , true initial state is: 0
+Overlap after adding candidate: 0.9000, error: 0.0000, BP iters: 5, rho =0.74
+Added candidate: 120 , true initial state is: 1
+Added candidate: 240 , true initial state is: 0
+Added candidate: 105 , true initial state is: 1
+Added candidate: 16 , true initial state is: 0
+Added candidate: 172 , true initial state is: 0
+Added candidate: 195 , true initial state is: 0
+Added candidate: 128 , true initial state is: 1
+Added candidate: 270 , true initial state is: 1
+Added candidate: 96 , true initial state is: 0
+Added candidate: 72 , true initial state is: 0
+Added candidate: 12 , true initial state is: 0
+Added candidate: 259 , true initial state is: 1
+Added candidate: 13 , true initial state is: 0
+Added candidate: 201 , true initial state is: 0
+Added candidate: 62 , true initial state is: 1
+Added candidate: 210 , true initial state is: 1
+Added candidate: 71 , true initial state is: 0
+Added candidate: 103 , true initial state is: 0
+Added candidate: 173 , true initial state is: 0
+Added candidate: 155 , true initial state is: 1
+Overlap after adding candidate: 0.9267, error: 0.0000, BP iters: 4, rho =0.80
+Added candidate: 199 , true initial state is: 0
+Added candidate: 269 , true initial state is: 0
+Added candidate: 31 , true initial state is: 0
+Added candidate: 153 , true initial state is: 0
+Added candidate: 146 , true initial state is: 0
+Added candidate: 81 , true initial state is: 1
+Added candidate: 157 , true initial state is: 1
+Added candidate: 191 , true initial state is: 0
+Added candidate: 196 , true initial state is: 1
+Added candidate: 177 , true initial state is: 1
+Added candidate: 98 , true initial state is: 0
+Added candidate: 241 , true initial state is: 0
+Added candidate: 22 , true initial state is: 0
+Added candidate: 203 , true initial state is: 0
+Added candidate: 159 , true initial state is: 1
+Added candidate: 26 , true initial state is: 1
+Added candidate: 6 , true initial state is: 0
+Added candidate: 152 , true initial state is: 0
+Added candidate: 93 , true initial state is: 0
+Added candidate: 45 , true initial state is: 0
+Overlap after adding candidate: 0.9433, error: 0.0000, BP iters: 4, rho =0.87
+Added candidate: 272 , true initial state is: 0
+Added candidate: 11 , true initial state is: 0
+Added candidate: 41 , true initial state is: 1
+Added candidate: 242 , true initial state is: 1
+Added candidate: 111 , true initial state is: 0
+Added candidate: 79 , true initial state is: 1
+Added candidate: 160 , true initial state is: 1
+Added candidate: 296 , true initial state is: 0
+Added candidate: 132 , true initial state is: 0
+Added candidate: 164 , true initial state is: 0
+Added candidate: 18 , true initial state is: 0
+Added candidate: 248 , true initial state is: 0
+Added candidate: 291 , true initial state is: 1
+Added candidate: 5 , true initial state is: 0
+Added candidate: 267 , true initial state is: 0
+Added candidate: 75 , true initial state is: 0
+Added candidate: 80 , true initial state is: 0
+Added candidate: 261 , true initial state is: 0
+Added candidate: 298 , true initial state is: 0
+Added candidate: 278 , true initial state is: 0
+Overlap after adding candidate: 0.9633, error: 0.0000, BP iters: 5, rho =0.94
+Added candidate: 245 , true initial state is: 1
+Added candidate: 142 , true initial state is: 0
+Added candidate: 184 , true initial state is: 0
+Added candidate: 48 , true initial state is: 1
+Added candidate: 194 , true initial state is: 1
+Added candidate: 209 , true initial state is: 0
+Added candidate: 83 , true initial state is: 0
+Added candidate: 134 , true initial state is: 0
+Added candidate: 64 , true initial state is: 1
+Added candidate: 171 , true initial state is: 1
+Added candidate: 102 , true initial state is: 1
+Added candidate: 222 , true initial state is: 0
+Added candidate: 287 , true initial state is: 1
+Added candidate: 25 , true initial state is: 1
+Added candidate: 58 , true initial state is: 1
+Added candidate: 243 , true initial state is: 1
+Added candidate: 206 , true initial state is: 0
+Added candidate: 249 , true initial state is: 0
+Added candidate: 84 , true initial state is: 0
+
+=== Sim 5 ===
+Initial infection fraction (delta): 0.383, lambda: 0.3
+Random baseline overlap: 0.6167
+Added candidate: 0 , true initial state is: 0
+Overlap after adding candidate: 0.6167, error: 0.0000, BP iters: 6, rho =0.00
+Added candidate: 248 , true initial state is: 1
+Overlap after adding candidate: 0.6200, error: 0.0000, BP iters: 4, rho =0.01
+Added candidate: 64 , true initial state is: 1
+Overlap after adding candidate: 0.6233, error: 0.0000, BP iters: 6, rho =0.01
+Added candidate: 151 , true initial state is: 0
+Overlap after adding candidate: 0.6233, error: 0.0000, BP iters: 5, rho =0.01
+Added candidate: 217 , true initial state is: 0
+Overlap after adding candidate: 0.6267, error: 0.0000, BP iters: 5, rho =0.02
+Added candidate: 90 , true initial state is: 1
+Added candidate: 214 , true initial state is: 1
+Added candidate: 245 , true initial state is: 1
+Added candidate: 1 , true initial state is: 0
+Added candidate: 212 , true initial state is: 1
+Added candidate: 270 , true initial state is: 0
+Added candidate: 132 , true initial state is: 0
+Added candidate: 149 , true initial state is: 0
+Added candidate: 175 , true initial state is: 1
+Added candidate: 215 , true initial state is: 0
+Added candidate: 256 , true initial state is: 1
+Added candidate: 25 , true initial state is: 1
+Added candidate: 115 , true initial state is: 0
+Added candidate: 124 , true initial state is: 0
+Added candidate: 154 , true initial state is: 1
+Added candidate: 106 , true initial state is: 1
+Overlap after adding candidate: 0.6500, error: 0.0000, BP iters: 6, rho =0.07
+Added candidate: 118 , true initial state is: 0
+Added candidate: 49 , true initial state is: 0
+Added candidate: 14 , true initial state is: 1
+Added candidate: 243 , true initial state is: 0
+Added candidate: 190 , true initial state is: 1
+Added candidate: 23 , true initial state is: 0
+Added candidate: 176 , true initial state is: 0
+Added candidate: 43 , true initial state is: 1
+Added candidate: 239 , true initial state is: 1
+Added candidate: 133 , true initial state is: 0
+Added candidate: 145 , true initial state is: 0
+Added candidate: 54 , true initial state is: 0
+Added candidate: 218 , true initial state is: 0
+Added candidate: 48 , true initial state is: 0
+Added candidate: 22 , true initial state is: 1
+Added candidate: 152 , true initial state is: 0
+Added candidate: 73 , true initial state is: 1
+Added candidate: 265 , true initial state is: 0
+Added candidate: 158 , true initial state is: 1
+Added candidate: 150 , true initial state is: 0
+Overlap after adding candidate: 0.6733, error: 0.0000, BP iters: 7, rho =0.14
+Added candidate: 179 , true initial state is: 0
+Added candidate: 32 , true initial state is: 1
+Added candidate: 116 , true initial state is: 0
+Added candidate: 123 , true initial state is: 0
+Added candidate: 66 , true initial state is: 1
+Added candidate: 242 , true initial state is: 0
+Added candidate: 79 , true initial state is: 0
+Added candidate: 241 , true initial state is: 1
+Added candidate: 246 , true initial state is: 0
+Added candidate: 192 , true initial state is: 1
+Added candidate: 271 , true initial state is: 0
+Added candidate: 129 , true initial state is: 1
+Added candidate: 237 , true initial state is: 0
+Added candidate: 160 , true initial state is: 1
+Added candidate: 165 , true initial state is: 0
+Added candidate: 87 , true initial state is: 0
+Added candidate: 240 , true initial state is: 1
+Added candidate: 298 , true initial state is: 1
+Added candidate: 294 , true initial state is: 1
+Added candidate: 148 , true initial state is: 1
+Overlap after adding candidate: 0.7033, error: 0.0000, BP iters: 4, rho =0.20
+Added candidate: 34 , true initial state is: 0
+Added candidate: 197 , true initial state is: 0
+Added candidate: 282 , true initial state is: 0
+Added candidate: 268 , true initial state is: 0
+Added candidate: 210 , true initial state is: 0
+Added candidate: 273 , true initial state is: 0
+Added candidate: 33 , true initial state is: 0
+Added candidate: 209 , true initial state is: 1
+Added candidate: 220 , true initial state is: 0
+Added candidate: 60 , true initial state is: 1
+Added candidate: 127 , true initial state is: 0
+Added candidate: 290 , true initial state is: 0
+Added candidate: 247 , true initial state is: 1
+Added candidate: 227 , true initial state is: 0
+Added candidate: 134 , true initial state is: 0
+Added candidate: 9 , true initial state is: 0
+Added candidate: 198 , true initial state is: 0
+Added candidate: 292 , true initial state is: 0
+Added candidate: 272 , true initial state is: 1
+Added candidate: 171 , true initial state is: 0
+Overlap after adding candidate: 0.7133, error: 0.0000, BP iters: 4, rho =0.27
+Added candidate: 93 , true initial state is: 1
+Added candidate: 76 , true initial state is: 1
+Added candidate: 164 , true initial state is: 1
+Added candidate: 170 , true initial state is: 0
+Added candidate: 114 , true initial state is: 0
+Added candidate: 61 , true initial state is: 0
+Added candidate: 177 , true initial state is: 0
+Added candidate: 276 , true initial state is: 1
+Added candidate: 2 , true initial state is: 0
+Added candidate: 299 , true initial state is: 1
+Added candidate: 42 , true initial state is: 0
+Added candidate: 6 , true initial state is: 1
+Added candidate: 37 , true initial state is: 0
+Added candidate: 226 , true initial state is: 0
+Added candidate: 24 , true initial state is: 0
+Added candidate: 4 , true initial state is: 0
+Added candidate: 211 , true initial state is: 0
+Added candidate: 29 , true initial state is: 1
+Added candidate: 52 , true initial state is: 1
+Added candidate: 41 , true initial state is: 0
+Overlap after adding candidate: 0.7400, error: 0.0000, BP iters: 5, rho =0.34
+Added candidate: 56 , true initial state is: 0
+Added candidate: 102 , true initial state is: 1
+Added candidate: 208 , true initial state is: 1
+Added candidate: 92 , true initial state is: 0
+Added candidate: 200 , true initial state is: 1
+Added candidate: 161 , true initial state is: 0
+Added candidate: 88 , true initial state is: 1
+Added candidate: 95 , true initial state is: 0
+Added candidate: 228 , true initial state is: 1
+Added candidate: 222 , true initial state is: 0
+Added candidate: 11 , true initial state is: 1
+Added candidate: 206 , true initial state is: 0
+Added candidate: 121 , true initial state is: 0
+Added candidate: 47 , true initial state is: 0
+Added candidate: 289 , true initial state is: 1
+Added candidate: 108 , true initial state is: 1
+Added candidate: 205 , true initial state is: 1
+Added candidate: 219 , true initial state is: 0
+Added candidate: 238 , true initial state is: 0
+Added candidate: 207 , true initial state is: 0
+Overlap after adding candidate: 0.7700, error: 0.0000, BP iters: 4, rho =0.40
+Reached delta=0.40 at k=120, current overlap: 0.7700, proportion of true sources in selected set: 0.4050
+Added candidate: 58 , true initial state is: 0
+Added candidate: 283 , true initial state is: 0
+Added candidate: 157 , true initial state is: 1
+Added candidate: 251 , true initial state is: 0
+Added candidate: 39 , true initial state is: 0
+Added candidate: 40 , true initial state is: 1
+Added candidate: 213 , true initial state is: 0
+Added candidate: 257 , true initial state is: 0
+Added candidate: 94 , true initial state is: 0
+Added candidate: 89 , true initial state is: 1
+Added candidate: 225 , true initial state is: 1
+Added candidate: 131 , true initial state is: 0
+Added candidate: 97 , true initial state is: 0
+Added candidate: 142 , true initial state is: 0
+Added candidate: 234 , true initial state is: 1
+Added candidate: 10 , true initial state is: 0
+Added candidate: 147 , true initial state is: 0
+Added candidate: 184 , true initial state is: 0
+Added candidate: 141 , true initial state is: 1
+Added candidate: 204 , true initial state is: 0
+Overlap after adding candidate: 0.7967, error: 0.0000, BP iters: 5, rho =0.47
+Added candidate: 178 , true initial state is: 1
+Added candidate: 281 , true initial state is: 0
+Added candidate: 5 , true initial state is: 0
+Added candidate: 274 , true initial state is: 0
+Added candidate: 229 , true initial state is: 1
+Added candidate: 269 , true initial state is: 0
+Added candidate: 35 , true initial state is: 1
+Added candidate: 259 , true initial state is: 0
+Added candidate: 104 , true initial state is: 0
+Added candidate: 45 , true initial state is: 0
+Added candidate: 74 , true initial state is: 1
+Added candidate: 253 , true initial state is: 1
+Added candidate: 181 , true initial state is: 1
+Added candidate: 103 , true initial state is: 0
+Added candidate: 263 , true initial state is: 1
+Added candidate: 166 , true initial state is: 0
+Added candidate: 162 , true initial state is: 1
+Added candidate: 201 , true initial state is: 1
+Added candidate: 81 , true initial state is: 1
+Added candidate: 69 , true initial state is: 0
+Overlap after adding candidate: 0.8267, error: 0.0000, BP iters: 5, rho =0.54
+Added candidate: 275 , true initial state is: 1
+Added candidate: 68 , true initial state is: 0
+Added candidate: 20 , true initial state is: 0
+Added candidate: 3 , true initial state is: 0
+Added candidate: 31 , true initial state is: 0
+Added candidate: 75 , true initial state is: 0
+Added candidate: 138 , true initial state is: 0
+Added candidate: 105 , true initial state is: 1
+Added candidate: 186 , true initial state is: 1
+Added candidate: 109 , true initial state is: 1
+Added candidate: 278 , true initial state is: 0
+Added candidate: 169 , true initial state is: 1
+Added candidate: 216 , true initial state is: 1
+Added candidate: 261 , true initial state is: 0
+Added candidate: 72 , true initial state is: 0
+Added candidate: 65 , true initial state is: 1
+Added candidate: 38 , true initial state is: 0
+Added candidate: 78 , true initial state is: 0
+Added candidate: 96 , true initial state is: 0
+Added candidate: 136 , true initial state is: 0
+Overlap after adding candidate: 0.8533, error: 0.0000, BP iters: 5, rho =0.60
+Added candidate: 119 , true initial state is: 0
+Added candidate: 26 , true initial state is: 1
+Added candidate: 156 , true initial state is: 1
+Added candidate: 202 , true initial state is: 0
+Added candidate: 284 , true initial state is: 1
+Added candidate: 70 , true initial state is: 0
+Added candidate: 287 , true initial state is: 0
+Added candidate: 291 , true initial state is: 1
+Added candidate: 85 , true initial state is: 1
+Added candidate: 86 , true initial state is: 0
+Added candidate: 280 , true initial state is: 0
+Added candidate: 80 , true initial state is: 0
+Added candidate: 173 , true initial state is: 1
+Added candidate: 194 , true initial state is: 1
+Added candidate: 168 , true initial state is: 1
+Added candidate: 117 , true initial state is: 1
+Added candidate: 77 , true initial state is: 1
+Added candidate: 224 , true initial state is: 1
+Added candidate: 143 , true initial state is: 0
+Added candidate: 155 , true initial state is: 0
+Overlap after adding candidate: 0.8900, error: 0.0000, BP iters: 4, rho =0.67
+Added candidate: 135 , true initial state is: 0
+Added candidate: 128 , true initial state is: 0
+Added candidate: 120 , true initial state is: 0
+Added candidate: 285 , true initial state is: 1
+Added candidate: 293 , true initial state is: 0
+Added candidate: 266 , true initial state is: 0
+Added candidate: 122 , true initial state is: 0
+Added candidate: 27 , true initial state is: 0
+Added candidate: 8 , true initial state is: 0
+Added candidate: 51 , true initial state is: 0
+Added candidate: 233 , true initial state is: 0
+Added candidate: 110 , true initial state is: 0
+Added candidate: 252 , true initial state is: 0
+Added candidate: 71 , true initial state is: 0
+Added candidate: 255 , true initial state is: 1
+Added candidate: 91 , true initial state is: 0
+Added candidate: 180 , true initial state is: 0
+Added candidate: 12 , true initial state is: 0
+Added candidate: 295 , true initial state is: 0
+Added candidate: 111 , true initial state is: 1
+Overlap after adding candidate: 0.8900, error: 0.0000, BP iters: 4, rho =0.74
+Added candidate: 250 , true initial state is: 0
+Added candidate: 21 , true initial state is: 0
+Added candidate: 107 , true initial state is: 0
+Added candidate: 113 , true initial state is: 0
+Added candidate: 258 , true initial state is: 1
+Added candidate: 7 , true initial state is: 1
+Added candidate: 203 , true initial state is: 0
+Added candidate: 28 , true initial state is: 1
+Added candidate: 153 , true initial state is: 1
+Added candidate: 185 , true initial state is: 0
+Added candidate: 53 , true initial state is: 0
+Added candidate: 195 , true initial state is: 1
+Added candidate: 264 , true initial state is: 0
+Added candidate: 230 , true initial state is: 1
+Added candidate: 98 , true initial state is: 1
+Added candidate: 297 , true initial state is: 0
+Added candidate: 286 , true initial state is: 1
+Added candidate: 279 , true initial state is: 1
+Added candidate: 139 , true initial state is: 0
+Added candidate: 296 , true initial state is: 1
+Overlap after adding candidate: 0.9300, error: 0.0000, BP iters: 3, rho =0.80
+Added candidate: 146 , true initial state is: 0
+Added candidate: 101 , true initial state is: 0
+Added candidate: 19 , true initial state is: 0
+Added candidate: 159 , true initial state is: 1
+Added candidate: 187 , true initial state is: 0
+Added candidate: 82 , true initial state is: 0
+Added candidate: 189 , true initial state is: 0
+Added candidate: 100 , true initial state is: 0
+Added candidate: 16 , true initial state is: 0
+Added candidate: 199 , true initial state is: 0
+Added candidate: 13 , true initial state is: 1
+Added candidate: 130 , true initial state is: 0
+Added candidate: 232 , true initial state is: 0
+Added candidate: 36 , true initial state is: 1
+Added candidate: 125 , true initial state is: 1
+Added candidate: 223 , true initial state is: 1
+Added candidate: 112 , true initial state is: 1
+Added candidate: 62 , true initial state is: 0
+Added candidate: 44 , true initial state is: 1
+Added candidate: 182 , true initial state is: 1
+Overlap after adding candidate: 0.9467, error: 0.0000, BP iters: 3, rho =0.87
+Added candidate: 99 , true initial state is: 0
+Added candidate: 50 , true initial state is: 0
+Added candidate: 30 , true initial state is: 0
+Added candidate: 18 , true initial state is: 1
+Added candidate: 137 , true initial state is: 0
+Added candidate: 267 , true initial state is: 0
+Added candidate: 249 , true initial state is: 1
+Added candidate: 17 , true initial state is: 0
+Added candidate: 140 , true initial state is: 0
+Added candidate: 196 , true initial state is: 0
+Added candidate: 235 , true initial state is: 0
+Added candidate: 262 , true initial state is: 1
+Added candidate: 277 , true initial state is: 0
+Added candidate: 221 , true initial state is: 0
+Added candidate: 193 , true initial state is: 1
+Added candidate: 254 , true initial state is: 0
+Added candidate: 59 , true initial state is: 0
+Added candidate: 126 , true initial state is: 1
+Added candidate: 260 , true initial state is: 1
+Added candidate: 188 , true initial state is: 0
+Overlap after adding candidate: 0.9733, error: 0.0000, BP iters: 5, rho =0.94
+Added candidate: 172 , true initial state is: 0
+Added candidate: 46 , true initial state is: 1
+Added candidate: 191 , true initial state is: 1
+Added candidate: 167 , true initial state is: 0
+Added candidate: 55 , true initial state is: 0
+Added candidate: 144 , true initial state is: 0
+Added candidate: 83 , true initial state is: 0
+Added candidate: 244 , true initial state is: 0
+Added candidate: 67 , true initial state is: 0
+Added candidate: 84 , true initial state is: 0
+Added candidate: 288 , true initial state is: 0
+Added candidate: 174 , true initial state is: 0
+Added candidate: 57 , true initial state is: 0
+Added candidate: 183 , true initial state is: 0
+Added candidate: 236 , true initial state is: 0
+Added candidate: 15 , true initial state is: 0
+Added candidate: 63 , true initial state is: 1
+Added candidate: 163 , true initial state is: 1
+Added candidate: 231 , true initial state is: 1
+
+=== Sim 6 ===
+Initial infection fraction (delta): 0.457, lambda: 0.3
+Random baseline overlap: 0.5433
+Added candidate: 0 , true initial state is: 1
+Overlap after adding candidate: 0.5467, error: 0.0000, BP iters: 5, rho =0.00
+Added candidate: 1 , true initial state is: 1
+Overlap after adding candidate: 0.5500, error: 0.0000, BP iters: 6, rho =0.01
+Added candidate: 2 , true initial state is: 0
+Overlap after adding candidate: 0.5500, error: 0.0000, BP iters: 5, rho =0.01
+Added candidate: 139 , true initial state is: 1
+Overlap after adding candidate: 0.5533, error: 0.0000, BP iters: 4, rho =0.01
+Added candidate: 291 , true initial state is: 1
+Overlap after adding candidate: 0.5567, error: 0.0000, BP iters: 3, rho =0.02
+Added candidate: 211 , true initial state is: 1
+Added candidate: 94 , true initial state is: 0
+Added candidate: 155 , true initial state is: 0
+Added candidate: 236 , true initial state is: 0
+Added candidate: 89 , true initial state is: 0
+Added candidate: 253 , true initial state is: 1
+Added candidate: 120 , true initial state is: 1
+Added candidate: 232 , true initial state is: 0
+Added candidate: 63 , true initial state is: 1
+Added candidate: 241 , true initial state is: 1
+Added candidate: 115 , true initial state is: 1
+Added candidate: 129 , true initial state is: 1
+Added candidate: 183 , true initial state is: 0
+Added candidate: 112 , true initial state is: 0
+Added candidate: 244 , true initial state is: 0
+Added candidate: 140 , true initial state is: 1
+Overlap after adding candidate: 0.5833, error: 0.0000, BP iters: 4, rho =0.07
+Added candidate: 233 , true initial state is: 1
+Added candidate: 199 , true initial state is: 0
+Added candidate: 40 , true initial state is: 0
+Added candidate: 130 , true initial state is: 0
+Added candidate: 252 , true initial state is: 1
+Added candidate: 88 , true initial state is: 0
+Added candidate: 195 , true initial state is: 1
+Added candidate: 256 , true initial state is: 0
+Added candidate: 84 , true initial state is: 1
+Added candidate: 16 , true initial state is: 1
+Added candidate: 288 , true initial state is: 0
+Added candidate: 289 , true initial state is: 0
+Added candidate: 159 , true initial state is: 0
+Added candidate: 53 , true initial state is: 0
+Added candidate: 100 , true initial state is: 0
+Added candidate: 131 , true initial state is: 1
+Added candidate: 296 , true initial state is: 0
+Added candidate: 78 , true initial state is: 1
+Added candidate: 280 , true initial state is: 1
+Added candidate: 229 , true initial state is: 0
+Overlap after adding candidate: 0.5967, error: 0.0000, BP iters: 6, rho =0.14
+Added candidate: 58 , true initial state is: 0
+Added candidate: 27 , true initial state is: 0
+Added candidate: 3 , true initial state is: 0
+Added candidate: 70 , true initial state is: 1
+Added candidate: 178 , true initial state is: 0
+Added candidate: 105 , true initial state is: 0
+Added candidate: 103 , true initial state is: 0
+Added candidate: 166 , true initial state is: 1
+Added candidate: 222 , true initial state is: 0
+Added candidate: 261 , true initial state is: 1
+Added candidate: 20 , true initial state is: 1
+Added candidate: 185 , true initial state is: 0
+Added candidate: 111 , true initial state is: 0
+Added candidate: 47 , true initial state is: 1
+Added candidate: 203 , true initial state is: 1
+Added candidate: 71 , true initial state is: 0
+Added candidate: 258 , true initial state is: 0
+Added candidate: 188 , true initial state is: 1
+Added candidate: 51 , true initial state is: 1
+Added candidate: 56 , true initial state is: 1
+Overlap after adding candidate: 0.6333, error: 0.0000, BP iters: 4, rho =0.20
+Added candidate: 230 , true initial state is: 0
+Added candidate: 6 , true initial state is: 1
+Added candidate: 104 , true initial state is: 0
+Added candidate: 126 , true initial state is: 1
+Added candidate: 217 , true initial state is: 0
+Added candidate: 116 , true initial state is: 0
+Added candidate: 43 , true initial state is: 1
+Added candidate: 148 , true initial state is: 0
+Added candidate: 281 , true initial state is: 0
+Added candidate: 201 , true initial state is: 1
+Added candidate: 54 , true initial state is: 0
+Added candidate: 268 , true initial state is: 1
+Added candidate: 283 , true initial state is: 1
+Added candidate: 273 , true initial state is: 1
+Added candidate: 264 , true initial state is: 1
+Added candidate: 162 , true initial state is: 0
+Added candidate: 14 , true initial state is: 1
+Added candidate: 272 , true initial state is: 0
+Added candidate: 119 , true initial state is: 1
+Added candidate: 95 , true initial state is: 1
+Overlap after adding candidate: 0.6633, error: 0.0000, BP iters: 5, rho =0.27
+Added candidate: 42 , true initial state is: 0
+Added candidate: 254 , true initial state is: 0
+Added candidate: 163 , true initial state is: 0
+Added candidate: 34 , true initial state is: 1
+Added candidate: 292 , true initial state is: 1
+Added candidate: 73 , true initial state is: 0
+Added candidate: 83 , true initial state is: 0
+Added candidate: 59 , true initial state is: 0
+Added candidate: 266 , true initial state is: 1
+Added candidate: 279 , true initial state is: 0
+Added candidate: 223 , true initial state is: 0
+Added candidate: 297 , true initial state is: 1
+Added candidate: 33 , true initial state is: 0
+Added candidate: 276 , true initial state is: 0
+Added candidate: 164 , true initial state is: 1
+Added candidate: 237 , true initial state is: 1
+Added candidate: 172 , true initial state is: 0
+Added candidate: 24 , true initial state is: 0
+Added candidate: 247 , true initial state is: 1
+Added candidate: 260 , true initial state is: 1
+Overlap after adding candidate: 0.6933, error: 0.0000, BP iters: 3, rho =0.34
+Added candidate: 242 , true initial state is: 1
+Added candidate: 180 , true initial state is: 1
+Added candidate: 81 , true initial state is: 0
+Added candidate: 91 , true initial state is: 0
+Added candidate: 210 , true initial state is: 0
+Added candidate: 144 , true initial state is: 1
+Added candidate: 176 , true initial state is: 0
+Added candidate: 250 , true initial state is: 1
+Added candidate: 154 , true initial state is: 0
+Added candidate: 228 , true initial state is: 1
+Added candidate: 48 , true initial state is: 1
+Added candidate: 65 , true initial state is: 1
+Added candidate: 259 , true initial state is: 0
+Added candidate: 207 , true initial state is: 0
+Added candidate: 205 , true initial state is: 1
+Added candidate: 265 , true initial state is: 0
+Added candidate: 219 , true initial state is: 1
+Added candidate: 174 , true initial state is: 0
+Added candidate: 145 , true initial state is: 0
+Added candidate: 249 , true initial state is: 1
+Overlap after adding candidate: 0.7200, error: 0.0000, BP iters: 7, rho =0.40
+Reached delta=0.40 at k=120, current overlap: 0.7200, proportion of true sources in selected set: 0.4793
+Added candidate: 61 , true initial state is: 0
+Added candidate: 57 , true initial state is: 0
+Added candidate: 64 , true initial state is: 1
+Added candidate: 165 , true initial state is: 0
+Added candidate: 286 , true initial state is: 1
+Added candidate: 75 , true initial state is: 0
+Added candidate: 243 , true initial state is: 1
+Added candidate: 96 , true initial state is: 1
+Added candidate: 41 , true initial state is: 1
+Added candidate: 245 , true initial state is: 0
+Added candidate: 231 , true initial state is: 0
+Added candidate: 102 , true initial state is: 1
+Added candidate: 86 , true initial state is: 0
+Added candidate: 8 , true initial state is: 1
+Added candidate: 170 , true initial state is: 0
+Added candidate: 135 , true initial state is: 0
+Added candidate: 39 , true initial state is: 1
+Added candidate: 204 , true initial state is: 1
+Added candidate: 142 , true initial state is: 0
+Added candidate: 87 , true initial state is: 0
+Overlap after adding candidate: 0.7500, error: 0.0000, BP iters: 5, rho =0.47
+Added candidate: 80 , true initial state is: 0
+Added candidate: 160 , true initial state is: 0
+Added candidate: 171 , true initial state is: 1
+Added candidate: 19 , true initial state is: 1
+Added candidate: 37 , true initial state is: 0
+Added candidate: 60 , true initial state is: 1
+Added candidate: 28 , true initial state is: 0
+Added candidate: 4 , true initial state is: 1
+Added candidate: 153 , true initial state is: 0
+Added candidate: 293 , true initial state is: 0
+Added candidate: 274 , true initial state is: 1
+Added candidate: 113 , true initial state is: 1
+Added candidate: 45 , true initial state is: 0
+Added candidate: 21 , true initial state is: 1
+Added candidate: 215 , true initial state is: 0
+Added candidate: 15 , true initial state is: 1
+Added candidate: 136 , true initial state is: 0
+Added candidate: 11 , true initial state is: 1
+Added candidate: 74 , true initial state is: 0
+Added candidate: 173 , true initial state is: 0
+Overlap after adding candidate: 0.7867, error: 0.0000, BP iters: 10, rho =0.54
+Added candidate: 156 , true initial state is: 1
+Added candidate: 213 , true initial state is: 1
+Added candidate: 169 , true initial state is: 0
+Added candidate: 134 , true initial state is: 0
+Added candidate: 110 , true initial state is: 1
+Added candidate: 216 , true initial state is: 0
+Added candidate: 206 , true initial state is: 1
+Added candidate: 46 , true initial state is: 0
+Added candidate: 26 , true initial state is: 0
+Added candidate: 76 , true initial state is: 1
+Added candidate: 285 , true initial state is: 0
+Added candidate: 138 , true initial state is: 1
+Added candidate: 202 , true initial state is: 0
+Added candidate: 239 , true initial state is: 0
+Added candidate: 152 , true initial state is: 0
+Added candidate: 62 , true initial state is: 0
+Added candidate: 121 , true initial state is: 1
+Added candidate: 284 , true initial state is: 0
+Added candidate: 235 , true initial state is: 0
+Added candidate: 187 , true initial state is: 0
+Overlap after adding candidate: 0.8167, error: 0.0000, BP iters: 5, rho =0.60
+Added candidate: 224 , true initial state is: 0
+Added candidate: 184 , true initial state is: 0
+Added candidate: 49 , true initial state is: 1
+Added candidate: 181 , true initial state is: 1
+Added candidate: 287 , true initial state is: 1
+Added candidate: 85 , true initial state is: 0
+Added candidate: 90 , true initial state is: 0
+Added candidate: 147 , true initial state is: 1
+Added candidate: 114 , true initial state is: 0
+Added candidate: 32 , true initial state is: 0
+Added candidate: 220 , true initial state is: 0
+Added candidate: 5 , true initial state is: 1
+Added candidate: 158 , true initial state is: 1
+Added candidate: 79 , true initial state is: 1
+Added candidate: 98 , true initial state is: 0
+Added candidate: 186 , true initial state is: 0
+Added candidate: 66 , true initial state is: 0
+Added candidate: 295 , true initial state is: 1
+Added candidate: 17 , true initial state is: 0
+Added candidate: 52 , true initial state is: 1
+Overlap after adding candidate: 0.8433, error: 0.0000, BP iters: 4, rho =0.67
+Added candidate: 267 , true initial state is: 0
+Added candidate: 240 , true initial state is: 0
+Added candidate: 146 , true initial state is: 0
+Added candidate: 193 , true initial state is: 1
+Added candidate: 298 , true initial state is: 0
+Added candidate: 141 , true initial state is: 1
+Added candidate: 255 , true initial state is: 1
+Added candidate: 36 , true initial state is: 0
+Added candidate: 23 , true initial state is: 1
+Added candidate: 101 , true initial state is: 1
+Added candidate: 257 , true initial state is: 0
+Added candidate: 150 , true initial state is: 1
+Added candidate: 221 , true initial state is: 0
+Added candidate: 161 , true initial state is: 1
+Added candidate: 212 , true initial state is: 1
+Added candidate: 128 , true initial state is: 1
+Added candidate: 143 , true initial state is: 1
+Added candidate: 151 , true initial state is: 1
+Added candidate: 238 , true initial state is: 0
+Added candidate: 208 , true initial state is: 0
+Overlap after adding candidate: 0.8833, error: 0.0000, BP iters: 5, rho =0.74
+Added candidate: 35 , true initial state is: 1
+Added candidate: 7 , true initial state is: 1
+Added candidate: 299 , true initial state is: 1
+Added candidate: 214 , true initial state is: 0
+Added candidate: 190 , true initial state is: 1
+Added candidate: 30 , true initial state is: 0
+Added candidate: 25 , true initial state is: 1
+Added candidate: 99 , true initial state is: 0
+Added candidate: 13 , true initial state is: 0
+Added candidate: 69 , true initial state is: 0
+Added candidate: 234 , true initial state is: 0
+Added candidate: 167 , true initial state is: 0
+Added candidate: 31 , true initial state is: 0
+Added candidate: 18 , true initial state is: 0
+Added candidate: 282 , true initial state is: 1
+Added candidate: 225 , true initial state is: 0
+Added candidate: 125 , true initial state is: 0
+Added candidate: 248 , true initial state is: 0
+Added candidate: 123 , true initial state is: 1
+Added candidate: 262 , true initial state is: 1
+Overlap after adding candidate: 0.9000, error: 0.0000, BP iters: 3, rho =0.80
+Added candidate: 107 , true initial state is: 0
+Added candidate: 106 , true initial state is: 0
+Added candidate: 149 , true initial state is: 0
+Added candidate: 194 , true initial state is: 0
+Added candidate: 294 , true initial state is: 0
+Added candidate: 12 , true initial state is: 1
+Added candidate: 109 , true initial state is: 0
+Added candidate: 137 , true initial state is: 1
+Added candidate: 226 , true initial state is: 1
+Added candidate: 50 , true initial state is: 0
+Added candidate: 132 , true initial state is: 0
+Added candidate: 263 , true initial state is: 0
+Added candidate: 133 , true initial state is: 1
+Added candidate: 192 , true initial state is: 0
+Added candidate: 10 , true initial state is: 1
+Added candidate: 200 , true initial state is: 0
+Added candidate: 93 , true initial state is: 1
+Added candidate: 277 , true initial state is: 1
+Added candidate: 270 , true initial state is: 0
+Added candidate: 22 , true initial state is: 1
+Overlap after adding candidate: 0.9333, error: 0.0000, BP iters: 4, rho =0.87
+Added candidate: 124 , true initial state is: 0
+Added candidate: 157 , true initial state is: 0
+Added candidate: 68 , true initial state is: 1
+Added candidate: 197 , true initial state is: 0
+Added candidate: 218 , true initial state is: 0
+Added candidate: 72 , true initial state is: 0
+Added candidate: 92 , true initial state is: 1
+Added candidate: 269 , true initial state is: 1
+Added candidate: 82 , true initial state is: 0
+Added candidate: 196 , true initial state is: 0
+Added candidate: 251 , true initial state is: 1
+Added candidate: 127 , true initial state is: 1
+Added candidate: 246 , true initial state is: 1
+Added candidate: 271 , true initial state is: 1
+Added candidate: 278 , true initial state is: 1
+Added candidate: 168 , true initial state is: 0
+Added candidate: 77 , true initial state is: 1
+Added candidate: 290 , true initial state is: 1
+Added candidate: 179 , true initial state is: 0
+Added candidate: 118 , true initial state is: 0
+Overlap after adding candidate: 0.9633, error: 0.0000, BP iters: 5, rho =0.94
+Added candidate: 198 , true initial state is: 0
+Added candidate: 177 , true initial state is: 1
+Added candidate: 122 , true initial state is: 1
+Added candidate: 9 , true initial state is: 0
+Added candidate: 44 , true initial state is: 1
+Added candidate: 108 , true initial state is: 1
+Added candidate: 117 , true initial state is: 1
+Added candidate: 182 , true initial state is: 0
+Added candidate: 191 , true initial state is: 0
+Added candidate: 275 , true initial state is: 1
+Added candidate: 67 , true initial state is: 0
+Added candidate: 209 , true initial state is: 0
+Added candidate: 55 , true initial state is: 1
+Added candidate: 175 , true initial state is: 1
+Added candidate: 227 , true initial state is: 0
+Added candidate: 189 , true initial state is: 0
+Added candidate: 38 , true initial state is: 0
+Added candidate: 29 , true initial state is: 0
+Added candidate: 97 , true initial state is: 0
+
+=== Sim 7 ===
+Initial infection fraction (delta): 0.410, lambda: 0.3
+Random baseline overlap: 0.5900
+Added candidate: 0 , true initial state is: 1
+Overlap after adding candidate: 0.5933, error: 0.0000, BP iters: 6, rho =0.00
+Added candidate: 1 , true initial state is: 0
+Overlap after adding candidate: 0.5933, error: 0.0000, BP iters: 5, rho =0.01
+Added candidate: 286 , true initial state is: 0
+Overlap after adding candidate: 0.5933, error: 0.0000, BP iters: 6, rho =0.01
+Added candidate: 45 , true initial state is: 1
+Overlap after adding candidate: 0.5967, error: 0.0000, BP iters: 6, rho =0.01
+Added candidate: 61 , true initial state is: 0
+Overlap after adding candidate: 0.6000, error: 0.0000, BP iters: 6, rho =0.02
+Added candidate: 34 , true initial state is: 1
+Added candidate: 170 , true initial state is: 0
+Added candidate: 150 , true initial state is: 0
+Added candidate: 295 , true initial state is: 0
+Added candidate: 99 , true initial state is: 1
+Added candidate: 138 , true initial state is: 1
+Added candidate: 103 , true initial state is: 0
+Added candidate: 114 , true initial state is: 0
+Added candidate: 235 , true initial state is: 1
+Added candidate: 117 , true initial state is: 1
+Added candidate: 298 , true initial state is: 0
+Added candidate: 7 , true initial state is: 1
+Added candidate: 17 , true initial state is: 0
+Added candidate: 115 , true initial state is: 1
+Added candidate: 210 , true initial state is: 0
+Added candidate: 4 , true initial state is: 0
+Overlap after adding candidate: 0.6200, error: 0.0000, BP iters: 5, rho =0.07
+Added candidate: 145 , true initial state is: 0
+Added candidate: 127 , true initial state is: 0
+Added candidate: 48 , true initial state is: 0
+Added candidate: 215 , true initial state is: 0
+Added candidate: 182 , true initial state is: 1
+Added candidate: 167 , true initial state is: 0
+Added candidate: 73 , true initial state is: 1
+Added candidate: 213 , true initial state is: 0
+Added candidate: 264 , true initial state is: 1
+Added candidate: 179 , true initial state is: 1
+Added candidate: 88 , true initial state is: 0
+Added candidate: 169 , true initial state is: 0
+Added candidate: 26 , true initial state is: 0
+Added candidate: 164 , true initial state is: 0
+Added candidate: 9 , true initial state is: 0
+Added candidate: 104 , true initial state is: 0
+Added candidate: 56 , true initial state is: 0
+Added candidate: 231 , true initial state is: 1
+Added candidate: 285 , true initial state is: 1
+Added candidate: 146 , true initial state is: 1
+Overlap after adding candidate: 0.6367, error: 0.0000, BP iters: 4, rho =0.14
+Added candidate: 234 , true initial state is: 0
+Added candidate: 131 , true initial state is: 0
+Added candidate: 58 , true initial state is: 0
+Added candidate: 85 , true initial state is: 0
+Added candidate: 76 , true initial state is: 1
+Added candidate: 241 , true initial state is: 1
+Added candidate: 228 , true initial state is: 0
+Added candidate: 15 , true initial state is: 0
+Added candidate: 106 , true initial state is: 1
+Added candidate: 265 , true initial state is: 0
+Added candidate: 270 , true initial state is: 0
+Added candidate: 194 , true initial state is: 0
+Added candidate: 6 , true initial state is: 0
+Added candidate: 224 , true initial state is: 1
+Added candidate: 62 , true initial state is: 0
+Added candidate: 244 , true initial state is: 1
+Added candidate: 93 , true initial state is: 0
+Added candidate: 282 , true initial state is: 1
+Added candidate: 111 , true initial state is: 1
+Added candidate: 3 , true initial state is: 0
+Overlap after adding candidate: 0.6567, error: 0.0000, BP iters: 5, rho =0.20
+Added candidate: 60 , true initial state is: 0
+Added candidate: 25 , true initial state is: 0
+Added candidate: 135 , true initial state is: 0
+Added candidate: 269 , true initial state is: 1
+Added candidate: 183 , true initial state is: 1
+Added candidate: 252 , true initial state is: 0
+Added candidate: 121 , true initial state is: 1
+Added candidate: 140 , true initial state is: 1
+Added candidate: 90 , true initial state is: 1
+Added candidate: 28 , true initial state is: 1
+Added candidate: 43 , true initial state is: 1
+Added candidate: 51 , true initial state is: 0
+Added candidate: 249 , true initial state is: 0
+Added candidate: 211 , true initial state is: 0
+Added candidate: 218 , true initial state is: 1
+Added candidate: 273 , true initial state is: 1
+Added candidate: 262 , true initial state is: 0
+Added candidate: 153 , true initial state is: 1
+Added candidate: 162 , true initial state is: 0
+Added candidate: 13 , true initial state is: 0
+Overlap after adding candidate: 0.6900, error: 0.0000, BP iters: 5, rho =0.27
+Added candidate: 94 , true initial state is: 0
+Added candidate: 119 , true initial state is: 1
+Added candidate: 250 , true initial state is: 0
+Added candidate: 166 , true initial state is: 0
+Added candidate: 175 , true initial state is: 0
+Added candidate: 36 , true initial state is: 1
+Added candidate: 19 , true initial state is: 0
+Added candidate: 251 , true initial state is: 0
+Added candidate: 39 , true initial state is: 0
+Added candidate: 122 , true initial state is: 1
+Added candidate: 40 , true initial state is: 0
+Added candidate: 5 , true initial state is: 0
+Added candidate: 38 , true initial state is: 1
+Added candidate: 237 , true initial state is: 0
+Added candidate: 184 , true initial state is: 1
+Added candidate: 165 , true initial state is: 0
+Added candidate: 91 , true initial state is: 0
+Added candidate: 255 , true initial state is: 0
+Added candidate: 37 , true initial state is: 0
+Added candidate: 197 , true initial state is: 0
+Overlap after adding candidate: 0.7100, error: 0.0000, BP iters: 6, rho =0.34
+Added candidate: 52 , true initial state is: 1
+Added candidate: 95 , true initial state is: 1
+Added candidate: 281 , true initial state is: 1
+Added candidate: 207 , true initial state is: 1
+Added candidate: 172 , true initial state is: 0
+Added candidate: 291 , true initial state is: 1
+Added candidate: 221 , true initial state is: 0
+Added candidate: 219 , true initial state is: 0
+Added candidate: 97 , true initial state is: 1
+Added candidate: 174 , true initial state is: 0
+Added candidate: 55 , true initial state is: 0
+Added candidate: 120 , true initial state is: 1
+Added candidate: 177 , true initial state is: 1
+Added candidate: 18 , true initial state is: 0
+Added candidate: 277 , true initial state is: 1
+Added candidate: 59 , true initial state is: 0
+Added candidate: 112 , true initial state is: 0
+Added candidate: 267 , true initial state is: 1
+Added candidate: 278 , true initial state is: 0
+Added candidate: 202 , true initial state is: 0
+Overlap after adding candidate: 0.7400, error: 0.0000, BP iters: 7, rho =0.40
+Reached delta=0.40 at k=120, current overlap: 0.7400, proportion of true sources in selected set: 0.3967
+Added candidate: 50 , true initial state is: 1
+Added candidate: 118 , true initial state is: 1
+Added candidate: 10 , true initial state is: 0
+Added candidate: 198 , true initial state is: 0
+Added candidate: 149 , true initial state is: 0
+Added candidate: 32 , true initial state is: 0
+Added candidate: 49 , true initial state is: 1
+Added candidate: 263 , true initial state is: 0
+Added candidate: 180 , true initial state is: 0
+Added candidate: 245 , true initial state is: 1
+Added candidate: 280 , true initial state is: 1
+Added candidate: 148 , true initial state is: 0
+Added candidate: 139 , true initial state is: 0
+Added candidate: 110 , true initial state is: 0
+Added candidate: 188 , true initial state is: 0
+Added candidate: 155 , true initial state is: 0
+Added candidate: 72 , true initial state is: 0
+Added candidate: 271 , true initial state is: 0
+Added candidate: 74 , true initial state is: 0
+Added candidate: 102 , true initial state is: 0
+Overlap after adding candidate: 0.7567, error: 0.0000, BP iters: 6, rho =0.47
+Added candidate: 47 , true initial state is: 0
+Added candidate: 41 , true initial state is: 1
+Added candidate: 123 , true initial state is: 1
+Added candidate: 143 , true initial state is: 0
+Added candidate: 137 , true initial state is: 1
+Added candidate: 268 , true initial state is: 1
+Added candidate: 132 , true initial state is: 1
+Added candidate: 185 , true initial state is: 0
+Added candidate: 71 , true initial state is: 1
+Added candidate: 226 , true initial state is: 0
+Added candidate: 199 , true initial state is: 1
+Added candidate: 12 , true initial state is: 1
+Added candidate: 178 , true initial state is: 0
+Added candidate: 253 , true initial state is: 0
+Added candidate: 160 , true initial state is: 0
+Added candidate: 217 , true initial state is: 0
+Added candidate: 11 , true initial state is: 0
+Added candidate: 46 , true initial state is: 0
+Added candidate: 130 , true initial state is: 0
+Added candidate: 238 , true initial state is: 0
+Overlap after adding candidate: 0.7900, error: 0.0000, BP iters: 6, rho =0.54
+Added candidate: 154 , true initial state is: 0
+Added candidate: 284 , true initial state is: 0
+Added candidate: 272 , true initial state is: 0
+Added candidate: 141 , true initial state is: 0
+Added candidate: 163 , true initial state is: 1
+Added candidate: 98 , true initial state is: 0
+Added candidate: 109 , true initial state is: 1
+Added candidate: 257 , true initial state is: 0
+Added candidate: 287 , true initial state is: 0
+Added candidate: 168 , true initial state is: 1
+Added candidate: 24 , true initial state is: 1
+Added candidate: 230 , true initial state is: 0
+Added candidate: 92 , true initial state is: 1
+Added candidate: 266 , true initial state is: 1
+Added candidate: 105 , true initial state is: 0
+Added candidate: 236 , true initial state is: 1
+Added candidate: 290 , true initial state is: 0
+Added candidate: 206 , true initial state is: 0
+Added candidate: 293 , true initial state is: 0
+Added candidate: 176 , true initial state is: 0
+Overlap after adding candidate: 0.8133, error: 0.0000, BP iters: 5, rho =0.60
+Added candidate: 216 , true initial state is: 0
+Added candidate: 78 , true initial state is: 1
+Added candidate: 208 , true initial state is: 0
+Added candidate: 192 , true initial state is: 0
+Added candidate: 193 , true initial state is: 1
+Added candidate: 232 , true initial state is: 1
+Added candidate: 240 , true initial state is: 0
+Added candidate: 64 , true initial state is: 0
+Added candidate: 247 , true initial state is: 1
+Added candidate: 201 , true initial state is: 0
+Added candidate: 191 , true initial state is: 0
+Added candidate: 222 , true initial state is: 1
+Added candidate: 229 , true initial state is: 0
+Added candidate: 100 , true initial state is: 0
+Added candidate: 35 , true initial state is: 0
+Added candidate: 158 , true initial state is: 1
+Added candidate: 80 , true initial state is: 0
+Added candidate: 67 , true initial state is: 0
+Added candidate: 205 , true initial state is: 0
+Added candidate: 136 , true initial state is: 1
+Overlap after adding candidate: 0.8400, error: 0.0000, BP iters: 7, rho =0.67
+Added candidate: 152 , true initial state is: 0
+Added candidate: 297 , true initial state is: 1
+Added candidate: 86 , true initial state is: 1
+Added candidate: 258 , true initial state is: 0
+Added candidate: 196 , true initial state is: 1
+Added candidate: 256 , true initial state is: 1
+Added candidate: 289 , true initial state is: 0
+Added candidate: 204 , true initial state is: 1
+Added candidate: 65 , true initial state is: 1
+Added candidate: 57 , true initial state is: 1
+Added candidate: 151 , true initial state is: 0
+Added candidate: 22 , true initial state is: 0
+Added candidate: 68 , true initial state is: 1
+Added candidate: 89 , true initial state is: 0
+Added candidate: 44 , true initial state is: 0
+Added candidate: 296 , true initial state is: 0
+Added candidate: 246 , true initial state is: 1
+Added candidate: 33 , true initial state is: 0
+Added candidate: 107 , true initial state is: 0
+Added candidate: 243 , true initial state is: 0
+Overlap after adding candidate: 0.8700, error: 0.0000, BP iters: 5, rho =0.74
+Added candidate: 173 , true initial state is: 0
+Added candidate: 116 , true initial state is: 1
+Added candidate: 27 , true initial state is: 0
+Added candidate: 223 , true initial state is: 0
+Added candidate: 225 , true initial state is: 0
+Added candidate: 279 , true initial state is: 0
+Added candidate: 294 , true initial state is: 1
+Added candidate: 147 , true initial state is: 1
+Added candidate: 69 , true initial state is: 1
+Added candidate: 242 , true initial state is: 1
+Added candidate: 14 , true initial state is: 1
+Added candidate: 16 , true initial state is: 1
+Added candidate: 83 , true initial state is: 1
+Added candidate: 203 , true initial state is: 1
+Added candidate: 157 , true initial state is: 0
+Added candidate: 108 , true initial state is: 1
+Added candidate: 276 , true initial state is: 0
+Added candidate: 23 , true initial state is: 1
+Added candidate: 195 , true initial state is: 0
+Added candidate: 156 , true initial state is: 1
+Overlap after adding candidate: 0.9067, error: 0.0000, BP iters: 3, rho =0.80
+Added candidate: 84 , true initial state is: 1
+Added candidate: 220 , true initial state is: 1
+Added candidate: 79 , true initial state is: 0
+Added candidate: 66 , true initial state is: 1
+Added candidate: 54 , true initial state is: 0
+Added candidate: 187 , true initial state is: 0
+Added candidate: 87 , true initial state is: 0
+Added candidate: 77 , true initial state is: 0
+Added candidate: 288 , true initial state is: 1
+Added candidate: 129 , true initial state is: 0
+Added candidate: 63 , true initial state is: 1
+Added candidate: 81 , true initial state is: 0
+Added candidate: 101 , true initial state is: 0
+Added candidate: 275 , true initial state is: 0
+Added candidate: 283 , true initial state is: 0
+Added candidate: 53 , true initial state is: 0
+Added candidate: 29 , true initial state is: 0
+Added candidate: 21 , true initial state is: 1
+Added candidate: 292 , true initial state is: 1
+Added candidate: 20 , true initial state is: 0
+Overlap after adding candidate: 0.9367, error: 0.0000, BP iters: 8, rho =0.87
+Added candidate: 8 , true initial state is: 1
+Added candidate: 161 , true initial state is: 0
+Added candidate: 75 , true initial state is: 0
+Added candidate: 134 , true initial state is: 0
+Added candidate: 181 , true initial state is: 1
+Added candidate: 248 , true initial state is: 0
+Added candidate: 260 , true initial state is: 0
+Added candidate: 42 , true initial state is: 0
+Added candidate: 171 , true initial state is: 1
+Added candidate: 227 , true initial state is: 0
+Added candidate: 144 , true initial state is: 1
+Added candidate: 124 , true initial state is: 0
+Added candidate: 96 , true initial state is: 1
+Added candidate: 31 , true initial state is: 0
+Added candidate: 200 , true initial state is: 1
+Added candidate: 261 , true initial state is: 0
+Added candidate: 113 , true initial state is: 0
+Added candidate: 214 , true initial state is: 0
+Added candidate: 82 , true initial state is: 1
+Added candidate: 142 , true initial state is: 0
+Overlap after adding candidate: 0.9533, error: 0.0000, BP iters: 5, rho =0.94
+Added candidate: 190 , true initial state is: 0
+Added candidate: 70 , true initial state is: 1
+Added candidate: 239 , true initial state is: 0
+Added candidate: 126 , true initial state is: 1
+Added candidate: 212 , true initial state is: 1
+Added candidate: 299 , true initial state is: 1
+Added candidate: 128 , true initial state is: 0
+Added candidate: 189 , true initial state is: 0
+Added candidate: 159 , true initial state is: 0
+Added candidate: 274 , true initial state is: 1
+Added candidate: 259 , true initial state is: 1
+Added candidate: 233 , true initial state is: 1
+Added candidate: 186 , true initial state is: 1
+Added candidate: 133 , true initial state is: 1
+Added candidate: 254 , true initial state is: 1
+Added candidate: 209 , true initial state is: 1
+Added candidate: 2 , true initial state is: 1
+Added candidate: 125 , true initial state is: 1
+Added candidate: 30 , true initial state is: 0
+
+=== Sim 8 ===
+Initial infection fraction (delta): 0.390, lambda: 0.3
+Random baseline overlap: 0.6100
+Added candidate: 0 , true initial state is: 0
+Overlap after adding candidate: 0.6100, error: 0.0000, BP iters: 5, rho =0.00
+Added candidate: 230 , true initial state is: 0
+Overlap after adding candidate: 0.6100, error: 0.0000, BP iters: 5, rho =0.01
+Added candidate: 64 , true initial state is: 1
+Overlap after adding candidate: 0.6100, error: 0.0000, BP iters: 5, rho =0.01
+Added candidate: 90 , true initial state is: 0
+Overlap after adding candidate: 0.6167, error: 0.0000, BP iters: 6, rho =0.01
+Added candidate: 60 , true initial state is: 1
+Overlap after adding candidate: 0.6167, error: 0.0000, BP iters: 3, rho =0.02
+Added candidate: 288 , true initial state is: 0
+Added candidate: 239 , true initial state is: 0
+Added candidate: 100 , true initial state is: 1
+Added candidate: 84 , true initial state is: 0
+Added candidate: 221 , true initial state is: 0
+Added candidate: 47 , true initial state is: 1
+Added candidate: 236 , true initial state is: 0
+Added candidate: 159 , true initial state is: 0
+Added candidate: 28 , true initial state is: 0
+Added candidate: 271 , true initial state is: 0
+Added candidate: 189 , true initial state is: 0
+Added candidate: 81 , true initial state is: 1
+Added candidate: 278 , true initial state is: 1
+Added candidate: 52 , true initial state is: 0
+Added candidate: 109 , true initial state is: 0
+Added candidate: 110 , true initial state is: 0
+Overlap after adding candidate: 0.6333, error: 0.0000, BP iters: 6, rho =0.07
+Added candidate: 298 , true initial state is: 1
+Added candidate: 83 , true initial state is: 1
+Added candidate: 131 , true initial state is: 0
+Added candidate: 194 , true initial state is: 1
+Added candidate: 118 , true initial state is: 1
+Added candidate: 165 , true initial state is: 1
+Added candidate: 75 , true initial state is: 1
+Added candidate: 36 , true initial state is: 0
+Added candidate: 49 , true initial state is: 0
+Added candidate: 185 , true initial state is: 0
+Added candidate: 163 , true initial state is: 0
+Added candidate: 277 , true initial state is: 1
+Added candidate: 246 , true initial state is: 1
+Added candidate: 24 , true initial state is: 0
+Added candidate: 252 , true initial state is: 0
+Added candidate: 208 , true initial state is: 0
+Added candidate: 123 , true initial state is: 0
+Added candidate: 17 , true initial state is: 0
+Added candidate: 169 , true initial state is: 0
+Added candidate: 120 , true initial state is: 0
+Overlap after adding candidate: 0.6500, error: 0.0000, BP iters: 5, rho =0.14
+Added candidate: 46 , true initial state is: 0
+Added candidate: 73 , true initial state is: 1
+Added candidate: 268 , true initial state is: 1
+Added candidate: 12 , true initial state is: 0
+Added candidate: 4 , true initial state is: 0
+Added candidate: 276 , true initial state is: 1
+Added candidate: 15 , true initial state is: 0
+Added candidate: 150 , true initial state is: 1
+Added candidate: 164 , true initial state is: 0
+Added candidate: 203 , true initial state is: 1
+Added candidate: 291 , true initial state is: 0
+Added candidate: 177 , true initial state is: 1
+Added candidate: 222 , true initial state is: 0
+Added candidate: 243 , true initial state is: 0
+Added candidate: 282 , true initial state is: 1
+Added candidate: 116 , true initial state is: 0
+Added candidate: 209 , true initial state is: 1
+Added candidate: 226 , true initial state is: 0
+Added candidate: 180 , true initial state is: 0
+Added candidate: 286 , true initial state is: 1
+Overlap after adding candidate: 0.6833, error: 0.0000, BP iters: 3, rho =0.20
+Added candidate: 31 , true initial state is: 0
+Added candidate: 149 , true initial state is: 1
+Added candidate: 86 , true initial state is: 1
+Added candidate: 103 , true initial state is: 0
+Added candidate: 95 , true initial state is: 0
+Added candidate: 247 , true initial state is: 1
+Added candidate: 237 , true initial state is: 0
+Added candidate: 125 , true initial state is: 1
+Added candidate: 143 , true initial state is: 1
+Added candidate: 229 , true initial state is: 1
+Added candidate: 201 , true initial state is: 1
+Added candidate: 256 , true initial state is: 0
+Added candidate: 130 , true initial state is: 0
+Added candidate: 145 , true initial state is: 0
+Added candidate: 297 , true initial state is: 0
+Added candidate: 158 , true initial state is: 1
+Added candidate: 1 , true initial state is: 1
+Added candidate: 199 , true initial state is: 0
+Added candidate: 217 , true initial state is: 1
+Added candidate: 280 , true initial state is: 1
+Overlap after adding candidate: 0.7233, error: 0.0000, BP iters: 3, rho =0.27
+Added candidate: 18 , true initial state is: 0
+Added candidate: 238 , true initial state is: 0
+Added candidate: 289 , true initial state is: 0
+Added candidate: 56 , true initial state is: 0
+Added candidate: 27 , true initial state is: 0
+Added candidate: 215 , true initial state is: 0
+Added candidate: 66 , true initial state is: 1
+Added candidate: 9 , true initial state is: 1
+Added candidate: 191 , true initial state is: 0
+Added candidate: 198 , true initial state is: 0
+Added candidate: 5 , true initial state is: 0
+Added candidate: 59 , true initial state is: 0
+Added candidate: 45 , true initial state is: 0
+Added candidate: 235 , true initial state is: 0
+Added candidate: 128 , true initial state is: 0
+Added candidate: 21 , true initial state is: 1
+Added candidate: 88 , true initial state is: 1
+Added candidate: 210 , true initial state is: 1
+Added candidate: 25 , true initial state is: 1
+Added candidate: 283 , true initial state is: 0
+Overlap after adding candidate: 0.7467, error: 0.0000, BP iters: 6, rho =0.34
+Added candidate: 157 , true initial state is: 1
+Added candidate: 273 , true initial state is: 0
+Added candidate: 61 , true initial state is: 1
+Added candidate: 70 , true initial state is: 1
+Added candidate: 68 , true initial state is: 1
+Added candidate: 65 , true initial state is: 0
+Added candidate: 39 , true initial state is: 0
+Added candidate: 176 , true initial state is: 0
+Added candidate: 204 , true initial state is: 0
+Added candidate: 137 , true initial state is: 0
+Added candidate: 102 , true initial state is: 0
+Added candidate: 213 , true initial state is: 1
+Added candidate: 192 , true initial state is: 0
+Added candidate: 202 , true initial state is: 1
+Added candidate: 294 , true initial state is: 0
+Added candidate: 40 , true initial state is: 1
+Added candidate: 197 , true initial state is: 0
+Added candidate: 186 , true initial state is: 0
+Added candidate: 97 , true initial state is: 1
+Added candidate: 183 , true initial state is: 0
+Overlap after adding candidate: 0.7700, error: 0.0000, BP iters: 9, rho =0.40
+Reached delta=0.40 at k=120, current overlap: 0.7700, proportion of true sources in selected set: 0.3967
+Added candidate: 6 , true initial state is: 0
+Added candidate: 233 , true initial state is: 1
+Added candidate: 106 , true initial state is: 0
+Added candidate: 173 , true initial state is: 0
+Added candidate: 162 , true initial state is: 0
+Added candidate: 171 , true initial state is: 0
+Added candidate: 138 , true initial state is: 0
+Added candidate: 187 , true initial state is: 1
+Added candidate: 63 , true initial state is: 0
+Added candidate: 14 , true initial state is: 0
+Added candidate: 78 , true initial state is: 0
+Added candidate: 254 , true initial state is: 1
+Added candidate: 34 , true initial state is: 1
+Added candidate: 136 , true initial state is: 1
+Added candidate: 284 , true initial state is: 0
+Added candidate: 10 , true initial state is: 1
+Added candidate: 96 , true initial state is: 0
+Added candidate: 281 , true initial state is: 1
+Added candidate: 264 , true initial state is: 1
+Added candidate: 205 , true initial state is: 1
+Overlap after adding candidate: 0.8000, error: 0.0000, BP iters: 4, rho =0.47
+Added candidate: 265 , true initial state is: 0
+Added candidate: 113 , true initial state is: 1
+Added candidate: 285 , true initial state is: 1
+Added candidate: 232 , true initial state is: 1
+Added candidate: 105 , true initial state is: 0
+Added candidate: 89 , true initial state is: 0
+Added candidate: 200 , true initial state is: 0
+Added candidate: 53 , true initial state is: 1
+Added candidate: 220 , true initial state is: 0
+Added candidate: 35 , true initial state is: 0
+Added candidate: 77 , true initial state is: 1
+Added candidate: 141 , true initial state is: 1
+Added candidate: 2 , true initial state is: 0
+Added candidate: 160 , true initial state is: 0
+Added candidate: 153 , true initial state is: 1
+Added candidate: 219 , true initial state is: 0
+Added candidate: 147 , true initial state is: 0
+Added candidate: 62 , true initial state is: 0
+Added candidate: 190 , true initial state is: 1
+Added candidate: 174 , true initial state is: 0
+Overlap after adding candidate: 0.8233, error: 0.0000, BP iters: 4, rho =0.54
+Added candidate: 76 , true initial state is: 0
+Added candidate: 129 , true initial state is: 0
+Added candidate: 54 , true initial state is: 0
+Added candidate: 170 , true initial state is: 1
+Added candidate: 212 , true initial state is: 1
+Added candidate: 148 , true initial state is: 1
+Added candidate: 216 , true initial state is: 0
+Added candidate: 119 , true initial state is: 0
+Added candidate: 69 , true initial state is: 0
+Added candidate: 91 , true initial state is: 1
+Added candidate: 57 , true initial state is: 0
+Added candidate: 29 , true initial state is: 0
+Added candidate: 44 , true initial state is: 0
+Added candidate: 270 , true initial state is: 1
+Added candidate: 224 , true initial state is: 0
+Added candidate: 290 , true initial state is: 0
+Added candidate: 293 , true initial state is: 0
+Added candidate: 38 , true initial state is: 0
+Added candidate: 296 , true initial state is: 1
+Added candidate: 211 , true initial state is: 0
+Overlap after adding candidate: 0.8433, error: 0.0000, BP iters: 9, rho =0.60
+Added candidate: 98 , true initial state is: 1
+Added candidate: 188 , true initial state is: 0
+Added candidate: 218 , true initial state is: 0
+Added candidate: 228 , true initial state is: 0
+Added candidate: 272 , true initial state is: 0
+Added candidate: 94 , true initial state is: 0
+Added candidate: 259 , true initial state is: 0
+Added candidate: 240 , true initial state is: 1
+Added candidate: 8 , true initial state is: 1
+Added candidate: 287 , true initial state is: 0
+Added candidate: 144 , true initial state is: 0
+Added candidate: 275 , true initial state is: 1
+Added candidate: 223 , true initial state is: 0
+Added candidate: 214 , true initial state is: 0
+Added candidate: 121 , true initial state is: 0
+Added candidate: 48 , true initial state is: 1
+Added candidate: 87 , true initial state is: 0
+Added candidate: 50 , true initial state is: 0
+Added candidate: 111 , true initial state is: 0
+Added candidate: 124 , true initial state is: 0
+Overlap after adding candidate: 0.8667, error: 0.0000, BP iters: 4, rho =0.67
+Added candidate: 126 , true initial state is: 0
+Added candidate: 41 , true initial state is: 0
+Added candidate: 115 , true initial state is: 0
+Added candidate: 184 , true initial state is: 0
+Added candidate: 117 , true initial state is: 1
+Added candidate: 82 , true initial state is: 1
+Added candidate: 168 , true initial state is: 0
+Added candidate: 140 , true initial state is: 1
+Added candidate: 234 , true initial state is: 0
+Added candidate: 79 , true initial state is: 1
+Added candidate: 266 , true initial state is: 0
+Added candidate: 248 , true initial state is: 0
+Added candidate: 93 , true initial state is: 1
+Added candidate: 146 , true initial state is: 1
+Added candidate: 32 , true initial state is: 0
+Added candidate: 227 , true initial state is: 1
+Added candidate: 26 , true initial state is: 0
+Added candidate: 154 , true initial state is: 1
+Added candidate: 261 , true initial state is: 0
+Added candidate: 122 , true initial state is: 1
+Overlap after adding candidate: 0.8900, error: 0.0000, BP iters: 3, rho =0.74
+Added candidate: 253 , true initial state is: 0
+Added candidate: 30 , true initial state is: 0
+Added candidate: 23 , true initial state is: 1
+Added candidate: 55 , true initial state is: 0
+Added candidate: 245 , true initial state is: 1
+Added candidate: 242 , true initial state is: 0
+Added candidate: 20 , true initial state is: 1
+Added candidate: 251 , true initial state is: 0
+Added candidate: 51 , true initial state is: 0
+Added candidate: 135 , true initial state is: 1
+Added candidate: 167 , true initial state is: 0
+Added candidate: 42 , true initial state is: 1
+Added candidate: 262 , true initial state is: 1
+Added candidate: 85 , true initial state is: 0
+Added candidate: 241 , true initial state is: 0
+Added candidate: 250 , true initial state is: 1
+Added candidate: 255 , true initial state is: 0
+Added candidate: 72 , true initial state is: 1
+Added candidate: 269 , true initial state is: 0
+Added candidate: 178 , true initial state is: 1
+Overlap after adding candidate: 0.9233, error: 0.0000, BP iters: 5, rho =0.80
+Added candidate: 11 , true initial state is: 0
+Added candidate: 258 , true initial state is: 1
+Added candidate: 182 , true initial state is: 0
+Added candidate: 155 , true initial state is: 1
+Added candidate: 92 , true initial state is: 0
+Added candidate: 127 , true initial state is: 0
+Added candidate: 175 , true initial state is: 0
+Added candidate: 16 , true initial state is: 1
+Added candidate: 260 , true initial state is: 0
+Added candidate: 37 , true initial state is: 0
+Added candidate: 74 , true initial state is: 0
+Added candidate: 195 , true initial state is: 1
+Added candidate: 196 , true initial state is: 1
+Added candidate: 108 , true initial state is: 0
+Added candidate: 161 , true initial state is: 0
+Added candidate: 166 , true initial state is: 1
+Added candidate: 249 , true initial state is: 1
+Added candidate: 179 , true initial state is: 0
+Added candidate: 7 , true initial state is: 1
+Added candidate: 156 , true initial state is: 0
+Overlap after adding candidate: 0.9467, error: 0.0000, BP iters: 5, rho =0.87
+Added candidate: 80 , true initial state is: 0
+Added candidate: 19 , true initial state is: 0
+Added candidate: 152 , true initial state is: 0
+Added candidate: 181 , true initial state is: 1
+Added candidate: 22 , true initial state is: 0
+Added candidate: 279 , true initial state is: 0
+Added candidate: 101 , true initial state is: 1
+Added candidate: 114 , true initial state is: 0
+Added candidate: 132 , true initial state is: 0
+Added candidate: 263 , true initial state is: 1
+Added candidate: 142 , true initial state is: 0
+Added candidate: 151 , true initial state is: 1
+Added candidate: 274 , true initial state is: 1
+Added candidate: 206 , true initial state is: 0
+Added candidate: 107 , true initial state is: 0
+Added candidate: 207 , true initial state is: 0
+Added candidate: 71 , true initial state is: 1
+Added candidate: 244 , true initial state is: 1
+Added candidate: 231 , true initial state is: 0
+Added candidate: 3 , true initial state is: 1
+Overlap after adding candidate: 0.9733, error: 0.0000, BP iters: 4, rho =0.94
+Added candidate: 58 , true initial state is: 0
+Added candidate: 172 , true initial state is: 0
+Added candidate: 13 , true initial state is: 1
+Added candidate: 299 , true initial state is: 1
+Added candidate: 292 , true initial state is: 0
+Added candidate: 193 , true initial state is: 0
+Added candidate: 43 , true initial state is: 0
+Added candidate: 67 , true initial state is: 1
+Added candidate: 257 , true initial state is: 1
+Added candidate: 139 , true initial state is: 0
+Added candidate: 225 , true initial state is: 1
+Added candidate: 112 , true initial state is: 1
+Added candidate: 267 , true initial state is: 0
+Added candidate: 33 , true initial state is: 0
+Added candidate: 295 , true initial state is: 0
+Added candidate: 104 , true initial state is: 0
+Added candidate: 134 , true initial state is: 1
+Added candidate: 99 , true initial state is: 0
+Added candidate: 133 , true initial state is: 0
+
+=== Sim 9 ===
+Initial infection fraction (delta): 0.423, lambda: 0.3
+Random baseline overlap: 0.5767
+Added candidate: 0 , true initial state is: 1
+Overlap after adding candidate: 0.5800, error: 0.0000, BP iters: 7, rho =0.00
+Added candidate: 1 , true initial state is: 0
+Overlap after adding candidate: 0.5800, error: 0.0000, BP iters: 5, rho =0.01
+Added candidate: 55 , true initial state is: 1
+Overlap after adding candidate: 0.5833, error: 0.0000, BP iters: 4, rho =0.01
+Added candidate: 68 , true initial state is: 0
+Overlap after adding candidate: 0.5800, error: 0.0000, BP iters: 6, rho =0.01
+Added candidate: 42 , true initial state is: 0
+Overlap after adding candidate: 0.5833, error: 0.0000, BP iters: 6, rho =0.02
+Added candidate: 125 , true initial state is: 1
+Added candidate: 191 , true initial state is: 1
+Added candidate: 38 , true initial state is: 1
+Added candidate: 26 , true initial state is: 0
+Added candidate: 66 , true initial state is: 0
+Added candidate: 56 , true initial state is: 0
+Added candidate: 46 , true initial state is: 0
+Added candidate: 97 , true initial state is: 1
+Added candidate: 209 , true initial state is: 0
+Added candidate: 156 , true initial state is: 0
+Added candidate: 135 , true initial state is: 1
+Added candidate: 286 , true initial state is: 0
+Added candidate: 233 , true initial state is: 0
+Added candidate: 289 , true initial state is: 1
+Added candidate: 252 , true initial state is: 1
+Added candidate: 67 , true initial state is: 0
+Overlap after adding candidate: 0.6133, error: 0.0000, BP iters: 8, rho =0.07
+Added candidate: 106 , true initial state is: 1
+Added candidate: 253 , true initial state is: 1
+Added candidate: 161 , true initial state is: 1
+Added candidate: 54 , true initial state is: 0
+Added candidate: 28 , true initial state is: 0
+Added candidate: 94 , true initial state is: 0
+Added candidate: 22 , true initial state is: 1
+Added candidate: 168 , true initial state is: 1
+Added candidate: 132 , true initial state is: 1
+Added candidate: 48 , true initial state is: 0
+Added candidate: 29 , true initial state is: 0
+Added candidate: 274 , true initial state is: 1
+Added candidate: 62 , true initial state is: 0
+Added candidate: 80 , true initial state is: 1
+Added candidate: 109 , true initial state is: 0
+Added candidate: 77 , true initial state is: 0
+Added candidate: 278 , true initial state is: 0
+Added candidate: 136 , true initial state is: 0
+Added candidate: 104 , true initial state is: 0
+Added candidate: 59 , true initial state is: 0
+Overlap after adding candidate: 0.6367, error: 0.0000, BP iters: 5, rho =0.14
+Added candidate: 206 , true initial state is: 1
+Added candidate: 284 , true initial state is: 0
+Added candidate: 18 , true initial state is: 0
+Added candidate: 14 , true initial state is: 1
+Added candidate: 288 , true initial state is: 1
+Added candidate: 293 , true initial state is: 0
+Added candidate: 19 , true initial state is: 0
+Added candidate: 180 , true initial state is: 1
+Added candidate: 262 , true initial state is: 1
+Added candidate: 127 , true initial state is: 1
+Added candidate: 89 , true initial state is: 0
+Added candidate: 246 , true initial state is: 1
+Added candidate: 128 , true initial state is: 0
+Added candidate: 32 , true initial state is: 1
+Added candidate: 7 , true initial state is: 1
+Added candidate: 81 , true initial state is: 0
+Added candidate: 63 , true initial state is: 1
+Added candidate: 99 , true initial state is: 1
+Added candidate: 164 , true initial state is: 0
+Added candidate: 153 , true initial state is: 0
+Overlap after adding candidate: 0.6733, error: 0.0000, BP iters: 5, rho =0.20
+Added candidate: 4 , true initial state is: 0
+Added candidate: 179 , true initial state is: 0
+Added candidate: 140 , true initial state is: 1
+Added candidate: 44 , true initial state is: 0
+Added candidate: 183 , true initial state is: 0
+Added candidate: 21 , true initial state is: 1
+Added candidate: 283 , true initial state is: 1
+Added candidate: 275 , true initial state is: 0
+Added candidate: 70 , true initial state is: 0
+Added candidate: 235 , true initial state is: 0
+Added candidate: 188 , true initial state is: 1
+Added candidate: 105 , true initial state is: 1
+Added candidate: 190 , true initial state is: 0
+Added candidate: 224 , true initial state is: 0
+Added candidate: 267 , true initial state is: 0
+Added candidate: 95 , true initial state is: 0
+Added candidate: 84 , true initial state is: 0
+Added candidate: 211 , true initial state is: 1
+Added candidate: 43 , true initial state is: 1
+Added candidate: 154 , true initial state is: 1
+Overlap after adding candidate: 0.7000, error: 0.0000, BP iters: 4, rho =0.27
+Added candidate: 124 , true initial state is: 0
+Added candidate: 93 , true initial state is: 0
+Added candidate: 165 , true initial state is: 0
+Added candidate: 152 , true initial state is: 0
+Added candidate: 58 , true initial state is: 0
+Added candidate: 129 , true initial state is: 1
+Added candidate: 203 , true initial state is: 0
+Added candidate: 102 , true initial state is: 1
+Added candidate: 260 , true initial state is: 0
+Added candidate: 118 , true initial state is: 1
+Added candidate: 122 , true initial state is: 0
+Added candidate: 72 , true initial state is: 1
+Added candidate: 184 , true initial state is: 1
+Added candidate: 130 , true initial state is: 1
+Added candidate: 245 , true initial state is: 1
+Added candidate: 236 , true initial state is: 0
+Added candidate: 110 , true initial state is: 1
+Added candidate: 34 , true initial state is: 0
+Added candidate: 189 , true initial state is: 1
+Added candidate: 217 , true initial state is: 0
+Overlap after adding candidate: 0.7267, error: 0.0000, BP iters: 5, rho =0.34
+Added candidate: 185 , true initial state is: 0
+Added candidate: 146 , true initial state is: 0
+Added candidate: 296 , true initial state is: 1
+Added candidate: 90 , true initial state is: 1
+Added candidate: 41 , true initial state is: 1
+Added candidate: 175 , true initial state is: 1
+Added candidate: 268 , true initial state is: 0
+Added candidate: 272 , true initial state is: 1
+Added candidate: 113 , true initial state is: 1
+Added candidate: 213 , true initial state is: 1
+Added candidate: 280 , true initial state is: 1
+Added candidate: 295 , true initial state is: 0
+Added candidate: 276 , true initial state is: 0
+Added candidate: 137 , true initial state is: 0
+Added candidate: 91 , true initial state is: 1
+Added candidate: 256 , true initial state is: 0
+Added candidate: 192 , true initial state is: 1
+Added candidate: 242 , true initial state is: 1
+Added candidate: 10 , true initial state is: 1
+Added candidate: 53 , true initial state is: 0
+Overlap after adding candidate: 0.7700, error: 0.0000, BP iters: 7, rho =0.40
+Reached delta=0.40 at k=120, current overlap: 0.7700, proportion of true sources in selected set: 0.4711
+Added candidate: 225 , true initial state is: 1
+Added candidate: 24 , true initial state is: 1
+Added candidate: 111 , true initial state is: 0
+Added candidate: 228 , true initial state is: 0
+Added candidate: 174 , true initial state is: 0
+Added candidate: 74 , true initial state is: 0
+Added candidate: 31 , true initial state is: 0
+Added candidate: 240 , true initial state is: 1
+Added candidate: 222 , true initial state is: 1
+Added candidate: 231 , true initial state is: 0
+Added candidate: 45 , true initial state is: 0
+Added candidate: 292 , true initial state is: 1
+Added candidate: 237 , true initial state is: 1
+Added candidate: 257 , true initial state is: 0
+Added candidate: 23 , true initial state is: 1
+Added candidate: 219 , true initial state is: 1
+Added candidate: 264 , true initial state is: 1
+Added candidate: 239 , true initial state is: 0
+Added candidate: 155 , true initial state is: 1
+Added candidate: 216 , true initial state is: 0
+Overlap after adding candidate: 0.7967, error: 0.0000, BP iters: 5, rho =0.47
+Added candidate: 177 , true initial state is: 1
+Added candidate: 226 , true initial state is: 1
+Added candidate: 265 , true initial state is: 0
+Added candidate: 138 , true initial state is: 0
+Added candidate: 120 , true initial state is: 1
+Added candidate: 133 , true initial state is: 0
+Added candidate: 83 , true initial state is: 1
+Added candidate: 200 , true initial state is: 0
+Added candidate: 101 , true initial state is: 0
+Added candidate: 126 , true initial state is: 0
+Added candidate: 157 , true initial state is: 0
+Added candidate: 115 , true initial state is: 0
+Added candidate: 259 , true initial state is: 0
+Added candidate: 273 , true initial state is: 1
+Added candidate: 112 , true initial state is: 0
+Added candidate: 27 , true initial state is: 1
+Added candidate: 215 , true initial state is: 1
+Added candidate: 229 , true initial state is: 1
+Added candidate: 108 , true initial state is: 1
+Added candidate: 73 , true initial state is: 0
+Overlap after adding candidate: 0.8300, error: 0.0000, BP iters: 8, rho =0.54
+Added candidate: 86 , true initial state is: 1
+Added candidate: 5 , true initial state is: 1
+Added candidate: 98 , true initial state is: 0
+Added candidate: 36 , true initial state is: 1
+Added candidate: 65 , true initial state is: 1
+Added candidate: 199 , true initial state is: 0
+Added candidate: 78 , true initial state is: 1
+Added candidate: 176 , true initial state is: 0
+Added candidate: 52 , true initial state is: 0
+Added candidate: 33 , true initial state is: 0
+Added candidate: 40 , true initial state is: 0
+Added candidate: 134 , true initial state is: 0
+Added candidate: 50 , true initial state is: 0
+Added candidate: 116 , true initial state is: 0
+Added candidate: 151 , true initial state is: 0
+Added candidate: 158 , true initial state is: 0
+Added candidate: 119 , true initial state is: 1
+Added candidate: 170 , true initial state is: 0
+Added candidate: 47 , true initial state is: 0
+Added candidate: 39 , true initial state is: 1
+Overlap after adding candidate: 0.8533, error: 0.0000, BP iters: 3, rho =0.60
+Added candidate: 13 , true initial state is: 1
+Added candidate: 167 , true initial state is: 1
+Added candidate: 2 , true initial state is: 0
+Added candidate: 247 , true initial state is: 1
+Added candidate: 100 , true initial state is: 1
+Added candidate: 205 , true initial state is: 0
+Added candidate: 148 , true initial state is: 1
+Added candidate: 221 , true initial state is: 0
+Added candidate: 241 , true initial state is: 0
+Added candidate: 11 , true initial state is: 0
+Added candidate: 163 , true initial state is: 0
+Added candidate: 96 , true initial state is: 1
+Added candidate: 87 , true initial state is: 1
+Added candidate: 144 , true initial state is: 1
+Added candidate: 51 , true initial state is: 1
+Added candidate: 114 , true initial state is: 0
+Added candidate: 187 , true initial state is: 1
+Added candidate: 258 , true initial state is: 1
+Added candidate: 232 , true initial state is: 0
+Added candidate: 12 , true initial state is: 1
+Overlap after adding candidate: 0.8933, error: 0.0000, BP iters: 6, rho =0.67
+Added candidate: 162 , true initial state is: 0
+Added candidate: 149 , true initial state is: 1
+Added candidate: 282 , true initial state is: 0
+Added candidate: 204 , true initial state is: 1
+Added candidate: 255 , true initial state is: 0
+Added candidate: 166 , true initial state is: 0
+Added candidate: 9 , true initial state is: 0
+Added candidate: 277 , true initial state is: 1
+Added candidate: 193 , true initial state is: 0
+Added candidate: 251 , true initial state is: 0
+Added candidate: 197 , true initial state is: 0
+Added candidate: 123 , true initial state is: 0
+Added candidate: 147 , true initial state is: 0
+Added candidate: 169 , true initial state is: 0
+Added candidate: 139 , true initial state is: 0
+Added candidate: 160 , true initial state is: 1
+Added candidate: 212 , true initial state is: 1
+Added candidate: 281 , true initial state is: 0
+Added candidate: 16 , true initial state is: 0
+Added candidate: 234 , true initial state is: 0
+Overlap after adding candidate: 0.9067, error: 0.0000, BP iters: 5, rho =0.74
+Added candidate: 8 , true initial state is: 1
+Added candidate: 178 , true initial state is: 0
+Added candidate: 173 , true initial state is: 0
+Added candidate: 85 , true initial state is: 0
+Added candidate: 49 , true initial state is: 0
+Added candidate: 207 , true initial state is: 0
+Added candidate: 269 , true initial state is: 0
+Added candidate: 198 , true initial state is: 1
+Added candidate: 214 , true initial state is: 1
+Added candidate: 271 , true initial state is: 0
+Added candidate: 266 , true initial state is: 0
+Added candidate: 299 , true initial state is: 0
+Added candidate: 3 , true initial state is: 0
+Added candidate: 181 , true initial state is: 0
+Added candidate: 249 , true initial state is: 0
+Added candidate: 30 , true initial state is: 0
+Added candidate: 17 , true initial state is: 1
+Added candidate: 208 , true initial state is: 1
+Added candidate: 82 , true initial state is: 1
+Added candidate: 290 , true initial state is: 1
+Overlap after adding candidate: 0.9333, error: 0.0000, BP iters: 3, rho =0.80
+Added candidate: 287 , true initial state is: 1
+Added candidate: 218 , true initial state is: 1
+Added candidate: 243 , true initial state is: 0
+Added candidate: 69 , true initial state is: 0
+Added candidate: 186 , true initial state is: 1
+Added candidate: 37 , true initial state is: 0
+Added candidate: 182 , true initial state is: 1
+Added candidate: 195 , true initial state is: 0
+Added candidate: 194 , true initial state is: 1
+Added candidate: 88 , true initial state is: 0
+Added candidate: 141 , true initial state is: 0
+Added candidate: 297 , true initial state is: 0
+Added candidate: 291 , true initial state is: 0
+Added candidate: 143 , true initial state is: 1
+Added candidate: 210 , true initial state is: 0
+Added candidate: 107 , true initial state is: 0
+Added candidate: 142 , true initial state is: 0
+Added candidate: 202 , true initial state is: 0
+Added candidate: 238 , true initial state is: 1
+Added candidate: 279 , true initial state is: 0
+Overlap after adding candidate: 0.9567, error: 0.0000, BP iters: 4, rho =0.87
+Added candidate: 244 , true initial state is: 1
+Added candidate: 159 , true initial state is: 0
+Added candidate: 25 , true initial state is: 1
+Added candidate: 117 , true initial state is: 1
+Added candidate: 131 , true initial state is: 0
+Added candidate: 121 , true initial state is: 1
+Added candidate: 35 , true initial state is: 0
+Added candidate: 201 , true initial state is: 0
+Added candidate: 103 , true initial state is: 0
+Added candidate: 294 , true initial state is: 0
+Added candidate: 172 , true initial state is: 0
+Added candidate: 263 , true initial state is: 1
+Added candidate: 254 , true initial state is: 1
+Added candidate: 171 , true initial state is: 0
+Added candidate: 285 , true initial state is: 0
+Added candidate: 220 , true initial state is: 1
+Added candidate: 79 , true initial state is: 0
+Added candidate: 196 , true initial state is: 0
+Added candidate: 298 , true initial state is: 0
+Added candidate: 61 , true initial state is: 0
+Overlap after adding candidate: 0.9833, error: 0.0000, BP iters: 6, rho =0.94
+Added candidate: 57 , true initial state is: 1
+Added candidate: 75 , true initial state is: 1
+Added candidate: 248 , true initial state is: 0
+Added candidate: 261 , true initial state is: 0
+Added candidate: 60 , true initial state is: 0
+Added candidate: 270 , true initial state is: 0
+Added candidate: 6 , true initial state is: 1
+Added candidate: 64 , true initial state is: 0
+Added candidate: 230 , true initial state is: 1
+Added candidate: 227 , true initial state is: 0
+Added candidate: 250 , true initial state is: 1
+Added candidate: 71 , true initial state is: 0
+Added candidate: 145 , true initial state is: 0
+Added candidate: 76 , true initial state is: 0
+Added candidate: 223 , true initial state is: 1
+Added candidate: 150 , true initial state is: 0
+Added candidate: 92 , true initial state is: 0
+Added candidate: 20 , true initial state is: 0
+Added candidate: 15 , true initial state is: 0
+Running method: random
+
+=== Sim 0 ===
+Initial infection fraction (delta): 0.377, lambda: 0.3
+Random baseline overlap: 0.6233
+
+=== Sim 1 ===
+Initial infection fraction (delta): 0.390, lambda: 0.3
+Random baseline overlap: 0.6100
+
+=== Sim 2 ===
+Initial infection fraction (delta): 0.393, lambda: 0.3
+Random baseline overlap: 0.6067
+
+=== Sim 3 ===
+Initial infection fraction (delta): 0.397, lambda: 0.3
+Random baseline overlap: 0.6033
+
+=== Sim 4 ===
+Initial infection fraction (delta): 0.413, lambda: 0.3
+Random baseline overlap: 0.5867
+
+=== Sim 5 ===
+Initial infection fraction (delta): 0.410, lambda: 0.3
+Random baseline overlap: 0.5900
+
+=== Sim 6 ===
+Initial infection fraction (delta): 0.333, lambda: 0.3
+Random baseline overlap: 0.6667
+
+=== Sim 7 ===
+Initial infection fraction (delta): 0.340, lambda: 0.3
+Random baseline overlap: 0.6600
+
+=== Sim 8 ===
+Initial infection fraction (delta): 0.397, lambda: 0.3
+Random baseline overlap: 0.6033
+
+=== Sim 9 ===
+Initial infection fraction (delta): 0.380, lambda: 0.3
+Random baseline overlap: 0.6200
+Saved results_new/full_sweep_log_cone3mod_rnd_seq_ov_rrg_N300_T10_d3_Nsim10_del04.csv

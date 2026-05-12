@@ -8,7 +8,7 @@ from src.algorithms.non_oracle_selection import entropy_sensor_selection
 # -------------------
 # PARAM GRID
 # -------------------
-deltas = [0.1] #, 0.2, 0.3, 0.4]
+deltas = [0.4] #, 0.2, 0.3, 0.4]
 lambdas = [0.3]
 rhos = np.arange(0, 1.1, 0.1)
 
@@ -16,25 +16,25 @@ N = 300
 T_max = 10
 d = 3
 graph_type = "rrg"
-Nsim = 5
+Nsim = 10
 
 
 # -------------------
 # METHODS
 # -------------------
 methods = {
-    #"entropy": entropy_sensor_selection,
-    #"random": random_selection
-    "sequential": sequential_sensor_selection
+    "entropy": entropy_sensor_selection,
+    "random": random_selection
+    #"sequential": sequential_sensor_selection
 }
 
 # -------------------
 # METRICS
 # -------------------
 metrics = {
-    "ov": ov_metric,
-    # "mov": mov_metric,
-    # "c_mov": mov_constrained_metric
+    "ov": ov_metric
+    #"mov": mov_metric,
+    #"c_mov": mov_constrained_metric
 }
 
 # save_dir and title
@@ -45,4 +45,4 @@ delta_str = "_".join([str(dd) for dd in deltas])
 # remove all "." from delta_str for filename
 delta_str = delta_str.replace(".", "")
 #save_title = f"full_sweep_logger_rnd_seq_{metrics_str}_{graph_type}_N{N}_T{T_max}_d{d}_Nsim{Nsim}_del{delta_str}.csv"
-save_title = f"full_sweep_rnd__seq_{metrics_str}_{graph_type}_N{N}_T{T_max}_d{d}_Nsim{Nsim}_del{delta_str}.csv"
+save_title = f"full_sweep_log_cone3mod_rnd_seq_{metrics_str}_{graph_type}_N{N}_T{T_max}_d{d}_Nsim{Nsim}_del{delta_str}.csv"

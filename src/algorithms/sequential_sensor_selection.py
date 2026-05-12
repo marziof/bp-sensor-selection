@@ -82,8 +82,8 @@ def eval_candidates(metric, metric_base, candidates, bp_base, saved_messages, st
     best_score = -np.inf
     best_candidate = None
     # ensure candidates is not empty
-    if k * bp_base.size >= 0.5:
-        damp = 0.7  # increase damping in later stages to help convergence with more sensors
+    if k / bp_base.size >= 0.5:
+        damp = damp*2  # increase damping in later stages to help convergence with more sensors
     if len(candidates) == 0:
         raise ValueError("No candidates to evaluate")
     for candidate in tqdm(candidates):

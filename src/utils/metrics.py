@@ -1,6 +1,6 @@
 
 import numpy as np
-
+import torch
 
 ###--------------------- BAYESIAN INFERENCE METRICS ----------------------###
 
@@ -200,6 +200,58 @@ def compute_f1(precision, recall):
 
 ### For greedy selection: ###
 
+def tension_metric(marginals, status_nodes, bp_fg, epsilon=1e-10):
+    """
+    Computes tension score per node from BP messages.
+    High score = conflicting incoming messages = information bottleneck.
+    
+    returns: (N,) numpy array
+    """
+    N = bp_fg.size
+    scores = np.zeros(N)
+    
+    for n in range(N):
+        inc_indices, _ = bp_fg.messages.get_all_indices(n)
+        
+        # inc_indices[0] shape: (n_neighbors, T+2) — all incoming messages
+        inc_msgs = bp_fg.messages.values[inc_indices[0]]  # (K, T+2)
+        
+        K = inc_msgs.shape[0]
+        if K < 2:
+            continue
+        
+        inc_msgs = torch.clamp(inc_msgs, min=epsilon)
+        log_msgs = torch.log(inc_msgs)  # (K, T+2)
+        
+        # vectorized pairwise symmetric KL
+        # kl[a,b] = sum_t inc_msgs[a] * (log_msgs[a] - log_msgs[b])
+        kl = (inc_msgs.unsqueeze(1) * (log_msgs.unsqueeze(1) - log_msgs.unsqueeze(0))).sum(-1)  # (K, K)
+        sym_kl = kl + kl.T  # symmetric
+        
+        # mean over upper triangle
+        mask = torch.triu(torch.ones(K, K), diagonal=1).bool()
+        scores[n] = sym_kl[mask].mean().item()
+    
+    return scores
+
+def frontier_score(marginals, status_nodes=None, G=None, t=0):
+    """
+    Score nodes by how much their infection probability contrasts with neighbors.
+    High score = node is on the infection frontier.
+    """
+    Mt = get_Mt(marginals, t=0)
+    p_inf = Mt[1]  # P(infected) per node, shape (N,)
+    
+    scores = np.zeros(len(p_inf))
+    for i in range(len(p_inf)):
+        neighbors = list(G.neighbors(i))
+        if len(neighbors) == 0:
+            continue
+        # contrast = how different is node i from its neighbors
+        neighbor_p = np.array([p_inf[j] for j in neighbors])
+        scores[i] = np.mean(np.abs(p_inf[i] - neighbor_p))
+    
+    return scores  # (N,)
 
 def ov_metric(marginals, status_nodes, **kwargs):
     Mt = get_Mt(marginals, t=0)

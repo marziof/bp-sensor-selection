@@ -63,7 +63,7 @@ def run_full_sweep(methods, metrics, deltas, lambdas, rhos, Nsim, N, T_max, d, r
                     rho_max = max(rhos)
                     bp_fg = fg.FactorGraph(N, T_max, contacts, [], delta)
                     #logger.set_context(method_name=method_name, metric_name="N/A", delta=delta, lam=lam, sim=sim, graph_type=graph_type)
-                    selected_sensors = method(bp_base=bp_fg, status_nodes=status_nodes, rho_max=rho_max, m=None, max_iter=200, tol=1e-4, damp=0.5, delta=delta, logger=None, G=G, alpha=0.5, beta=0.3, gamma=0.5)
+                    selected_sensors = method(bp_base=bp_fg, status_nodes=status_nodes, rho_max=rho_max, m=None, max_iter=200, tol=1e-5, damp=0.2, delta=delta, logger=None, G=G, alpha=0.5, beta=0.3, gamma=0.5)
                     sensor_list = list(selected_sensors)
                     # ordered list of sensors -> 
                     # now evaluate all rhos for this (delta, lam)

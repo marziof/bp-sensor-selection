@@ -37,7 +37,12 @@ logger = SensorLogger(
         # entropy stats        
         "entropy_selected",
         "entropy_cand_mean",
-        "entropy_neigh_mean"
+        "entropy_neigh_mean",
+
+        # frontier stats (NEW)
+        "frontier_selected",
+        "frontier_rank",
+        "frontier_cand_mean"
     ])
 )
 # -------------------
