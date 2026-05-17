@@ -8,14 +8,14 @@ from src.algorithms.non_oracle_selection import entropy_sensor_selection
 # -------------------
 # PARAM GRID
 # -------------------
-deltas = [0.05, 0.1, 0.2, 0.3, 0.4]
+deltas = [0.05]#, 0.1, 0.2, 0.3, 0.4]
 lambdas = [0.3]
 rhos = np.arange(0, 1.1, 0.1)
 
-N = 300
-T_max = 10
+N = 100
+T_max = 20
 d = 3
-graph_type = "er" #"rrg"
+graph_type = "rrg" #"er"
 Nsim = 10
 
 SIM_NAME = "static_selection"
