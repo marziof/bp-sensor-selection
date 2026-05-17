@@ -7,7 +7,7 @@ from src.helpers.plot_helpers import *
 from src.helpers.plot_sensor_stats import *
 
 FILE_DIR = "results_new"
-SENSOR_FILE_NAME = "full_sweep_log_dist_rnd_seq_ov_rrg_N100_T10_d3_Nsim5_del03.csv" #"sensor_stats_full_sweep_logger_test_rnd_seq_ov_mov_c_mov_rrg_N30_T10_d3_Nsim3_del0.3.csv"
+SENSOR_FILE_NAME = "sensor_stats_full_sweep_logger_rnd_seq_ov_mov_c_mov_rrg_N300_T10_d3_Nsim5_del01_02_03.csv" #"sensor_stats_full_sweep_logger_test_rnd_seq_ov_mov_c_mov_rrg_N30_T10_d3_Nsim3_del0.3.csv"
 
 
 SAVE_DIR = "results_new/plots"
@@ -34,3 +34,7 @@ plot_neighbor_pinf_vs_rho(sensor_df, delta=delta, save=True, save_path=f"{SAVE_D
 
 SAVE_TITLE = f"entropy_cand_comparison_{delta}.png"
 plot_entropy_vs_rho(sensor_df, delta=delta, save=True, save_path=f"{SAVE_DIR}/entropy_vs_rho_{SAVE_TITLE}")
+
+method_metric = "sequential_ov"
+SAVE_TITLE = f"entropy_comparison_{delta}_{method_metric}.png"
+plot_entropy_comparison_vs_rho(sensor_df, method=method_metric, delta=delta, save=True, save_path=f"{SAVE_DIR}/entropy_comparison_vs_rho_{SAVE_TITLE}")

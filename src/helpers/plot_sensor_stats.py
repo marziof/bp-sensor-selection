@@ -111,3 +111,25 @@ def plot_entropy_vs_rho(df, delta=None, save=False, save_path=None, **filters):
         fig.savefig(save_path, dpi=300, bbox_inches='tight')
     plt.show()
     plt.close(fig)  # prevent bleed into next plot
+
+
+# plot entropy vs mean entropy of candidates for given method
+def plot_entropy_comparison_vs_rho(df, method=None, delta=None, save=False, save_path=None, **filters):
+    dff = filter_df(df, **filters)
+    if delta is not None:
+        dff = dff[dff["delta"] == delta]
+    if method is not None:
+        dff = dff[dff["method_metric"] == method]
+
+    fig, ax = plt.subplots(figsize=(8, 5))  # always fresh figure
+    sns.lineplot(data=dff, x="rho", y="entropy_selected", palette="Set2", ax=ax, color="red", label="Selected")
+    sns.lineplot(data=dff, x="rho", y="entropy_cand_mean", palette="Set2", ax=ax, color="blue", label="Candidates")
+    ax.set_xlabel("rho")
+    ax.set_ylabel("Entropy")
+    ax.set_title("Entropy of selected nodes vs candidates' mean entropy")
+    plt.tight_layout()
+    if save_path:
+        os.makedirs(os.path.dirname(save_path), exist_ok=True)
+        fig.savefig(save_path, dpi=300, bbox_inches='tight')
+    plt.show()
+    plt.close(fig)  # prevent bleed into next plot

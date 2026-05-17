@@ -37,12 +37,12 @@ def run_full_sweep(methods, metrics, deltas, lambdas, rhos, Nsim, N, T_max, d, r
                 print(f"Random baseline overlap: {rnd_overlap:.4f}")
 
                 # if method is random, we can directly loop over rhos - no metrics needed for selection
-                if method_name == "random":
+                if method_name == "random" or method_name == "deg_centrality" or method_name == "betweenness_centrality" or method_name == "page_rank" or method_name == "closeness":
                     bp_fg = fg.FactorGraph(N, T_max, contacts, [], delta)
                     if logger is not None:
                         logger.set_context(method_name=method_name, metric_name="N/A", delta=delta, lam=lam, sim=sim, graph_type=graph_type)
                     for rho in rhos:
-                        selected_sensors = method(bp_base = bp_fg, rho_max=rho, m=None)
+                        selected_sensors = method(bp_base = bp_fg, rho_max=rho, m=None, G=G)
                         result = evaluate_sensors(selected_sensors, bp_fg, status_nodes, N, T_max, delta, x_rnd=x_rnd, Mt_rnd=Mt_rnd)
                         result.update({
                             "method": method_name,

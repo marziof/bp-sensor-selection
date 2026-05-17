@@ -2,6 +2,11 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import os
 
+FONT_SIZE = 20
+LEGEND_SIZE = FONT_SIZE - 2
+TICK_SIZE = 15
+
+
 #results_df = pd.DataFrame(columns=["sensor_type", "rho", "delta", "lambda", "O", "O_tilde", "rank", "precision", "recall", "f1"])
 
 
@@ -38,23 +43,29 @@ def plot_comparison(results, eval_metric="O", delta=0.1, save=False, title=None,
     Metrics: "O" (overlap), "O_tilde" (rescaled overlap), "rank", "precision", "recall", "f1"
     """
     results = results.copy()
+    results["method"] = results["method"].replace({"entropy": "path weights"})
+    # replace method: deg_centrality with degree, "betweenness_centrality" with betweenness, page_rank with pagerank for better visualization in legend
+    results["method"] = results["method"].replace({"deg_centrality": "degree", "betweenness_centrality": "betweenness", "page_rank": "pagerank"})
     results["method_metric"] = results["method"].astype(str) + "_" + results["metric"].astype(str)
+    # if no metric, set method_metric to method
+    results.loc[results["method_metric"].isna(), "method_metric"] = results["method"].astype(str)
     # set nan to rnd for method_metric where method is rnd 
     results.loc[(results["method"] == "random") & (results["method_metric"].isna()), "method_metric"] = "rnd"
-    results.loc[(results["method"] == "entropy") & (results["method_metric"].isna()), "method_metric"] = "entropy"
+    results.loc[(results["method"] == "entropy") & (results["method_metric"].isna()), "method_metric"] = "path weights"
     print("List of method_metric combinations: ", results["method_metric"].unique())
     plt.figure(figsize=(8, 6))
-    font_size = 14
     # hue on method and metric (selection method)
     sns.lineplot(data=results[results["delta"] == delta], x="rho", y=eval_metric, hue="method_metric", palette="Set2")
     if title:
         plt.title("Comparison of {} for Random vs Selected Sensors (delta={})".format(eval_metric, delta))
-    plt.xlabel("$\\rho$", fontsize=font_size) 
+    plt.xlabel("$\\rho$", fontsize=FONT_SIZE) 
     if eval_metric == "O_tilde":
-        plt.ylabel("$\\tilde{O}$", fontsize=font_size)
+        plt.ylabel(r"$\tilde{O}_{t=0}$", fontsize=FONT_SIZE)
     else:
-        plt.ylabel("{}".format(eval_metric), fontsize=font_size)
-    plt.legend(title="Sensor Type", fontsize=font_size-2, title_fontsize=font_size-2)
+        plt.ylabel("{}".format(eval_metric), fontsize=FONT_SIZE)
+    plt.legend(title="Selection method", fontsize=LEGEND_SIZE, title_fontsize=LEGEND_SIZE)
+    plt.xticks(fontsize=TICK_SIZE)
+    plt.yticks(fontsize=TICK_SIZE)
     plt.tight_layout()
     if save_path:
         os.makedirs(os.path.dirname(save_path), exist_ok=True)
@@ -69,23 +80,26 @@ def plot_delta_comparison(results, eval_metric="O", method_metric="random", save
     Metrics: "O" (overlap), "O_tilde" (rescaled overlap), "rank", "precision", "recall", "f1"
     """
     results = results.copy()
+    # rename method 'entropy' to 'path_weights' in method column for better visualization in legend
+    results["method"] = results["method"].replace({"entropy": "path_weights"})
     results["method_metric"] = results["method"].astype(str) + "_" + results["metric"].astype(str)
     # set nan to rnd for method_metric where method is rnd 
     results.loc[(results["method"] == "random") & (results["method_metric"].isna()), "method_metric"] = "rnd"
-    results.loc[(results["method"] == "entropy") & (results["method_metric"].isna()), "method_metric"] = "entropy"
+    results.loc[(results["method"] == "entropy") & (results["method_metric"].isna()), "method_metric"] = "path_weights"
     print("List of method_metric combinations: ", results["method_metric"].unique())
     plt.figure(figsize=(8, 6))
-    font_size = 14
     # hue on method and metric (selection method)
     sns.lineplot(data=results[results["method_metric"] == method_metric], x="rho", y=eval_metric, hue="delta", palette="Set2")
     if title:
         plt.title("Comparison of {} for Random vs Selected Sensors (delta={})".format(eval_metric, delta))
-    plt.xlabel("$\\rho$", fontsize=font_size) 
+    plt.xlabel("$\\rho$", fontsize=FONT_SIZE) 
     if eval_metric == "O_tilde":
-        plt.ylabel("$\\tilde{O}$", fontsize=font_size)
+        plt.ylabel(r"$\tilde{O}_{t=0}$", fontsize=FONT_SIZE)
     else:
-        plt.ylabel("{}".format(eval_metric), fontsize=font_size)
-    plt.legend(title="$\\delta$", fontsize=font_size-2, title_fontsize=font_size-2)
+        plt.ylabel("{}".format(eval_metric), fontsize=FONT_SIZE)
+    plt.legend(title="$\\delta$", fontsize=LEGEND_SIZE, title_fontsize=LEGEND_SIZE)
+    plt.xticks(fontsize=TICK_SIZE)
+    plt.yticks(fontsize=TICK_SIZE)
     plt.tight_layout()
     if save_path:
         os.makedirs(os.path.dirname(save_path), exist_ok=True)
@@ -108,18 +122,17 @@ def plot_metrics_comparison(results, metric1="MO_tilde", metric2="O_tilde", delt
     # add metric1 - metric2 column for better visualization
     results["metric_diff"] = results[metric1] - results[metric2]
     plt.figure(figsize=(8, 6)) 
-    font_size = 14
     # plot two metrics with rho on x-axis on the same plot, with hue on method and metric (selection method)
     sns.lineplot(data=results, x="rho", y="metric_diff", hue="method_metric", palette="Set2")
     #sns.lineplot(data=results, x="rho", y=metric2, hue="method_metric", palette="Set2")
     if title:
         plt.title("Comparison of {} vs {} for Random vs Selected Sensors (delta={})".format(metric1, metric2, delta))
-    plt.xlabel("$\\rho$", fontsize=font_size)
+    plt.xlabel("$\\rho$", fontsize=FONT_SIZE)
     if metric1 == "SE" and metric2 == "MSE":
-        plt.ylabel("$\\text{SE} - \\text{MSE}$", fontsize=font_size)
+        plt.ylabel("$\\text{SE} - \\text{MSE}$", fontsize=FONT_SIZE)
     if metric1 == "O_tilde" and metric2 == "MO_tilde":
-        plt.ylabel("$\\tilde{O} - \\tilde{MO}$", fontsize=font_size)
-    plt.legend(title="Selection Strategy", fontsize=font_size-2, title_fontsize=font_size-2)
+        plt.ylabel("$\\tilde{O} - \\tilde{MO}$", fontsize=FONT_SIZE)
+    plt.legend(title="Selection Strategy", fontsize=FONT_SIZE-2, title_fontsize=FONT_SIZE-2)
     plt.tight_layout()
     if save_path:
         os.makedirs(os.path.dirname(save_path), exist_ok=True)
@@ -139,9 +152,9 @@ def plot_comparison_old(results, metric="O", delta=0.1, save=False, title=None, 
     plt.figure(figsize=(8, 6))
     sns.lineplot(data=results[results["delta"] == delta], x="rho", y=metric, hue="method", palette="Set2")
     plt.title("Comparison of {} for Random vs Selected Sensors (delta={})".format(metric, delta))
-    plt.xlabel("$\\rho$") 
-    plt.ylabel("{}".format(metric))
-    plt.legend(title="Sensor Type")
+    plt.xlabel("$\\rho$", fontsize=FONT_SIZE)
+    plt.ylabel("{}".format(metric), fontsize=FONT_SIZE)
+    plt.legend(title="Sensor Type", fontsize=FONT_SIZE-2, title_fontsize=FONT_SIZE-2)
     plt.tight_layout()
     if save_path:
         os.makedirs(os.path.dirname(save_path), exist_ok=True)
@@ -176,6 +189,7 @@ def plot_precision_recall(random_results, selected_results):
 # For sensors dfs:
 # sensors_df = pd.DataFrame(columns=["sim", "method", "graph_kind", "N", "d", "delta", "lam", "rho", "k", "subset_size", "mean_pairwise_distance", "boundary_size", "density", "mean_degree", "degree_bias"])
 # plot node properties, with hue on method, sns
+
 
 def plot_sensor_properties(sensors_df, property_name="boundary_size", save=False, title=None):
     """ 

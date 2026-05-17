@@ -14,6 +14,8 @@ def generate_graph(N, d, kind="rrg"):
     elif kind == "er":
         p = d / (N - 1)
         G = nx.erdos_renyi_graph(N, p)
+    elif kind == "powerlaw":
+        G = nx.powerlaw_cluster_graph(N, d, 0.2)  # powerlaw with clustering, m=d, p=0.1
     else:
         raise ValueError("Unsupported graph type. Use 'rrg' or 'er'.")
     return G

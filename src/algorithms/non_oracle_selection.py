@@ -743,6 +743,7 @@ def select_best_candidate_influence(
 import numpy as np
 import networkx as nx
 from collections import defaultdict
+from math import comb
 
 # def compute_si_backscore(G, candidates, observations, marginals, lam, alpha=0.5):
 #     """
@@ -846,7 +847,8 @@ def compute_si_backscore(G, candidates, observations, marginals, lam):
             d = dist_map[i].get(j, np.inf)
 
             if d <= t_j:
-                w = (lam ** d) * ((1 - lam) ** (t_j - d))
+                #w = (lam ** d) * ((1 - lam) ** (t_j - d))
+                w = comb(t_j - 1, d - 1) * (lam ** d) * ((1 - lam) ** (t_j - d))
                 local_weights[i] = w
 
         if len(local_weights) == 0:
@@ -866,6 +868,23 @@ def compute_si_backscore(G, candidates, observations, marginals, lam):
             scores[i] += p_inf[i] * soft_weights[idx]
 
     return scores
+
+def select_best_candidate_reverse_si(G, candidates, current_obs, marginals, lam, alpha=0.5):
+    """
+    Returns argmax source under backward SI likelihood approximation.
+    """
+
+    scores = compute_si_backscore(
+        G=G,
+        candidates=candidates,
+        observations=current_obs,
+        marginals=marginals,
+        lam=lam
+    )
+
+    return max(scores, key=scores.get)
+
+
 
 
 # def compute_si_backscore(G, candidates, observations, marginals, lam, alpha=0.5):
@@ -919,18 +938,3 @@ def compute_si_backscore(G, candidates, observations, marginals, lam):
 #     }
 
 #     return scores
-
-def select_best_candidate_reverse_si(G, candidates, current_obs, marginals, lam, alpha=0.5):
-    """
-    Returns argmax source under backward SI likelihood approximation.
-    """
-
-    scores = compute_si_backscore(
-        G=G,
-        candidates=candidates,
-        observations=current_obs,
-        marginals=marginals,
-        lam=lam
-    )
-
-    return max(scores, key=scores.get)
