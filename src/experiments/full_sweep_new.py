@@ -25,19 +25,14 @@ def run_full_sweep(methods, metrics, deltas, lambdas, rhos, Nsim, N, T_max, d, r
                 add_infection_proba(G=G, lam=lam)
                 contacts = generate_contacts(G=G, lambda_=lam, T=T_max)
                 snn = simulate_one_detSIR(G=G, s_type = "delta", S = delta, mask = ["SI"], T_max=T_max)
-
-                print("infection done")
                 # if method is static, we can directly loop over rhos - no metrics needed for selection
+                # STATIC METHODS: RANDOM/CENTRALITY
                 if method_name == "random" or method_name == "deg_centrality" or method_name == "betweenness_centrality" or method_name == "page_rank" or method_name == "closeness":
-                    print("method name: ")
                     bp_fg = fg.FactorGraph(N, T_max, contacts, [], delta)
-                    print("empty bp done")
                     if logger is not None:
                         logger.set_context(method_name=method_name, metric_name="N/A", delta=delta, lam=lam, sim=sim, graph_type=graph_type)
                     for rho in rhos:
-                        print("in rho loop")
                         selected_sensors = method(bp_base = bp_fg, rho_max=rho, m=None, G=G)
-                        print("Evaluating sensors...")
                         result = evaluate_sensors(selected_sensors, bp_fg, status_nodes=snn)
                         result.update({
                             "method": method_name,
@@ -50,22 +45,24 @@ def run_full_sweep(methods, metrics, deltas, lambdas, rhos, Nsim, N, T_max, d, r
                         })
                         results_df.loc[len(results_df)] = result
                         if len(selected_sensors) > 0 and logger is not None:
-                            logger.log_sensor_stats(selected_sensor=list(selected_sensors)[0], candidates= list(set(range(N)) - set(selected_sensors)), marginals=bp_fg.marginals(), status_nodes=status_nodes, rho=rho, graph=G)
+                            logger.log_sensor_stats(selected_sensor=list(selected_sensors)[0], candidates= list(set(range(N)) - set(selected_sensors)), marginals=bp_fg.marginals(), status_nodes=snn, rho=rho, graph=G)
                     # continue to next delta, lam since no metric loop for random method
                     continue
 
-                if method_name == "entropy":
+                # SEQ: NON-ORACLE
+                if method_name == "path_weight":
                     rho_max = max(rhos)
                     bp_fg = fg.FactorGraph(N, T_max, contacts, [], delta)
                     #logger.set_context(method_name=method_name, metric_name="N/A", delta=delta, lam=lam, sim=sim, graph_type=graph_type)
-                    selected_sensors = method(bp_base=bp_fg, status_nodes=status_nodes, rho_max=rho_max, m=None, max_iter=200, tol=1e-5, damp=0.2, delta=delta, logger=None, G=G, alpha=0.5, beta=0.3, gamma=0.5)
+                    selected_sensors = method(bp_base=bp_fg, status_nodes=snn, rho_max=rho_max, m=None, max_iter=200, tol=1e-5, damp=0.2, delta=delta, logger=None, G=G, alpha=0.5, beta=0.3, gamma=0.5)
                     sensor_list = list(selected_sensors)
                     # ordered list of sensors -> 
                     # now evaluate all rhos for this (delta, lam)
                     for rho in rhos:
                         k = int(rho * N)
                         subset = set(sensor_list[:k])
-                        result = evaluate_sensors(selected_sensors=subset, bp_fg=bp_fg, status_nodes=status_nodes, N=N, T_max=T_max, delta=delta, x_rnd=x_rnd, Mt_rnd=Mt_rnd, graph=G)
+                        result = evaluate_sensors(selected_sensors=subset, bp_fg=bp_fg, status_nodes=snn)
+                        #evaluate_sensors(selected_sensors=subset, bp_fg=bp_fg, status_nodes=status_nodes, N=N, T_max=T_max, delta=delta, x_rnd=x_rnd, Mt_rnd=Mt_rnd, graph=G)
                         result.update({
                             "method": method_name,
                             "metric": "N/A",
@@ -76,11 +73,12 @@ def run_full_sweep(methods, metrics, deltas, lambdas, rhos, Nsim, N, T_max, d, r
                             "graph": graph_type
                         })
                         results_df.loc[len(results_df)] = result
-                        #if len(selected_sensors) > 0:
-                            #logger.log_sensor_stats(selected_sensor=list(selected_sensors)[0], candidates= list(set(range(N)) - set(selected_sensors)), marginals=bp_fg.marginals(), status_nodes=status_nodes, rho=rho, graph=G)
+                        # if len(selected_sensors) > 0:
+                        #     logger.log_sensor_stats(selected_sensor=list(selected_sensors)[0], candidates= list(set(range(N)) - set(selected_sensors)), marginals=bp_fg.marginals(), status_nodes=snn, rho=rho, graph=G)
                     # continue to next delta, lam since no metric loop for random method
                     continue
 
+                # ORACLE SEQ METHODS: SEQ OV ORACLE
                 for metric_name, metric in metrics.items():
                     print(f"  Running metric: {metric_name}")
                     bp_fg = fg.FactorGraph(N, T_max, contacts, [], delta)
@@ -89,7 +87,7 @@ def run_full_sweep(methods, metrics, deltas, lambdas, rhos, Nsim, N, T_max, d, r
                     if is_seq:
                         rho_max = max(rhos)
                         logger.set_context(method_name=method_name, metric_name=metric_name, delta=delta, lam=lam, sim=sim, graph_type=graph_type)
-                        sensor_list = method(metric=metric, bp_base=bp_fg, status_nodes=status_nodes, rho_max=rho_max, m=int(0.2 * N), max_iter=200, tol=1e-4, damp=0.5, delta=delta, logger=logger, G=G)  # get ordered list of sensors selected by sequential method up to max rho
+                        sensor_list = method(metric=metric, bp_base=bp_fg, status_nodes=snn, rho_max=rho_max, m=int(0.2 * N), max_iter=200, tol=1e-4, damp=0.5, delta=delta, logger=logger, G=G)  # get ordered list of sensors selected by sequential method up to max rho
                         sensor_list = list(sensor_list)
                         # ordered list of sensors -> 
 
@@ -97,7 +95,8 @@ def run_full_sweep(methods, metrics, deltas, lambdas, rhos, Nsim, N, T_max, d, r
                         for rho in rhos:
                             k = int(rho * N)
                             subset = set(sensor_list[:k])
-                            result = evaluate_sensors(selected_sensors=subset, bp_fg=bp_fg, status_nodes=status_nodes, N=N, T_max=T_max, delta=delta, x_rnd=x_rnd, Mt_rnd=Mt_rnd, graph=G)
+                            result = evaluate_sensors(selected_sensors=subset, bp_fg=bp_fg, status_nodes=snn)
+                            #evaluate_sensors(selected_sensors=subset, bp_fg=bp_fg, status_nodes=snn, N=N, T_max=T_max, delta=delta, x_rnd=x_rnd, Mt_rnd=Mt_rnd, graph=G)
                             result.update({
                                 "method": method_name,
                                 "metric": metric_name,
@@ -114,7 +113,8 @@ def run_full_sweep(methods, metrics, deltas, lambdas, rhos, Nsim, N, T_max, d, r
                         # standard methods: rho loop normal
                         for rho in rhos:
                             selected_sensors = method(metric=metric, bp_base=bp_fg, rho_max=rho)
-                            result = evaluate_sensors(selected_sensors, bp_fg, status_nodes, N, T_max, delta, x_rnd, Mt_rnd)
+                            result = evaluate_sensors(selected_sensors=subset, bp_fg=bp_fg, status_nodes=snn)
+                            #evaluate_sensors(selected_sensors, bp_fg, status_nodes, N, T_max, delta, x_rnd, Mt_rnd)
                             result.update({
                                 "method": method_name,
                                 "metric": metric_name,

@@ -1,11 +1,6 @@
 
 import pandas as pd
 
-import sys
-import os
-# go to root dir
-sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
-
 from configs.default import *
 from src.experiments.full_sweep_new import run_full_sweep
 from src.utils.sensor_logger import SensorLogger

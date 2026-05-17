@@ -7,16 +7,16 @@ from src.helpers.plot_helpers import *
 from src.helpers.plot_sensor_stats import *
 
 FILE_DIR = "results_new"
-FILE_NAME = "full_sweep_log_static_selection_ov_rrg_N300_T10_d3_Nsim10_del005_01_02_03_04.csv" # "full_sweep_rnd_seq_ov_mov_c_mov_rrg_N300_T10_d3_Nsim5_del0.3.csv" #"full_sweep_rnd_seq_ov_mov_c_mov_rrg_N300_T10_d3_Nsim5_del0.3.csv"  
+FILE_NAME = "full_sweep_log_static_selection_ov_rrg_N100_T20_d3_Nsim10_del005_01_02_03_04.csv" #"full_sweep_log_static_selection_ov_rrg_N300_T10_d3_Nsim10_del005_01_02_03_04.csv" # "full_sweep_rnd_seq_ov_mov_c_mov_rrg_N300_T10_d3_Nsim5_del0.3.csv" #"full_sweep_rnd_seq_ov_mov_c_mov_rrg_N300_T10_d3_Nsim5_del0.3.csv"  
 PATH = f"{FILE_DIR}/{FILE_NAME}" 
 results_df = pd.read_csv(PATH)
 print(len(results_df))
-PLOT_NAME = "OpracticalVsStatic_N300_T10_d3_Nsim10" #"static_rrg_N300_T10_d3_Nsim10" # "seqOvOracle_N300_T10_Nsim5" #"practicalVsOracle_N300_T10_d3_Nsim105"
+PLOT_NAME = "NEW_test" #"OpracticalVsStatic_N300_T10_d3_Nsim10" #"static_rrg_N300_T10_d3_Nsim10" # "seqOvOracle_N300_T10_Nsim5" #"practicalVsOracle_N300_T10_d3_Nsim105"
 
 results_df2 = pd.read_csv(f"{FILE_DIR}/full_sweep_log_cone3modComb_rnd_seq_ov_rrg_N300_T10_d3_Nsim10_del005_01_02_03_04.csv")
 
 # #results_df = results_df[results_df["metric"] != "mov"] # remove mov from plot
-results_df = results_df[results_df["method"].isin(["closeness", "random"])] # remove mov from plot
+#results_df = results_df[results_df["method"].isin(["closeness", "random"])] # remove mov from plot
 # # #results_df = results_df[results_df["method"] != "random"] # remove random from plot
 results_df2 = results_df2[results_df2["method"] != "random"] # remove random from plot
 
@@ -30,16 +30,16 @@ results_df2 = results_df2[results_df2["method"] != "random"] # remove random fro
 # # PATH2 = f"{FILE_DIR}/{FILE_NAME2}"
 # # results_df2 = pd.read_csv(PATH2)
 
-results_df = pd.concat([results_df, results_df2], ignore_index=True)
+#results_df = pd.concat([results_df, results_df2], ignore_index=True)
 
-delta = 0.05
+delta = 0.4
 # print nb of entries in df for delta=0.1
 #print(f"Number of entries for delta={delta}: {len(results_df[results_df['delta'] == delta])}")
 delta_str = str(delta).replace(".", "")
 SAVE_DIR = "results_new/plots"
 SAVE_TITLE = f"{PLOT_NAME}_del{delta_str}"#f"N100_T10_d3_Nsim5_del{delta_str}_cone" #overlap_comparison_N300_T10_d3_Nsim5_del0.3.png"
 SAVE_PATH = f"{SAVE_DIR}/{SAVE_TITLE}"
-plot_comparison(results_df, eval_metric="O", delta=delta, save=True, title=None, save_path=SAVE_PATH)
+plot_comparison(results_df, eval_metric="O_tilde", delta=delta, save=True, title=None, save_path=SAVE_PATH)
 
 # for delta in [0.1, 0.2, 0.3, 0.4]:
 #     delta_str = str(delta).replace(".", "")

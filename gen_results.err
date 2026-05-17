@@ -1,4 +1,9 @@
-  0%|          | 0/10 [00:00<?, ?it/s]/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/fromnumeric.py:3824: RuntimeWarning: Mean of empty slice
+
+ 54%|█████▍    | 545/1001 [09:39<09:57,  1.31s/it][A
+ 55%|█████▍    | 546/1001 [09:40<09:43,  1.28s/it][A  0%|          | 0/5 [00:00<?, ?it/s]
+ 55%|█████▍    | 547/1001 [09:41<09:28,  1.25s/it][A
+ 55%|█████▍    | 548/1001 [09:43<09:43,  1.29s/it][A
+ 55%|█████▍    | 549/1001 [09:44<09:32,  1.27s/it][A/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/fromnumeric.py:3824: RuntimeWarning: Mean of empty slice
   return _methods._mean(a, axis=axis, dtype=dtype,
 /home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in divide
   ret = ret.dtype.type(ret / rcount)
@@ -10,6 +15,871 @@
   ret = ret.dtype.type(ret / rcount)
 /home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
   ret = ret.dtype.type(ret / rcount)
+
+ 55%|█████▍    | 550/1001 [09:45<09:22,  1.25s/it][A
+ 55%|█████▌    | 551/1001 [09:46<09:12,  1.23s/it][A
+ 55%|█████▌    | 552/1001 [09:47<09:07,  1.22s/it][A/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/fromnumeric.py:3824: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:219: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:178: RuntimeWarning: invalid value encountered in divide
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:211: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+ 55%|█████▌    | 553/1001 [09:49<09:02,  1.21s/it][A
+ 55%|█████▌    | 554/1001 [09:50<09:01,  1.21s/it][A/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/fromnumeric.py:3824: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:219: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:178: RuntimeWarning: invalid value encountered in divide
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:211: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+ 20%|██        | 1/5 [00:09<00:37,  9.48s/it]
+ 55%|█████▌    | 555/1001 [09:51<09:04,  1.22s/it][A
+ 56%|█████▌    | 556/1001 [09:52<09:05,  1.23s/it][A
+ 56%|█████▌    | 557/1001 [09:53<08:59,  1.21s/it][A/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/fromnumeric.py:3824: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:219: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:178: RuntimeWarning: invalid value encountered in divide
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:211: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+ 56%|█████▌    | 558/1001 [09:55<08:56,  1.21s/it][A
+ 56%|█████▌    | 559/1001 [09:56<09:00,  1.22s/it][A/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/fromnumeric.py:3824: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:219: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:178: RuntimeWarning: invalid value encountered in divide
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:211: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+ 56%|█████▌    | 560/1001 [09:57<08:57,  1.22s/it][A
+ 56%|█████▌    | 561/1001 [09:58<09:09,  1.25s/it][A
+ 56%|█████▌    | 562/1001 [10:00<08:58,  1.23s/it][A/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/fromnumeric.py:3824: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:219: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:178: RuntimeWarning: invalid value encountered in divide
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:211: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+ 40%|████      | 2/5 [00:18<00:28,  9.41s/it]
+ 56%|█████▌    | 563/1001 [10:01<08:55,  1.22s/it][A
+ 56%|█████▋    | 564/1001 [10:02<08:55,  1.23s/it][A/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/fromnumeric.py:3824: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:219: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:178: RuntimeWarning: invalid value encountered in divide
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:211: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+ 56%|█████▋    | 565/1001 [10:03<08:50,  1.22s/it][A
+ 57%|█████▋    | 566/1001 [10:05<09:06,  1.26s/it][A
+ 57%|█████▋    | 567/1001 [10:06<08:55,  1.23s/it][A/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/fromnumeric.py:3824: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:219: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:178: RuntimeWarning: invalid value encountered in divide
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:211: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+ 57%|█████▋    | 568/1001 [10:07<08:50,  1.23s/it][A
+ 57%|█████▋    | 569/1001 [10:08<08:41,  1.21s/it][A/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/fromnumeric.py:3824: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:219: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:178: RuntimeWarning: invalid value encountered in divide
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:211: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+ 60%|██████    | 3/5 [00:28<00:18,  9.39s/it]
+ 57%|█████▋    | 570/1001 [10:09<08:35,  1.20s/it][A
+ 57%|█████▋    | 571/1001 [10:10<08:39,  1.21s/it][A
+ 57%|█████▋    | 572/1001 [10:12<08:32,  1.19s/it][A/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/fromnumeric.py:3824: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:219: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:178: RuntimeWarning: invalid value encountered in divide
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:211: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+ 57%|█████▋    | 573/1001 [10:13<08:29,  1.19s/it][A
+ 57%|█████▋    | 574/1001 [10:14<08:27,  1.19s/it][A
+ 57%|█████▋    | 575/1001 [10:15<08:32,  1.20s/it][A/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/fromnumeric.py:3824: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:219: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:178: RuntimeWarning: invalid value encountered in divide
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:211: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+ 58%|█████▊    | 576/1001 [10:17<08:39,  1.22s/it][A
+ 58%|█████▊    | 577/1001 [10:18<08:33,  1.21s/it][A/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/fromnumeric.py:3824: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:219: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:178: RuntimeWarning: invalid value encountered in divide
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:211: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+ 80%|████████  | 4/5 [00:37<00:09,  9.26s/it]
+ 58%|█████▊    | 578/1001 [10:19<08:26,  1.20s/it][A
+ 58%|█████▊    | 579/1001 [10:20<08:23,  1.19s/it][A/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/fromnumeric.py:3824: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:219: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:178: RuntimeWarning: invalid value encountered in divide
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:211: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+ 58%|█████▊    | 580/1001 [10:21<08:23,  1.20s/it][A
+ 58%|█████▊    | 581/1001 [10:22<08:14,  1.18s/it][A
+ 58%|█████▊    | 582/1001 [10:24<08:12,  1.17s/it][A/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/fromnumeric.py:3824: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:219: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:178: RuntimeWarning: invalid value encountered in divide
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:211: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+ 58%|█████▊    | 583/1001 [10:25<08:09,  1.17s/it][A/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/fromnumeric.py:3824: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:219: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:178: RuntimeWarning: invalid value encountered in divide
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:211: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+ 30%|███       | 3/10 [12:13<28:21, 243.11s/it]
+ 58%|█████▊    | 584/1001 [10:26<08:06,  1.17s/it][A/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/fromnumeric.py:3824: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:219: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:178: RuntimeWarning: invalid value encountered in divide
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:211: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+100%|██████████| 5/5 [00:45<00:00,  9.06s/it]100%|██████████| 5/5 [00:45<00:00,  9.19s/it]
+  0%|          | 0/5 [00:00<?, ?it/s]
+ 58%|█████▊    | 585/1001 [10:27<08:08,  1.17s/it][A
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 75%|███████▌  | 15/20 [00:00<00:00, 141.42it/s][A100%|██████████| 20/20 [00:00<00:00, 141.26it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 134.26it/s][A100%|██████████| 20/20 [00:00<00:00, 134.78it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 135.72it/s][A100%|██████████| 20/20 [00:00<00:00, 135.04it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 136.31it/s][A100%|██████████| 20/20 [00:00<00:00, 135.94it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 136.16it/s][A100%|██████████| 20/20 [00:00<00:00, 135.78it/s]
+
+
+ 59%|█████▊    | 586/1001 [10:28<08:15,  1.19s/it][A  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 134.79it/s][A100%|██████████| 20/20 [00:00<00:00, 135.68it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 137.48it/s][A100%|██████████| 20/20 [00:00<00:00, 137.48it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 136.16it/s][A100%|██████████| 20/20 [00:00<00:00, 135.06it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 132.74it/s][A100%|██████████| 20/20 [00:00<00:00, 132.51it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 133.03it/s][A100%|██████████| 20/20 [00:00<00:00, 132.73it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 131.72it/s][A100%|██████████| 20/20 [00:00<00:00, 131.66it/s]
+
+ 59%|█████▊    | 587/1001 [10:30<08:23,  1.22s/it][A
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 129.79it/s][A100%|██████████| 20/20 [00:00<00:00, 130.14it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 135.21it/s][A100%|██████████| 20/20 [00:00<00:00, 135.58it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 136.01it/s][A100%|██████████| 20/20 [00:00<00:00, 135.75it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 136.67it/s][A100%|██████████| 20/20 [00:00<00:00, 136.59it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 135.83it/s][A100%|██████████| 20/20 [00:00<00:00, 135.70it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 134.18it/s][A100%|██████████| 20/20 [00:00<00:00, 133.82it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+
+ 70%|███████   | 14/20 [00:00<00:00, 134.40it/s] 59%|█████▊    | 588/1001 [10:31<08:19,  1.21s/it][A[A100%|██████████| 20/20 [00:00<00:00, 102.39it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 126.30it/s][A100%|██████████| 20/20 [00:00<00:00, 126.22it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 127.00it/s][A100%|██████████| 20/20 [00:00<00:00, 126.83it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 131.87it/s][A100%|██████████| 20/20 [00:00<00:00, 131.79it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 131.87it/s][A100%|██████████| 20/20 [00:00<00:00, 131.15it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 132.19it/s][A100%|██████████| 20/20 [00:00<00:00, 132.08it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 131.89it/s][A100%|██████████| 20/20 [00:00<00:00, 131.60it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 59%|█████▉    | 589/1001 [10:32<08:21,  1.22s/it][A
+ 70%|███████   | 14/20 [00:00<00:00, 132.13it/s][A100%|██████████| 20/20 [00:00<00:00, 121.07it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 123.61it/s][A100%|██████████| 20/20 [00:00<00:00, 123.43it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 123.21it/s][A100%|██████████| 20/20 [00:00<00:00, 122.89it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 121.92it/s][A100%|██████████| 20/20 [00:00<00:00, 121.92it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 128.02it/s][A100%|██████████| 20/20 [00:00<00:00, 128.01it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 127.76it/s][A100%|██████████| 20/20 [00:00<00:00, 127.49it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 59%|█████▉    | 590/1001 [10:33<08:11,  1.19s/it][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 128.02it/s][A100%|██████████| 20/20 [00:00<00:00, 118.27it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 127.77it/s][A100%|██████████| 20/20 [00:00<00:00, 127.44it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 125.99it/s][A100%|██████████| 20/20 [00:00<00:00, 125.76it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 127.50it/s][A100%|██████████| 20/20 [00:00<00:00, 127.26it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 127.81it/s][A100%|██████████| 20/20 [00:00<00:00, 125.07it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 126.68it/s][A100%|██████████| 20/20 [00:00<00:00, 126.14it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 124.71it/s][A100%|██████████| 20/20 [00:00<00:00, 124.82it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 125.27it/s][A100%|██████████| 20/20 [00:00<00:00, 124.88it/s]
+
+
+  0%|          | 0/20 [00:00<?, ?it/s][A 59%|█████▉    | 591/1001 [10:35<08:32,  1.25s/it][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 122.51it/s][A100%|██████████| 20/20 [00:00<00:00, 114.50it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 119.91it/s][A100%|██████████| 20/20 [00:00<00:00, 119.82it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 120.09it/s][A100%|██████████| 20/20 [00:00<00:00, 119.93it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 120.68it/s][A100%|██████████| 20/20 [00:00<00:00, 120.78it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 120.53it/s][A100%|██████████| 20/20 [00:00<00:00, 120.49it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 120.67it/s][A100%|██████████| 20/20 [00:00<00:00, 120.38it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 59%|█████▉    | 592/1001 [10:36<08:26,  1.24s/it][A
+ 60%|██████    | 12/20 [00:00<00:00, 119.63it/s][A100%|██████████| 20/20 [00:00<00:00, 111.44it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 124.58it/s][A100%|██████████| 20/20 [00:00<00:00, 124.34it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 120.57it/s][A100%|██████████| 20/20 [00:00<00:00, 120.39it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 119.67it/s][A100%|██████████| 20/20 [00:00<00:00, 119.79it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 119.25it/s][A100%|██████████| 20/20 [00:00<00:00, 119.08it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 119.15it/s][A100%|██████████| 20/20 [00:00<00:00, 118.84it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 59%|█████▉    | 593/1001 [10:37<08:18,  1.22s/it][A
+ 60%|██████    | 12/20 [00:00<00:00, 118.82it/s][A100%|██████████| 20/20 [00:00<00:00, 109.95it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 118.09it/s][A100%|██████████| 20/20 [00:00<00:00, 118.09it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 121.89it/s][A100%|██████████| 20/20 [00:00<00:00, 122.01it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 121.98it/s][A100%|██████████| 20/20 [00:00<00:00, 121.85it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 121.46it/s][A100%|██████████| 20/20 [00:00<00:00, 121.48it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 121.44it/s][A100%|██████████| 20/20 [00:00<00:00, 121.23it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+
+ 59%|█████▉    | 594/1001 [10:38<08:09,  1.20s/it][A 65%|██████▌   | 13/20 [00:00<00:00, 120.94it/s][A100%|██████████| 20/20 [00:00<00:00, 97.54it/s] 
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 121.39it/s][A100%|██████████| 20/20 [00:00<00:00, 121.22it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 115.15it/s][A100%|██████████| 20/20 [00:00<00:00, 115.55it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.03it/s][A100%|██████████| 20/20 [00:00<00:00, 118.33it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 119.77it/s][A100%|██████████| 20/20 [00:00<00:00, 119.89it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 119.69it/s][A100%|██████████| 20/20 [00:00<00:00, 118.33it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 115.90it/s][A
+ 59%|█████▉    | 595/1001 [10:39<08:04,  1.19s/it][A100%|██████████| 20/20 [00:00<00:00, 115.68it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 115.13it/s][A100%|██████████| 20/20 [00:00<00:00, 115.22it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 55%|█████▌    | 11/20 [00:00<00:00, 103.57it/s][A100%|██████████| 20/20 [00:00<00:00, 101.87it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 55%|█████▌    | 11/20 [00:00<00:00, 100.63it/s][A100%|██████████| 20/20 [00:00<00:00, 100.73it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 55%|█████▌    | 11/20 [00:00<00:00, 100.21it/s][A100%|██████████| 20/20 [00:00<00:00, 99.91it/s] 
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 55%|█████▌    | 11/20 [00:00<00:00, 100.64it/s][A100%|██████████| 20/20 [00:00<00:00, 100.21it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|█████▉    | 596/1001 [10:40<08:04,  1.20s/it][A
+ 50%|█████     | 10/20 [00:00<00:00, 99.66it/s][A
+100%|██████████| 20/20 [00:00<00:00, 92.62it/s][A100%|██████████| 20/20 [00:00<00:00, 93.51it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 55%|█████▌    | 11/20 [00:00<00:00, 100.39it/s][A100%|██████████| 20/20 [00:00<00:00, 100.27it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 55%|█████▌    | 11/20 [00:00<00:00, 100.35it/s][A100%|██████████| 20/20 [00:00<00:00, 100.58it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 55%|█████▌    | 11/20 [00:00<00:00, 100.86it/s][A100%|██████████| 20/20 [00:00<00:00, 100.64it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 55%|█████▌    | 11/20 [00:00<00:00, 100.91it/s][A100%|██████████| 20/20 [00:00<00:00, 100.71it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+
+ 60%|█████▉    | 597/1001 [10:42<08:06,  1.20s/it][A 55%|█████▌    | 11/20 [00:00<00:00, 100.84it/s][A100%|██████████| 20/20 [00:00<00:00, 84.88it/s] 
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 55%|█████▌    | 11/20 [00:00<00:00, 101.21it/s][A100%|██████████| 20/20 [00:00<00:00, 100.71it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 55%|█████▌    | 11/20 [00:00<00:00, 100.77it/s][A100%|██████████| 20/20 [00:00<00:00, 100.43it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 55%|█████▌    | 11/20 [00:00<00:00, 100.92it/s][A100%|██████████| 20/20 [00:00<00:00, 100.98it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 55%|█████▌    | 11/20 [00:00<00:00, 100.50it/s][A100%|██████████| 20/20 [00:00<00:00, 100.44it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 55%|█████▌    | 11/20 [00:00<00:00, 100.44it/s][A100%|██████████| 20/20 [00:00<00:00, 100.36it/s]
+
+
+ 60%|█████▉    | 598/1001 [10:43<08:12,  1.22s/it][A  0%|          | 0/20 [00:00<?, ?it/s][A
+ 50%|█████     | 10/20 [00:00<00:00, 99.55it/s][A
+100%|██████████| 20/20 [00:00<00:00, 99.72it/s][A100%|██████████| 20/20 [00:00<00:00, 99.58it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 50%|█████     | 10/20 [00:00<00:00, 99.46it/s][A
+100%|██████████| 20/20 [00:00<00:00, 99.17it/s][A100%|██████████| 20/20 [00:00<00:00, 99.10it/s]
+
+  0%|          | 0/19 [00:00<?, ?it/s][A
+ 53%|█████▎    | 10/19 [00:00<00:00, 99.20it/s][A100%|██████████| 19/19 [00:00<00:00, 99.27it/s]
+
+  0%|          | 0/18 [00:00<?, ?it/s][A
+ 56%|█████▌    | 10/18 [00:00<00:00, 99.00it/s][A100%|██████████| 18/18 [00:00<00:00, 99.10it/s]
+
+  0%|          | 0/17 [00:00<?, ?it/s][A
+ 59%|█████▉    | 10/17 [00:00<00:00, 98.59it/s][A100%|██████████| 17/17 [00:00<00:00, 98.13it/s]
+
+  0%|          | 0/16 [00:00<?, ?it/s][A
+ 62%|██████▎   | 10/16 [00:00<00:00, 98.56it/s][A100%|██████████| 16/16 [00:00<00:00, 98.20it/s]
+
+  0%|          | 0/15 [00:00<?, ?it/s][A
+ 60%|█████▉    | 599/1001 [10:44<08:25,  1.26s/it][A
+ 67%|██████▋   | 10/15 [00:00<00:00, 97.85it/s][A100%|██████████| 15/15 [00:00<00:00, 89.82it/s]
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00, 97.56it/s][A100%|██████████| 14/14 [00:00<00:00, 97.42it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s][A
+ 77%|███████▋  | 10/13 [00:00<00:00, 97.23it/s][A100%|██████████| 13/13 [00:00<00:00, 97.15it/s]
+
+  0%|          | 0/12 [00:00<?, ?it/s][A
+ 83%|████████▎ | 10/12 [00:00<00:00, 96.99it/s][A100%|██████████| 12/12 [00:00<00:00, 96.82it/s]
+
+  0%|          | 0/11 [00:00<?, ?it/s][A
+ 91%|█████████ | 10/11 [00:00<00:00, 97.49it/s][A100%|██████████| 11/11 [00:00<00:00, 97.20it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s][A
+100%|██████████| 10/10 [00:00<00:00, 97.69it/s][A100%|██████████| 10/10 [00:00<00:00, 97.50it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][A100%|██████████| 9/9 [00:00<00:00, 97.34it/s]
+
+  0%|          | 0/8 [00:00<?, ?it/s][A100%|██████████| 8/8 [00:00<00:00, 97.16it/s]
+
+  0%|          | 0/7 [00:00<?, ?it/s][A100%|██████████| 7/7 [00:00<00:00, 96.92it/s]
+
+ 60%|█████▉    | 600/1001 [10:45<08:13,  1.23s/it][A
+  0%|          | 0/6 [00:00<?, ?it/s][A100%|██████████| 6/6 [00:00<00:00, 95.59it/s]
+
+  0%|          | 0/5 [00:00<?, ?it/s][A100%|██████████| 5/5 [00:00<00:00, 96.95it/s]
+
+  0%|          | 0/4 [00:00<?, ?it/s][A100%|██████████| 4/4 [00:00<00:00, 96.98it/s]
+
+  0%|          | 0/3 [00:00<?, ?it/s][A100%|██████████| 3/3 [00:00<00:00, 97.69it/s]
+
+  0%|          | 0/2 [00:00<?, ?it/s][A100%|██████████| 2/2 [00:00<00:00, 97.74it/s]
+
+  0%|          | 0/1 [00:00<?, ?it/s][A100%|██████████| 1/1 [00:00<00:00, 95.37it/s]
+
+ 60%|██████    | 601/1001 [10:47<08:02,  1.21s/it][A
+ 60%|██████    | 602/1001 [10:48<08:05,  1.22s/it][A
+ 60%|██████    | 603/1001 [10:49<07:52,  1.19s/it][A
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 115.52it/s][A100%|██████████| 20/20 [00:00<00:00, 115.41it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 111.50it/s][A100%|██████████| 20/20 [00:00<00:00, 112.59it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 113.55it/s][A100%|██████████| 20/20 [00:00<00:00, 113.70it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 604/1001 [10:50<07:55,  1.20s/it][A
+ 60%|██████    | 12/20 [00:00<00:00, 112.64it/s][A100%|██████████| 20/20 [00:00<00:00, 104.72it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 112.46it/s][A100%|██████████| 20/20 [00:00<00:00, 112.49it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 113.52it/s][A100%|██████████| 20/20 [00:00<00:00, 113.29it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 112.78it/s][A100%|██████████| 20/20 [00:00<00:00, 112.42it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 114.93it/s][A100%|██████████| 20/20 [00:00<00:00, 116.23it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 118.74it/s][A
+ 60%|██████    | 605/1001 [10:51<08:04,  1.22s/it][A100%|██████████| 20/20 [00:00<00:00, 118.67it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 118.30it/s][A100%|██████████| 20/20 [00:00<00:00, 120.36it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 127.84it/s][A100%|██████████| 20/20 [00:00<00:00, 127.27it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 127.87it/s][A100%|██████████| 20/20 [00:00<00:00, 127.70it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 126.83it/s][A100%|██████████| 20/20 [00:00<00:00, 126.99it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 127.93it/s][A100%|██████████| 20/20 [00:00<00:00, 127.67it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 126.69it/s][A
+ 61%|██████    | 606/1001 [10:53<07:58,  1.21s/it][A100%|██████████| 20/20 [00:00<00:00, 126.41it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 126.17it/s][A100%|██████████| 20/20 [00:00<00:00, 126.52it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 124.29it/s][A100%|██████████| 20/20 [00:00<00:00, 123.92it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 125.69it/s][A100%|██████████| 20/20 [00:00<00:00, 125.85it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 125.30it/s][A100%|██████████| 20/20 [00:00<00:00, 125.49it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 123.21it/s][A100%|██████████| 20/20 [00:00<00:00, 123.07it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 124.97it/s][A100%|██████████| 20/20 [00:00<00:00, 125.24it/s]
+
+
+ 61%|██████    | 607/1001 [10:54<07:52,  1.20s/it][A  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 122.99it/s][A100%|██████████| 20/20 [00:00<00:00, 123.38it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 123.97it/s][A100%|██████████| 20/20 [00:00<00:00, 123.85it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 122.92it/s][A100%|██████████| 20/20 [00:00<00:00, 123.54it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 122.55it/s][A100%|██████████| 20/20 [00:00<00:00, 122.31it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 121.19it/s][A100%|██████████| 20/20 [00:00<00:00, 120.83it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 118.63it/s][A100%|██████████| 20/20 [00:00<00:00, 118.37it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 61%|██████    | 608/1001 [10:55<07:53,  1.20s/it][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 120.27it/s][A100%|██████████| 20/20 [00:00<00:00, 111.56it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 119.27it/s][A100%|██████████| 20/20 [00:00<00:00, 119.56it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 119.01it/s][A100%|██████████| 20/20 [00:00<00:00, 118.53it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 119.29it/s][A100%|██████████| 20/20 [00:00<00:00, 119.30it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 120.59it/s][A100%|██████████| 20/20 [00:00<00:00, 120.45it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 120.95it/s][A100%|██████████| 20/20 [00:00<00:00, 120.76it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 61%|██████    | 609/1001 [10:56<07:49,  1.20s/it][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 120.50it/s][A100%|██████████| 20/20 [00:00<00:00, 110.97it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 121.70it/s][A100%|██████████| 20/20 [00:00<00:00, 121.56it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 118.82it/s][A100%|██████████| 20/20 [00:00<00:00, 118.80it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 118.67it/s][A100%|██████████| 20/20 [00:00<00:00, 118.38it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 118.25it/s][A100%|██████████| 20/20 [00:00<00:00, 117.97it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 118.11it/s][A100%|██████████| 20/20 [00:00<00:00, 118.11it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 61%|██████    | 610/1001 [10:57<07:43,  1.18s/it][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.69it/s][A100%|██████████| 20/20 [00:00<00:00, 109.04it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 118.08it/s][A100%|██████████| 20/20 [00:00<00:00, 117.92it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 119.20it/s][A100%|██████████| 20/20 [00:00<00:00, 118.92it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.93it/s][A100%|██████████| 20/20 [00:00<00:00, 116.86it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.17it/s][A100%|██████████| 20/20 [00:00<00:00, 117.03it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.83it/s][A100%|██████████| 20/20 [00:00<00:00, 116.53it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 61%|██████    | 611/1001 [10:59<07:39,  1.18s/it][A
+ 60%|██████    | 12/20 [00:00<00:00, 118.13it/s][A100%|██████████| 20/20 [00:00<00:00, 108.92it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 118.24it/s][A100%|██████████| 20/20 [00:00<00:00, 118.05it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.93it/s][A100%|██████████| 20/20 [00:00<00:00, 117.51it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.37it/s][A100%|██████████| 20/20 [00:00<00:00, 116.11it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.17it/s][A100%|██████████| 20/20 [00:00<00:00, 116.78it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.50it/s][A100%|██████████| 20/20 [00:00<00:00, 117.58it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 61%|██████    | 612/1001 [11:00<07:35,  1.17s/it][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.23it/s][A100%|██████████| 20/20 [00:00<00:00, 107.30it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.25it/s][A100%|██████████| 20/20 [00:00<00:00, 115.67it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.61it/s][A100%|██████████| 20/20 [00:00<00:00, 116.66it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.05it/s][A100%|██████████| 20/20 [00:00<00:00, 116.82it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 115.47it/s][A100%|██████████| 20/20 [00:00<00:00, 115.38it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 114.68it/s][A
+ 61%|██████    | 613/1001 [11:01<07:28,  1.16s/it][A100%|██████████| 20/20 [00:00<00:00, 114.58it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 114.77it/s][A100%|██████████| 20/20 [00:00<00:00, 114.91it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 115.27it/s][A100%|██████████| 20/20 [00:00<00:00, 115.11it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 113.73it/s][A100%|██████████| 20/20 [00:00<00:00, 113.58it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 114.28it/s][A100%|██████████| 20/20 [00:00<00:00, 114.04it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 114.60it/s][A100%|██████████| 20/20 [00:00<00:00, 114.58it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 113.31it/s][A
+ 61%|██████▏   | 614/1001 [11:02<07:26,  1.16s/it][A100%|██████████| 20/20 [00:00<00:00, 113.23it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 113.32it/s][A100%|██████████| 20/20 [00:00<00:00, 113.58it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 113.34it/s][A100%|██████████| 20/20 [00:00<00:00, 113.28it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 114.27it/s][A100%|██████████| 20/20 [00:00<00:00, 113.93it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 114.49it/s][A100%|██████████| 20/20 [00:00<00:00, 113.99it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 113.29it/s][A100%|██████████| 20/20 [00:00<00:00, 113.17it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 113.51it/s][A
+ 61%|██████▏   | 615/1001 [11:03<07:28,  1.16s/it][A100%|██████████| 20/20 [00:00<00:00, 113.30it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 112.12it/s][A100%|██████████| 20/20 [00:00<00:00, 112.11it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 112.09it/s][A100%|██████████| 20/20 [00:00<00:00, 111.90it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 110.95it/s][A100%|██████████| 20/20 [00:00<00:00, 111.23it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 112.31it/s][A100%|██████████| 20/20 [00:00<00:00, 112.10it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 110.46it/s][A100%|██████████| 20/20 [00:00<00:00, 110.55it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 62%|██████▏   | 616/1001 [11:04<07:28,  1.17s/it][A
+ 55%|█████▌    | 11/20 [00:00<00:00, 109.35it/s][A100%|██████████| 20/20 [00:00<00:00, 101.90it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 111.26it/s][A100%|██████████| 20/20 [00:00<00:00, 111.05it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 111.30it/s][A100%|██████████| 20/20 [00:00<00:00, 110.86it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 110.08it/s][A100%|██████████| 20/20 [00:00<00:00, 109.66it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 110.71it/s][A100%|██████████| 20/20 [00:00<00:00, 110.86it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 111.19it/s][A100%|██████████| 20/20 [00:00<00:00, 110.78it/s]
+
+ 62%|██████▏   | 617/1001 [11:05<07:27,  1.17s/it][A
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 55%|█████▌    | 11/20 [00:00<00:00, 109.76it/s][A100%|██████████| 20/20 [00:00<00:00, 110.05it/s]
+
+  0%|          | 0/19 [00:00<?, ?it/s][A
+ 58%|█████▊    | 11/19 [00:00<00:00, 109.93it/s][A100%|██████████| 19/19 [00:00<00:00, 109.76it/s]
+
+  0%|          | 0/18 [00:00<?, ?it/s][A
+ 67%|██████▋   | 12/18 [00:00<00:00, 110.45it/s][A100%|██████████| 18/18 [00:00<00:00, 110.52it/s]
+
+  0%|          | 0/17 [00:00<?, ?it/s][A
+ 71%|███████   | 12/17 [00:00<00:00, 110.36it/s][A100%|██████████| 17/17 [00:00<00:00, 110.43it/s]
+
+  0%|          | 0/16 [00:00<?, ?it/s][A
+ 69%|██████▉   | 11/16 [00:00<00:00, 109.63it/s][A100%|██████████| 16/16 [00:00<00:00, 109.60it/s]
+
+  0%|          | 0/15 [00:00<?, ?it/s][A
+ 73%|███████▎  | 11/15 [00:00<00:00, 109.31it/s][A100%|██████████| 15/15 [00:00<00:00, 108.97it/s]
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+ 62%|██████▏   | 618/1001 [11:07<07:29,  1.17s/it][A
+ 79%|███████▊  | 11/14 [00:00<00:00, 107.48it/s][A100%|██████████| 14/14 [00:00<00:00, 97.84it/s] 
+
+  0%|          | 0/13 [00:00<?, ?it/s][A
+ 85%|████████▍ | 11/13 [00:00<00:00, 108.44it/s][A100%|██████████| 13/13 [00:00<00:00, 108.18it/s]
+
+  0%|          | 0/12 [00:00<?, ?it/s][A
+ 92%|█████████▏| 11/12 [00:00<00:00, 108.25it/s][A100%|██████████| 12/12 [00:00<00:00, 107.95it/s]
+
+  0%|          | 0/11 [00:00<?, ?it/s][A
+100%|██████████| 11/11 [00:00<00:00, 108.27it/s][A100%|██████████| 11/11 [00:00<00:00, 108.05it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s][A100%|██████████| 10/10 [00:00<00:00, 108.14it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][A100%|██████████| 9/9 [00:00<00:00, 106.85it/s]
+
+  0%|          | 0/8 [00:00<?, ?it/s][A100%|██████████| 8/8 [00:00<00:00, 104.54it/s]
+
+  0%|          | 0/7 [00:00<?, ?it/s][A100%|██████████| 7/7 [00:00<00:00, 104.98it/s]
+
+  0%|          | 0/6 [00:00<?, ?it/s][A100%|██████████| 6/6 [00:00<00:00, 105.11it/s]
+
+  0%|          | 0/5 [00:00<?, ?it/s][A100%|██████████| 5/5 [00:00<00:00, 99.97it/s]
+
+  0%|          | 0/4 [00:00<?, ?it/s][A100%|██████████| 4/4 [00:00<00:00, 101.20it/s]
+
+  0%|          | 0/3 [00:00<?, ?it/s][A100%|██████████| 3/3 [00:00<00:00, 95.55it/s]
+
+ 62%|██████▏   | 619/1001 [11:08<07:23,  1.16s/it][A
+  0%|          | 0/2 [00:00<?, ?it/s][A100%|██████████| 2/2 [00:00<00:00, 95.39it/s]
+
+  0%|          | 0/1 [00:00<?, ?it/s][A100%|██████████| 1/1 [00:00<00:00, 96.97it/s]
+
+ 62%|██████▏   | 620/1001 [11:09<07:23,  1.16s/it][A
+ 62%|██████▏   | 621/1001 [11:10<07:19,  1.16s/it][A
+ 62%|██████▏   | 622/1001 [11:11<07:21,  1.16s/it][A
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 62%|██████▏   | 623/1001 [11:12<07:22,  1.17s/it][A
+ 35%|███▌      | 7/20 [00:00<00:00, 61.99it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 58.45it/s][A100%|██████████| 20/20 [00:00<00:00, 60.54it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 62.99it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 61.58it/s][A100%|██████████| 20/20 [00:00<00:00, 61.39it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 67.95it/s][A
+ 75%|███████▌  | 15/20 [00:00<00:00, 69.81it/s][A
+100%|██████████| 20/20 [00:00<00:00, 69.74it/s]
+ 62%|██████▏   | 624/1001 [11:14<07:17,  1.16s/it][A
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 68.92it/s][A
+ 75%|███████▌  | 15/20 [00:00<00:00, 70.04it/s][A100%|██████████| 20/20 [00:00<00:00, 68.78it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 66.05it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 66.10it/s][A100%|██████████| 20/20 [00:00<00:00, 66.29it/s]
+
+ 62%|██████▏   | 625/1001 [11:15<07:19,  1.17s/it][A
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 40%|████      | 8/20 [00:00<00:00, 76.88it/s][A
+ 85%|████████▌ | 17/20 [00:00<00:00, 80.37it/s][A100%|██████████| 20/20 [00:00<00:00, 78.86it/s]
 /home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/fromnumeric.py:3824: RuntimeWarning: Mean of empty slice
   return _methods._mean(a, axis=axis, dtype=dtype,
 /home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in divide
@@ -22,7 +892,2054 @@
   ret = ret.dtype.type(ret / rcount)
 /home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
   ret = ret.dtype.type(ret / rcount)
-/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/fromnumeric.py:3824: RuntimeWarning: Mean of empty slice
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 65.36it/s][A
+ 75%|███████▌  | 15/20 [00:00<00:00, 72.32it/s][A100%|██████████| 20/20 [00:00<00:00, 71.37it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 69.28it/s][A
+
+ 63%|██████▎   | 626/1001 [11:16<07:15,  1.16s/it][A 70%|███████   | 14/20 [00:00<00:00, 68.28it/s][A100%|██████████| 20/20 [00:00<00:00, 59.95it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 64.98it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 65.79it/s][A100%|██████████| 20/20 [00:00<00:00, 66.59it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 61.91it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 65.03it/s][A100%|██████████| 20/20 [00:00<00:00, 64.92it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 63.44it/s][A
+ 63%|██████▎   | 627/1001 [11:17<07:14,  1.16s/it][A
+ 70%|███████   | 14/20 [00:00<00:00, 61.27it/s][A100%|██████████| 20/20 [00:00<00:00, 59.60it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 63.53it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 64.83it/s][A100%|██████████| 20/20 [00:00<00:00, 64.52it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 68.13it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 68.40it/s][A100%|██████████| 20/20 [00:00<00:00, 68.20it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+
+ 63%|██████▎   | 628/1001 [11:18<07:10,  1.15s/it][A 40%|████      | 8/20 [00:00<00:00, 72.94it/s][A
+ 80%|████████  | 16/20 [00:00<00:00, 56.50it/s][A100%|██████████| 20/20 [00:00<00:00, 60.30it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 40%|████      | 8/20 [00:00<00:00, 72.68it/s][A
+ 80%|████████  | 16/20 [00:00<00:00, 67.86it/s][A100%|██████████| 20/20 [00:00<00:00, 68.20it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 63.91it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 64.46it/s][A100%|██████████| 20/20 [00:00<00:00, 63.58it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 65.40it/s][A
+ 63%|██████▎   | 629/1001 [11:19<07:08,  1.15s/it][A
+ 70%|███████   | 14/20 [00:00<00:00, 67.17it/s][A100%|██████████| 20/20 [00:00<00:00, 63.67it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 40%|████      | 8/20 [00:00<00:00, 71.96it/s][A
+ 80%|████████  | 16/20 [00:00<00:00, 69.78it/s][A100%|██████████| 20/20 [00:00<00:00, 68.96it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 69.57it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 67.98it/s][A100%|██████████| 20/20 [00:00<00:00, 67.63it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 65.48it/s][A
+ 63%|██████▎   | 630/1001 [11:21<07:08,  1.15s/it][A
+ 70%|███████   | 14/20 [00:00<00:00, 65.16it/s][A100%|██████████| 20/20 [00:00<00:00, 61.35it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 64.91it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 65.13it/s][A100%|██████████| 20/20 [00:00<00:00, 65.40it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 65.43it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 64.85it/s][A100%|██████████| 20/20 [00:00<00:00, 64.62it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 63.05it/s][A
+ 63%|██████▎   | 631/1001 [11:22<07:03,  1.15s/it][A
+ 70%|███████   | 14/20 [00:00<00:00, 65.01it/s][A100%|██████████| 20/20 [00:00<00:00, 61.73it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 61.40it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 62.80it/s][A100%|██████████| 20/20 [00:00<00:00, 62.22it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 65.31it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 65.58it/s][A100%|██████████| 20/20 [00:00<00:00, 66.76it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 66.61it/s][A
+ 80%|████████  | 16/20 [00:00<00:00, 74.49it/s][A
+ 63%|██████▎   | 632/1001 [11:23<07:00,  1.14s/it][A100%|██████████| 20/20 [00:00<00:00, 71.37it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 64.62it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 64.80it/s][A100%|██████████| 20/20 [00:00<00:00, 66.75it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 66.12it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 64.85it/s][A100%|██████████| 20/20 [00:00<00:00, 64.93it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 62.24it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 62.96it/s][A
+ 63%|██████▎   | 633/1001 [11:24<06:54,  1.13s/it][A100%|██████████| 20/20 [00:00<00:00, 62.79it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 66.69it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 66.36it/s][A100%|██████████| 20/20 [00:00<00:00, 66.23it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 60.57it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 61.22it/s][A100%|██████████| 20/20 [00:00<00:00, 61.83it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 64.32it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 63.92it/s][A100%|██████████| 20/20 [00:00<00:00, 63.89it/s]
+
+ 63%|██████▎   | 634/1001 [11:25<06:56,  1.13s/it][A
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 63.72it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 64.52it/s][A100%|██████████| 20/20 [00:00<00:00, 64.46it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 67.83it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 67.72it/s][A100%|██████████| 20/20 [00:00<00:00, 67.23it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 40%|████      | 8/20 [00:00<00:00, 73.12it/s][A
+ 80%|████████  | 16/20 [00:00<00:00, 67.14it/s][A100%|██████████| 20/20 [00:00<00:00, 67.08it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+
+ 63%|██████▎   | 635/1001 [11:26<06:58,  1.14s/it][A 35%|███▌      | 7/20 [00:00<00:00, 65.11it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 55.38it/s][A100%|██████████| 20/20 [00:00<00:00, 59.96it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 64.38it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 63.72it/s][A100%|██████████| 20/20 [00:00<00:00, 62.60it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 61.32it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 62.62it/s][A100%|██████████| 20/20 [00:00<00:00, 63.00it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 64%|██████▎   | 636/1001 [11:27<06:56,  1.14s/it][A
+ 35%|███▌      | 7/20 [00:00<00:00, 60.62it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 58.32it/s][A
+100%|██████████| 20/20 [00:00<00:00, 58.97it/s][A100%|██████████| 20/20 [00:00<00:00, 58.96it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 61.62it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 63.75it/s][A100%|██████████| 20/20 [00:00<00:00, 63.58it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 62.29it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 61.97it/s][A100%|██████████| 20/20 [00:00<00:00, 62.45it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 64%|██████▎   | 637/1001 [11:28<06:52,  1.13s/it][A
+ 35%|███▌      | 7/20 [00:00<00:00, 61.81it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 59.60it/s][A100%|██████████| 20/20 [00:00<00:00, 59.96it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 60.01it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 59.10it/s][A
+100%|██████████| 20/20 [00:00<00:00, 59.17it/s][A100%|██████████| 20/20 [00:00<00:00, 59.17it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 30%|███       | 6/20 [00:00<00:00, 58.79it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 59.69it/s][A
+100%|██████████| 20/20 [00:00<00:00, 59.92it/s][A100%|██████████| 20/20 [00:00<00:00, 59.71it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 64%|██████▎   | 638/1001 [11:30<06:46,  1.12s/it][A
+ 30%|███       | 6/20 [00:00<00:00, 58.90it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 54.32it/s][A
+ 95%|█████████▌| 19/20 [00:00<00:00, 57.13it/s][A100%|██████████| 20/20 [00:00<00:00, 56.67it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 60.43it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 61.16it/s][A100%|██████████| 20/20 [00:00<00:00, 60.32it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 59.90it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 59.33it/s][A
+100%|██████████| 20/20 [00:00<00:00, 59.77it/s][A100%|██████████| 20/20 [00:00<00:00, 59.65it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 30%|███       | 6/20 [00:00<00:00, 58.48it/s][A
+ 64%|██████▍   | 639/1001 [11:31<07:03,  1.17s/it][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 59.56it/s][A
+ 95%|█████████▌| 19/20 [00:00<00:00, 56.70it/s][A100%|██████████| 20/20 [00:00<00:00, 57.43it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 30%|███       | 6/20 [00:00<00:00, 58.45it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 58.47it/s][A
+ 90%|█████████ | 18/20 [00:00<00:00, 58.23it/s][A100%|██████████| 20/20 [00:00<00:00, 58.41it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 60.61it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 60.17it/s][A100%|██████████| 20/20 [00:00<00:00, 59.81it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 60.53it/s][A
+ 64%|██████▍   | 640/1001 [11:32<06:56,  1.15s/it][A
+ 70%|███████   | 14/20 [00:00<00:00, 60.12it/s][A100%|██████████| 20/20 [00:00<00:00, 58.41it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 30%|███       | 6/20 [00:00<00:00, 58.19it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 58.41it/s][A
+ 90%|█████████ | 18/20 [00:00<00:00, 58.51it/s][A100%|██████████| 20/20 [00:00<00:00, 58.67it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 61.32it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 59.74it/s][A
+100%|██████████| 20/20 [00:00<00:00, 59.33it/s][A100%|██████████| 20/20 [00:00<00:00, 59.54it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 30%|███       | 6/20 [00:00<00:00, 59.59it/s][A
+ 64%|██████▍   | 641/1001 [11:33<06:50,  1.14s/it][A
+ 60%|██████    | 12/20 [00:00<00:00, 59.46it/s][A
+ 90%|█████████ | 18/20 [00:00<00:00, 56.70it/s][A100%|██████████| 20/20 [00:00<00:00, 57.53it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 30%|███       | 6/20 [00:00<00:00, 59.43it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 59.67it/s][A
+ 90%|█████████ | 18/20 [00:00<00:00, 58.96it/s][A100%|██████████| 20/20 [00:00<00:00, 58.97it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 30%|███       | 6/20 [00:00<00:00, 58.90it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 58.09it/s][A
+ 90%|█████████ | 18/20 [00:00<00:00, 58.33it/s][A100%|██████████| 20/20 [00:00<00:00, 58.28it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 64%|██████▍   | 642/1001 [11:34<06:47,  1.14s/it][A
+ 35%|███▌      | 7/20 [00:00<00:00, 61.10it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 57.14it/s][A
+100%|██████████| 20/20 [00:00<00:00, 56.78it/s][A100%|██████████| 20/20 [00:00<00:00, 57.22it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 30%|███       | 6/20 [00:00<00:00, 57.84it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 57.51it/s][A
+ 90%|█████████ | 18/20 [00:00<00:00, 58.24it/s][A100%|██████████| 20/20 [00:00<00:00, 58.08it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 30%|███       | 6/20 [00:00<00:00, 57.82it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 58.14it/s][A
+ 90%|█████████ | 18/20 [00:00<00:00, 57.36it/s][A100%|██████████| 20/20 [00:00<00:00, 57.36it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 64%|██████▍   | 643/1001 [11:35<06:46,  1.14s/it][A
+ 30%|███       | 6/20 [00:00<00:00, 58.05it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 54.35it/s][A
+ 90%|█████████ | 18/20 [00:00<00:00, 56.39it/s][A100%|██████████| 20/20 [00:00<00:00, 56.15it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 30%|███       | 6/20 [00:00<00:00, 56.10it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 57.67it/s][A
+ 90%|█████████ | 18/20 [00:00<00:00, 57.65it/s][A100%|██████████| 20/20 [00:00<00:00, 57.76it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 30%|███       | 6/20 [00:00<00:00, 57.61it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 57.90it/s][A
+ 90%|█████████ | 18/20 [00:00<00:00, 57.98it/s][A100%|██████████| 20/20 [00:00<00:00, 57.85it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 64%|██████▍   | 644/1001 [11:37<06:52,  1.16s/it][A
+ 30%|███       | 6/20 [00:00<00:00, 58.59it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 54.98it/s][A
+ 90%|█████████ | 18/20 [00:00<00:00, 56.10it/s][A100%|██████████| 20/20 [00:00<00:00, 56.65it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 30%|███       | 6/20 [00:00<00:00, 59.43it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 58.71it/s][A
+ 90%|█████████ | 18/20 [00:00<00:00, 59.01it/s][A100%|██████████| 20/20 [00:00<00:00, 58.78it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 30%|███       | 6/20 [00:00<00:00, 59.16it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 57.62it/s][A
+ 90%|█████████ | 18/20 [00:00<00:00, 56.71it/s][A100%|██████████| 20/20 [00:00<00:00, 56.92it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 30%|███       | 6/20 [00:00<00:00, 57.49it/s][A
+ 64%|██████▍   | 645/1001 [11:38<07:03,  1.19s/it][A
+ 60%|██████    | 12/20 [00:00<00:00, 57.19it/s][A
+ 90%|█████████ | 18/20 [00:00<00:00, 54.92it/s][A100%|██████████| 20/20 [00:00<00:00, 55.79it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 30%|███       | 6/20 [00:00<00:00, 58.22it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 57.97it/s][A
+ 90%|█████████ | 18/20 [00:00<00:00, 57.94it/s][A100%|██████████| 20/20 [00:00<00:00, 57.86it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 30%|███       | 6/20 [00:00<00:00, 55.89it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 57.41it/s][A
+ 90%|█████████ | 18/20 [00:00<00:00, 57.71it/s][A100%|██████████| 20/20 [00:00<00:00, 57.75it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+
+ 65%|██████▍   | 646/1001 [11:39<06:56,  1.17s/it][A 30%|███       | 6/20 [00:00<00:00, 59.85it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 47.52it/s][A
+ 90%|█████████ | 18/20 [00:00<00:00, 51.43it/s][A100%|██████████| 20/20 [00:00<00:00, 51.95it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 30%|███       | 6/20 [00:00<00:00, 57.29it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 57.46it/s][A
+ 90%|█████████ | 18/20 [00:00<00:00, 57.58it/s][A100%|██████████| 20/20 [00:00<00:00, 57.61it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 30%|███       | 6/20 [00:00<00:00, 58.22it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 58.34it/s][A
+ 90%|█████████ | 18/20 [00:00<00:00, 58.45it/s][A100%|██████████| 20/20 [00:00<00:00, 58.46it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▍   | 647/1001 [11:40<06:50,  1.16s/it][A
+ 30%|███       | 6/20 [00:00<00:00, 59.16it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 55.47it/s][A
+ 95%|█████████▌| 19/20 [00:00<00:00, 58.06it/s][A100%|██████████| 20/20 [00:00<00:00, 57.75it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 30%|███       | 6/20 [00:00<00:00, 58.05it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 56.95it/s][A
+ 90%|█████████ | 18/20 [00:00<00:00, 57.20it/s][A100%|██████████| 20/20 [00:00<00:00, 57.29it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 30%|███       | 6/20 [00:00<00:00, 58.55it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 58.78it/s][A
+ 90%|█████████ | 18/20 [00:00<00:00, 58.52it/s][A100%|██████████| 20/20 [00:00<00:00, 58.54it/s]
+
+ 65%|██████▍   | 648/1001 [11:41<06:42,  1.14s/it][A
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 30%|███       | 6/20 [00:00<00:00, 58.75it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 58.67it/s][A
+ 90%|█████████ | 18/20 [00:00<00:00, 59.05it/s][A100%|██████████| 20/20 [00:00<00:00, 59.12it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 60.28it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 60.24it/s][A100%|██████████| 20/20 [00:00<00:00, 61.05it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 30%|███       | 6/20 [00:00<00:00, 59.07it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 56.70it/s][A
+
+ 65%|██████▍   | 649/1001 [11:42<06:36,  1.13s/it][A 90%|█████████ | 18/20 [00:00<00:00, 57.60it/s][A100%|██████████| 20/20 [00:00<00:00, 51.65it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 30%|███       | 6/20 [00:00<00:00, 58.26it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 58.30it/s][A
+ 90%|█████████ | 18/20 [00:00<00:00, 57.86it/s][A100%|██████████| 20/20 [00:00<00:00, 57.77it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 30%|███       | 6/20 [00:00<00:00, 57.73it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 57.62it/s][A
+ 90%|█████████ | 18/20 [00:00<00:00, 58.37it/s][A100%|██████████| 20/20 [00:00<00:00, 58.02it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 30%|███       | 6/20 [00:00<00:00, 58.56it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 58.70it/s][A
+ 65%|██████▍   | 650/1001 [11:43<06:38,  1.14s/it][A
+ 95%|█████████▌| 19/20 [00:00<00:00, 59.70it/s][A100%|██████████| 20/20 [00:00<00:00, 57.50it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 40%|████      | 8/20 [00:00<00:00, 70.66it/s][A
+ 80%|████████  | 16/20 [00:00<00:00, 62.96it/s][A100%|██████████| 20/20 [00:00<00:00, 63.42it/s]
+
+  0%|          | 0/19 [00:00<?, ?it/s][A
+ 32%|███▏      | 6/19 [00:00<00:00, 59.70it/s][A
+ 68%|██████▊   | 13/19 [00:00<00:00, 60.78it/s][A100%|██████████| 19/19 [00:00<00:00, 60.71it/s]
+
+  0%|          | 0/18 [00:00<?, ?it/s][A
+ 39%|███▉      | 7/18 [00:00<00:00, 61.84it/s][A
+ 78%|███████▊  | 14/18 [00:00<00:00, 61.77it/s][A
+100%|██████████| 18/18 [00:00<00:00, 61.24it/s] 65%|██████▌   | 651/1001 [11:45<06:34,  1.13s/it][A
+
+  0%|          | 0/17 [00:00<?, ?it/s][A
+ 35%|███▌      | 6/17 [00:00<00:00, 56.58it/s][A
+ 71%|███████   | 12/17 [00:00<00:00, 57.03it/s][A100%|██████████| 17/17 [00:00<00:00, 57.50it/s]
+
+  0%|          | 0/16 [00:00<?, ?it/s][A
+ 44%|████▍     | 7/16 [00:00<00:00, 62.69it/s][A
+ 88%|████████▊ | 14/16 [00:00<00:00, 64.30it/s][A100%|██████████| 16/16 [00:00<00:00, 63.52it/s]
+
+  0%|          | 0/15 [00:00<?, ?it/s][A
+ 40%|████      | 6/15 [00:00<00:00, 58.47it/s][A
+ 87%|████████▋ | 13/15 [00:00<00:00, 59.89it/s][A100%|██████████| 15/15 [00:00<00:00, 59.63it/s]
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+ 50%|█████     | 7/14 [00:00<00:00, 60.98it/s][A
+ 65%|██████▌   | 652/1001 [11:46<06:31,  1.12s/it][A
+100%|██████████| 14/14 [00:00<00:00, 60.74it/s][A100%|██████████| 14/14 [00:00<00:00, 57.76it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s][A
+ 54%|█████▍    | 7/13 [00:00<00:00, 61.40it/s][A100%|██████████| 13/13 [00:00<00:00, 60.38it/s]
+
+  0%|          | 0/12 [00:00<?, ?it/s][A
+ 50%|█████     | 6/12 [00:00<00:00, 58.56it/s][A
+100%|██████████| 12/12 [00:00<00:00, 57.77it/s][A100%|██████████| 12/12 [00:00<00:00, 57.79it/s]
+
+  0%|          | 0/11 [00:00<?, ?it/s][A
+ 55%|█████▍    | 6/11 [00:00<00:00, 59.17it/s][A100%|██████████| 11/11 [00:00<00:00, 59.38it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s][A
+ 70%|███████   | 7/10 [00:00<00:00, 59.85it/s][A100%|██████████| 10/10 [00:00<00:00, 59.35it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][A
+ 65%|██████▌   | 653/1001 [11:47<06:33,  1.13s/it][A
+ 67%|██████▋   | 6/9 [00:00<00:00, 55.82it/s][A100%|██████████| 9/9 [00:00<00:00, 52.03it/s]
+
+  0%|          | 0/8 [00:00<?, ?it/s][A
+ 75%|███████▌  | 6/8 [00:00<00:00, 56.94it/s][A100%|██████████| 8/8 [00:00<00:00, 56.95it/s]
+
+  0%|          | 0/7 [00:00<?, ?it/s][A
+ 86%|████████▌ | 6/7 [00:00<00:00, 58.09it/s][A100%|██████████| 7/7 [00:00<00:00, 57.80it/s]
+
+  0%|          | 0/6 [00:00<?, ?it/s][A
+100%|██████████| 6/6 [00:00<00:00, 58.51it/s][A100%|██████████| 6/6 [00:00<00:00, 58.32it/s]
+
+  0%|          | 0/5 [00:00<?, ?it/s][A100%|██████████| 5/5 [00:00<00:00, 58.20it/s]
+
+  0%|          | 0/4 [00:00<?, ?it/s][A100%|██████████| 4/4 [00:00<00:00, 57.43it/s]
+
+  0%|          | 0/3 [00:00<?, ?it/s][A100%|██████████| 3/3 [00:00<00:00, 57.73it/s]
+
+  0%|          | 0/2 [00:00<?, ?it/s][A100%|██████████| 2/2 [00:00<00:00, 59.99it/s]
+
+  0%|          | 0/1 [00:00<?, ?it/s][A100%|██████████| 1/1 [00:00<00:00, 58.32it/s]
+
+ 65%|██████▌   | 654/1001 [11:48<06:39,  1.15s/it][A
+ 65%|██████▌   | 655/1001 [11:49<06:35,  1.14s/it][A
+ 66%|██████▌   | 656/1001 [11:50<06:28,  1.12s/it][A
+ 66%|██████▌   | 657/1001 [11:51<06:27,  1.13s/it][A
+ 66%|██████▌   | 658/1001 [11:52<06:31,  1.14s/it][A
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 66.22it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 67.20it/s][A100%|██████████| 20/20 [00:00<00:00, 67.30it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 67.45it/s][A
+ 66%|██████▌   | 659/1001 [11:54<06:24,  1.12s/it][A
+ 70%|███████   | 14/20 [00:00<00:00, 67.72it/s][A100%|██████████| 20/20 [00:00<00:00, 65.41it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 68.66it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 67.33it/s][A100%|██████████| 20/20 [00:00<00:00, 66.86it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 67.01it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 65.73it/s][A100%|██████████| 20/20 [00:00<00:00, 65.99it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 63.78it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 65.45it/s][A
+ 66%|██████▌   | 660/1001 [11:55<06:23,  1.12s/it][A100%|██████████| 20/20 [00:00<00:00, 65.29it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 66.34it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 65.18it/s][A100%|██████████| 20/20 [00:00<00:00, 66.07it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 66.96it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 66.44it/s][A100%|██████████| 20/20 [00:00<00:00, 66.16it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 66.38it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 65.86it/s][A
+100%|██████████| 20/20 [00:00<00:00, 66.04it/s]
+ 66%|██████▌   | 661/1001 [11:56<06:23,  1.13s/it][A
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 63.87it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 65.05it/s][A100%|██████████| 20/20 [00:00<00:00, 65.34it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 66.18it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 65.54it/s][A100%|██████████| 20/20 [00:00<00:00, 65.96it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 66.03it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 66.84it/s][A100%|██████████| 20/20 [00:00<00:00, 66.18it/s]
+
+ 66%|██████▌   | 662/1001 [11:57<06:21,  1.13s/it][A
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 66.74it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 66.32it/s][A100%|██████████| 20/20 [00:00<00:00, 66.73it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 67.41it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 66.98it/s][A100%|██████████| 20/20 [00:00<00:00, 66.80it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 66.12it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 66.17it/s][A100%|██████████| 20/20 [00:00<00:00, 66.55it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 66%|██████▌   | 663/1001 [11:58<06:21,  1.13s/it][A
+ 35%|███▌      | 7/20 [00:00<00:00, 65.66it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 62.74it/s][A100%|██████████| 20/20 [00:00<00:00, 63.34it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 65.13it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 65.31it/s][A100%|██████████| 20/20 [00:00<00:00, 65.47it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 65.76it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 67.09it/s][A100%|██████████| 20/20 [00:00<00:00, 67.46it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 65.95it/s][A
+ 66%|██████▋   | 664/1001 [11:59<06:22,  1.14s/it][A
+ 70%|███████   | 14/20 [00:00<00:00, 65.69it/s][A100%|██████████| 20/20 [00:00<00:00, 63.76it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 66.23it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 66.30it/s][A100%|██████████| 20/20 [00:00<00:00, 66.27it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 65.50it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 65.05it/s][A100%|██████████| 20/20 [00:00<00:00, 64.87it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 64.75it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 64.64it/s][A
+ 66%|██████▋   | 665/1001 [12:00<06:21,  1.14s/it][A100%|██████████| 20/20 [00:00<00:00, 65.06it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 63.85it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 64.32it/s][A100%|██████████| 20/20 [00:00<00:00, 64.18it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 64.91it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 63.63it/s][A100%|██████████| 20/20 [00:00<00:00, 64.12it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 63.57it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 63.10it/s][A
+ 67%|██████▋   | 666/1001 [12:02<06:18,  1.13s/it][A100%|██████████| 20/20 [00:00<00:00, 62.86it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 62.81it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 64.11it/s][A100%|██████████| 20/20 [00:00<00:00, 64.34it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 62.71it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 62.67it/s][A100%|██████████| 20/20 [00:00<00:00, 63.15it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 61.37it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 61.96it/s][A
+ 67%|██████▋   | 667/1001 [12:03<06:16,  1.13s/it][A100%|██████████| 20/20 [00:00<00:00, 61.89it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 64.33it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 63.05it/s][A100%|██████████| 20/20 [00:00<00:00, 63.24it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 30%|███       | 6/20 [00:00<00:00, 59.83it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 62.02it/s][A
+100%|██████████| 20/20 [00:00<00:00, 62.51it/s][A100%|██████████| 20/20 [00:00<00:00, 62.10it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 61.39it/s][A
+ 67%|██████▋   | 668/1001 [12:04<06:12,  1.12s/it][A
+ 70%|███████   | 14/20 [00:00<00:00, 60.40it/s][A/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/fromnumeric.py:3824: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+100%|██████████| 20/20 [00:00<00:00, 59.09it/s]/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:219: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:178: RuntimeWarning: invalid value encountered in divide
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:211: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 62.36it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 61.42it/s][A100%|██████████| 20/20 [00:00<00:00, 61.59it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 60.73it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 62.10it/s][A100%|██████████| 20/20 [00:00<00:00, 61.74it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 64.51it/s][A
+ 67%|██████▋   | 669/1001 [12:05<06:09,  1.11s/it][A
+ 70%|███████   | 14/20 [00:00<00:00, 63.52it/s][A100%|██████████| 20/20 [00:00<00:00, 61.25it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 62.64it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 62.90it/s][A100%|██████████| 20/20 [00:00<00:00, 62.59it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 62.09it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 61.02it/s][A100%|██████████| 20/20 [00:00<00:00, 61.85it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 63.30it/s][A
+ 67%|██████▋   | 670/1001 [12:06<06:13,  1.13s/it][A
+ 70%|███████   | 14/20 [00:00<00:00, 63.88it/s][A100%|██████████| 20/20 [00:00<00:00, 60.83it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 62.48it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 60.95it/s][A100%|██████████| 20/20 [00:00<00:00, 61.95it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 63.25it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 63.51it/s][A100%|██████████| 20/20 [00:00<00:00, 63.43it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 62.79it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 65.02it/s][A
+ 67%|██████▋   | 671/1001 [12:07<06:20,  1.15s/it][A100%|██████████| 20/20 [00:00<00:00, 65.81it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 66.89it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 66.50it/s][A100%|██████████| 20/20 [00:00<00:00, 66.57it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 66.34it/s][A
+ 75%|███████▌  | 15/20 [00:00<00:00, 69.21it/s][A100%|██████████| 20/20 [00:00<00:00, 71.15it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 69.60it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 65.34it/s][A
+ 67%|██████▋   | 672/1001 [12:08<06:11,  1.13s/it][A100%|██████████| 20/20 [00:00<00:00, 65.18it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 35%|███▌      | 7/20 [00:00<00:00, 64.17it/s][A
+ 75%|███████▌  | 15/20 [00:00<00:00, 73.07it/s][A100%|██████████| 20/20 [00:00<00:00, 76.63it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 50%|█████     | 10/20 [00:00<00:00, 99.76it/s][A
+100%|██████████| 20/20 [00:00<00:00, 99.46it/s][A100%|██████████| 20/20 [00:00<00:00, 99.36it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 55%|█████▌    | 11/20 [00:00<00:00, 108.14it/s][A100%|██████████| 20/20 [00:00<00:00, 113.18it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 112.20it/s][A100%|██████████| 20/20 [00:00<00:00, 106.64it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+
+ 67%|██████▋   | 673/1001 [12:09<06:08,  1.12s/it][A 50%|█████     | 10/20 [00:00<00:00, 97.51it/s][A
+100%|██████████| 20/20 [00:00<00:00, 80.79it/s][A100%|██████████| 20/20 [00:00<00:00, 82.83it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 50%|█████     | 10/20 [00:00<00:00, 99.28it/s][A
+100%|██████████| 20/20 [00:00<00:00, 99.00it/s][A100%|██████████| 20/20 [00:00<00:00, 98.90it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 50%|█████     | 10/20 [00:00<00:00, 97.43it/s][A
+100%|██████████| 20/20 [00:00<00:00, 98.32it/s][A100%|██████████| 20/20 [00:00<00:00, 98.07it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 118.66it/s][A100%|██████████| 20/20 [00:00<00:00, 118.57it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 118.07it/s][A100%|██████████| 20/20 [00:00<00:00, 116.54it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 67%|██████▋   | 674/1001 [12:10<06:04,  1.11s/it][A
+ 60%|██████    | 12/20 [00:00<00:00, 119.38it/s][A100%|██████████| 20/20 [00:00<00:00, 112.63it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 119.60it/s][A100%|██████████| 20/20 [00:00<00:00, 119.62it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 119.66it/s][A100%|██████████| 20/20 [00:00<00:00, 119.67it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 119.25it/s][A100%|██████████| 20/20 [00:00<00:00, 119.28it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 119.63it/s][A100%|██████████| 20/20 [00:00<00:00, 119.44it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 118.74it/s][A100%|██████████| 20/20 [00:00<00:00, 118.54it/s]
+
+ 67%|██████▋   | 675/1001 [12:12<05:58,  1.10s/it][A
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 118.14it/s][A100%|██████████| 20/20 [00:00<00:00, 118.07it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.89it/s][A100%|██████████| 20/20 [00:00<00:00, 117.82it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.67it/s][A100%|██████████| 20/20 [00:00<00:00, 117.78it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.63it/s][A100%|██████████| 20/20 [00:00<00:00, 117.61it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.51it/s][A100%|██████████| 20/20 [00:00<00:00, 117.44it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 68%|██████▊   | 676/1001 [12:13<05:53,  1.09s/it][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.25it/s][A100%|██████████| 20/20 [00:00<00:00, 110.66it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.91it/s][A100%|██████████| 20/20 [00:00<00:00, 116.91it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.81it/s][A100%|██████████| 20/20 [00:00<00:00, 116.78it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.68it/s][A100%|██████████| 20/20 [00:00<00:00, 116.64it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.52it/s][A100%|██████████| 20/20 [00:00<00:00, 116.41it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.36it/s][A100%|██████████| 20/20 [00:00<00:00, 116.33it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 68%|██████▊   | 677/1001 [12:14<05:57,  1.10s/it][A
+ 60%|██████    | 12/20 [00:00<00:00, 115.88it/s][A100%|██████████| 20/20 [00:00<00:00, 108.42it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.09it/s][A100%|██████████| 20/20 [00:00<00:00, 116.09it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 115.39it/s][A100%|██████████| 20/20 [00:00<00:00, 115.35it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 115.19it/s][A100%|██████████| 20/20 [00:00<00:00, 115.15it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 115.60it/s][A100%|██████████| 20/20 [00:00<00:00, 115.51it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 115.10it/s][A
+100%|██████████| 20/20 [00:00<00:00, 115.06it/s]
+ 68%|██████▊   | 678/1001 [12:15<05:56,  1.10s/it][A
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 114.84it/s][A100%|██████████| 20/20 [00:00<00:00, 114.83it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 114.71it/s][A100%|██████████| 20/20 [00:00<00:00, 114.73it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 114.20it/s][A100%|██████████| 20/20 [00:00<00:00, 114.07it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 114.02it/s][A100%|██████████| 20/20 [00:00<00:00, 114.08it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 113.75it/s][A100%|██████████| 20/20 [00:00<00:00, 113.56it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 68%|██████▊   | 679/1001 [12:16<05:53,  1.10s/it][A
+ 60%|██████    | 12/20 [00:00<00:00, 113.36it/s][A100%|██████████| 20/20 [00:00<00:00, 106.45it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 112.76it/s][A100%|██████████| 20/20 [00:00<00:00, 112.74it/s]
+
+  0%|          | 0/19 [00:00<?, ?it/s][A
+ 63%|██████▎   | 12/19 [00:00<00:00, 112.94it/s][A100%|██████████| 19/19 [00:00<00:00, 112.82it/s]
+
+  0%|          | 0/18 [00:00<?, ?it/s][A
+ 67%|██████▋   | 12/18 [00:00<00:00, 112.95it/s][A100%|██████████| 18/18 [00:00<00:00, 112.88it/s]
+
+  0%|          | 0/17 [00:00<?, ?it/s][A
+ 71%|███████   | 12/17 [00:00<00:00, 111.98it/s][A100%|██████████| 17/17 [00:00<00:00, 112.12it/s]
+
+  0%|          | 0/16 [00:00<?, ?it/s][A
+ 75%|███████▌  | 12/16 [00:00<00:00, 112.41it/s][A100%|██████████| 16/16 [00:00<00:00, 112.33it/s]
+
+
+  0%|          | 0/15 [00:00<?, ?it/s][A 68%|██████▊   | 680/1001 [12:17<05:49,  1.09s/it][A
+ 80%|████████  | 12/15 [00:00<00:00, 112.04it/s][A100%|██████████| 15/15 [00:00<00:00, 103.54it/s]
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+ 86%|████████▌ | 12/14 [00:00<00:00, 111.74it/s][A100%|██████████| 14/14 [00:00<00:00, 111.60it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s][A
+ 92%|█████████▏| 12/13 [00:00<00:00, 111.30it/s][A100%|██████████| 13/13 [00:00<00:00, 111.19it/s]
+
+  0%|          | 0/12 [00:00<?, ?it/s][A
+100%|██████████| 12/12 [00:00<00:00, 111.15it/s][A100%|██████████| 12/12 [00:00<00:00, 111.02it/s]
+
+  0%|          | 0/11 [00:00<?, ?it/s][A100%|██████████| 11/11 [00:00<00:00, 110.96it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s][A100%|██████████| 10/10 [00:00<00:00, 111.20it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][A100%|██████████| 9/9 [00:00<00:00, 110.65it/s]
+
+  0%|          | 0/8 [00:00<?, ?it/s][A100%|██████████| 8/8 [00:00<00:00, 110.26it/s]
+
+  0%|          | 0/7 [00:00<?, ?it/s][A
+ 68%|██████▊   | 681/1001 [12:18<05:49,  1.09s/it][A100%|██████████| 7/7 [00:00<00:00, 110.17it/s]
+
+  0%|          | 0/6 [00:00<?, ?it/s][A100%|██████████| 6/6 [00:00<00:00, 109.58it/s]
+
+  0%|          | 0/5 [00:00<?, ?it/s][A100%|██████████| 5/5 [00:00<00:00, 108.86it/s]
+
+  0%|          | 0/4 [00:00<?, ?it/s][A100%|██████████| 4/4 [00:00<00:00, 108.99it/s]
+
+  0%|          | 0/3 [00:00<?, ?it/s][A100%|██████████| 3/3 [00:00<00:00, 108.21it/s]
+
+  0%|          | 0/2 [00:00<?, ?it/s][A100%|██████████| 2/2 [00:00<00:00, 107.80it/s]
+
+  0%|          | 0/1 [00:00<?, ?it/s][A100%|██████████| 1/1 [00:00<00:00, 105.99it/s]
+
+ 68%|██████▊   | 682/1001 [12:19<05:46,  1.09s/it][A
+ 68%|██████▊   | 683/1001 [12:20<05:42,  1.08s/it][A
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 68%|██████▊   | 684/1001 [12:21<05:38,  1.07s/it][A
+ 75%|███████▌  | 15/20 [00:00<00:00, 141.75it/s][A100%|██████████| 20/20 [00:00<00:00, 131.53it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 75%|███████▌  | 15/20 [00:00<00:00, 141.69it/s][A100%|██████████| 20/20 [00:00<00:00, 141.53it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 75%|███████▌  | 15/20 [00:00<00:00, 141.21it/s][A100%|██████████| 20/20 [00:00<00:00, 140.96it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 75%|███████▌  | 15/20 [00:00<00:00, 140.41it/s][A100%|██████████| 20/20 [00:00<00:00, 140.54it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 75%|███████▌  | 15/20 [00:00<00:00, 140.42it/s][A100%|██████████| 20/20 [00:00<00:00, 140.26it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 75%|███████▌  | 15/20 [00:00<00:00, 140.35it/s][A100%|██████████| 20/20 [00:00<00:00, 140.29it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 68%|██████▊   | 685/1001 [12:22<05:40,  1.08s/it][A
+ 70%|███████   | 14/20 [00:00<00:00, 139.57it/s][A100%|██████████| 20/20 [00:00<00:00, 129.35it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 139.63it/s][A100%|██████████| 20/20 [00:00<00:00, 139.48it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 138.70it/s][A100%|██████████| 20/20 [00:00<00:00, 138.73it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 138.78it/s][A100%|██████████| 20/20 [00:00<00:00, 138.73it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 138.07it/s][A100%|██████████| 20/20 [00:00<00:00, 137.89it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 137.06it/s][A100%|██████████| 20/20 [00:00<00:00, 136.96it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 69%|██████▊   | 686/1001 [12:23<05:38,  1.07s/it][A
+ 70%|███████   | 14/20 [00:00<00:00, 135.01it/s][A100%|██████████| 20/20 [00:00<00:00, 125.80it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 135.57it/s][A100%|██████████| 20/20 [00:00<00:00, 135.48it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 136.21it/s][A100%|██████████| 20/20 [00:00<00:00, 136.05it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 134.84it/s][A100%|██████████| 20/20 [00:00<00:00, 134.82it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 133.60it/s][A100%|██████████| 20/20 [00:00<00:00, 133.51it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 132.64it/s][A100%|██████████| 20/20 [00:00<00:00, 132.58it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 131.24it/s][A
+ 69%|██████▊   | 687/1001 [12:25<05:36,  1.07s/it][A100%|██████████| 20/20 [00:00<00:00, 131.18it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 129.92it/s][A100%|██████████| 20/20 [00:00<00:00, 129.88it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 129.52it/s][A100%|██████████| 20/20 [00:00<00:00, 129.29it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 128.46it/s][A100%|██████████| 20/20 [00:00<00:00, 128.46it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 128.21it/s][A100%|██████████| 20/20 [00:00<00:00, 128.02it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 127.79it/s][A100%|██████████| 20/20 [00:00<00:00, 127.34it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+
+ 65%|██████▌   | 13/20 [00:00<00:00, 126.65it/s][A 69%|██████▊   | 688/1001 [12:26<05:36,  1.08s/it][A100%|██████████| 20/20 [00:00<00:00, 114.25it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 125.97it/s][A100%|██████████| 20/20 [00:00<00:00, 126.00it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 125.55it/s][A100%|██████████| 20/20 [00:00<00:00, 125.40it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 125.33it/s][A100%|██████████| 20/20 [00:00<00:00, 125.31it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 126.09it/s][A100%|██████████| 20/20 [00:00<00:00, 125.94it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 126.26it/s][A100%|██████████| 20/20 [00:00<00:00, 126.17it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 69%|██████▉   | 689/1001 [12:27<05:39,  1.09s/it][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 124.96it/s][A100%|██████████| 20/20 [00:00<00:00, 117.03it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 124.75it/s][A100%|██████████| 20/20 [00:00<00:00, 124.70it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 124.30it/s][A100%|██████████| 20/20 [00:00<00:00, 124.23it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 123.71it/s][A100%|██████████| 20/20 [00:00<00:00, 123.69it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 122.87it/s][A100%|██████████| 20/20 [00:00<00:00, 123.02it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 123.28it/s][A100%|██████████| 20/20 [00:00<00:00, 123.21it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 123.19it/s][A
+ 69%|██████▉   | 690/1001 [12:28<05:48,  1.12s/it][A100%|██████████| 20/20 [00:00<00:00, 123.11it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 122.86it/s][A100%|██████████| 20/20 [00:00<00:00, 122.79it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 123.42it/s][A100%|██████████| 20/20 [00:00<00:00, 123.43it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 123.17it/s][A100%|██████████| 20/20 [00:00<00:00, 123.11it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 122.59it/s][A100%|██████████| 20/20 [00:00<00:00, 122.62it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 122.59it/s][A100%|██████████| 20/20 [00:00<00:00, 122.53it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 69%|██████▉   | 691/1001 [12:29<05:41,  1.10s/it][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 122.28it/s][A100%|██████████| 20/20 [00:00<00:00, 114.26it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 122.32it/s][A100%|██████████| 20/20 [00:00<00:00, 122.34it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 121.58it/s][A100%|██████████| 20/20 [00:00<00:00, 121.52it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 121.14it/s][A100%|██████████| 20/20 [00:00<00:00, 121.12it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 121.35it/s][A100%|██████████| 20/20 [00:00<00:00, 121.31it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 121.65it/s][A
+ 69%|██████▉   | 692/1001 [12:30<05:35,  1.09s/it][A100%|██████████| 20/20 [00:00<00:00, 121.62it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 121.71it/s][A100%|██████████| 20/20 [00:00<00:00, 121.54it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 121.41it/s][A100%|██████████| 20/20 [00:00<00:00, 121.43it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 121.53it/s][A100%|██████████| 20/20 [00:00<00:00, 120.70it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 121.21it/s][A100%|██████████| 20/20 [00:00<00:00, 121.13it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 121.51it/s][A100%|██████████| 20/20 [00:00<00:00, 121.39it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 69%|██████▉   | 693/1001 [12:31<05:31,  1.08s/it][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 121.13it/s][A100%|██████████| 20/20 [00:00<00:00, 113.73it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 121.44it/s][A100%|██████████| 20/20 [00:00<00:00, 121.35it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 120.59it/s][A100%|██████████| 20/20 [00:00<00:00, 120.56it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 120.82it/s][A100%|██████████| 20/20 [00:00<00:00, 120.83it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 120.80it/s][A100%|██████████| 20/20 [00:00<00:00, 120.64it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 120.75it/s][A
+ 69%|██████▉   | 694/1001 [12:32<05:29,  1.07s/it][A100%|██████████| 20/20 [00:00<00:00, 120.67it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 120.23it/s][A100%|██████████| 20/20 [00:00<00:00, 120.24it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 119.48it/s][A100%|██████████| 20/20 [00:00<00:00, 119.33it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 119.29it/s][A100%|██████████| 20/20 [00:00<00:00, 119.19it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 118.99it/s][A100%|██████████| 20/20 [00:00<00:00, 118.97it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 118.36it/s][A100%|██████████| 20/20 [00:00<00:00, 118.38it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 118.46it/s][A
+ 69%|██████▉   | 695/1001 [12:33<05:32,  1.09s/it][A100%|██████████| 20/20 [00:00<00:00, 118.40it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.89it/s][A100%|██████████| 20/20 [00:00<00:00, 117.79it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.45it/s][A100%|██████████| 20/20 [00:00<00:00, 117.39it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.49it/s][A100%|██████████| 20/20 [00:00<00:00, 117.46it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.96it/s][A100%|██████████| 20/20 [00:00<00:00, 117.04it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.81it/s][A100%|██████████| 20/20 [00:00<00:00, 116.80it/s]
+
+ 70%|██████▉   | 696/1001 [12:34<05:27,  1.07s/it][A
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.37it/s][A100%|██████████| 20/20 [00:00<00:00, 116.32it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.16it/s][A100%|██████████| 20/20 [00:00<00:00, 116.00it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.04it/s][A100%|██████████| 20/20 [00:00<00:00, 115.77it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 115.23it/s][A100%|██████████| 20/20 [00:00<00:00, 115.15it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 114.81it/s][A100%|██████████| 20/20 [00:00<00:00, 114.87it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|██████▉   | 697/1001 [12:35<05:24,  1.07s/it][A
+ 60%|██████    | 12/20 [00:00<00:00, 114.40it/s][A100%|██████████| 20/20 [00:00<00:00, 107.93it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 113.95it/s][A100%|██████████| 20/20 [00:00<00:00, 113.91it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 113.51it/s][A100%|██████████| 20/20 [00:00<00:00, 113.45it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 113.36it/s][A100%|██████████| 20/20 [00:00<00:00, 113.27it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 112.96it/s][A100%|██████████| 20/20 [00:00<00:00, 112.97it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 112.63it/s][A
+ 70%|██████▉   | 698/1001 [12:36<05:23,  1.07s/it][A100%|██████████| 20/20 [00:00<00:00, 112.67it/s]
+
+  0%|          | 0/19 [00:00<?, ?it/s][A
+ 63%|██████▎   | 12/19 [00:00<00:00, 112.65it/s][A100%|██████████| 19/19 [00:00<00:00, 112.61it/s]
+
+  0%|          | 0/18 [00:00<?, ?it/s][A
+ 67%|██████▋   | 12/18 [00:00<00:00, 112.33it/s][A100%|██████████| 18/18 [00:00<00:00, 112.22it/s]
+
+  0%|          | 0/17 [00:00<?, ?it/s][A
+ 71%|███████   | 12/17 [00:00<00:00, 111.81it/s][A100%|██████████| 17/17 [00:00<00:00, 111.76it/s]
+
+  0%|          | 0/16 [00:00<?, ?it/s][A
+ 75%|███████▌  | 12/16 [00:00<00:00, 112.07it/s][A100%|██████████| 16/16 [00:00<00:00, 111.94it/s]
+
+  0%|          | 0/15 [00:00<?, ?it/s][A
+ 80%|████████  | 12/15 [00:00<00:00, 111.70it/s][A100%|██████████| 15/15 [00:00<00:00, 111.57it/s]
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+ 70%|██████▉   | 699/1001 [12:37<05:19,  1.06s/it][A
+ 86%|████████▌ | 12/14 [00:00<00:00, 111.52it/s][A100%|██████████| 14/14 [00:00<00:00, 102.97it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s][A
+ 92%|█████████▏| 12/13 [00:00<00:00, 111.58it/s][A100%|██████████| 13/13 [00:00<00:00, 111.40it/s]
+
+  0%|          | 0/12 [00:00<?, ?it/s][A
+100%|██████████| 12/12 [00:00<00:00, 111.06it/s][A100%|██████████| 12/12 [00:00<00:00, 110.94it/s]
+
+  0%|          | 0/11 [00:00<?, ?it/s][A100%|██████████| 11/11 [00:00<00:00, 110.84it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s][A100%|██████████| 10/10 [00:00<00:00, 110.83it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][A100%|██████████| 9/9 [00:00<00:00, 110.92it/s]
+
+  0%|          | 0/8 [00:00<?, ?it/s][A100%|██████████| 8/8 [00:00<00:00, 110.42it/s]
+
+  0%|          | 0/7 [00:00<?, ?it/s][A100%|██████████| 7/7 [00:00<00:00, 109.75it/s]
+
+  0%|          | 0/6 [00:00<?, ?it/s][A100%|██████████| 6/6 [00:00<00:00, 109.48it/s]
+
+  0%|          | 0/5 [00:00<?, ?it/s][A100%|██████████| 5/5 [00:00<00:00, 107.23it/s]
+
+  0%|          | 0/4 [00:00<?, ?it/s][A100%|██████████| 4/4 [00:00<00:00, 108.65it/s]
+
+
+  0%|          | 0/3 [00:00<?, ?it/s][A 70%|██████▉   | 700/1001 [12:39<05:20,  1.06s/it][A100%|██████████| 3/3 [00:00<00:00, 108.53it/s]
+
+  0%|          | 0/2 [00:00<?, ?it/s][A100%|██████████| 2/2 [00:00<00:00, 108.12it/s]
+
+  0%|          | 0/1 [00:00<?, ?it/s][A100%|██████████| 1/1 [00:00<00:00, 107.35it/s]
+
+ 70%|███████   | 701/1001 [12:40<05:22,  1.08s/it][A
+ 70%|███████   | 702/1001 [12:41<05:21,  1.08s/it][A
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 75%|███████▌  | 15/20 [00:00<00:00, 140.42it/s][A100%|██████████| 20/20 [00:00<00:00, 140.35it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 703/1001 [12:42<05:18,  1.07s/it][A
+ 75%|███████▌  | 15/20 [00:00<00:00, 140.32it/s][A100%|██████████| 20/20 [00:00<00:00, 129.73it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 75%|███████▌  | 15/20 [00:00<00:00, 140.16it/s][A100%|██████████| 20/20 [00:00<00:00, 139.93it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 139.37it/s][A100%|██████████| 20/20 [00:00<00:00, 139.33it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 139.46it/s][A100%|██████████| 20/20 [00:00<00:00, 139.37it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 139.11it/s][A100%|██████████| 20/20 [00:00<00:00, 139.04it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 139.28it/s][A100%|██████████| 20/20 [00:00<00:00, 139.17it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 137.65it/s][A
+ 70%|███████   | 704/1001 [12:43<05:16,  1.07s/it][A100%|██████████| 20/20 [00:00<00:00, 137.57it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 138.41it/s][A100%|██████████| 20/20 [00:00<00:00, 138.36it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 138.54it/s][A100%|██████████| 20/20 [00:00<00:00, 138.33it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 137.45it/s][A100%|██████████| 20/20 [00:00<00:00, 137.59it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 138.39it/s][A100%|██████████| 20/20 [00:00<00:00, 138.28it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 137.55it/s][A100%|██████████| 20/20 [00:00<00:00, 137.59it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 137.73it/s][A100%|██████████| 20/20 [00:00<00:00, 137.58it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 705/1001 [12:44<05:15,  1.07s/it][A
+ 70%|███████   | 14/20 [00:00<00:00, 137.20it/s][A100%|██████████| 20/20 [00:00<00:00, 127.50it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 136.92it/s][A100%|██████████| 20/20 [00:00<00:00, 136.82it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 134.59it/s][A100%|██████████| 20/20 [00:00<00:00, 134.34it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 133.83it/s][A100%|██████████| 20/20 [00:00<00:00, 133.81it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 133.91it/s][A100%|██████████| 20/20 [00:00<00:00, 133.70it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 134.59it/s][A100%|██████████| 20/20 [00:00<00:00, 134.44it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 71%|███████   | 706/1001 [12:45<05:16,  1.07s/it][A
+ 70%|███████   | 14/20 [00:00<00:00, 134.37it/s][A100%|██████████| 20/20 [00:00<00:00, 125.61it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 132.54it/s][A100%|██████████| 20/20 [00:00<00:00, 132.54it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 132.74it/s][A100%|██████████| 20/20 [00:00<00:00, 132.59it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 131.27it/s][A100%|██████████| 20/20 [00:00<00:00, 131.05it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 131.10it/s][A100%|██████████| 20/20 [00:00<00:00, 131.05it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 127.98it/s][A100%|██████████| 20/20 [00:00<00:00, 127.98it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 71%|███████   | 707/1001 [12:46<05:10,  1.06s/it][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 128.32it/s][A100%|██████████| 20/20 [00:00<00:00, 118.75it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 126.90it/s][A100%|██████████| 20/20 [00:00<00:00, 126.53it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 125.44it/s][A100%|██████████| 20/20 [00:00<00:00, 125.25it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 124.42it/s][A100%|██████████| 20/20 [00:00<00:00, 124.29it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 124.41it/s][A100%|██████████| 20/20 [00:00<00:00, 124.26it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 123.64it/s][A
+ 71%|███████   | 708/1001 [12:47<05:06,  1.05s/it][A100%|██████████| 20/20 [00:00<00:00, 123.55it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 123.67it/s][A100%|██████████| 20/20 [00:00<00:00, 123.65it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 123.88it/s][A100%|██████████| 20/20 [00:00<00:00, 123.69it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 124.52it/s][A100%|██████████| 20/20 [00:00<00:00, 124.53it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 123.32it/s][A100%|██████████| 20/20 [00:00<00:00, 123.11it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 122.61it/s][A100%|██████████| 20/20 [00:00<00:00, 122.64it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 122.17it/s][A100%|██████████| 20/20 [00:00<00:00, 122.19it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 71%|███████   | 709/1001 [12:48<05:21,  1.10s/it][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 122.22it/s][A100%|██████████| 20/20 [00:00<00:00, 113.58it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 121.54it/s][A100%|██████████| 20/20 [00:00<00:00, 120.92it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 121.81it/s][A100%|██████████| 20/20 [00:00<00:00, 121.79it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 121.05it/s][A100%|██████████| 20/20 [00:00<00:00, 120.96it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 120.97it/s][A100%|██████████| 20/20 [00:00<00:00, 120.94it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 120.35it/s][A100%|██████████| 20/20 [00:00<00:00, 120.26it/s]
+
+ 71%|███████   | 710/1001 [12:49<05:18,  1.09s/it][A
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 119.64it/s][A100%|██████████| 20/20 [00:00<00:00, 119.61it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 119.30it/s][A100%|██████████| 20/20 [00:00<00:00, 119.24it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 118.95it/s][A100%|██████████| 20/20 [00:00<00:00, 118.94it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 118.51it/s][A100%|██████████| 20/20 [00:00<00:00, 118.42it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.48it/s][A100%|██████████| 20/20 [00:00<00:00, 117.37it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.04it/s][A100%|██████████| 20/20 [00:00<00:00, 116.95it/s]
+
+
+  0%|          | 0/20 [00:00<?, ?it/s][A 71%|███████   | 711/1001 [12:50<05:24,  1.12s/it][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.40it/s][A100%|██████████| 20/20 [00:00<00:00, 110.62it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.28it/s][A100%|██████████| 20/20 [00:00<00:00, 117.11it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.32it/s][A100%|██████████| 20/20 [00:00<00:00, 117.38it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.15it/s][A100%|██████████| 20/20 [00:00<00:00, 117.14it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.40it/s][A100%|██████████| 20/20 [00:00<00:00, 117.34it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.48it/s][A
+ 71%|███████   | 712/1001 [12:52<05:23,  1.12s/it][A100%|██████████| 20/20 [00:00<00:00, 117.36it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.92it/s][A100%|██████████| 20/20 [00:00<00:00, 116.98it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.03it/s][A100%|██████████| 20/20 [00:00<00:00, 117.14it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.18it/s][A100%|██████████| 20/20 [00:00<00:00, 117.18it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.92it/s][A100%|██████████| 20/20 [00:00<00:00, 116.72it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/fromnumeric.py:3824: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+
+ 60%|██████    | 12/20 [00:00<00:00, 116.54it/s][A/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:219: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:178: RuntimeWarning: invalid value encountered in divide
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:211: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+ 71%|███████   | 713/1001 [12:53<05:12,  1.09s/it][A100%|██████████| 20/20 [00:00<00:00, 106.28it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.18it/s][A100%|██████████| 20/20 [00:00<00:00, 116.16it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 115.37it/s][A100%|██████████| 20/20 [00:00<00:00, 115.41it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 115.23it/s][A100%|██████████| 20/20 [00:00<00:00, 115.18it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 115.31it/s][A100%|██████████| 20/20 [00:00<00:00, 115.29it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 115.03it/s][A
+ 71%|███████▏  | 714/1001 [12:54<05:03,  1.06s/it][A100%|██████████| 20/20 [00:00<00:00, 115.07it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 114.96it/s][A100%|██████████| 20/20 [00:00<00:00, 115.10it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 114.63it/s][A100%|██████████| 20/20 [00:00<00:00, 114.61it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 114.36it/s][A100%|██████████| 20/20 [00:00<00:00, 114.40it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 114.37it/s][A100%|██████████| 20/20 [00:00<00:00, 114.32it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 114.13it/s][A100%|██████████| 20/20 [00:00<00:00, 114.03it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 71%|███████▏  | 715/1001 [12:55<05:01,  1.05s/it][A
+ 60%|██████    | 12/20 [00:00<00:00, 113.48it/s][A100%|██████████| 20/20 [00:00<00:00, 106.96it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 113.97it/s][A100%|██████████| 20/20 [00:00<00:00, 113.90it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 114.29it/s][A100%|██████████| 20/20 [00:00<00:00, 114.25it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 113.89it/s][A100%|██████████| 20/20 [00:00<00:00, 113.91it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 113.47it/s][A100%|██████████| 20/20 [00:00<00:00, 113.39it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 72%|███████▏  | 716/1001 [12:56<04:56,  1.04s/it][A
+ 60%|██████    | 12/20 [00:00<00:00, 113.47it/s][A100%|██████████| 20/20 [00:00<00:00, 105.60it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 113.14it/s][A100%|██████████| 20/20 [00:00<00:00, 113.10it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 112.84it/s][A100%|██████████| 20/20 [00:00<00:00, 112.83it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 112.21it/s][A100%|██████████| 20/20 [00:00<00:00, 112.30it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 112.76it/s][A100%|██████████| 20/20 [00:00<00:00, 112.70it/s]
+
+  0%|          | 0/19 [00:00<?, ?it/s][A
+ 72%|███████▏  | 717/1001 [12:57<04:52,  1.03s/it][A
+ 63%|██████▎   | 12/19 [00:00<00:00, 112.77it/s][A100%|██████████| 19/19 [00:00<00:00, 106.01it/s]
+
+  0%|          | 0/18 [00:00<?, ?it/s][A
+ 67%|██████▋   | 12/18 [00:00<00:00, 112.55it/s][A100%|██████████| 18/18 [00:00<00:00, 112.48it/s]
+
+  0%|          | 0/17 [00:00<?, ?it/s][A
+ 71%|███████   | 12/17 [00:00<00:00, 112.55it/s][A100%|██████████| 17/17 [00:00<00:00, 112.34it/s]
+
+  0%|          | 0/16 [00:00<?, ?it/s][A
+ 75%|███████▌  | 12/16 [00:00<00:00, 112.26it/s][A100%|██████████| 16/16 [00:00<00:00, 111.99it/s]
+
+  0%|          | 0/15 [00:00<?, ?it/s][A
+ 80%|████████  | 12/15 [00:00<00:00, 111.25it/s][A100%|██████████| 15/15 [00:00<00:00, 111.18it/s]
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+ 86%|████████▌ | 12/14 [00:00<00:00, 111.66it/s][A100%|██████████| 14/14 [00:00<00:00, 111.46it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s][A
+ 92%|█████████▏| 12/13 [00:00<00:00, 111.32it/s][A100%|██████████| 13/13 [00:00<00:00, 111.18it/s]
+
+  0%|          | 0/12 [00:00<?, ?it/s][A
+ 72%|███████▏  | 718/1001 [12:58<05:07,  1.09s/it][A
+100%|██████████| 12/12 [00:00<00:00, 110.93it/s][A100%|██████████| 12/12 [00:00<00:00, 100.54it/s]
+
+  0%|          | 0/11 [00:00<?, ?it/s][A100%|██████████| 11/11 [00:00<00:00, 110.68it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s][A100%|██████████| 10/10 [00:00<00:00, 110.76it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][A100%|██████████| 9/9 [00:00<00:00, 110.11it/s]
+
+  0%|          | 0/8 [00:00<?, ?it/s][A100%|██████████| 8/8 [00:00<00:00, 109.76it/s]
+
+  0%|          | 0/7 [00:00<?, ?it/s][A100%|██████████| 7/7 [00:00<00:00, 109.51it/s]
+
+  0%|          | 0/6 [00:00<?, ?it/s][A100%|██████████| 6/6 [00:00<00:00, 109.49it/s]
+
+  0%|          | 0/5 [00:00<?, ?it/s][A100%|██████████| 5/5 [00:00<00:00, 109.29it/s]
+
+  0%|          | 0/4 [00:00<?, ?it/s][A100%|██████████| 4/4 [00:00<00:00, 108.37it/s]
+
+  0%|          | 0/3 [00:00<?, ?it/s][A100%|██████████| 3/3 [00:00<00:00, 108.17it/s]
+
+  0%|          | 0/2 [00:00<?, ?it/s][A100%|██████████| 2/2 [00:00<00:00, 107.67it/s]
+
+  0%|          | 0/1 [00:00<?, ?it/s][A100%|██████████| 1/1 [00:00<00:00, 106.84it/s]
+
+ 72%|███████▏  | 719/1001 [12:59<04:59,  1.06s/it][A
+ 72%|███████▏  | 720/1001 [13:00<04:49,  1.03s/it][A
+ 72%|███████▏  | 721/1001 [13:01<04:55,  1.05s/it][A
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 75%|███████▌  | 15/20 [00:00<00:00, 142.50it/s][A100%|██████████| 20/20 [00:00<00:00, 142.33it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 75%|███████▌  | 15/20 [00:00<00:00, 141.05it/s][A100%|██████████| 20/20 [00:00<00:00, 140.05it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 75%|███████▌  | 15/20 [00:00<00:00, 141.39it/s][A
+ 72%|███████▏  | 722/1001 [13:02<04:57,  1.07s/it][A100%|██████████| 20/20 [00:00<00:00, 141.19it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 75%|███████▌  | 15/20 [00:00<00:00, 140.30it/s][A100%|██████████| 20/20 [00:00<00:00, 140.04it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 75%|███████▌  | 15/20 [00:00<00:00, 140.38it/s][A100%|██████████| 20/20 [00:00<00:00, 140.30it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 139.82it/s][A100%|██████████| 20/20 [00:00<00:00, 139.70it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 139.63it/s][A100%|██████████| 20/20 [00:00<00:00, 139.54it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 75%|███████▌  | 15/20 [00:00<00:00, 140.22it/s][A100%|██████████| 20/20 [00:00<00:00, 140.08it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 139.10it/s][A
+ 72%|███████▏  | 723/1001 [13:03<04:50,  1.05s/it][A100%|██████████| 20/20 [00:00<00:00, 138.88it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 138.84it/s][A100%|██████████| 20/20 [00:00<00:00, 138.61it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 138.24it/s][A100%|██████████| 20/20 [00:00<00:00, 138.16it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 138.78it/s][A100%|██████████| 20/20 [00:00<00:00, 138.72it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 137.93it/s][A100%|██████████| 20/20 [00:00<00:00, 137.92it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 137.67it/s][A100%|██████████| 20/20 [00:00<00:00, 137.40it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 137.39it/s][A100%|██████████| 20/20 [00:00<00:00, 137.09it/s]
+
+
+  0%|          | 0/20 [00:00<?, ?it/s][A 72%|███████▏  | 724/1001 [13:04<04:48,  1.04s/it][A
+ 70%|███████   | 14/20 [00:00<00:00, 134.64it/s][A100%|██████████| 20/20 [00:00<00:00, 125.84it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 134.74it/s][A100%|██████████| 20/20 [00:00<00:00, 134.71it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 134.99it/s][A100%|██████████| 20/20 [00:00<00:00, 134.90it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 135.55it/s][A100%|██████████| 20/20 [00:00<00:00, 135.45it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 135.72it/s][A100%|██████████| 20/20 [00:00<00:00, 135.53it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 134.21it/s][A100%|██████████| 20/20 [00:00<00:00, 134.47it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 72%|███████▏  | 725/1001 [13:05<04:48,  1.04s/it][A
+ 70%|███████   | 14/20 [00:00<00:00, 134.69it/s][A100%|██████████| 20/20 [00:00<00:00, 125.24it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 134.61it/s][A100%|██████████| 20/20 [00:00<00:00, 133.67it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 134.16it/s][A100%|██████████| 20/20 [00:00<00:00, 134.04it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 134.02it/s][A100%|██████████| 20/20 [00:00<00:00, 133.91it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 133.79it/s][A100%|██████████| 20/20 [00:00<00:00, 133.70it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 132.45it/s][A100%|██████████| 20/20 [00:00<00:00, 132.46it/s]
+
+ 73%|███████▎  | 726/1001 [13:06<04:42,  1.03s/it][A
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 131.81it/s][A100%|██████████| 20/20 [00:00<00:00, 131.73it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 132.78it/s][A100%|██████████| 20/20 [00:00<00:00, 132.54it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 132.13it/s][A100%|██████████| 20/20 [00:00<00:00, 132.15it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 130.10it/s][A100%|██████████| 20/20 [00:00<00:00, 129.80it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 128.59it/s][A100%|██████████| 20/20 [00:00<00:00, 128.42it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+
+ 65%|██████▌   | 13/20 [00:00<00:00, 128.29it/s][A 73%|███████▎  | 727/1001 [13:07<04:37,  1.01s/it][A100%|██████████| 20/20 [00:00<00:00, 118.52it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 127.33it/s][A100%|██████████| 20/20 [00:00<00:00, 124.77it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 126.62it/s][A100%|██████████| 20/20 [00:00<00:00, 126.51it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 125.43it/s][A100%|██████████| 20/20 [00:00<00:00, 125.45it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 125.55it/s][A100%|██████████| 20/20 [00:00<00:00, 125.71it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 125.56it/s][A100%|██████████| 20/20 [00:00<00:00, 125.60it/s]
+
+
+  0%|          | 0/20 [00:00<?, ?it/s][A 73%|███████▎  | 728/1001 [13:08<04:35,  1.01s/it][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 123.79it/s][A100%|██████████| 20/20 [00:00<00:00, 115.98it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 120.76it/s][A100%|██████████| 20/20 [00:00<00:00, 120.73it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 120.94it/s][A100%|██████████| 20/20 [00:00<00:00, 121.06it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 120.62it/s][A100%|██████████| 20/20 [00:00<00:00, 120.57it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 120.23it/s][A100%|██████████| 20/20 [00:00<00:00, 120.09it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 73%|███████▎  | 729/1001 [13:09<04:33,  1.01s/it][A
+ 60%|██████    | 12/20 [00:00<00:00, 119.74it/s][A100%|██████████| 20/20 [00:00<00:00, 112.71it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 119.93it/s][A100%|██████████| 20/20 [00:00<00:00, 119.76it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 119.51it/s][A100%|██████████| 20/20 [00:00<00:00, 119.52it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 119.20it/s][A100%|██████████| 20/20 [00:00<00:00, 119.16it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 118.85it/s][A100%|██████████| 20/20 [00:00<00:00, 118.63it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 73%|███████▎  | 730/1001 [13:10<04:31,  1.00s/it][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.92it/s][A100%|██████████| 20/20 [00:00<00:00, 111.11it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.64it/s][A100%|██████████| 20/20 [00:00<00:00, 117.70it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.96it/s][A100%|██████████| 20/20 [00:00<00:00, 117.95it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.84it/s][A100%|██████████| 20/20 [00:00<00:00, 117.66it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.48it/s][A100%|██████████| 20/20 [00:00<00:00, 117.51it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+
+ 60%|██████    | 12/20 [00:00<00:00, 117.91it/s] 73%|███████▎  | 731/1001 [13:11<04:29,  1.00it/s][A[A100%|██████████| 20/20 [00:00<00:00, 99.27it/s] 
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.75it/s][A100%|██████████| 20/20 [00:00<00:00, 115.88it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.75it/s][A100%|██████████| 20/20 [00:00<00:00, 116.92it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.32it/s][A100%|██████████| 20/20 [00:00<00:00, 117.20it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.32it/s][A100%|██████████| 20/20 [00:00<00:00, 117.31it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 73%|███████▎  | 732/1001 [13:12<04:27,  1.00it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.05it/s][A100%|██████████| 20/20 [00:00<00:00, 110.33it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.11it/s][A100%|██████████| 20/20 [00:00<00:00, 116.88it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.88it/s][A100%|██████████| 20/20 [00:00<00:00, 116.81it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.06it/s][A100%|██████████| 20/20 [00:00<00:00, 117.05it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.46it/s][A100%|██████████| 20/20 [00:00<00:00, 116.36it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.59it/s][A100%|██████████| 20/20 [00:00<00:00, 116.57it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.16it/s][A
+100%|██████████| 20/20 [00:00<00:00, 116.28it/s]
+ 73%|███████▎  | 733/1001 [13:13<04:46,  1.07s/it][A
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.28it/s][A100%|██████████| 20/20 [00:00<00:00, 116.39it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.37it/s][A100%|██████████| 20/20 [00:00<00:00, 116.29it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.03it/s][A100%|██████████| 20/20 [00:00<00:00, 115.83it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 115.55it/s][A100%|██████████| 20/20 [00:00<00:00, 115.48it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 115.23it/s][A
+ 73%|███████▎  | 734/1001 [13:14<04:38,  1.04s/it][A100%|██████████| 20/20 [00:00<00:00, 115.16it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 114.59it/s][A100%|██████████| 20/20 [00:00<00:00, 114.71it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 114.73it/s][A100%|██████████| 20/20 [00:00<00:00, 114.74it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 113.96it/s][A100%|██████████| 20/20 [00:00<00:00, 113.90it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 113.95it/s][A100%|██████████| 20/20 [00:00<00:00, 113.96it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 113.51it/s][A
+ 73%|███████▎  | 735/1001 [13:15<04:33,  1.03s/it][A100%|██████████| 20/20 [00:00<00:00, 113.46it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 112.87it/s][A100%|██████████| 20/20 [00:00<00:00, 112.81it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 112.87it/s][A100%|██████████| 20/20 [00:00<00:00, 112.90it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 112.36it/s][A100%|██████████| 20/20 [00:00<00:00, 112.31it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 111.79it/s][A100%|██████████| 20/20 [00:00<00:00, 111.55it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 112.09it/s][A
+ 74%|███████▎  | 736/1001 [13:16<04:29,  1.02s/it][A100%|██████████| 20/20 [00:00<00:00, 111.91it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 111.86it/s][A100%|██████████| 20/20 [00:00<00:00, 111.90it/s]
+
+  0%|          | 0/19 [00:00<?, ?it/s][A
+ 63%|██████▎   | 12/19 [00:00<00:00, 112.18it/s][A100%|██████████| 19/19 [00:00<00:00, 112.16it/s]
+
+  0%|          | 0/18 [00:00<?, ?it/s][A
+ 67%|██████▋   | 12/18 [00:00<00:00, 112.71it/s][A100%|██████████| 18/18 [00:00<00:00, 112.52it/s]
+
+  0%|          | 0/17 [00:00<?, ?it/s][A
+ 71%|███████   | 12/17 [00:00<00:00, 112.29it/s][A100%|██████████| 17/17 [00:00<00:00, 112.16it/s]
+
+  0%|          | 0/16 [00:00<?, ?it/s][A
+ 75%|███████▌  | 12/16 [00:00<00:00, 112.39it/s][A
+ 74%|███████▎  | 737/1001 [13:17<04:23,  1.00it/s][A100%|██████████| 16/16 [00:00<00:00, 112.25it/s]
+
+  0%|          | 0/15 [00:00<?, ?it/s][A
+ 80%|████████  | 12/15 [00:00<00:00, 112.82it/s][A100%|██████████| 15/15 [00:00<00:00, 112.63it/s]
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+ 86%|████████▌ | 12/14 [00:00<00:00, 112.17it/s][A100%|██████████| 14/14 [00:00<00:00, 99.99it/s] 
+
+  0%|          | 0/13 [00:00<?, ?it/s][A
+ 92%|█████████▏| 12/13 [00:00<00:00, 112.19it/s][A100%|██████████| 13/13 [00:00<00:00, 112.01it/s]
+
+  0%|          | 0/12 [00:00<?, ?it/s][A
+100%|██████████| 12/12 [00:00<00:00, 112.39it/s][A100%|██████████| 12/12 [00:00<00:00, 112.27it/s]
+
+  0%|          | 0/11 [00:00<?, ?it/s][A100%|██████████| 11/11 [00:00<00:00, 111.62it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s][A100%|██████████| 10/10 [00:00<00:00, 111.41it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][A
+100%|██████████| 9/9 [00:00<00:00, 111.01it/s]
+ 74%|███████▎  | 738/1001 [13:18<04:18,  1.02it/s][A
+  0%|          | 0/8 [00:00<?, ?it/s][A100%|██████████| 8/8 [00:00<00:00, 110.81it/s]
+
+  0%|          | 0/7 [00:00<?, ?it/s][A100%|██████████| 7/7 [00:00<00:00, 110.93it/s]
+
+  0%|          | 0/6 [00:00<?, ?it/s][A100%|██████████| 6/6 [00:00<00:00, 110.57it/s]
+
+  0%|          | 0/5 [00:00<?, ?it/s][A100%|██████████| 5/5 [00:00<00:00, 110.71it/s]
+
+  0%|          | 0/4 [00:00<?, ?it/s][A100%|██████████| 4/4 [00:00<00:00, 109.93it/s]
+
+  0%|          | 0/3 [00:00<?, ?it/s][A100%|██████████| 3/3 [00:00<00:00, 110.06it/s]
+
+  0%|          | 0/2 [00:00<?, ?it/s][A100%|██████████| 2/2 [00:00<00:00, 109.30it/s]
+
+  0%|          | 0/1 [00:00<?, ?it/s][A100%|██████████| 1/1 [00:00<00:00, 109.05it/s]
+
+ 74%|███████▍  | 739/1001 [13:19<04:19,  1.01it/s][A
+ 74%|███████▍  | 740/1001 [13:20<04:16,  1.02it/s][A
+ 74%|███████▍  | 741/1001 [13:21<04:12,  1.03it/s][A
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 75%|███████▌  | 15/20 [00:00<00:00, 141.99it/s][A100%|██████████| 20/20 [00:00<00:00, 141.43it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 75%|███████▌  | 15/20 [00:00<00:00, 141.19it/s][A100%|██████████| 20/20 [00:00<00:00, 141.10it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 75%|███████▌  | 15/20 [00:00<00:00, 141.12it/s][A100%|██████████| 20/20 [00:00<00:00, 140.88it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 74%|███████▍  | 742/1001 [13:22<04:09,  1.04it/s][A
+ 75%|███████▌  | 15/20 [00:00<00:00, 140.66it/s][A100%|██████████| 20/20 [00:00<00:00, 129.80it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 75%|███████▌  | 15/20 [00:00<00:00, 140.59it/s][A100%|██████████| 20/20 [00:00<00:00, 140.54it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 138.43it/s][A100%|██████████| 20/20 [00:00<00:00, 138.68it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 139.46it/s][A100%|██████████| 20/20 [00:00<00:00, 139.29it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 139.42it/s][A100%|██████████| 20/20 [00:00<00:00, 139.24it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 138.53it/s][A100%|██████████| 20/20 [00:00<00:00, 138.47it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 138.54it/s][A100%|██████████| 20/20 [00:00<00:00, 138.32it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 74%|███████▍  | 743/1001 [13:23<04:25,  1.03s/it][A
+ 70%|███████   | 14/20 [00:00<00:00, 138.22it/s][A100%|██████████| 20/20 [00:00<00:00, 128.18it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 136.84it/s][A100%|██████████| 20/20 [00:00<00:00, 136.77it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 135.52it/s][A100%|██████████| 20/20 [00:00<00:00, 135.31it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 136.24it/s][A100%|██████████| 20/20 [00:00<00:00, 136.04it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 136.73it/s][A100%|██████████| 20/20 [00:00<00:00, 136.75it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 135.38it/s][A100%|██████████| 20/20 [00:00<00:00, 135.39it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 74%|███████▍  | 744/1001 [13:24<04:21,  1.02s/it][A
+ 70%|███████   | 14/20 [00:00<00:00, 135.17it/s][A100%|██████████| 20/20 [00:00<00:00, 125.57it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 135.19it/s][A100%|██████████| 20/20 [00:00<00:00, 135.10it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 133.95it/s][A100%|██████████| 20/20 [00:00<00:00, 134.01it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 133.97it/s][A100%|██████████| 20/20 [00:00<00:00, 133.87it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 132.52it/s][A100%|██████████| 20/20 [00:00<00:00, 132.66it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 133.38it/s][A100%|██████████| 20/20 [00:00<00:00, 133.37it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 74%|███████▍  | 745/1001 [13:25<04:17,  1.00s/it][A
+ 70%|███████   | 14/20 [00:00<00:00, 132.35it/s][A100%|██████████| 20/20 [00:00<00:00, 122.97it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 131.63it/s][A100%|██████████| 20/20 [00:00<00:00, 131.64it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 129.83it/s][A100%|██████████| 20/20 [00:00<00:00, 129.68it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 128.87it/s][A100%|██████████| 20/20 [00:00<00:00, 128.88it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 128.52it/s][A100%|██████████| 20/20 [00:00<00:00, 128.31it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 75%|███████▍  | 746/1001 [13:26<04:12,  1.01it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 127.11it/s][A100%|██████████| 20/20 [00:00<00:00, 118.59it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 126.43it/s][A100%|██████████| 20/20 [00:00<00:00, 126.66it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 126.91it/s][A100%|██████████| 20/20 [00:00<00:00, 126.96it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 125.59it/s][A100%|██████████| 20/20 [00:00<00:00, 125.37it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 124.64it/s][A100%|██████████| 20/20 [00:00<00:00, 124.51it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 123.56it/s][A
+ 75%|███████▍  | 747/1001 [13:27<04:09,  1.02it/s][A100%|██████████| 20/20 [00:00<00:00, 122.72it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 122.52it/s][A100%|██████████| 20/20 [00:00<00:00, 122.36it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 119.25it/s][A100%|██████████| 20/20 [00:00<00:00, 120.11it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 121.45it/s][A100%|██████████| 20/20 [00:00<00:00, 121.40it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 121.92it/s][A100%|██████████| 20/20 [00:00<00:00, 121.72it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 121.31it/s][A
+ 75%|███████▍  | 748/1001 [13:28<04:05,  1.03it/s][A100%|██████████| 20/20 [00:00<00:00, 121.20it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 121.58it/s][A100%|██████████| 20/20 [00:00<00:00, 121.58it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 121.67it/s][A100%|██████████| 20/20 [00:00<00:00, 121.69it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 121.29it/s][A100%|██████████| 20/20 [00:00<00:00, 121.25it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 121.06it/s][A100%|██████████| 20/20 [00:00<00:00, 121.00it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 120.92it/s][A
+ 75%|███████▍  | 749/1001 [13:29<04:03,  1.04it/s][A100%|██████████| 20/20 [00:00<00:00, 120.92it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 120.50it/s][A100%|██████████| 20/20 [00:00<00:00, 120.50it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 119.68it/s][A100%|██████████| 20/20 [00:00<00:00, 119.52it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 119.04it/s][A100%|██████████| 20/20 [00:00<00:00, 119.00it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 118.17it/s][A100%|██████████| 20/20 [00:00<00:00, 118.34it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 118.17it/s][A
+ 75%|███████▍  | 750/1001 [13:30<04:02,  1.04it/s][A100%|██████████| 20/20 [00:00<00:00, 118.11it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.87it/s][A100%|██████████| 20/20 [00:00<00:00, 117.95it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.53it/s][A100%|██████████| 20/20 [00:00<00:00, 117.45it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.58it/s][A100%|██████████| 20/20 [00:00<00:00, 117.63it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.43it/s][A100%|██████████| 20/20 [00:00<00:00, 117.46it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.14it/s][A
+ 75%|███████▌  | 751/1001 [13:31<03:58,  1.05it/s][A100%|██████████| 20/20 [00:00<00:00, 117.31it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.33it/s][A100%|██████████| 20/20 [00:00<00:00, 116.74it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.46it/s][A100%|██████████| 20/20 [00:00<00:00, 117.25it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.03it/s][A100%|██████████| 20/20 [00:00<00:00, 117.03it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.85it/s][A100%|██████████| 20/20 [00:00<00:00, 116.73it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 75%|███████▌  | 752/1001 [13:32<03:54,  1.06it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.58it/s][A100%|██████████| 20/20 [00:00<00:00, 109.18it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.15it/s][A100%|██████████| 20/20 [00:00<00:00, 115.95it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 115.93it/s][A100%|██████████| 20/20 [00:00<00:00, 115.86it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 115.89it/s][A100%|██████████| 20/20 [00:00<00:00, 115.80it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.36it/s][A100%|██████████| 20/20 [00:00<00:00, 116.35it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 75%|███████▌  | 753/1001 [13:33<03:52,  1.06it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.41it/s][A100%|██████████| 20/20 [00:00<00:00, 110.83it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.48it/s][A100%|██████████| 20/20 [00:00<00:00, 116.34it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 115.99it/s][A100%|██████████| 20/20 [00:00<00:00, 115.92it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.06it/s][A100%|██████████| 20/20 [00:00<00:00, 115.97it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 115.61it/s][A
+ 75%|███████▌  | 754/1001 [13:34<03:51,  1.07it/s][A100%|██████████| 20/20 [00:00<00:00, 115.72it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 115.80it/s][A100%|██████████| 20/20 [00:00<00:00, 115.81it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 115.85it/s][A100%|██████████| 20/20 [00:00<00:00, 115.71it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 115.87it/s][A100%|██████████| 20/20 [00:00<00:00, 115.73it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.22it/s][A100%|██████████| 20/20 [00:00<00:00, 116.25it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 115.85it/s][A
+ 75%|███████▌  | 755/1001 [13:35<03:50,  1.07it/s][A100%|██████████| 20/20 [00:00<00:00, 115.67it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 115.47it/s][A100%|██████████| 20/20 [00:00<00:00, 115.42it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 115.55it/s][A100%|██████████| 20/20 [00:00<00:00, 115.49it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 115.35it/s][A100%|██████████| 20/20 [00:00<00:00, 115.31it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 114.97it/s][A100%|██████████| 20/20 [00:00<00:00, 114.89it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 114.72it/s][A100%|██████████| 20/20 [00:00<00:00, 114.68it/s]
+
+ 76%|███████▌  | 756/1001 [13:36<03:58,  1.03it/s][A
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 114.38it/s][A100%|██████████| 20/20 [00:00<00:00, 114.47it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 114.90it/s][A100%|██████████| 20/20 [00:00<00:00, 114.71it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 114.59it/s][A100%|██████████| 20/20 [00:00<00:00, 114.39it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 113.61it/s][A100%|██████████| 20/20 [00:00<00:00, 113.67it/s]
+
+  0%|          | 0/19 [00:00<?, ?it/s][A
+ 63%|██████▎   | 12/19 [00:00<00:00, 113.67it/s][A
+ 76%|███████▌  | 757/1001 [13:37<03:53,  1.04it/s][A100%|██████████| 19/19 [00:00<00:00, 113.61it/s]
+
+  0%|          | 0/18 [00:00<?, ?it/s][A
+ 67%|██████▋   | 12/18 [00:00<00:00, 113.47it/s][A100%|██████████| 18/18 [00:00<00:00, 113.43it/s]
+
+  0%|          | 0/17 [00:00<?, ?it/s][A
+ 71%|███████   | 12/17 [00:00<00:00, 113.06it/s][A100%|██████████| 17/17 [00:00<00:00, 112.92it/s]
+
+  0%|          | 0/16 [00:00<?, ?it/s][A
+ 75%|███████▌  | 12/16 [00:00<00:00, 113.26it/s][A100%|██████████| 16/16 [00:00<00:00, 113.16it/s]
+
+  0%|          | 0/15 [00:00<?, ?it/s][A
+ 80%|████████  | 12/15 [00:00<00:00, 113.13it/s][A100%|██████████| 15/15 [00:00<00:00, 112.90it/s]
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+ 86%|████████▌ | 12/14 [00:00<00:00, 112.63it/s][A100%|██████████| 14/14 [00:00<00:00, 112.41it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s][A
+ 76%|███████▌  | 758/1001 [13:38<03:52,  1.04it/s][A
+ 92%|█████████▏| 12/13 [00:00<00:00, 112.05it/s][A100%|██████████| 13/13 [00:00<00:00, 101.36it/s]
+
+  0%|          | 0/12 [00:00<?, ?it/s][A
+100%|██████████| 12/12 [00:00<00:00, 111.53it/s][A100%|██████████| 12/12 [00:00<00:00, 111.38it/s]
+
+  0%|          | 0/11 [00:00<?, ?it/s][A
+100%|██████████| 11/11 [00:00<00:00, 107.99it/s][A100%|██████████| 11/11 [00:00<00:00, 107.73it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s][A100%|██████████| 10/10 [00:00<00:00, 111.14it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][A100%|██████████| 9/9 [00:00<00:00, 111.06it/s]
+
+  0%|          | 0/8 [00:00<?, ?it/s][A100%|██████████| 8/8 [00:00<00:00, 110.74it/s]
+
+  0%|          | 0/7 [00:00<?, ?it/s][A100%|██████████| 7/7 [00:00<00:00, 110.46it/s]
+
+  0%|          | 0/6 [00:00<?, ?it/s][A100%|██████████| 6/6 [00:00<00:00, 110.46it/s]
+
+  0%|          | 0/5 [00:00<?, ?it/s][A100%|██████████| 5/5 [00:00<00:00, 109.74it/s]
+
+  0%|          | 0/4 [00:00<?, ?it/s][A100%|██████████| 4/4 [00:00<00:00, 107.69it/s]
+
+ 76%|███████▌  | 759/1001 [13:38<03:49,  1.06it/s][A
+  0%|          | 0/3 [00:00<?, ?it/s][A100%|██████████| 3/3 [00:00<00:00, 108.66it/s]
+
+  0%|          | 0/2 [00:00<?, ?it/s][A100%|██████████| 2/2 [00:00<00:00, 107.60it/s]
+
+  0%|          | 0/1 [00:00<?, ?it/s][A100%|██████████| 1/1 [00:00<00:00, 103.75it/s]
+
+ 76%|███████▌  | 760/1001 [13:39<03:45,  1.07it/s][A/home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/fromnumeric.py:3824: RuntimeWarning: Mean of empty slice
   return _methods._mean(a, axis=axis, dtype=dtype,
 /home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in divide
   ret = ret.dtype.type(ret / rcount)
@@ -34,4 +2951,584 @@
   ret = ret.dtype.type(ret / rcount)
 /home/formica/venvs/spoc/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
   ret = ret.dtype.type(ret / rcount)
-slurmstepd: error: *** JOB 54280236 ON jst047 CANCELLED AT 2026-05-17T10:58:01 DUE TO TIME LIMIT ***
+
+ 76%|███████▌  | 761/1001 [13:40<03:43,  1.07it/s][A
+ 76%|███████▌  | 762/1001 [13:41<03:49,  1.04it/s][A
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 75%|███████▌  | 15/20 [00:00<00:00, 140.23it/s][A100%|██████████| 20/20 [00:00<00:00, 140.38it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 75%|███████▌  | 15/20 [00:00<00:00, 140.36it/s][A100%|██████████| 20/20 [00:00<00:00, 140.28it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 75%|███████▌  | 15/20 [00:00<00:00, 140.13it/s][A100%|██████████| 20/20 [00:00<00:00, 140.07it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 139.46it/s][A100%|██████████| 20/20 [00:00<00:00, 139.32it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 138.86it/s][A100%|██████████| 20/20 [00:00<00:00, 138.83it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 76%|███████▌  | 763/1001 [13:42<03:45,  1.06it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 138.80it/s][A100%|██████████| 20/20 [00:00<00:00, 127.88it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 138.33it/s][A100%|██████████| 20/20 [00:00<00:00, 138.19it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 138.25it/s][A100%|██████████| 20/20 [00:00<00:00, 138.13it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 136.08it/s][A100%|██████████| 20/20 [00:00<00:00, 135.70it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 136.37it/s][A100%|██████████| 20/20 [00:00<00:00, 136.09it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 136.77it/s][A
+ 76%|███████▋  | 764/1001 [13:43<03:41,  1.07it/s][A100%|██████████| 20/20 [00:00<00:00, 136.72it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 135.32it/s][A100%|██████████| 20/20 [00:00<00:00, 135.48it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 134.21it/s][A100%|██████████| 20/20 [00:00<00:00, 134.07it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 134.47it/s][A100%|██████████| 20/20 [00:00<00:00, 134.24it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 134.95it/s][A100%|██████████| 20/20 [00:00<00:00, 134.06it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 134.82it/s][A100%|██████████| 20/20 [00:00<00:00, 134.69it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 76%|███████▋  | 765/1001 [13:44<03:43,  1.06it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 134.57it/s][A100%|██████████| 20/20 [00:00<00:00, 124.71it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 134.52it/s][A100%|██████████| 20/20 [00:00<00:00, 134.40it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 133.59it/s][A100%|██████████| 20/20 [00:00<00:00, 133.51it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 133.78it/s][A100%|██████████| 20/20 [00:00<00:00, 133.78it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 133.11it/s][A100%|██████████| 20/20 [00:00<00:00, 133.21it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 77%|███████▋  | 766/1001 [13:45<03:38,  1.08it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 133.49it/s][A100%|██████████| 20/20 [00:00<00:00, 124.30it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 132.81it/s][A100%|██████████| 20/20 [00:00<00:00, 132.80it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 132.32it/s][A100%|██████████| 20/20 [00:00<00:00, 132.26it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 132.40it/s][A100%|██████████| 20/20 [00:00<00:00, 132.18it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 132.05it/s][A100%|██████████| 20/20 [00:00<00:00, 132.01it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 131.18it/s][A100%|██████████| 20/20 [00:00<00:00, 131.12it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 77%|███████▋  | 767/1001 [13:46<03:38,  1.07it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 128.85it/s][A100%|██████████| 20/20 [00:00<00:00, 119.89it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 127.54it/s][A100%|██████████| 20/20 [00:00<00:00, 127.48it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 126.31it/s][A100%|██████████| 20/20 [00:00<00:00, 126.28it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 126.07it/s][A100%|██████████| 20/20 [00:00<00:00, 125.94it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 124.95it/s][A100%|██████████| 20/20 [00:00<00:00, 124.81it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 77%|███████▋  | 768/1001 [13:47<03:35,  1.08it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 124.29it/s][A100%|██████████| 20/20 [00:00<00:00, 116.29it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 124.76it/s][A100%|██████████| 20/20 [00:00<00:00, 124.62it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 123.59it/s][A100%|██████████| 20/20 [00:00<00:00, 123.67it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 122.97it/s][A100%|██████████| 20/20 [00:00<00:00, 123.01it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 121.86it/s][A
+100%|██████████| 20/20 [00:00<00:00, 121.83it/s]
+ 77%|███████▋  | 769/1001 [13:48<03:32,  1.09it/s][A
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 121.26it/s][A100%|██████████| 20/20 [00:00<00:00, 121.34it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 120.64it/s][A100%|██████████| 20/20 [00:00<00:00, 120.59it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 120.29it/s][A100%|██████████| 20/20 [00:00<00:00, 120.20it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 119.68it/s][A100%|██████████| 20/20 [00:00<00:00, 119.63it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 119.62it/s][A
+ 77%|███████▋  | 770/1001 [13:49<03:33,  1.08it/s][A100%|██████████| 20/20 [00:00<00:00, 119.59it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 119.50it/s][A100%|██████████| 20/20 [00:00<00:00, 119.45it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 119.77it/s][A100%|██████████| 20/20 [00:00<00:00, 119.71it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 119.19it/s][A100%|██████████| 20/20 [00:00<00:00, 119.19it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 119.07it/s][A100%|██████████| 20/20 [00:00<00:00, 119.04it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 119.30it/s][A100%|██████████| 20/20 [00:00<00:00, 119.24it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 77%|███████▋  | 771/1001 [13:50<03:37,  1.06it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 118.75it/s][A100%|██████████| 20/20 [00:00<00:00, 111.08it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 118.04it/s][A100%|██████████| 20/20 [00:00<00:00, 118.08it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.75it/s][A100%|██████████| 20/20 [00:00<00:00, 117.76it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.74it/s][A100%|██████████| 20/20 [00:00<00:00, 117.66it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.55it/s][A100%|██████████| 20/20 [00:00<00:00, 117.48it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 77%|███████▋  | 772/1001 [13:51<03:40,  1.04it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.48it/s][A100%|██████████| 20/20 [00:00<00:00, 109.91it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.03it/s][A100%|██████████| 20/20 [00:00<00:00, 117.07it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.10it/s][A100%|██████████| 20/20 [00:00<00:00, 117.05it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.55it/s][A100%|██████████| 20/20 [00:00<00:00, 116.59it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.52it/s][A100%|██████████| 20/20 [00:00<00:00, 116.54it/s]
+
+ 77%|███████▋  | 773/1001 [13:52<03:36,  1.05it/s][A
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.10it/s][A100%|██████████| 20/20 [00:00<00:00, 116.12it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.13it/s][A100%|██████████| 20/20 [00:00<00:00, 116.10it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.05it/s][A100%|██████████| 20/20 [00:00<00:00, 115.88it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 115.71it/s][A100%|██████████| 20/20 [00:00<00:00, 115.66it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 77%|███████▋  | 774/1001 [13:53<03:31,  1.08it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 115.43it/s][A100%|██████████| 20/20 [00:00<00:00, 108.34it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 115.42it/s][A100%|██████████| 20/20 [00:00<00:00, 115.39it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 114.76it/s][A100%|██████████| 20/20 [00:00<00:00, 114.79it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 114.88it/s][A100%|██████████| 20/20 [00:00<00:00, 114.80it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 114.53it/s][A
+100%|██████████| 20/20 [00:00<00:00, 114.51it/s]
+ 77%|███████▋  | 775/1001 [13:53<03:27,  1.09it/s][A
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 114.19it/s][A100%|██████████| 20/20 [00:00<00:00, 114.20it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 114.13it/s][A100%|██████████| 20/20 [00:00<00:00, 114.12it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 114.20it/s][A100%|██████████| 20/20 [00:00<00:00, 114.11it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 113.76it/s][A100%|██████████| 20/20 [00:00<00:00, 113.84it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 78%|███████▊  | 776/1001 [13:54<03:27,  1.09it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 113.89it/s][A100%|██████████| 20/20 [00:00<00:00, 106.35it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 113.56it/s][A100%|██████████| 20/20 [00:00<00:00, 113.54it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 113.43it/s][A100%|██████████| 20/20 [00:00<00:00, 113.43it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 112.61it/s][A100%|██████████| 20/20 [00:00<00:00, 112.60it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 112.25it/s][A
+ 78%|███████▊  | 777/1001 [13:55<03:21,  1.11it/s][A100%|██████████| 20/20 [00:00<00:00, 112.09it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 111.69it/s][A100%|██████████| 20/20 [00:00<00:00, 111.69it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 111.56it/s][A100%|██████████| 20/20 [00:00<00:00, 111.51it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 111.04it/s][A100%|██████████| 20/20 [00:00<00:00, 111.00it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 111.05it/s][A100%|██████████| 20/20 [00:00<00:00, 111.03it/s]
+
+ 78%|███████▊  | 778/1001 [13:56<03:18,  1.12it/s][A
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 110.71it/s][A100%|██████████| 20/20 [00:00<00:00, 110.83it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 111.08it/s][A100%|██████████| 20/20 [00:00<00:00, 111.06it/s]
+
+  0%|          | 0/19 [00:00<?, ?it/s][A
+ 63%|██████▎   | 12/19 [00:00<00:00, 111.28it/s][A100%|██████████| 19/19 [00:00<00:00, 111.15it/s]
+
+  0%|          | 0/18 [00:00<?, ?it/s][A
+ 67%|██████▋   | 12/18 [00:00<00:00, 110.96it/s][A100%|██████████| 18/18 [00:00<00:00, 110.94it/s]
+
+  0%|          | 0/17 [00:00<?, ?it/s][A
+ 71%|███████   | 12/17 [00:00<00:00, 110.87it/s][A
+ 78%|███████▊  | 779/1001 [13:57<03:21,  1.10it/s][A100%|██████████| 17/17 [00:00<00:00, 110.74it/s]
+
+  0%|          | 0/16 [00:00<?, ?it/s][A
+ 75%|███████▌  | 12/16 [00:00<00:00, 110.99it/s][A100%|██████████| 16/16 [00:00<00:00, 110.89it/s]
+
+  0%|          | 0/15 [00:00<?, ?it/s][A
+ 80%|████████  | 12/15 [00:00<00:00, 110.69it/s][A100%|██████████| 15/15 [00:00<00:00, 110.60it/s]
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+ 79%|███████▊  | 11/14 [00:00<00:00, 109.83it/s][A100%|██████████| 14/14 [00:00<00:00, 109.87it/s]
+
+  0%|          | 0/13 [00:00<?, ?it/s][A
+ 92%|█████████▏| 12/13 [00:00<00:00, 110.63it/s][A100%|██████████| 13/13 [00:00<00:00, 110.53it/s]
+
+  0%|          | 0/12 [00:00<?, ?it/s][A
+100%|██████████| 12/12 [00:00<00:00, 111.14it/s][A100%|██████████| 12/12 [00:00<00:00, 111.02it/s]
+
+  0%|          | 0/11 [00:00<?, ?it/s][A
+ 78%|███████▊  | 780/1001 [13:58<03:18,  1.12it/s][A100%|██████████| 11/11 [00:00<00:00, 110.61it/s]
+
+  0%|          | 0/10 [00:00<?, ?it/s][A100%|██████████| 10/10 [00:00<00:00, 111.06it/s]
+
+  0%|          | 0/9 [00:00<?, ?it/s][A100%|██████████| 9/9 [00:00<00:00, 110.76it/s]
+
+  0%|          | 0/8 [00:00<?, ?it/s][A100%|██████████| 8/8 [00:00<00:00, 110.11it/s]
+
+  0%|          | 0/7 [00:00<?, ?it/s][A100%|██████████| 7/7 [00:00<00:00, 110.02it/s]
+
+  0%|          | 0/6 [00:00<?, ?it/s][A100%|██████████| 6/6 [00:00<00:00, 109.47it/s]
+
+  0%|          | 0/5 [00:00<?, ?it/s][A100%|██████████| 5/5 [00:00<00:00, 109.63it/s]
+
+  0%|          | 0/4 [00:00<?, ?it/s][A100%|██████████| 4/4 [00:00<00:00, 109.51it/s]
+
+  0%|          | 0/3 [00:00<?, ?it/s][A100%|██████████| 3/3 [00:00<00:00, 109.14it/s]
+
+  0%|          | 0/2 [00:00<?, ?it/s][A100%|██████████| 2/2 [00:00<00:00, 109.20it/s]
+
+  0%|          | 0/1 [00:00<?, ?it/s][A100%|██████████| 1/1 [00:00<00:00, 108.24it/s]
+
+ 78%|███████▊  | 781/1001 [13:59<03:16,  1.12it/s][A
+ 78%|███████▊  | 782/1001 [14:00<03:12,  1.14it/s][A
+ 78%|███████▊  | 783/1001 [14:01<03:15,  1.12it/s][A 20%|██        | 1/5 [03:34<14:16, 214.21s/it]
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 78%|███████▊  | 784/1001 [14:01<03:13,  1.12it/s][A
+ 75%|███████▌  | 15/20 [00:00<00:00, 142.12it/s][A100%|██████████| 20/20 [00:00<00:00, 130.66it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 75%|███████▌  | 15/20 [00:00<00:00, 141.84it/s][A100%|██████████| 20/20 [00:00<00:00, 141.74it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 75%|███████▌  | 15/20 [00:00<00:00, 141.44it/s][A100%|██████████| 20/20 [00:00<00:00, 141.29it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 75%|███████▌  | 15/20 [00:00<00:00, 141.54it/s][A100%|██████████| 20/20 [00:00<00:00, 141.33it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 75%|███████▌  | 15/20 [00:00<00:00, 141.14it/s][A100%|██████████| 20/20 [00:00<00:00, 140.99it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 75%|███████▌  | 15/20 [00:00<00:00, 140.70it/s][A100%|██████████| 20/20 [00:00<00:00, 140.51it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 78%|███████▊  | 785/1001 [14:02<03:23,  1.06it/s][A
+ 75%|███████▌  | 15/20 [00:00<00:00, 140.40it/s][A100%|██████████| 20/20 [00:00<00:00, 130.20it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 75%|███████▌  | 15/20 [00:00<00:00, 140.15it/s][A100%|██████████| 20/20 [00:00<00:00, 140.04it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 139.06it/s][A100%|██████████| 20/20 [00:00<00:00, 139.02it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 139.17it/s][A100%|██████████| 20/20 [00:00<00:00, 139.14it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 138.54it/s][A100%|██████████| 20/20 [00:00<00:00, 138.40it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 137.89it/s][A100%|██████████| 20/20 [00:00<00:00, 137.94it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 79%|███████▊  | 786/1001 [14:04<03:29,  1.03it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 136.33it/s][A100%|██████████| 20/20 [00:00<00:00, 126.39it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 133.94it/s][A100%|██████████| 20/20 [00:00<00:00, 133.82it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 134.66it/s][A100%|██████████| 20/20 [00:00<00:00, 134.60it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 133.68it/s][A100%|██████████| 20/20 [00:00<00:00, 133.56it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 132.98it/s][A100%|██████████| 20/20 [00:00<00:00, 132.74it/s]
+
+
+  0%|          | 0/20 [00:00<?, ?it/s][A 79%|███████▊  | 787/1001 [14:04<03:20,  1.07it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 132.78it/s][A100%|██████████| 20/20 [00:00<00:00, 123.30it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 131.86it/s][A100%|██████████| 20/20 [00:00<00:00, 131.75it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 131.99it/s][A100%|██████████| 20/20 [00:00<00:00, 132.02it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 131.96it/s][A100%|██████████| 20/20 [00:00<00:00, 131.70it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 130.31it/s][A
+ 79%|███████▊  | 788/1001 [14:05<03:16,  1.09it/s][A100%|██████████| 20/20 [00:00<00:00, 130.20it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 131.15it/s][A100%|██████████| 20/20 [00:00<00:00, 131.02it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 130.17it/s][A100%|██████████| 20/20 [00:00<00:00, 130.19it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 70%|███████   | 14/20 [00:00<00:00, 130.14it/s][A100%|██████████| 20/20 [00:00<00:00, 129.88it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 128.43it/s][A100%|██████████| 20/20 [00:00<00:00, 128.41it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 79%|███████▉  | 789/1001 [14:06<03:12,  1.10it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 127.65it/s][A100%|██████████| 20/20 [00:00<00:00, 119.35it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 126.90it/s][A100%|██████████| 20/20 [00:00<00:00, 126.89it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 127.12it/s][A100%|██████████| 20/20 [00:00<00:00, 127.09it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 127.10it/s][A100%|██████████| 20/20 [00:00<00:00, 127.10it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 127.68it/s][A100%|██████████| 20/20 [00:00<00:00, 127.86it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 127.93it/s][A
+ 79%|███████▉  | 790/1001 [14:07<03:15,  1.08it/s][A100%|██████████| 20/20 [00:00<00:00, 127.84it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 126.36it/s][A100%|██████████| 20/20 [00:00<00:00, 126.29it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 125.92it/s][A100%|██████████| 20/20 [00:00<00:00, 125.99it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 125.71it/s][A100%|██████████| 20/20 [00:00<00:00, 125.65it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 126.28it/s][A100%|██████████| 20/20 [00:00<00:00, 125.99it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 79%|███████▉  | 791/1001 [14:08<03:11,  1.10it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 125.85it/s][A100%|██████████| 20/20 [00:00<00:00, 117.38it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 125.45it/s][A100%|██████████| 20/20 [00:00<00:00, 125.45it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 120.84it/s][A100%|██████████| 20/20 [00:00<00:00, 121.06it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 124.42it/s][A100%|██████████| 20/20 [00:00<00:00, 124.52it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 124.25it/s][A100%|██████████| 20/20 [00:00<00:00, 124.07it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 79%|███████▉  | 792/1001 [14:09<03:08,  1.11it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 124.13it/s][A100%|██████████| 20/20 [00:00<00:00, 115.70it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 124.01it/s][A100%|██████████| 20/20 [00:00<00:00, 123.85it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 123.48it/s][A100%|██████████| 20/20 [00:00<00:00, 123.36it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 123.08it/s][A100%|██████████| 20/20 [00:00<00:00, 122.42it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 123.15it/s][A
+ 79%|███████▉  | 793/1001 [14:10<03:04,  1.13it/s][A100%|██████████| 20/20 [00:00<00:00, 122.94it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 123.54it/s][A100%|██████████| 20/20 [00:00<00:00, 123.46it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 123.68it/s][A100%|██████████| 20/20 [00:00<00:00, 123.47it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 123.14it/s][A100%|██████████| 20/20 [00:00<00:00, 123.15it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 121.75it/s][A100%|██████████| 20/20 [00:00<00:00, 121.76it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 79%|███████▉  | 794/1001 [14:11<03:01,  1.14it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 121.86it/s][A100%|██████████| 20/20 [00:00<00:00, 114.04it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 121.44it/s][A100%|██████████| 20/20 [00:00<00:00, 121.26it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 120.40it/s][A100%|██████████| 20/20 [00:00<00:00, 120.40it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 65%|██████▌   | 13/20 [00:00<00:00, 120.76it/s][A100%|██████████| 20/20 [00:00<00:00, 120.74it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 119.76it/s][A100%|██████████| 20/20 [00:00<00:00, 119.54it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 79%|███████▉  | 795/1001 [14:12<03:09,  1.09it/s]
+ 60%|██████    | 12/20 [00:00<00:00, 119.30it/s][A[A100%|██████████| 20/20 [00:00<00:00, 98.73it/s] 
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 119.10it/s][A100%|██████████| 20/20 [00:00<00:00, 118.98it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 118.12it/s][A100%|██████████| 20/20 [00:00<00:00, 117.97it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.66it/s][A100%|██████████| 20/20 [00:00<00:00, 117.69it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.70it/s][A
+ 80%|███████▉  | 796/1001 [14:12<03:04,  1.11it/s][A100%|██████████| 20/20 [00:00<00:00, 117.40it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 118.05it/s][A100%|██████████| 20/20 [00:00<00:00, 117.95it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.34it/s][A100%|██████████| 20/20 [00:00<00:00, 116.94it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 117.02it/s][A100%|██████████| 20/20 [00:00<00:00, 116.97it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.93it/s][A100%|██████████| 20/20 [00:00<00:00, 116.84it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+
+ 60%|██████    | 12/20 [00:00<00:00, 116.05it/s][A 80%|███████▉  | 797/1001 [14:13<03:05,  1.10it/s][A100%|██████████| 20/20 [00:00<00:00, 106.21it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 115.86it/s][A100%|██████████| 20/20 [00:00<00:00, 115.88it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 116.12it/s][A100%|██████████| 20/20 [00:00<00:00, 116.14it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 115.98it/s][A100%|██████████| 20/20 [00:00<00:00, 115.94it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 115.53it/s][A
+ 80%|███████▉  | 798/1001 [14:14<03:01,  1.12it/s][A100%|██████████| 20/20 [00:00<00:00, 114.29it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 115.26it/s][A100%|██████████| 20/20 [00:00<00:00, 115.30it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 114.42it/s][A100%|██████████| 20/20 [00:00<00:00, 114.36it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 114.89it/s][A100%|██████████| 20/20 [00:00<00:00, 114.84it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 113.78it/s][A100%|██████████| 20/20 [00:00<00:00, 113.79it/s]
+
+ 80%|███████▉  | 799/1001 [14:15<02:57,  1.14it/s][A
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 113.95it/s][A100%|██████████| 20/20 [00:00<00:00, 113.89it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 113.94it/s][A100%|██████████| 20/20 [00:00<00:00, 113.87it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 113.75it/s][A100%|██████████| 20/20 [00:00<00:00, 113.63it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 113.52it/s][A100%|██████████| 20/20 [00:00<00:00, 113.48it/s]
+
+ 80%|███████▉  | 800/1001 [14:16<02:51,  1.17it/s][A
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 113.21it/s][A100%|██████████| 20/20 [00:00<00:00, 113.33it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 113.55it/s][A100%|██████████| 20/20 [00:00<00:00, 113.52it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 112.86it/s][A100%|██████████| 20/20 [00:00<00:00, 112.83it/s]
+
+  0%|          | 0/20 [00:00<?, ?it/s][A
+ 60%|██████    | 12/20 [00:00<00:00, 112.65it/s][A100%|██████████| 20/20 [00:00<00:00, 112.51it/s]
+
+
+  0%|          | 0/19 [00:00<?, ?it/s][A 80%|████████  | 801/1001 [14:17<02:48,  1.19it/s][A
+ 63%|██████▎   | 12/19 [00:00<00:00, 112.31it/s][A100%|██████████| 19/19 [00:00<00:00, 105.10it/s]
+
+  0%|          | 0/18 [00:00<?, ?it/s][A
+ 67%|██████▋   | 12/18 [00:00<00:00, 111.85it/s][A100%|██████████| 18/18 [00:00<00:00, 111.69it/s]
+
+  0%|          | 0/17 [00:00<?, ?it/s][A

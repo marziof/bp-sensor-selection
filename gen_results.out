@@ -1,2 +1,275 @@
 Running in: /home/formica/bp-sensor-selection
 Running method: random
+
+=== Sim 0 ===
+
+=== Sim 1 ===
+
+=== Sim 2 ===
+
+=== Sim 3 ===
+
+=== Sim 4 ===
+Running method: sequential
+
+=== Sim 0 ===
+  Running metric: ov
+Baseline metric with no sensors: 0.9900, overlap: 0.9900
+Selected candidate: 96
+[Step 1/100] selected sensor 96, metric=0.9900, overlap=0.9900, rho=0.010
+  Errors during BP convergence: [array(0.00031263, dtype=float32), array(9.34413e-06, dtype=float32)], in iters: 39
+Selected candidate: 45
+[Step 2/100] selected sensor 45, metric=0.9900, overlap=0.9900, rho=0.020
+  Errors during BP convergence: [array(0.00082949, dtype=float32), array(9.440578e-06, dtype=float32)], in iters: 19
+Selected candidate: 59
+[Step 3/100] selected sensor 59, metric=0.9900, overlap=0.9900, rho=0.030
+  Errors during BP convergence: [array(0.0003764, dtype=float32), array(9.677344e-06, dtype=float32)], in iters: 10
+Selected candidate: 78
+[Step 4/100] selected sensor 78, metric=0.9900, overlap=0.9900, rho=0.040
+  Errors during BP convergence: [array(0.00092569, dtype=float32), array(9.942682e-06, dtype=float32)], in iters: 34
+Selected candidate: 16
+[Step 20/100] selected sensor 90, metric=1.0000, overlap=1.0000, rho=0.200
+  Errors during BP convergence: [array(0.00365579, dtype=float32), array(9.366591e-06, dtype=float32)], in iters: 8
+[Step 40/100] selected sensor 76, metric=1.0000, overlap=1.0000, rho=0.400
+  Errors during BP convergence: [array(0.02126302, dtype=float32), array(8.59081e-06, dtype=float32)], in iters: 3
+Selected candidate: 23
+[Step 60/100] selected sensor 84, metric=1.0000, overlap=1.0000, rho=0.600
+  Errors during BP convergence: [array(0.02156262, dtype=float32), array(8.7198605e-06, dtype=float32)], in iters: 2
+[Step 80/100] selected sensor 34, metric=1.0000, overlap=1.0000, rho=0.800
+  Errors during BP convergence: [array(0.03156771, dtype=float32), array(6.010488e-06, dtype=float32)], in iters: 3
+[Step 100/100] selected sensor 95, metric=1.0000, overlap=1.0000, rho=1.000
+  Errors during BP convergence: [array(0.03612974, dtype=float32), array(5.490489e-06, dtype=float32)], in iters: 3
+  Running metric: mov
+Baseline metric with no sensors: 0.9501, overlap: 0.9900
+Selected candidate: 2
+[Step 1/100] selected sensor 2, metric=0.9716, overlap=0.9900, rho=0.010
+  Errors during BP convergence: [array(0.00036483, dtype=float32), array(9.879814e-06, dtype=float32)], in iters: 29
+Selected candidate: 13
+[Step 2/100] selected sensor 13, metric=0.9929, overlap=0.9900, rho=0.020
+  Errors during BP convergence: [array(0.00058354, dtype=float32), array(1.3600734e-05, dtype=float32)], in iters: 50
+Selected candidate: 67
+[Step 3/100] selected sensor 67, metric=0.9947, overlap=0.9900, rho=0.030
+  Errors during BP convergence: [array(0.00332908, dtype=float32), array(2.8839306e-05, dtype=float32)], in iters: 50
+Selected candidate: 77
+[Step 4/100] selected sensor 77, metric=0.9932, overlap=0.9900, rho=0.040
+  Errors during BP convergence: [array(0.00069344, dtype=float32), array(9.345397e-06, dtype=float32)], in iters: 20
+Selected candidate: 49
+[Step 20/100] selected sensor 50, metric=1.0000, overlap=1.0000, rho=0.200
+  Errors during BP convergence: [array(0.0102742, dtype=float32), array(8.897019e-06, dtype=float32)], in iters: 4
+[Step 40/100] selected sensor 26, metric=1.0000, overlap=1.0000, rho=0.400
+  Errors during BP convergence: [array(0.01495264, dtype=float32), array(6.8848026e-06, dtype=float32)], in iters: 3
+Selected candidate: 87
+[Step 60/100] selected sensor 45, metric=1.0000, overlap=1.0000, rho=0.600
+  Errors during BP convergence: [array(0.03724465, dtype=float32), array(8.399037e-06, dtype=float32)], in iters: 3
+[Step 80/100] selected sensor 20, metric=1.0000, overlap=1.0000, rho=0.800
+  Errors during BP convergence: [array(0.04098971, dtype=float32), array(8.5538e-06, dtype=float32)], in iters: 2
+[Step 100/100] selected sensor 31, metric=1.0000, overlap=1.0000, rho=1.000
+  Errors during BP convergence: [array(0.03593789, dtype=float32), array(9.784725e-06, dtype=float32)], in iters: 1
+  Running metric: c_mov
+Baseline metric with no sensors: 0.9051, overlap: 0.9900
+Selected candidate: 8
+[Step 1/100] selected sensor 8, metric=0.9061, overlap=0.9900, rho=0.010
+  Errors during BP convergence: [array(0.00079462, dtype=float32), array(8.758936e-06, dtype=float32)], in iters: 8
+Selected candidate: 80
+[Step 2/100] selected sensor 80, metric=0.9151, overlap=0.9900, rho=0.020
+  Errors during BP convergence: [array(0.0011428, dtype=float32), array(9.535911e-06, dtype=float32)], in iters: 18
+Selected candidate: 0
+[Step 3/100] selected sensor 0, metric=0.9303, overlap=0.9900, rho=0.030
+  Errors during BP convergence: [array(0.00080771, dtype=float32), array(9.510925e-06, dtype=float32)], in iters: 30
+Selected candidate: 23
+[Step 4/100] selected sensor 23, metric=0.9430, overlap=0.9900, rho=0.040
+  Errors during BP convergence: [array(0.00065678, dtype=float32), array(9.775641e-06, dtype=float32)], in iters: 38
+Selected candidate: 92
+[Step 20/100] selected sensor 72, metric=0.9603, overlap=1.0000, rho=0.200
+  Errors during BP convergence: [array(0.00232431, dtype=float32), array(8.215435e-06, dtype=float32)], in iters: 7
+[Step 40/100] selected sensor 63, metric=0.9602, overlap=1.0000, rho=0.400
+  Errors during BP convergence: [array(0.01348549, dtype=float32), array(8.597167e-06, dtype=float32)], in iters: 4
+Selected candidate: 14
+[Step 60/100] selected sensor 61, metric=0.9602, overlap=1.0000, rho=0.600
+  Errors during BP convergence: [array(0.02804004, dtype=float32), array(6.282975e-06, dtype=float32)], in iters: 3
+[Step 80/100] selected sensor 97, metric=0.9602, overlap=1.0000, rho=0.800
+  Errors during BP convergence: [array(0.02234158, dtype=float32), array(5.912947e-06, dtype=float32)], in iters: 2
+[Step 100/100] selected sensor 31, metric=0.9600, overlap=1.0000, rho=1.000
+  Errors during BP convergence: [array(0.03600115, dtype=float32), array(9.2046685e-06, dtype=float32)], in iters: 1
+  Running metric: ov
+Baseline metric with no sensors: 0.8300, overlap: 0.8300
+Selected candidate: 25
+[Step 1/100] selected sensor 25, metric=0.8400, overlap=0.8400, rho=0.010
+  Errors during BP convergence: [array(0.00022501, dtype=float32), array(7.1944996e-06, dtype=float32)], in iters: 8
+Selected candidate: 88
+[Step 2/100] selected sensor 88, metric=0.8500, overlap=0.8500, rho=0.020
+  Errors during BP convergence: [array(0.00113637, dtype=float32), array(8.0445725e-06, dtype=float32)], in iters: 5
+Selected candidate: 50
+[Step 3/100] selected sensor 50, metric=0.8600, overlap=0.8600, rho=0.030
+  Errors during BP convergence: [array(0.00113636, dtype=float32), array(8.451135e-06, dtype=float32)], in iters: 5
+Selected candidate: 87
+[Step 4/100] selected sensor 87, metric=0.8700, overlap=0.8700, rho=0.040
+  Errors during BP convergence: [array(0.00227273, dtype=float32), array(7.3750953e-06, dtype=float32)], in iters: 4
+Selected candidate: 18
+[Step 20/100] selected sensor 39, metric=0.9800, overlap=0.9800, rho=0.200
+  Errors during BP convergence: [array(0.01172724, dtype=float32), array(8.898484e-06, dtype=float32)], in iters: 3
+[Step 40/100] selected sensor 79, metric=1.0000, overlap=1.0000, rho=0.400
+  Errors during BP convergence: [array(0.01419476, dtype=float32), array(9.02874e-06, dtype=float32)], in iters: 5
+Selected candidate: 24
+[Step 60/100] selected sensor 83, metric=1.0000, overlap=1.0000, rho=0.600
+  Errors during BP convergence: [array(0.03446981, dtype=float32), array(9.307104e-06, dtype=float32)], in iters: 3
+[Step 80/100] selected sensor 52, metric=1.0000, overlap=1.0000, rho=0.800
+  Errors during BP convergence: [array(0.01396959, dtype=float32), array(6.1485553e-06, dtype=float32)], in iters: 3
+[Step 100/100] selected sensor 31, metric=1.0000, overlap=1.0000, rho=1.000
+  Errors during BP convergence: [array(0.04673156, dtype=float32), array(6.5888057e-06, dtype=float32)], in iters: 3
+  Running metric: mov
+Baseline metric with no sensors: 0.8006, overlap: 0.8300
+Selected candidate: 55
+[Step 1/100] selected sensor 55, metric=0.8110, overlap=0.8300, rho=0.010
+  Errors during BP convergence: [array(0.00039032, dtype=float32), array(7.904751e-06, dtype=float32)], in iters: 9
+Selected candidate: 0
+[Step 2/100] selected sensor 0, metric=0.8218, overlap=0.8300, rho=0.020
+  Errors during BP convergence: [array(0.00162408, dtype=float32), array(8.215175e-06, dtype=float32)], in iters: 9
+Selected candidate: 11
+[Step 3/100] selected sensor 11, metric=0.8351, overlap=0.8300, rho=0.030
+  Errors during BP convergence: [array(0.00048803, dtype=float32), array(9.011253e-06, dtype=float32)], in iters: 10
+Selected candidate: 32
+[Step 4/100] selected sensor 32, metric=0.8479, overlap=0.8300, rho=0.040
+  Errors during BP convergence: [array(0.00115429, dtype=float32), array(9.652262e-06, dtype=float32)], in iters: 10
+Selected candidate: 23
+[Step 20/100] selected sensor 39, metric=0.8892, overlap=0.8500, rho=0.200
+  Errors during BP convergence: [array(0.00545901, dtype=float32), array(9.260161e-06, dtype=float32)], in iters: 8
+[Step 40/100] selected sensor 75, metric=0.9245, overlap=0.8800, rho=0.400
+  Errors during BP convergence: [array(0.02996466, dtype=float32), array(8.656031e-06, dtype=float32)], in iters: 5
+Selected candidate: 25
+[Step 60/100] selected sensor 40, metric=0.9605, overlap=0.9300, rho=0.600
+  Errors during BP convergence: [array(0.11328614, dtype=float32), array(9.716321e-06, dtype=float32)], in iters: 3
+[Step 80/100] selected sensor 46, metric=0.9820, overlap=0.9800, rho=0.800
+  Errors during BP convergence: [array(0.03206682, dtype=float32), array(7.751505e-06, dtype=float32)], in iters: 4
+[Step 100/100] selected sensor 84, metric=0.9999, overlap=1.0000, rho=1.000
+  Errors during BP convergence: [array(0.0884901, dtype=float32), array(7.948577e-06, dtype=float32)], in iters: 3
+  Running metric: c_mov
+Baseline metric with no sensors: 0.6804, overlap: 0.8300
+Selected candidate: 88
+[Step 1/100] selected sensor 88, metric=0.6880, overlap=0.8400, rho=0.010
+  Errors during BP convergence: [array(0.00022502, dtype=float32), array(7.2318867e-06, dtype=float32)], in iters: 8
+Selected candidate: 91
+[Step 2/100] selected sensor 91, metric=0.6957, overlap=0.8500, rho=0.020
+  Errors during BP convergence: [array(0.00113637, dtype=float32), array(7.962481e-06, dtype=float32)], in iters: 5
+Selected candidate: 99
+[Step 3/100] selected sensor 99, metric=0.7037, overlap=0.8600, rho=0.030
+  Errors during BP convergence: [array(0.00113636, dtype=float32), array(9.03788e-06, dtype=float32)], in iters: 5
+Selected candidate: 46
+[Step 4/100] selected sensor 46, metric=0.7117, overlap=0.8700, rho=0.040
+  Errors during BP convergence: [array(0.00113636, dtype=float32), array(8.031763e-06, dtype=float32)], in iters: 5
+Selected candidate: 54
+[Step 20/100] selected sensor 5, metric=0.8385, overlap=1.0000, rho=0.200
+  Errors during BP convergence: [array(0.00227273, dtype=float32), array(7.2354355e-06, dtype=float32)], in iters: 4
+[Step 40/100] selected sensor 80, metric=0.9167, overlap=1.0000, rho=0.400
+  Errors during BP convergence: [array(0.12339032, dtype=float32), array(7.833872e-06, dtype=float32)], in iters: 3
+Selected candidate: 61
+[Step 60/100] selected sensor 19, metric=0.9488, overlap=1.0000, rho=0.600
+  Errors during BP convergence: [array(0.01159443, dtype=float32), array(7.700256e-06, dtype=float32)], in iters: 3
+[Step 80/100] selected sensor 76, metric=0.9671, overlap=1.0000, rho=0.800
+  Errors during BP convergence: [array(0.04626137, dtype=float32), array(9.636147e-06, dtype=float32)], in iters: 3
+[Step 100/100] selected sensor 55, metric=0.9700, overlap=1.0000, rho=1.000
+  Errors during BP convergence: [array(0.03915508, dtype=float32), array(7.47138e-06, dtype=float32)], in iters: 3
+  Running metric: ov
+Baseline metric with no sensors: 0.6600, overlap: 0.6600
+Selected candidate: 18
+[Step 1/100] selected sensor 18, metric=0.6700, overlap=0.6700, rho=0.010
+  Errors during BP convergence: [array(0.0004281, dtype=float32), array(7.538739e-06, dtype=float32)], in iters: 6
+Selected candidate: 69
+[Step 2/100] selected sensor 69, metric=0.6800, overlap=0.6800, rho=0.020
+  Errors during BP convergence: [array(0.00340934, dtype=float32), array(7.6810065e-06, dtype=float32)], in iters: 3
+Selected candidate: 1
+[Step 3/100] selected sensor 1, metric=0.7100, overlap=0.7100, rho=0.030
+  Errors during BP convergence: [array(0.00472808, dtype=float32), array(7.71705e-06, dtype=float32)], in iters: 4
+Selected candidate: 0
+[Step 4/100] selected sensor 0, metric=0.7200, overlap=0.7200, rho=0.040
+  Errors during BP convergence: [array(0.00472803, dtype=float32), array(7.683516e-06, dtype=float32)], in iters: 4
+Selected candidate: 39
+[Step 20/100] selected sensor 5, metric=0.8600, overlap=0.8600, rho=0.200
+  Errors during BP convergence: [array(0.003825, dtype=float32), array(8.303707e-06, dtype=float32)], in iters: 4
+[Step 40/100] selected sensor 61, metric=0.9900, overlap=0.9900, rho=0.400
+  Errors during BP convergence: [array(0.00776513, dtype=float32), array(8.900199e-06, dtype=float32)], in iters: 3
+Selected candidate: 63
+[Step 60/100] selected sensor 72, metric=0.9900, overlap=0.9900, rho=0.600
+  Errors during BP convergence: [array(0.01362747, dtype=float32), array(7.927589e-06, dtype=float32)], in iters: 3
+[Step 80/100] selected sensor 13, metric=0.9700, overlap=0.9700, rho=0.800
+  Errors during BP convergence: [array(0.01665813, dtype=float32), array(9.952611e-06, dtype=float32)], in iters: 2
+[Step 100/100] selected sensor 30, metric=1.0000, overlap=1.0000, rho=1.000
+  Errors during BP convergence: [array(0.15279925, dtype=float32), array(7.6238643e-06, dtype=float32)], in iters: 4
+  Running metric: mov
+Baseline metric with no sensors: 0.6028, overlap: 0.6600
+Selected candidate: 5
+[Step 1/100] selected sensor 5, metric=0.6085, overlap=0.6600, rho=0.010
+  Errors during BP convergence: [array(0.0008624, dtype=float32), array(8.7611725e-06, dtype=float32)], in iters: 6
+Selected candidate: 50
+[Step 2/100] selected sensor 50, metric=0.6140, overlap=0.6600, rho=0.020
+  Errors during BP convergence: [array(0.0041647, dtype=float32), array(7.0814826e-06, dtype=float32)], in iters: 4
+Selected candidate: 23
+[Step 3/100] selected sensor 23, metric=0.6221, overlap=0.6600, rho=0.030
+  Errors during BP convergence: [array(0.00415721, dtype=float32), array(9.326801e-06, dtype=float32)], in iters: 4
+Selected candidate: 12
+[Step 4/100] selected sensor 12, metric=0.6322, overlap=0.6600, rho=0.040
+  Errors during BP convergence: [array(0.00213269, dtype=float32), array(9.882762e-06, dtype=float32)], in iters: 5
+Selected candidate: 27
+[Step 20/100] selected sensor 76, metric=0.7017, overlap=0.7000, rho=0.200
+  Errors during BP convergence: [array(0.0047214, dtype=float32), array(8.371508e-06, dtype=float32)], in iters: 4
+[Step 40/100] selected sensor 63, metric=0.7984, overlap=0.7500, rho=0.400
+  Errors during BP convergence: [array(0.0828639, dtype=float32), array(8.837149e-06, dtype=float32)], in iters: 4
+Selected candidate: 75
+[Step 60/100] selected sensor 30, metric=0.8758, overlap=0.8300, rho=0.600
+  Errors during BP convergence: [array(0.15821964, dtype=float32), array(9.755607e-06, dtype=float32)], in iters: 4
+[Step 80/100] selected sensor 91, metric=0.9454, overlap=0.9100, rho=0.800
+  Errors during BP convergence: [array(0.00776269, dtype=float32), array(5.5700275e-06, dtype=float32)], in iters: 3
+[Step 100/100] selected sensor 62, metric=0.9998, overlap=1.0000, rho=1.000
+  Errors during BP convergence: [array(0.10654342, dtype=float32), array(7.5518797e-06, dtype=float32)], in iters: 4
+  Running metric: c_mov
+Baseline metric with no sensors: 0.5206, overlap: 0.6600
+Selected candidate: 9
+[Step 1/100] selected sensor 9, metric=0.5292, overlap=0.6700, rho=0.010
+  Errors during BP convergence: [array(0.00116501, dtype=float32), array(8.380599e-06, dtype=float32)], in iters: 6
+Selected candidate: 0
+[Step 2/100] selected sensor 0, metric=0.5381, overlap=0.6800, rho=0.020
+  Errors during BP convergence: [array(0.00472783, dtype=float32), array(7.411276e-06, dtype=float32)], in iters: 4
+Selected candidate: 1
+[Step 3/100] selected sensor 1, metric=0.5473, overlap=0.7100, rho=0.030
+  Errors during BP convergence: [array(0.004728, dtype=float32), array(7.5801954e-06, dtype=float32)], in iters: 4
+Selected candidate: 48
+[Step 4/100] selected sensor 48, metric=0.5557, overlap=0.7200, rho=0.040
+  Errors during BP convergence: [array(0.00472803, dtype=float32), array(7.648193e-06, dtype=float32)], in iters: 4
+Selected candidate: 54
+[Step 20/100] selected sensor 89, metric=0.6741, overlap=0.7700, rho=0.200
+  Errors during BP convergence: [array(0.00340909, dtype=float32), array(6.922473e-06, dtype=float32)], in iters: 3
+[Step 40/100] selected sensor 69, metric=0.7623, overlap=0.8300, rho=0.400
+  Errors during BP convergence: [array(0.00546593, dtype=float32), array(7.04971e-06, dtype=float32)], in iters: 3
+Selected candidate: 34
+[Step 60/100] selected sensor 91, metric=0.8567, overlap=0.8900, rho=0.600
+  Errors during BP convergence: [array(0.04551125, dtype=float32), array(8.128658e-06, dtype=float32)], in iters: 3
+[Step 80/100] selected sensor 66, metric=0.9290, overlap=0.9700, rho=0.800
+  Errors during BP convergence: [array(0.11576389, dtype=float32), array(8.913735e-06, dtype=float32)], in iters: 4
+[Step 100/100] selected sensor 63, metric=0.9398, overlap=1.0000, rho=1.000
+  Errors during BP convergence: [array(0.08363551, dtype=float32), array(9.302826e-06, dtype=float32)], in iters: 3
+
+=== Sim 1 ===
+  Running metric: ov
+Baseline metric with no sensors: 0.9300, overlap: 0.9300
+Selected candidate: 10
+[Step 1/100] selected sensor 10, metric=0.9400, overlap=0.9400, rho=0.010
+  Errors during BP convergence: [array(0.00020161, dtype=float32), array(8.797163e-06, dtype=float32)], in iters: 12
+Selected candidate: 78
+[Step 2/100] selected sensor 78, metric=0.9400, overlap=0.9400, rho=0.020
+  Errors during BP convergence: [array(0.00176924, dtype=float32), array(9.195289e-06, dtype=float32)], in iters: 12
+Selected candidate: 59
+[Step 3/100] selected sensor 59, metric=0.9500, overlap=0.9500, rho=0.030
+  Errors during BP convergence: [array(0.00018849, dtype=float32), array(9.638822e-06, dtype=float32)], in iters: 11
+Selected candidate: 0
+[Step 4/100] selected sensor 0, metric=0.9600, overlap=0.9600, rho=0.040
+  Errors during BP convergence: [array(0.00082859, dtype=float32), array(9.290824e-06, dtype=float32)], in iters: 10
+Selected candidate: 90
+[Step 20/100] selected sensor 36, metric=0.9800, overlap=0.9800, rho=0.200
+  Errors during BP convergence: [array(0.0058859, dtype=float32), array(8.878504e-06, dtype=float32)], in iters: 6
+[Step 40/100] selected sensor 47, metric=0.9900, overlap=0.9900, rho=0.400
+  Errors during BP convergence: [array(0.00808176, dtype=float32), array(9.158611e-06, dtype=float32)], in iters: 5
+Selected candidate: 50
+[Step 60/100] selected sensor 87, metric=1.0000, overlap=1.0000, rho=0.600
+  Errors during BP convergence: [array(0.06720367, dtype=float32), array(7.705516e-06, dtype=float32)], in iters: 3
+[Step 80/100] selected sensor 17, metric=1.0000, overlap=1.0000, rho=0.800
+  Errors during BP convergence: [array(0.01456222, dtype=float32), array(6.782712e-06, dtype=float32)], in iters: 3

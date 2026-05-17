@@ -3,12 +3,12 @@ import itertools
 import numpy as np
 from src.algorithms.sequential_sensor_selection import sequential_sensor_selection, ov_metric, mov_metric, mov_constrained_metric
 from src.algorithms.static_selection import *
-from src.algorithms.non_oracle_selection import entropy_sensor_selection
+from src.algorithms.non_oracle_selection import path_weight_sensor_selection
 
 # -------------------
 # PARAM GRID
 # -------------------
-deltas = [0.05]#, 0.1, 0.2, 0.3, 0.4]
+deltas = [0.05, 0.2, 0.4]#, 0.1, 0.2, 0.3, 0.4]
 lambdas = [0.3]
 rhos = np.arange(0, 1.1, 0.1)
 
@@ -16,30 +16,40 @@ N = 100
 T_max = 20
 d = 3
 graph_type = "rrg" #"er"
-Nsim = 10
+Nsim = 5
 
-SIM_NAME = "static_selection"
+SIM_NAME = "Oracle" #"PathWeight" #"static_selection"
 
 # -------------------
 # METHODS
 # -------------------
+# methods = {
+#     #"entropy": entropy_sensor_selection,
+#     "random": random_selection,
+#     "deg_centrality": deg_centrality_selection,
+#     "betweenness_centrality": betweenness_centrality_selection,
+#     "page_rank": page_rank_selection,
+#     "closeness": closeness_selection
+#     #"sequential": sequential_sensor_selection
+# }
+
+# methods = {
+#     "path_weight": path_weight_sensor_selection,
+#     "random": random_selection,
+# }
+
 methods = {
-    #"entropy": entropy_sensor_selection,
     "random": random_selection,
-    "deg_centrality": deg_centrality_selection,
-    "betweenness_centrality": betweenness_centrality_selection,
-    "page_rank": page_rank_selection,
-    "closeness": closeness_selection
-    #"sequential": sequential_sensor_selection
+    "sequential": sequential_sensor_selection
 }
 
 # -------------------
 # METRICS
 # -------------------
 metrics = {
-    "ov": ov_metric
-    #"mov": mov_metric,
-    #"c_mov": mov_constrained_metric
+    "ov": ov_metric,
+    "mov": mov_metric,
+    "c_mov": mov_constrained_metric
 }
 
 # save_dir and title
