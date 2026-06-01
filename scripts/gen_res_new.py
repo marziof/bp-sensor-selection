@@ -3,7 +3,7 @@ import pandas as pd
 
 from configs.default import *
 from src.experiments.full_sweep_new import run_full_sweep
-from src.utils.sensor_logger import SensorLogger
+from src.utils.sensor_logger import SensorLogger, PInfLogger
 
 # -------------------
 # RESULTS STORAGE
@@ -45,6 +45,22 @@ logger = SensorLogger(
         "frontier_cand_mean"
     ])
 )
+
+
+# PinfLogger = PInfLogger(
+#     p_inf_df = pd.DataFrame(columns=[
+#         # context
+#         "method", "metric", "delta", "lambda", "sim", "graph",
+#         # node stats
+#         "node",
+#         "p_inf",
+#         "true_state",
+#         "rho"
+#     ])
+# )
+PinfLogger = None
+
+
 # -------------------
 # RUN EXPERIMENTS
 # -------------------
@@ -60,7 +76,8 @@ run_full_sweep(
     d=d,
     results_df=results_df,
     graph_type=graph_type,
-    logger=logger
+    logger=logger,
+    PinfLogger=PinfLogger
 )
 
 # print(results_df["delta"].describe())
@@ -77,4 +94,6 @@ import os
 os.makedirs(save_dir, exist_ok=True)
 results_df.to_csv(f"{save_dir}/{save_title}", index=False)
 logger.sensor_df.to_csv(f"{save_dir}/sensor_stats_{save_title}", index=False)
+if PinfLogger is not None:
+    PinfLogger.p_inf_df.to_csv(f"{save_dir}/p_inf_stats_{save_title}", index=False)
 print(f"Saved {save_dir}/{save_title}")

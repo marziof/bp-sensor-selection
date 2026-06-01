@@ -4,6 +4,62 @@ import networkx as nx
 
 
 
+import networkx as nx
+import numpy as np
+
+def powerlaw_graph(N, gamma=2.5, d=3, seed=None, max_tries=100):
+    """
+    Generate a simple power-law graph with approximately
+    average degree d and no isolated vertices.
+    """
+
+    rng = np.random.default_rng(seed)
+
+    for _ in range(max_tries):
+
+        # Sample power-law degree sequence
+        deg = np.array(
+            np.round(
+                nx.utils.powerlaw_sequence(
+                    N,
+                    exponent=gamma,
+                    seed=int(rng.integers(2**31))
+                )
+            ),
+            dtype=int
+        )
+
+        deg[deg < 1] = 1
+
+        # Rescale to target mean degree
+        deg = np.maximum(
+            1,
+            np.round(deg * d / deg.mean())
+        ).astype(int)
+
+        # Degree sum must be even
+        if deg.sum() % 2:
+            deg[rng.integers(N)] += 1
+
+        # Build graph
+        G = nx.configuration_model(
+            deg,
+            seed=int(rng.integers(2**31))
+        )
+
+        # Convert to simple graph
+        G = nx.Graph(G)
+        G.remove_edges_from(nx.selfloop_edges(G))
+
+        # Require every node to have at least one neighbor
+        if nx.number_of_isolates(G) == 0:
+            return G
+
+    raise RuntimeError(
+        f"Failed to generate a power-law graph without isolates "
+        f"after {max_tries} attempts."
+    )
+
 ### --------------- GRAPH GENERATION AND HELPERS ---------------###
 def generate_graph(N, d, kind="rrg"):
     """
@@ -14,8 +70,12 @@ def generate_graph(N, d, kind="rrg"):
     elif kind == "er":
         p = d / (N - 1)
         G = nx.erdos_renyi_graph(N, p)
+        # regenerate if there are isolated nodes
+        while nx.number_of_isolates(G) > 0:
+            G = nx.erdos_renyi_graph(N, p)
     elif kind == "powerlaw":
-        G = nx.powerlaw_cluster_graph(N, d, 0.2)  # powerlaw with clustering, m=d, p=0.1
+        #G = nx.powerlaw_cluster_graph(N, d, 0.2)  # powerlaw with clustering, m=d, p=0.1
+        G = powerlaw_graph(N, gamma=4, d=d)
     else:
         raise ValueError("Unsupported graph type. Use 'rrg' or 'er'.")
     return G

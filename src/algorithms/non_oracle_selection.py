@@ -119,6 +119,100 @@ def path_weight_sensor_selection(bp_base, status_nodes, rho_max, m, max_iter, to
     return sensor_order
 
 
+def max_pinf_selection(bp_base, status_nodes, rho_max, m, max_iter, tol, damp, delta, logger=None, G=None, alpha=0.5, beta=0.3, gamma=0.5):
+    """
+    Fast sensor selection using ONE BP run + pinf scoring.
+    """
+    target = int(rho_max * bp_base.size)
+    sensor_set = set()
+    sensor_order = []
+    current_obs = np.empty((0, 3), dtype=int)
+    # --- run BP once ---
+    bp_base.update(maxit=max_iter, tol=tol, damp=damp)
+    marginals = bp_base.marginals()
+
+    for k in tqdm(range(target + 1)):
+        remaining = list(set(range(bp_base.size)) - sensor_set)
+        if len(remaining) == 0:
+            break
+        # --- candidate scoring (NO BP reruns!) ---
+        marginals = bp_base.marginals()
+        Mt = get_Mt(marginals, t=0)
+        p_inf = Mt[1]
+        #saved_messages = torch.clone(bp_base.messages.values)
+        best_candidate = remaining[np.argmax(p_inf[remaining])]
+        sensor_set.add(best_candidate)
+        sensor_order.append(best_candidate)
+        # --- update obs---
+        T_max = bp_base.time
+        current_obs = update_cand_obs(bp_base, best_candidate, status_nodes, current_obs, T_max=T_max)
+        warm_iter=50
+        n_iter, errors = bp_base.update(maxit=warm_iter, tol=0.1*tol, damp=damp)
+        marg = bp_base.marginals()
+        cmov = mov_constrained_metric(marg, delta=delta)
+        print("Added candidate:", best_candidate, ", true initial state is:", status_nodes[0, best_candidate])
+
+        if k < 5 or k % 20 == 0:
+            overlap = OV(np.argmax(get_Mt(marg, t=0), axis=0), status_nodes[0])
+            print(f"Overlap after adding candidate: {overlap:.4f}, error: {errors[-1]:.4f}, BP iters: {n_iter}, rho ={len(sensor_set)/bp_base.size:.2f}")
+
+        if k/bp_base.size == delta:
+            print(f"Reached delta={delta:.2f} at k={k}, current overlap: {overlap:.4f}, proportion of true sources in selected set: {np.sum(status_nodes[0, list(sensor_set)]) / len(sensor_set):.4f}")
+        #k += 1
+
+    return sensor_order
+
+def max_entropy_selection(bp_base, status_nodes, rho_max, m, max_iter, tol, damp, delta, logger=None, G=None, alpha=0.5, beta=0.3, gamma=0.5):
+    """
+    Sensor selection using entropy over infection time distribution.
+    """
+    target = int(rho_max * bp_base.size)
+    sensor_set = set()
+    sensor_order = []
+    current_obs = np.empty((0, 3), dtype=int)
+
+    bp_base.update(maxit=max_iter, tol=tol, damp=damp)
+
+    for k in tqdm(range(target + 1)):
+        remaining = list(set(range(bp_base.size)) - sensor_set)
+        if len(remaining) == 0:
+            break
+
+        marginals = bp_base.marginals()  # shape (N, T+2)
+
+        # --- entropy over infection time distribution ---
+        # p = marginals  # p[i, t] = p_inf(node i, time t)
+        # p_clipped = np.clip(p, 1e-10, 1)  # avoid log(0)
+        # entropy = -np.sum(p_clipped * np.log(p_clipped), axis=1)  # shape (N,)
+
+        p = marginals[:, 0]  # p_inf at t=0, shape (N,)
+        p_clipped = np.clip(p, 1e-10, 1 - 1e-10)
+        entropy = -(p_clipped * np.log(p_clipped) + (1 - p_clipped) * np.log(1 - p_clipped))  # shape (N,)
+        best_candidate = remaining[np.argmax(entropy[remaining])]
+
+        best_candidate = remaining[np.argmax(entropy[remaining])]
+        sensor_set.add(best_candidate)
+        sensor_order.append(best_candidate)
+
+        T_max = bp_base.time
+        current_obs = update_cand_obs(bp_base, best_candidate, status_nodes, current_obs, T_max=T_max)
+        n_iter, errors = bp_base.update(maxit=50, tol=0.1*tol, damp=damp)
+        marg = bp_base.marginals()
+
+        print("Added candidate:", best_candidate, ", true initial state is:", status_nodes[0, best_candidate])
+
+        if k < 5 or k % 20 == 0:
+            overlap = OV(np.argmax(get_Mt(marg, t=0), axis=0), status_nodes[0])
+            print(f"Overlap: {overlap:.4f}, error: {errors[-1]:.4f}, BP iters: {n_iter}, rho={len(sensor_set)/bp_base.size:.2f}")
+
+        if k/bp_base.size == delta:
+            print(f"Reached delta={delta:.2f} at k={k}, overlap: {overlap:.4f}")
+
+    return sensor_order
+
+
+
+
 ## Light cone
 
 # import networkx as nx

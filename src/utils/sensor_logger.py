@@ -4,6 +4,9 @@ import networkx as nx
 from src.utils.metrics import get_Mt
 
 
+
+
+
 class SensorLogger:
     def __init__(self, sensor_df):
         self.sensor_df = sensor_df
@@ -84,6 +87,37 @@ class SensorLogger:
             "frontier_cand_mean": np.mean(frontier_cands) if graph is not None else np.nan,
         }
         self.sensor_df.loc[len(self.sensor_df)] = row
+
+
+
+class PInfLogger:
+    def __init__(self, p_inf_df):
+        self.p_inf_df = p_inf_df
+
+    def set_context(self, method_name, metric_name, delta, lam, sim, graph_type):
+        self.context = {
+            "method": method_name,
+            "metric": metric_name,
+            "delta": delta,
+            "lambda": lam,
+            "sim": sim,
+            "graph": graph_type,
+        }
+
+    def log_pinf_distribution(self, selected_state, marginals, status_nodes, graph=None, rho=None):
+        Mt = get_Mt(marginals, t=0)
+        p_inf = Mt[1]
+        for node in range(len(p_inf)):
+            true_state = int(status_nodes[0, node])
+            row = {
+                "node": node,
+                "p_inf": p_inf[node],
+                "true_state": true_state,
+                "rho": rho,
+                "selected_state": selected_state
+            }
+            self.p_inf_df.loc[len(self.p_inf_df)] = row
+    
     # def log_sensor_stats(self, selected_sensor, candidates, marginals, status_nodes, rho, graph=None):
     #     """
     #     selected_sensor: int

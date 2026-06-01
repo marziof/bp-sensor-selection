@@ -8,17 +8,18 @@ from collections import defaultdict
 import itertools
 import copy
 from tqdm import tqdm
-from src.utils.sensor_logger import SensorLogger
+from src.utils.sensor_logger import SensorLogger, PInfLogger
 
 from src.Analysis.gen import generate_contacts, simulate_one_detSIR
 # To compare different methods with a same metric
 
-def run_full_sweep(methods, metrics, deltas, lambdas, rhos, Nsim, N, T_max, d, results_df, graph_type = "rrg", logger=None):
+def run_full_sweep(methods, metrics, deltas, lambdas, rhos, Nsim, N, T_max, d, results_df, graph_type = "rrg", logger=None, PinfLogger=None):
 
     for method_name, method in methods.items():
         print(f"Running method: {method_name}")
 
         for sim in tqdm(range(Nsim)):
+
             print(f"\n=== Sim {sim} ===")
             for delta, lam in itertools.product(deltas, lambdas):
                 G = generate_graph(N, d, kind=graph_type)
@@ -50,7 +51,7 @@ def run_full_sweep(methods, metrics, deltas, lambdas, rhos, Nsim, N, T_max, d, r
                     continue
 
                 # SEQ: NON-ORACLE
-                if method_name == "path_weight":
+                if method_name in ["path_weight", "max_pinf", "max_entropy"]:
                     rho_max = max(rhos)
                     bp_fg = fg.FactorGraph(N, T_max, contacts, [], delta)
                     #logger.set_context(method_name=method_name, metric_name="N/A", delta=delta, lam=lam, sim=sim, graph_type=graph_type)
@@ -87,7 +88,8 @@ def run_full_sweep(methods, metrics, deltas, lambdas, rhos, Nsim, N, T_max, d, r
                     if is_seq:
                         rho_max = max(rhos)
                         logger.set_context(method_name=method_name, metric_name=metric_name, delta=delta, lam=lam, sim=sim, graph_type=graph_type)
-                        sensor_list = method(metric=metric, bp_base=bp_fg, status_nodes=snn, rho_max=rho_max, m=int(0.2 * N), max_iter=200, tol=1e-4, damp=0.5, delta=delta, logger=logger, G=G)  # get ordered list of sensors selected by sequential method up to max rho
+                        PinfLogger.set_context(method_name=method_name, metric_name=metric_name, delta=delta, lam=lam, sim=sim, graph_type=graph_type)
+                        sensor_list = method(metric=metric, bp_base=bp_fg, status_nodes=snn, rho_max=rho_max, m=int(0.2 * N), max_iter=200, tol=1e-4, damp=0.5, delta=delta, logger=logger, PinfLogger=PinfLogger, G=G)  # get ordered list of sensors selected by sequential method up to max rho
                         sensor_list = list(sensor_list)
                         # ordered list of sensors -> 
 
@@ -113,7 +115,7 @@ def run_full_sweep(methods, metrics, deltas, lambdas, rhos, Nsim, N, T_max, d, r
                         # standard methods: rho loop normal
                         for rho in rhos:
                             selected_sensors = method(metric=metric, bp_base=bp_fg, rho_max=rho)
-                            result = evaluate_sensors(selected_sensors=subset, bp_fg=bp_fg, status_nodes=snn)
+                            result = evaluate_sensors(selected_sensors=selected_sensors, bp_fg=bp_fg, status_nodes=snn)
                             #evaluate_sensors(selected_sensors, bp_fg, status_nodes, N, T_max, delta, x_rnd, Mt_rnd)
                             result.update({
                                 "method": method_name,

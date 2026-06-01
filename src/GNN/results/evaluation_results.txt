@@ -1,4 +1,0 @@
-Spearman rho: mean=-0.0698, std=0.1682
-Positive correlations: 34.00%
-Strong correlations (rho>0.3): 2.00%
-Correlation original vs shuffled: 0.0855 ± 0.0000

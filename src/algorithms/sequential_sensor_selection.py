@@ -4,7 +4,7 @@ from tqdm import tqdm
 import torch
 from bpepi.Modules import fg_torch as fg #pytorch version
 from src.utils.metrics import *
-from src.utils.sensor_logger import SensorLogger
+from src.utils.sensor_logger import SensorLogger, PInfLogger
 from src.helpers.algo_helpers import update_cand_obs, build_obs
 
 
@@ -14,7 +14,7 @@ def get_candidates(remaining, m):
     else:
         return np.random.choice(remaining, size=m, replace=False)
 
-def sequential_sensor_selection(metric, bp_base, status_nodes, rho_max, m, max_iter, tol, damp, delta, logger=None, G=None):
+def sequential_sensor_selection(metric, bp_base, status_nodes, rho_max, m, max_iter, tol, damp, delta, logger=None, PinfLogger=None, G=None):
     target = int(rho_max * bp_base.size)
     sensor_set = set()
     sensor_order = []
@@ -51,18 +51,34 @@ def sequential_sensor_selection(metric, bp_base, status_nodes, rho_max, m, max_i
             #print(f"Logging stats for selected sensor {best_candidate} at rho={(k+1)/bp_base.size:.3f}")
             logger.log_sensor_stats(selected_sensor=best_candidate, candidates=candidates, marginals=bp_base.marginals(), status_nodes=status_nodes, graph=G, rho=k/bp_base.size)  # log stats before updating BP with new sensor
 
+        if PinfLogger is not None and len(candidates) > 0:
+            infected_candidates = [c for c in candidates if int(status_nodes[0, c]) == 1]
+            # log for a candidate with infected state for comparison
+            if len(infected_candidates) > 0:
+                inf_candidate = np.random.choice(infected_candidates, size=1)[0]
+                inf_selected_state = int(status_nodes[0, inf_candidate])
+                update_cand_obs(bp_base, inf_candidate, status_nodes, current_obs, T_max=bp_base.time)
+                bp_base.update(maxit=20, tol=0.1*tol, damp=damp)
+                PinfLogger.log_pinf_distribution(selected_state=inf_selected_state, marginals=bp_base.marginals(), status_nodes=status_nodes, graph=G, rho=k/bp_base.size)
+                bp_base.reset_obs(current_obs)  # reset BP to current sensor set before next candidates
+                bp_base.messages.values = torch.clone(saved_messages)
+
         # add best candidate's full trajectory to observations
         current_obs = update_cand_obs(bp_base, best_candidate, status_nodes, current_obs, T_max=bp_base.time)  # updates bp_base in-place with new candidate obs
         warm_iter=50
         n_iter, errors = bp_base.update(maxit=warm_iter, tol=0.1*tol, damp=damp)
         marg = bp_base.marginals()
 
+        if PinfLogger is not None:
+            selected_state = int(status_nodes[0, best_candidate])
+            PinfLogger.log_pinf_distribution(selected_state=selected_state, marginals=bp_base.marginals(), status_nodes=status_nodes, graph=G, rho=k/bp_base.size)
+
         saved_messages = bp_base.messages.values.clone()  # update base fixed point for next candidates
         metric_value = metric(marg, status_nodes=status_nodes, delta=delta)
         metric_base = metric_value  # update base metric for next candidates
         overlap = OV(np.argmax(get_Mt(marg, t=0), axis=0), status_nodes[0])
         k = len(sensor_set)
-        if k < 5 or k % 20 == 0:
+        if k < 5 or k % 50 == 0:
             print(f"[Step {k}/{target}] selected sensor {best_candidate}, metric={metric_value:.4f}, overlap={overlap:.4f}, rho={(k)/bp_base.size:.3f}")
             print(f"  Errors during BP convergence: {errors}, in iters: {n_iter}")
     return sensor_order
@@ -76,7 +92,7 @@ def eval_candidates(metric, metric_base, candidates, bp_base, saved_messages, st
         damp = damp*2  # increase damping in later stages to help convergence with more sensors
     if len(candidates) == 0:
         raise ValueError("No candidates to evaluate")
-    for candidate in tqdm(candidates):
+    for candidate in candidates:
         bp_base.messages.values = torch.clone(saved_messages)
         update_cand_obs(bp_base, candidate, status_nodes, current_obs, T_max=bp_base.time) # updates bp_base in-place with candidate obs
         n_iter, errors = bp_base.update(maxit=warm_iter, tol=tol, damp=damp)

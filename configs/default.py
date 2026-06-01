@@ -3,22 +3,22 @@ import itertools
 import numpy as np
 from src.algorithms.sequential_sensor_selection import sequential_sensor_selection, ov_metric, mov_metric, mov_constrained_metric
 from src.algorithms.static_selection import *
-from src.algorithms.non_oracle_selection import path_weight_sensor_selection
+from src.algorithms.non_oracle_selection import path_weight_sensor_selection, max_entropy_selection, max_pinf_selection
 
 # -------------------
 # PARAM GRID
 # -------------------
-deltas = [0.05, 0.2, 0.4]#, 0.1, 0.2, 0.3, 0.4]
+deltas = [0.05, 0.1, 0.2]
 lambdas = [0.3]
 rhos = np.arange(0, 1.1, 0.1)
 
-N = 100
+N = 1000
 T_max = 20
-d = 3
-graph_type = "rrg" #"er"
-Nsim = 5
+d = 3 # gamma for powerlaw graph, degree for rrg
+graph_type = "rrg" #"er" # "rrg" # "er" # "rrg" #"rrg" #"er"
+Nsim = 20
 
-SIM_NAME = "Oracle" #"PathWeight" #"static_selection"
+SIM_NAME = "non_oracle" #"static_er" #"non_oracle" # "Oracle" #"PathWeight" #"Oracle" #"PathWeight" #"static_selection"
 
 # -------------------
 # METHODS
@@ -28,27 +28,28 @@ SIM_NAME = "Oracle" #"PathWeight" #"static_selection"
 #     "random": random_selection,
 #     "deg_centrality": deg_centrality_selection,
 #     "betweenness_centrality": betweenness_centrality_selection,
-#     "page_rank": page_rank_selection,
-#     "closeness": closeness_selection
-#     #"sequential": sequential_sensor_selection
-# }
-
-# methods = {
-#     "path_weight": path_weight_sensor_selection,
-#     "random": random_selection,
-# }
+#     "page_rank": page_rank_selection
+#     # "closeness": closeness_selection
+#     }
 
 methods = {
-    "random": random_selection,
-    "sequential": sequential_sensor_selection
+    "path_weight": path_weight_sensor_selection,
+    "max_pinf": max_pinf_selection,
+    "max_entropy": max_entropy_selection,
+    "random": random_selection
 }
+
+# methods = {
+#     #"random": random_selection,
+#     "sequential": sequential_sensor_selection
+# }
 
 # -------------------
 # METRICS
 # -------------------
 metrics = {
-    "ov": ov_metric,
-    "mov": mov_metric,
+    #"ov": ov_metric
+    #"mov": mov_metric
     "c_mov": mov_constrained_metric
 }
 

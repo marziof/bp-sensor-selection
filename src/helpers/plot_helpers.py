@@ -32,6 +32,7 @@ def plot_side_by_side(random_results, selected_results, metric="O", save=False, 
     axes[1].set_ylabel("{}".format(metric))
     axes[1].legend(title="$\\delta$", loc="upper left")
     plt.tight_layout()
+    plt.grid()
     if save_path:
         os.makedirs(os.path.dirname(save_path), exist_ok=True)
         plt.savefig(save_path, dpi=300, bbox_inches='tight')
@@ -67,9 +68,11 @@ def plot_comparison(results, eval_metric="O", delta=0.1, save=False, title=None,
     plt.xticks(fontsize=TICK_SIZE)
     plt.yticks(fontsize=TICK_SIZE)
     plt.tight_layout()
+    plt.grid()
     if save_path:
         os.makedirs(os.path.dirname(save_path), exist_ok=True)
         plt.savefig(save_path, dpi=300, bbox_inches='tight')
+        print(f"Plot saved to {save_path}")
     plt.show()
     plt.close()
 
@@ -101,6 +104,7 @@ def plot_delta_comparison(results, eval_metric="O", method_metric="random", save
     plt.xticks(fontsize=TICK_SIZE)
     plt.yticks(fontsize=TICK_SIZE)
     plt.tight_layout()
+    plt.grid()
     if save_path:
         os.makedirs(os.path.dirname(save_path), exist_ok=True)
         plt.savefig(save_path, dpi=300, bbox_inches='tight')
@@ -133,6 +137,7 @@ def plot_metrics_comparison(results, metric1="MO_tilde", metric2="O_tilde", delt
     if metric1 == "O_tilde" and metric2 == "MO_tilde":
         plt.ylabel("$\\tilde{O} - \\tilde{MO}$", fontsize=FONT_SIZE)
     plt.legend(title="Selection Strategy", fontsize=FONT_SIZE-2, title_fontsize=FONT_SIZE-2)
+    plt.grid()
     plt.tight_layout()
     if save_path:
         os.makedirs(os.path.dirname(save_path), exist_ok=True)
