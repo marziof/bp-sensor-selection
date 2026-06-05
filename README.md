@@ -1,20 +1,28 @@
-## README
+# BP Sensor Selection
 
-This project makes use of the bpepi library from https://github.com/SPOC-group/bpepi.
-Some code from https://github.com/IdePHICS/BPEpI-results/tree/main is also reused.
+This project implements sensor selection algorithms for inference of epidemic spreading processes using Belief Propagation (BP).
 
+## Dependencies
 
-## 📋 Overview
+This project depends on the **bpepi** library:
 
-This project provides implementations of sensor selection algorithms for inference of epidemic spreading processes using BP.
+https://github.com/SPOC-group/bpepi
 
-**Repository:** [marziof/deep-rl-project](https://github.com/marziof/bp-sensor-selection)
+Some analysis code is adapted from:
 
-##  Installation
+https://github.com/IdePHICS/BPEpI-results/tree/main
+
+## Overview
+
+The repository provides implementations and evaluation pipelines for static, sequential, and optimization-based sensor selection methods for epidemic source inference and state estimation.
+
+## Installation
 
 ### Prerequisites
-- check out requirements.txt
-- you will need the bpepi package from https://github.com/SPOC-group/bpepi
+
+- Python 3.11+
+- `bpepi` installed from source
+- Packages listed in `requirements.txt`
 
 ### Setup
 
@@ -23,9 +31,9 @@ This project provides implementations of sensor selection algorithms for inferen
 git clone https://github.com/marziof/bp-sensor-selection.git
 cd bp-sensor-selection
 
-# Create virtual environment
-python -m venv sensor_selection_env # or with conda
-source sensor_selection_env/bin/activate  # On Windows: rl_env\Scripts\activate
+# Create virtual environment (or conda env)
+python -m venv sensor_selection_env
+source sensor_selection_env/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
@@ -35,70 +43,69 @@ pip install -r requirements.txt
 
 ### 1. Configure an experiment
 
-Edit or create a configuration file in `configs/`; choose:
-- parameters
-- methods/metrics
-- save directory
+Edit or create a configuration file in `configs/`.
 
-### 2. Run an experiment
+Typical configuration options include:
 
-```bash
-python scripts/gen_results.py 
-```
-or from cluster with run_gen_results.slurm
+- Graph type and parameters
+- Epidemic model parameters
+- Sensor selection algorithm
+- Evaluation metrics
+- Output directory
 
-Results are saved to a chosen directory (here, 'results')
-
-### 3. Plot results
+### 2. Run experiments
 
 ```bash
-python srcipts/plot_results.py # for overlap curves
-python srcipts/plot_sensors.py # for selected sensor properties
+python scripts/gen_results.py
 ```
 
-Plots are saved in 'results/plots'
+or on a cluster:
 
-  
-## Project structure
-'''
+```bash
+sbatch scripts/run_gen_results.slurm
+```
+
+Results are saved in the configured output directory (typically `results/`).
+
+### 3. Generate plots
+
+```bash
+python scripts/plot_results.py
+python scripts/plot_sensors.py
+```
+
+Generated figures are stored in:
+
+```text
+results/plots/
+```
+
+## Project Structure
+
+```text
 .
 ├── configs
-│   └── default.py                                 # set configurations for simulation (algorithm to use, parameters, graph, etc)
+│   └── default.py
 ├── results
-│   ├── dfs                                        # metric results
+│   ├── dfs
 │   ├── past_tests
 │   ├── plots
-│   └── sensor_stats                               # properties of selected nodes for tracking
+│   └── sensor_stats
 ├── scripts
-│   ├── gen_results.py                             # Main file to run simulations with configs 
+│   ├── gen_results.py
 │   ├── plot_pinf_profile.py
 │   ├── plot_results.py
 │   ├── plot_sensors.py
-│   └── run_gen_results.slurm                      # To run gen_results.py  
+│   └── run_gen_results.slurm
 ├── src
 │   ├── algorithms
 │   │   ├── non_oracle_selection.py
 │   │   ├── optimal_subset_selection.py
 │   │   ├── sequential_sensor_selection.py
 │   │   └── static_selection.py
-│   ├── Analysis                                   # From https://github.com/IdePHICS/BPEpI-results/tree/main
-│   │   ├── gen.py
-│   │   ├── measures.py
-│   │   ├── sim_oc_dSIR.py
-│   │   └── XZtoDF.py
-│   ├── experiments                                # function to loop over algorithms and parameters, called in gen_results
-│   │   └── full_sweep_new.py
+│   ├── Analysis
+│   ├── experiments
 │   ├── helpers
-│   │   ├── algo_helpers.py
-│   │   ├── pipeline_helpers.py
-│   │   ├── plot_helpers.py
-│   │   ├── plot_sensor_stats.py
-│   │   └── sim_graph.py
 │   └── utils
-│       ├── metrics.py                            
-│       └── sensor_logger.py
 └── test_nb.ipynb
-
-15 directories, 209 files
-(base) marzioformica@Marzios-MacBook-Pro sensorSelection % 
-'''
+```
