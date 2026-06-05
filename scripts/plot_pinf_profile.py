@@ -6,11 +6,11 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from src.helpers.plot_helpers import *
 from src.helpers.plot_sensor_stats import *
 
-FILE_DIR = "results_new"
+FILE_DIR = "results"
 #FILE_NAME = "p_inf_stats_full_sweep_log_COMP_Oracle_mov_rrg_N300_T10_d3_Nsim5_del02.csv" #"sensor_stats_full_sweep_logger_rnd_seq_ov_mov_c_mov_rrg_N300_T10_d3_Nsim5_del01_02_03.csv" #"sensor_stats_full_sweep_logger_test_rnd_seq_ov_mov_c_mov_rrg_N30_T10_d3_Nsim3_del0.3.csv"
 FILE_NAME = "p_inf_stats_full_sweep_log_COMP_Oracle_c_mov_rrg_N300_T10_d3_Nsim5_del02_04.csv"
 
-SAVE_DIR = "results_new/plots"
+SAVE_DIR = "results/plots"
 
 SENSOR_PATH = f"{FILE_DIR}/{FILE_NAME}"
 pinf_df = pd.read_csv(SENSOR_PATH)

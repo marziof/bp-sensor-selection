@@ -54,7 +54,7 @@ metrics = {
 }
 
 # save_dir and title
-save_dir = "results_new"
+save_dir = "results"
 # methods as rnd_seq and metrics as ov_mov_c_mov for filename
 metrics_str = "_".join(metrics.keys())
 delta_str = "_".join([str(dd) for dd in deltas])

@@ -2,10 +2,12 @@ import numpy as np
 import networkx as nx
 from tqdm import tqdm
 from bpepi.Modules import fg_torch as fg #pytorch version
-from metrics import *
+from src.utils.metrics import *
 
 ###-------------------- B.O. GREEDY SENSOR SELECTION ALGORITHM: select optimal subset of nodes as sensor ----------------------###
 #### CAREFUL: only for small N!
+# might be outdated a bit
+
 import itertools
 
 def bayes_optimal_subset(N, T, contacts, delta, status_nodes, rho, max_iter=50, tol=1e-6, damp=0.5, gt=False):

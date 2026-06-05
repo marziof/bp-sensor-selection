@@ -98,37 +98,3 @@ def evaluate_sensors(selected_sensors, bp_fg, status_nodes):
                 "SE": measures["SE"],
                 "MSE": measures["MSE"]
             }
-
-# def evaluate_sensors(selected_sensors, bp_fg, status_nodes, N, T_max, delta, x_rnd=None, Mt_rnd=None, logger=None, graph=None):
-
-#     # selected_sensors = selection_method(metric = metric, bp_base = bp_fg, status_nodes = status_nodes, rho_max = rho, m = m, max_iter = 200, tol = 1e-6, damp = 0.5, delta = delta) #selection_method(bp_fg, G, N, T_max, rho, delta, lam)
-#     obs_array = build_obs(selected_sensors, status_nodes)
-#     # Run BP with these observations
-#     x_est, Mt, marg = compute_bp_estimates(N, T_max, bp_fg.contacts, obs_array, delta)
-#     # random baseline:
-#     # compute metrics:
-#     s0 = status_nodes[0]
-#     if np.isnan(marg).any():
-#         print("⚠️ NaN in marginals")
-#     measures = compute_measures(marginals=marg, status_nodes=status_nodes, x_rnd=x_rnd, Mt_rnd=Mt_rnd)
-#     rank = compute_rank(marg, s0)
-#     precision, recall = compute_precision_recall(x_est, s0)
-#     f1 = compute_f1(precision, recall)
-#     # results_df.loc[len(results_df)] = [method, kind, rho, delta, lam, sim,
-#     #             measures["Ov"], measures["MO"], measures["Ov_tilde"], measures["MO_tilde"], measures["SE"], measures["MSE"],
-#     #             rank, precision, recall, f1
-#     #         ]
-#     #print("Overlap:", measures["Ov"], "Overlap tilde:", measures["Ov_tilde"])
-#     return {
-#                 "O": measures["Ov"],
-#                 "MO": measures["MO"],
-#                 "O_tilde": measures["Ov_tilde"],
-#                 "MO_tilde": measures["MO_tilde"],
-#                 "SE": measures["SE"],
-#                 "MSE": measures["MSE"],
-#                 "rank": rank,
-#                 "precision": precision,
-#                 "recall": recall,
-#                 "f1": f1
-#             }
-            

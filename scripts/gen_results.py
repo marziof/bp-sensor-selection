@@ -1,26 +1,99 @@
-from sim_pipeline import *
-from plot_helpers import *
 
-import numpy as np
+import pandas as pd
 
+from configs.default import *
+from src.experiments.full_sweep_new import run_full_sweep
+from src.utils.sensor_logger import SensorLogger, PInfLogger
 
-
-graph_kind = "rrg" # or er
-lambdas=[0.3]
-T_max = 10
-N=500
-d=3
-deltas= [0.3] #np.arange(0.1, 0.5, 0.1)
-rho_list = np.arange(0.0, 1.1, 0.1) #1.1, 0.1)
-#rho_list = [0.3, 0.6]
-Nsim = 3
-track_sensor=True
+# -------------------
+# RESULTS STORAGE
+# -------------------
+results_df = pd.DataFrame(columns=["method", "metric", "graph", "rho", "delta", "lambda", "sim", "O", "MO", "O_tilde", "MO_tilde", "SE", "MSE", "rank", "precision", "recall", "f1"])
 
 
-param_list = [(delta, lam, rho) for delta in deltas for lam in lambdas for rho in rho_list]
-# sensor selection method
+# -------------------
+# Logger
+# -------------------
+logger = SensorLogger(
+    sensor_df=pd.DataFrame(columns=[
+        # context
+        "method", "metric", "delta", "lambda", "rho", "sim", "graph",
 
-methods = ["greedyWarmStartMOV"] #["greedyMOV"]#, "greedyMOV"] #["random", "page_rank", "betweenness", "degree"] # ["random", "greedyOV", "greedySampleReplaceOV"] # ["random", "betweenness"] # ["random", "greedyOV"] #["random", "page_rank", "betweenness", "degree"] # greedyOV, greedyMOV, random, RL...
-params = {"N": N, "d": d, "T_max": T_max, "Nsim": Nsim, "methods": methods, "param_list": param_list, "graph_kind": graph_kind, "track_sensor": track_sensor}
+        # selection
+        "selected_sensor",
 
-results_df = full_sim(params, Gfixed=False)
+        # p_inf stats
+        "p_inf_selected",
+        "cand_mean_p_inf",
+        "cand_std_p_inf",
+        "rank_in_candidates",
+
+        # neighbor stats
+        "neigh_mean_p_inf",
+        "neigh_std_p_inf",
+
+        # ground truth
+        "true_state_t0",
+        # entropy stats        
+        "entropy_selected",
+        "entropy_cand_mean",
+        "entropy_neigh_mean",
+
+        # frontier stats (NEW)
+        "frontier_selected",
+        "frontier_rank",
+        "frontier_cand_mean"
+    ])
+)
+
+
+# PinfLogger = PInfLogger(
+#     p_inf_df = pd.DataFrame(columns=[
+#         # context
+#         "method", "metric", "delta", "lambda", "sim", "graph",
+#         # node stats
+#         "node",
+#         "p_inf",
+#         "true_state",
+#         "rho"
+#     ])
+# )
+PinfLogger = None
+
+
+# -------------------
+# RUN EXPERIMENTS
+# -------------------
+run_full_sweep(
+    methods=methods,
+    metrics=metrics,
+    deltas=deltas,
+    lambdas=lambdas,
+    rhos=rhos,
+    Nsim=Nsim,
+    N=N,
+    T_max=T_max,
+    d=d,
+    results_df=results_df,
+    graph_type=graph_type,
+    logger=logger,
+    PinfLogger=PinfLogger
+)
+
+# print(results_df["delta"].describe())
+# print(results_df["O"].describe())
+# print(results_df["O_tilde"].describe())
+# print("O values:" , results_df["O"].values)
+# print("O_tilde values:" , results_df["O_tilde"].values)
+
+# -------------------
+# SAVE
+# -------------------
+# create save directory if it doesn't exist
+import os
+os.makedirs(save_dir, exist_ok=True)
+results_df.to_csv(f"{save_dir}/{save_title}", index=False)
+logger.sensor_df.to_csv(f"{save_dir}/sensor_stats_{save_title}", index=False)
+if PinfLogger is not None:
+    PinfLogger.p_inf_df.to_csv(f"{save_dir}/p_inf_stats_{save_title}", index=False)
+print(f"Saved {save_dir}/{save_title}")
