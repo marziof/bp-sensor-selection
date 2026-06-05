@@ -1,0 +1,8 @@
+bpepi==0.3.dev0
+matplotlib==3.10.9
+networkx==3.6.1
+numpy==2.4.6
+pandas==3.0.3
+seaborn==0.13.2
+torch==2.2.2
+tqdm==4.67.3
