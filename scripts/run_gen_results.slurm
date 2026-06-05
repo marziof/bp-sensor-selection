@@ -13,4 +13,4 @@ export PYTHONPATH=$SLURM_SUBMIT_DIR:$PYTHONPATH
 cd $SLURM_SUBMIT_DIR
 
 echo "Running in: $(pwd)"
-python scripts/gen_res_new.py
+python scripts/gen_results.py
